@@ -1,0 +1,1383 @@
+id,logradouro,tipo,extensão,etapa1,etapa2,layer
+1,AVENIDA DOMINGOS POTOMATI,arterial,1683,0,1683,alvarenga
+2,ESTRADA ASSUMPTA SABATINI ROSSI,arterial,998,0,998,alvarenga
+3,ESTRADA DA  CAMA PATENTE,arterial,2297,0,0,alvarenga
+4,ESTRADA DO  ACAMPAMENTO DOS ENGENHEIROS,arterial,1453,0,1453,alvarenga
+5,ESTRADA DOS  ALVARENGAS,arterial,6418,0,3800,alvarenga
+6,ESTRADA DOS  CASA,arterial,901,0,901,alvarenga
+7,ESTRADA GALVÃO BUENO,arterial,357,0,357,alvarenga
+8,ESTRADA DO  PONEY CLUB,coletora,2488,0,0,alvarenga
+9,RUA JOSUÉ DE CASTRO,coletora,584,0,584,alvarenga
+10,RUA FREI TITO DE ALENCAR LIMA,coletora,195,0,195,alvarenga
+11,RUA SANTO DIAS DA SILVA,coletora,263,0,263,alvarenga
+12,ALAMEDA DAS  AMEIXEIRAS,local,424,0,424,alvarenga
+13,ALAMEDA DAS  AVENCAS,local,76,0,76,alvarenga
+14,ALAMEDA DAS  GLICÍNIAS,local,70,0,70,alvarenga
+15,ALAMEDA DAS  PARREIRAS,local,706,0,706,alvarenga
+16,ALAMEDA DOS  PINHEIRAIS,local,690,0,690,alvarenga
+17,ALAMEDA FLOR DE PESSEGUEIRO,local,164,0,164,alvarenga
+18,AVENIDA ANTÔNIO TONETTO,local,363,0,363,alvarenga
+19,AVENIDA CARMELO MAMMANA,local,307,0,307,alvarenga
+20,AVENIDA GUATEMALA,local,378,0,378,alvarenga
+21,AVENIDA JUAREZ TAVORA,local,328,0,328,alvarenga
+22,AVENIDA LAURA,local,400,0,400,alvarenga
+23,AVENIDA MARECHAL BERNARD MONTGOMERY,local,1031,0,1031,alvarenga
+24,AVENIDA MARIO ALBERTO MARCHI,local,419,0,419,alvarenga
+25,AVENIDA MONTEMOR,local,539,0,539,alvarenga
+26,AVENIDA PÉROLA NEGRA,local,391,0,391,alvarenga
+27,AVENIDA VITÓRIA ( JARDIM PINHEIROS),local,475,0,475,alvarenga
+28,ESTRADA CACONDE,local,216,0,216,alvarenga
+29,ESTRADA LUIZ MARSON,local,114,0,114,alvarenga
+30,ESTRADA LUIZA LOTTO GIANOTTO,local,167,0,0,alvarenga
+31,ESTRADA RIBEIRO DO SD.,local,182,0,167,alvarenga
+32,EUA ARNALDO LOMBARDI,local,40,0,40,alvarenga
+33,PASSAGEM A,local,256,0,0,alvarenga
+34,PRAÇA JOÃO MOURA,local,23,0,23,alvarenga
+35,RUA 11 DE JULHO,local,180,0,180,alvarenga
+36,RUA 2 DE JULHO,local,130,0,130,alvarenga
+37,RUA 26 DE NOVEMBRO,local,417,0,417,alvarenga
+38,RUA 27 DE AGOSTO (VILA SANTA MÔNICA),local,206,0,206,alvarenga
+39,RUA AÇUCENA,local,116,0,116,alvarenga
+40,RUA ADEMAR SARAIVA LEÃO,local,32,0,32,alvarenga
+41,RUA ADOLFO ZOBOLI,local,189,0,189,alvarenga
+42,RUA ÁGUAS MARINHAS,local,"185,34",0,"185,34",alvarenga
+43,RUA ALASCA,local,318,0,318,alvarenga
+44,RUA ALBERTINO AUGUSTO VIEIRA,local,548,0,0,alvarenga
+45,RUA ALBERTINO VIEIRA DE SOUSA,local,93,0,93,alvarenga
+46,RUA ALEXANDRITA,local,44,0,44,alvarenga
+47,RUA ALFREDO CAPUTO,local,235,0,235,alvarenga
+48,RUA ALMEIDA DURÃO,local,62,0,62,alvarenga
+49,RUA ALTOS DOS QUÍMICOS,local,"195,01",0,"195,01",alvarenga
+50,RUA ALVARENGA PEIXOTO,local,45,0,45,alvarenga
+51,RUA AMADEU,local,567,0,567,alvarenga
+52,RUA AMAZONAS,local,617,0,617,alvarenga
+53,RUA AMAZONITA,local,203,0,203,alvarenga
+54,RUA AMÉRICA DO NORTE,local,64,0,64,alvarenga
+55,RUA AMÉRICA DO SUL,local,610,0,0,alvarenga
+56,RUA ANDRÉ FRANCO MONTORO,local,158,0,0,alvarenga
+57,RUA ANGRA DOS REIS,local,183,0,183,alvarenga
+58,RUA ANTONIO DI FAVARI,local,273,0,273,alvarenga
+59,RUA ANTÚLIA,local,128,0,128,alvarenga
+60,RUA ANTÚLIA,local,318,0,318,alvarenga
+61,RUA ARAGUASSÚ,local,215,0,215,alvarenga
+62,RUA ARAPONGA,local,111,0,111,alvarenga
+63,RUA AUTO GONSALVES DE OLIVEIRA,local,84,0,84,alvarenga
+64,RUA AYRTON SENNA (JARDIM NOVA AMÉRICA),local,71,0,71,alvarenga
+65,RUA BAHIA,local,282,0,282,alvarenga
+66,RUA BASAMITA,local,127,0,127,alvarenga
+67,RUA BEIJA-FLOR,local,261,0,261,alvarenga
+68,RUA BELA VISTA (JARDIM NOVA AMÉRICA),local,45,0,45,alvarenga
+69,RUA BENEDITO SERAFIM BUENO,local,182,0,0,alvarenga
+70,RUA BERTIOGA,local,128,0,128,alvarenga
+71,RUA BOA VIAGEM,local,40,0,40,alvarenga
+72,RUA BOSQUE DOS QUÍMICOS,local,87,0,87,alvarenga
+73,RUA BRAZ CUBAS,local,204,0,0,alvarenga
+74,RUA CACILDA BECKER,local,176,0,176,alvarenga
+75,RUA CAMILA DE ALMEIDA BORGES,local,111,0,111,alvarenga
+76,RUA CANDÉ,local,197,0,197,alvarenga
+77,RUA CANTOR CARLOS GALHARDO,local,94,0,94,alvarenga
+78,RUA CAPITÃO CARLOS LAMARCA,local,208,0,208,alvarenga
+79,RUA CARLOS CÉSAR DE CARVALHO,local,425,0,425,alvarenga
+80,RUA CARLOS FALETTI,local,110,0,110,alvarenga
+81,RUA CARLOS PINA FILHO,local,154,0,154,alvarenga
+82,RUA CEARÁ,local,270,0,270,alvarenga
+83,RUA CHICO MENDES,local,241,0,0,alvarenga
+84,RUA CISNE,local,457,0,457,alvarenga
+85,RUA CITRINO,local,392,0,392,alvarenga
+86,RUA CORDILHEIRA DOS QUÍMICOS,local,463,0,463,alvarenga
+87,RUA CORONEL BONIFÁCIO CARVALHO,local,130,0,0,alvarenga
+88,RUA CRISTALINA,local,360,0,360,alvarenga
+89,RUA CRISTIANO CARNEIRO TRAVI FILHO,local,247,0,247,alvarenga
+90,RUA DA  EVOLUÇÃO,local,57,0,57,alvarenga
+91,RUA DAS  QUARESMEIRAS,local,257,0,257,alvarenga
+92,RUA DAS PAINEIRAS (JARDIM PINHEIRO),local,103,0,103,alvarenga
+93,RUA DAS PARAÍBAS,local,190,0,190,alvarenga
+94,RUA DAS VOLTAS,local,70,0,70,alvarenga
+95,RUA DEPUTADO CARLOS MARIGHELLA,local,54,0,54,alvarenga
+96,RUA DIADEMA,local,485,0,485,alvarenga
+97,RUA DOM OSCAR ROMERO,local,124,0.00,0,alvarenga
+98,RUA DOS  AFRICANOS,local,126,0,0,alvarenga
+99,RUA DOS  ALEMÃES,local,75,0,0,alvarenga
+100,RUA DOS  AMERICANOS (PARQUE BANDEIRANTES),local,220,0,0,alvarenga
+101,RUA DOS  BRASILEIROS,local,218,0,0,alvarenga
+102,RUA DOS  CAÇADORES,local,148,0,0,alvarenga
+103,RUA DOS  COCAIS,local,232,0,232,alvarenga
+104,RUA DOS  EDUCANDÁRIOS (JARDIM PINHEIRO),local,415,0,415,alvarenga
+105,RUA DOS  ESPANHÓIS,local,350,0,0,alvarenga
+106,RUA DOS  EVANGÉLICOS (VILA UNIÃO),local,82,0,82,alvarenga
+107,RUA DOS  FRANCESES,local,134,0,0,alvarenga
+108,RUA DOS  GRAMADOS,local,65,0,65,alvarenga
+109,RUA DOS  INDUSTRIÁRIOS,local,247,0,247,alvarenga
+110,RUA DOS  INGAZEIROS,local,319,0,319,alvarenga
+111,RUA DOS  IPÊS (PARQUE IDEAL II),local,284,0,284,alvarenga
+112,RUA DOS  ITALIANOS,local,120,0,0,alvarenga
+113,RUA DOS  JACARANDÁS (JARDIM NOSSO LAR),local,308,0,308,alvarenga
+114,RUA DOS  JAPONESES,local,62,0,0,alvarenga
+115,RUA DOS  JATOBÁS (JARDIM PINHEIROS),local,521,0,521,alvarenga
+116,RUA DOS  JEQUITIBÁS,local,185,0,185,alvarenga
+117,RUA DOS  MINEIROS,local,189,0,189,alvarenga
+118,RUA DOS  NAVEGANTES,local,106,0,106,alvarenga
+119,RUA DOS  OPERÁRIOS,local,355,0,355,alvarenga
+120,RUA DOS  PALMITAIS,local,110,0,110,alvarenga
+121,RUA DOS  PEDREIROS,local,354,0,354,alvarenga
+122,RUA DOS  PESCADORES,local,147,0,147,alvarenga
+123,RUA DOS  PINHAIS (JARDIM NOSSO LAR),local,367,0,367,alvarenga
+124,RUA DOS  PINHAIS (JARDIM PINHEIROS),local,519,0,519,alvarenga
+125,RUA DOS  PORTUGUESES,local,154,0,0,alvarenga
+126,RUA DOS  VELEIROS,local,154,0,154,alvarenga
+127,RUA DOS CEDROS,local,118,0,118,alvarenga
+128,RUA EDGARD DE SOUZA,local,339,0,0,alvarenga
+129,RUA EDSON ROBERTO VISMARA,local,682,0,0,alvarenga
+130,RUA ELIZABETH LOBO GARCIA,local,115,0,115,alvarenga
+131,RUA EUGÊNIO KUPPER,local,106,0,106,alvarenga
+132,RUA EVANDRO CAIAFFA ESQUIVEL,local,50,0,50,alvarenga
+133,RUA EVANGELISTA,local,402,0,402,alvarenga
+134,RUA EXPEDITO VENCESLAU DA SILVA,local,166,0,166,alvarenga
+135,RUA EXPRESSA,local,487,0,487,alvarenga
+136,RUA FALCÃO,local,144,0,144,alvarenga
+137,RUA FIORENTINA,local,80,0,80,alvarenga
+138,RUA FIRENZE,local,187,0,187,alvarenga
+139,RUA FLORESTA,local,78,0,78,alvarenga
+140,RUA FRANCISCO BATISTA DE OLIVEIRA,local,163,0,163,alvarenga
+141,RUA FRANCISCO BELTRAN BATISTINE,local,116,0,116,alvarenga
+142,RUA FRANCISCO SANTOS,local,350,0,350,alvarenga
+143,RUA FRANK PERKINS,local,159,0,159,alvarenga
+144,RUA GAIVOTAS,local,298,0,298,alvarenga
+145,RUA GÊNOVA,local,379,0,379,alvarenga
+146,RUA GOIÁS,local,359,0,359,alvarenga
+147,RUA GREGÓRIO DE MATTOS,local,136,0,136,alvarenga
+148,RUA GUANAMBY,local,81,0,0,alvarenga
+149,RUA GUARAPÉ,local,166,0,166,alvarenga
+150,RUA HARPIA,local,81,0,81,alvarenga
+151,RUA HERBERT DE SOUZA - BETINHO,local,158,0,0,alvarenga
+152,RUA HUMBERTO DOTTO,local,124,0,124,alvarenga
+153,RUA IEDA LUIZA DE SOUZA,local,42,0,42,alvarenga
+154,RUA ÍMOLA,local,110,0,110,alvarenga
+155,RUA IPÊ AMARELO,local,180,0,180,alvarenga
+156,RUA IRMÃ DULCE,local,161,0,0,alvarenga
+157,RUA JACARANDÁ (ALVARENGA),local,439,0,439,alvarenga
+158,RUA JASPE,local,139,0,139,alvarenga
+159,RUA JOÃO BRUNI,local,135,0,0,alvarenga
+160,RUA JOAQUIM ROMÃO,local,188,0,188,alvarenga
+161,RUA JOEL FIGUEIREDO GOMES,local,150,0,150,alvarenga
+162,RUA JOSÉ COLA GRASSI,local,226,0,0,alvarenga
+163,RUA JOSÉ JORGE LOPES,local,817,0,817,alvarenga
+164,RUA JOSÉ MENDES DE SOUZA,local,630,0,630,alvarenga
+165,RUA JOSÉ OLIVEIRA FILHO,local,233,0,233,alvarenga
+166,RUA JOSÉ RODRIGUES DE OLIVEIRA,local,295,0,295,alvarenga
+167,RUA JOSÉ TRINDADE,local,249,0,249,alvarenga
+168,RUA JOSEFINA FELTRIN,local,115,0,0,alvarenga
+169,RUA JOSESITO DE SOUSA MOURA,local,140,0,140,alvarenga
+170,RUA LEONÍLIO PEREIRA DE SOUZA,local,100,0,0,alvarenga
+171,RUA LUANA CONCEIÇAO,local,193,0,0,alvarenga
+172,RUA LUCIDALVA DA SILVA,local,344,0,0,alvarenga
+173,RUA LUIZ 'LUA' GONZAGA,local,127,0,0,alvarenga
+174,RUA LUZIA DA COSTA BATISTA,local,133,0,0,alvarenga
+175,RUA LUZIA FRANCELINA CIMAS,local,157,0,0,alvarenga
+176,RUA MADRE MARIA INES TRIBIOLI,local,114,0,114,alvarenga
+177,RUA MALAQUITA,local,550,0,550,alvarenga
+178,RUA MANOEL NUNES DA SILVA,local,327,0,327,alvarenga
+179,RUA MARACAIBO,local,347,0,347,alvarenga
+180,RUA MARIA ARAÚJO MACIEL,local,95,0,95,alvarenga
+181,RUA MARIA DA PENHA N. E SILVA,local,134,0,0,alvarenga
+182,RUA MARIANA BENVINDA DA COSTA,local,158,0,158,alvarenga
+183,RUA MATURI,local,146,0,0,alvarenga
+184,RUA MAUÁ,local,675,0,675,alvarenga
+185,RUA MAURÍCIO GALANTE,local,700,0,700,alvarenga
+186,RUA MILÃO,local,153,0,153,alvarenga
+187,RUA MODESTO SALERA,local,141,0,141,alvarenga
+188,RUA NÁPOLES,local,65,0,65,alvarenga
+189,RUA NECI ELOI DANTAS,local,504,0,504,alvarenga
+190,RUA NELSON PIZSOLITTO,local,412,0,412,alvarenga
+191,RUA NERCI LOPES DE FREITAS,local,182,0,182,alvarenga
+192,RUA NILSON DE SOUSA,local,143,0,0,alvarenga
+193,RUA NOEMIA DE ALMEIDA KUPPER,local,82,0,82,alvarenga
+194,RUA NORA ASTORGA,local,183,0,183,alvarenga
+195,RUA NOSSA SENHORA DE GUADALUPE,local,131,0,0,alvarenga
+196,RUA NOVA ALIANÇA,local,259,0,259,alvarenga
+197,RUA NOVA ERA,local,120,0,120,alvarenga
+198,RUA NOVA ESPERANÇA (JARDIM NOVA PATENTE),local,217,0,217,alvarenga
+199,RUA NOVA ESPERANÇA (JD  NOVO HORIZONTE),local,98,0,98,alvarenga
+200,RUA NOVA PATENTE,local,326,0,326,alvarenga
+201,RUA NOVA PETRÓPOLIS,local,212,0,212,alvarenga
+202,RUA NOVA SÃO BENTO,local,496,0,496,alvarenga
+203,RUA NOVA TERRA,local,246,0,246,alvarenga
+204,RUA NOVA VENTURA,local,765,0,765,alvarenga
+205,RUA NOVA VIDA,local,98,0,98,alvarenga
+206,RUA NOVO HORIZONTE (JD NOVO HORIZONTE),local,130,0,130,alvarenga
+207,RUA OBSIDIANA,local,358,0,358,alvarenga
+208,RUA OLHO DE TIGRE,local,62,0,62,alvarenga
+209,RUA ÔNIX,local,246,0,246,alvarenga
+210,RUA OPALA,local,153,0,153,alvarenga
+211,RUA OURO BRANCO,local,661,0,661,alvarenga
+212,RUA PADRE DAMIÃO CALIXTO TRAJANO,local,80,0,0,alvarenga
+213,RUA PAINEIRAS,local,207,0,207,alvarenga
+214,RUA PARAGUAÇU,local,196,0,0,alvarenga
+215,RUA PARNAÍBA,local,225,0,225,alvarenga
+216,RUA PASQUALE SCARANO,local,207,0,0,alvarenga
+217,RUA PAU BRASIL,local,147,0,147,alvarenga
+218,RUA PAULO FREIRE,local,204,0,0,alvarenga
+219,RUA PAULO GUILHERME FALETTI,local,209,0,209,alvarenga
+220,RUA PAULO LAZZURI,local,176,0,176,alvarenga
+221,RUA PÉROLA,local,197,0,197,alvarenga
+222,RUA PIAUÍ,local,215,0,215,alvarenga
+223,RUA PIETRO VILLA,local,283,0,283,alvarenga
+224,RUA PIRAPORINHA (JD NOVO HORIZONTE II),local,240,0,240,alvarenga
+225,RUA PORTAL DOS QUÍMICOS,local,513,0,513,alvarenga
+226,RUA PORTO FELIZ,local,150,0,150,alvarenga
+227,RUA PORTO VELHO,local,130,0,130,alvarenga
+228,RUA POUSO ALEGRE,local,392,0,392,alvarenga
+229,RUA PROGRESSO,local,258,0,258,alvarenga
+230,RUA QUARTZO,local,232,0,232,alvarenga
+231,RUA REINALDO TEIXEIRA,local,70,0,70,alvarenga
+232,RUA RIBEIRÃO PIRES,local,186,0,186,alvarenga
+233,RUA RIBEIRO,local,379,0,379,alvarenga
+234,RUA RIO DE JANEIRO,local,74,0,74,alvarenga
+235,RUA RIO GRANDE DA SERRA,local,155,0,155,alvarenga
+236,RUA RITA MENDES DE OLIVEIRA,local,245,0,0,alvarenga
+237,RUA ROCHEDO,local,60,0,60,alvarenga
+238,RUA ROMA,local,103,0,103,alvarenga
+239,RUA SAMUEL PEREIRA DOS SANTOS,local,98,0,98,alvarenga
+240,RUA SANTA CECÍLIA,local,233,0,233,alvarenga
+241,RUA SANTA MARTINS,local,170,0,0,alvarenga
+242,RUA SANTANA (JARDIM NOVA AMÉRICA),local,253,0,253,alvarenga
+243,RUA SANTO ANDRÉ,local,354,0,354,alvarenga
+244,RUA SÃO BERNARDO DO CAMPO,local,273,0,273,alvarenga
+245,RUA SÃO CAETANO,local,410,0,410,alvarenga
+246,RUA SÃO CAETANO DO SUL,local,136,0,136,alvarenga
+247,RUA SÃO CRISTÓVÃO,local,757,0,0,alvarenga
+248,RUA SÃO JOSÉ OPERÁRIO,local,231,0,0,alvarenga
+249,RUA SÃO PAULO (JARDIM NOVO HORIZONTE),local,345,0,345,alvarenga
+250,RUA SÃO VICENTE,local,205,0,205,alvarenga
+251,RUA SEBASTIANA REGACCINI SIMÃO,local,351,0,351,alvarenga
+252,RUA SEBASTIÃO PACHECO,local,205,0,0,alvarenga
+253,RUA SEBASTIÃO RODRIGUES,local,124,0,124,alvarenga
+254,RUA SENADOR LUÍS CARLOS PRESTES,local,254,0,254,alvarenga
+255,RUA SHEILA DE MELLO SOBRAL,local,302,0,0,alvarenga
+256,RUA SÍLVIO DE LIMA,local,372,0,372,alvarenga
+257,RUA SODALISTA,local,177,0,177,alvarenga
+258,RUA SYLVIO,local,291,0,291,alvarenga
+259,RUA TALISMÃ,local,252,0,252,alvarenga
+260,RUA TENRI,local,404,0,404,alvarenga
+261,RUA TEODORO SOARES,local,97,0,97,alvarenga
+262,RUA TERESA BARBOSA DE OLIVEIRA,local,421,0,0,alvarenga
+263,RUA TEXAS,local,200,0,200,alvarenga
+264,RUA TOM JOBIM,local,823,0,0,alvarenga
+265,RUA TUPINAMBÁS,local,190,0,190,alvarenga
+266,RUA TURIN,local,256,0,256,alvarenga
+267,RUA TURMALINA (JARDIM IPANEMA),local,300,0,300,alvarenga
+268,RUA UBÁ,local,186,0,0,alvarenga
+269,RUA UNIÃO DAS VILAS,local,93,0,93,alvarenga
+270,RUA ÚNIDOS DA ESPERANÇA,local,74,0,74,alvarenga
+271,RUA UNIDOS DOS QUÍMICOS,local,417,0,417,alvarenga
+272,RUA URÂNIO,local,176,0,0,alvarenga
+273,RUA VÂNIA SILVA SANTOS,local,"1397,21",0,"1397,21",alvarenga
+274,RUA VEREADOR MARIO FRANCISCON,local,"88,63",0,"88,63",alvarenga
+275,RUA VEREDA DOS EUCALIPTOS,local,338,0,338,alvarenga
+276,RUA VICTOR MAIER,local,"88,63",0,"88,63",alvarenga
+277,RUA VINICIUS DE MORAES ,local,"16,25",0,"16,25",alvarenga
+278,RUA VIRGINIA BERDAGUE TEIXEIRA,local,"127,91",0,0,alvarenga
+279,RUA WILSON DE SOUZA PINHEIRO,local,163,0,163,alvarenga
+280,AVENIDA BALNEÁRIA,local,519,519,0,balnearia
+281,ESTRADA DO  VERGUEIRO,local,462,0,462,balnearia
+282,ESTRADA BRASILIO DE LIMA,local,70,0,70,balnearia
+283,ESTRADA MARTIM AFONSO DE SOUSA,local,4044,0,4044,balnearia
+284,PRAÇA EDGARD CAVALHEIRO,local,260,0,260,balnearia
+285,RUA CARLOS SANTILLI,local,67,0,67,balnearia
+286,RUA DOUTOR WILSON TEIXEIRA DE MIRANDA,local,181,0,181,balnearia
+287,RUA FRANCISCO MATTEI,local,727,0,727,balnearia
+288,RUA FRANKILIN ALVES DOS REIS,local,47,0,47,balnearia
+289,RUA JOHAN DE ALCÂNTARA SILVA,local,361,0,361,balnearia
+290,RUA JOSEPHINA VALÉRIO CAPITÂNIO,local,598,0,598,balnearia
+291,RUA MARIA ALICE / RUA MUTUIPE,local,200,0,200,balnearia
+292,RUA VICTÓRIO STEFANELLI,local,370,0,"177,46",balnearia
+293,ESTRADA GALVÃO BUENO,arterial,5443,"3084,09","2358,91",batistini
+294,ESTRADA ASSUMPTA SABATINI ROSSI,arterial,760,0,0,batistini
+295,RUA LUIGI BATTISTINI,arterial,970,0,0,batistini
+296,AVENIDA VITOR BRECHERET,coletora,352,0,352,batistini
+297,ESTRADA MARCO POLO,coletora,916,0,916,batistini
+298,RUA BELA VISTA (JARDIM DA REPRESA),coletora,1206,0,1206,batistini
+299,RUA FERNANDO PESSOA,coletora,488,0,488,batistini
+300,RUA MARINGÁ (JARDIM DA REPRESA),coletora,690,0,690,batistini
+301,ALAMEDA DAS PAINEIRAS (VILA DO BOSQUE),local,202,0,202,batistini
+302,AVENIDA ÂNGELO DEMARCHI,local,1196,0,1196,batistini
+303,ESTRADA ARTHUR MARSON,local,349,0,0,batistini
+304,ESTRADA JOSÉ MOURA,local,1443,0,1443,batistini
+305,ESTRADA LUIZ MARSON,local,986,0,0,batistini
+306,ESTRADA MARCO POLO,local,1729,0,1729,batistini
+307,PASSAGEM DA  ÁRVORE (NÚCLEO BATISTINI),local,372,0,0,batistini
+308,PASSAGEM DA  CONQUISTA (BATISTINI),local,316,0,0,batistini
+309,PASSAGEM VIANINHA (NÚCLEO BATISTINI),local,23,0,23,batistini
+310,RUA ACRISIATAS,local,195,0,195,batistini
+311,RUA ÁGUAS DE PRATA,local,180,0,0,batistini
+312,RUA ÁGUAS DE SANTA BÁRBARA,local,321,0,0,batistini
+313,RUA ÁGUAS DE SANTA CLARA,local,318,0,0,batistini
+314,RUA AMÁBILE GRASIOTIN GRASSIOTTO,local,268,0,268,batistini
+315,RUA AMABILE MASINI ORTEGA,local,707,0,707,batistini
+316,RUA ANITA MALFATTI,local,570,0,570,batistini
+317,RUA ANTÔNIA MARIA SALATIEL,local,76,0,76,batistini
+318,RUA ANTÔNIA MARIANA,local,88,0,88,batistini
+319,RUA ANTONIO SIDNEI GERBELLI,local,453,0,453,batistini
+320,RUA APÓSTOLOS,local,489,0,489,batistini
+321,RUA ARACATI,local,384,0,384,batistini
+322,RUA AUGUSTO VENTURINI,local,348,0,348,batistini
+323,RUA CANAÃ (JARDIM NOVA CANAÃ),local,486,0,486,batistini
+324,RUA CANADÁ (JARDIM UIRIÇABA),local,240,0,240,batistini
+325,RUA CAPIVARI (JARDIM DA REPRESA),local,251,0,251,batistini
+326,RUA CARLOS ZIMMERMANN,local,386,0,386,batistini
+327,RUA CARMEN MIRANDA,local,221,0,221,batistini
+328,RUA CASIMIRO DE ABREU,local,61,0,61,batistini
+329,RUA CASSIANO RICARDO,local,381,0,381,batistini
+330,RUA CEARÁ MIRIM,local,339,0,339,batistini
+331,RUA CORINTHIOS,local,153,0,153,batistini
+332,RUA CORREIA (BATISTINI),local,96,0,96,batistini
+333,RUA COSMOS,local,56,0,56,batistini
+334,RUA COTEGIPE (PARQUE IMIGRANTES),local,1339,0,1339,batistini
+335,RUA CURITIBA,local,489,0,489,batistini
+336,RUA CYRILLO PELOSINI,local,1479,0,1479,batistini
+337,RUA DA  FONTE,local,212,0,212,batistini
+338,RUA DA  PASSARELA,local,466,0,466,batistini
+339,RUA DAS  AROEIRAS (REAL PARQUE),local,160,0,160,batistini
+340,RUA DAS  PITANGUEIRAS (REAL PARQUE),local,128,0,128,batistini
+341,RUA DAS FLORES - BATISTINI,local,865,0,0,batistini
+342,RUA DEOCLÉCIO ALVES MOREIRA,local,317,0,317,batistini
+343,RUA DO  ACRE,local,182,0,182,batistini
+344,RUA DO  SOL NASCENTE,local,89,0,89,batistini
+345,RUA DOS  IRMÃOS,local,45,0,45,batistini
+346,RUA EUCLIDES ZANON,local,332,0,332,batistini
+347,RUA EXPEDITO FERREIRA DE BRITO,local,42,0,42,batistini
+348,RUA FAGUNDES VARELA,local,54,0,54,batistini
+349,RUA FLOR DE ACÁCIA,local,23,0,0,batistini
+350,RUA FLOR DE ACÁCIA,local,39,0,0,batistini
+351,RUA FLORESTAL,local,264,0,264,batistini
+352,RUA FLORIBELA,local,39,0,39,batistini
+353,RUA FLÓRIDA (JARDIM UIRIÇABA),local,150,0,150,batistini
+354,RUA FRANCISCO AFONSO RIGUEIRA,local,194,0,194,batistini
+355,RUA FRANCISCO SOPRANO,local,46,0,46,batistini
+356,RUA GÁLATAS,local,"182,45",0,"182,45",batistini
+357,RUA GÊNESIS,local,"162,44",0,"162,44",batistini
+358,RUA GINES GONSALEZ,local,"535,1",0,"535,1",batistini
+359,RUA GLÓRIA (NÚCLEO BATISTINI),local,81,0,81,batistini
+360,RUA GOIÂNIA,local,658,0,658,batistini
+361,RUA GUARAPUAVA,local,244,0,244,batistini
+362,RUA HÉLIO GARCIA,local,83,0,0,batistini
+363,RUA HELÍSIO MAIA,local,83,0,83,batistini
+364,RUA INÊS DE ARAÚJO,local,224,0,224,batistini
+365,RUA IRATI,local,129,0,129,batistini
+366,RUA ITAIPÚ,local,134,0,134,batistini
+367,RUA ITARARÉ,local,245,0,245,batistini
+368,RUA JACIPORÃ (JARDIM DA REPRESA),local,202,0,202,batistini
+369,RUA JANDIR CARVALHO LANES,local,1238,0,1238,batistini
+370,RUA JOÃO ANTUNES,local,36,0,36,batistini
+371,RUA JOÃO CASTRO,local,82,0,0,batistini
+372,RUA JOÃO GAGLIARDI,local,60,0,60,batistini
+373,RUA JOÃO SALDANHA,local,683,0,683,batistini
+374,RUA JOSÉ CARDOSO,local,730,0,730,batistini
+375,RUA JOSÉ FERNANDES DE SOUSA,local,604,0,604,batistini
+376,RUA JOSÉ JOÃO SANTANA,local,121,0,0,batistini
+377,RUA JOSÉ MARTINS FERNANDES,local,830,0,830,batistini
+378,RUA JÚPITER,local,196,0,196,batistini
+379,RUA JURUÁ,local,394,0,394,batistini
+380,RUA LOS ANGELES,local,106,0,106,batistini
+381,RUA LUÍZ VAZ DE CAMÕES,local,281,0,281,batistini
+382,RUA LUIZA DE OLIVEIRA SANTANA,local,162,0,0,batistini
+383,RUA MANAUS,local,798,0,798,batistini
+384,RUA MANOEL ANTONIO DE OLIVEIRA,local,71,0,71,batistini
+385,RUA MANOEL CARNEIRO,local,199,0,0,batistini
+386,RUA MARIA ENCARNAÇÃO NUCCI,local,302,0,302,batistini
+387,RUA MARICÁ,local,115,0,115,batistini
+388,RUA MARTE (JARDIM MARCO POLO),local,212,0,212,batistini
+389,RUA MATO GROSSO,local,482,0,482,batistini
+390,RUA MERCEDES COELHO DA SILVA,local,473,0,473,batistini
+391,RUA MERCÚRIO (JARDIM MARCO POLO),local,165,0,165,batistini
+392,RUA MIAMI,local,114,0,114,batistini
+393,RUA MIRACEMA,local,341,0,341,batistini
+394,RUA MIRIM,local,35,0,35,batistini
+395,RUA NATAL,local,138,0,138,batistini
+396,RUA NETUNO (JARDIM MARCO POLO),local,81,0,81,batistini
+397,RUA NILTON FRANCO,local,52,0,0,batistini
+398,RUA NITERÓI,local,804,0,804,batistini
+399,RUA NOSSA SENHORA APARECIDA (ROYAL PARK),local,113,0,113,batistini
+400,RUA NOVA YORQUE,local,211,0,211,batistini
+401,RUA OCTÁVIO EDGARD DE OLIVEIRA,local,303,0,303,batistini
+402,RUA ORLANDO SILVA,local,52,0,0,batistini
+403,RUA PABLO NERUDA,local,225,0,225,batistini
+404,RUA PARAÍBA,local,441,0,441,batistini
+405,RUA PARANAGUÁ,local,714,0,714,batistini
+406,RUA PARTICULAR IPOLITO MINUCCI,local,,,,batistini
+407,RUA PAULO MORANDO,local,298,0,298,batistini
+408,RUA PEDRO ZAMPIERI,local,110,0,110,batistini
+409,RUA PONTA GROSSA,local,501,0,501,batistini
+410,RUA PROFESSOR CLAUDEMIR GOMES DO VALE,local,583,0,583,batistini
+411,RUA ROMANOS,local,477,0,477,batistini
+412,RUA RUBENS MARTINS,local,75,0,75,batistini
+413,RUA SALMOS,local,100,0,100,batistini
+414,RUA SANTE BATTISTINI,local,261,0,0,batistini
+415,RUA SÃO BERNARDO (JARDIM DA REPRESA),local,143,0,143,batistini
+416,RUA SÃO RAFAEL,local,36,0,0,batistini
+417,RUA SIMÓN BOLIVAR,local,366,0,366,batistini
+418,RUA STANISLAW PONTE PRETA,local,170,0,170,batistini
+419,RUA TAVARES (BATISTINI),local,137,0,137,batistini
+420,RUA TIBAGI,local,281,0,281,batistini
+421,RUA UBÁ (JARDIM UIRIÇABA),local,54,0,54,batistini
+422,RUA UNA,local,360,0,360,batistini
+423,RUA VALE DO SOL,local,85,0,85,batistini
+424,RUA VASCONCELOS,local,82,0,0,batistini
+425,RUA VÊNUS (JARDIM MARCOPOLO),local,218,0,218,batistini
+426,RUA ZURIQUE (JARDIM UIRIÇABA),local,216,0,216,batistini
+427,TRAVESSA ÂNGELO BETIOL,local,69,0,69,batistini
+428,TRAVESSA BRAULINA MARIA DE JESUS,local,"77,5",0,"77,5",batistini
+429,TRAVESSA CLODOALDO DE SOUZA,local,28,0,28,batistini
+430,TRAVESSA DAS  GOIABEIRAS,local,48,0,48,batistini
+431,TRAVESSA GERALDO BATISTA,local,40,0,40,batistini
+432,TRAVESSA GIACOMO MARIN,local,87,0,87,batistini
+433,TRAVESSA JAIME DANTAS,local,30,0,30,batistini
+434,TRAVESSA JOÃO MATIAS DE OLIVEIRA,local,80,0,80,batistini
+435,AVENIDA OMAR DAIBERT,coletora,473,0,473,botujuru
+436,RUA JOSÉ D'ÂNGELO,coletora,595,0,595,botujuru
+437,AVENIDA BEETHOVEN,local,243,0,243,botujuru
+438,AVENIDA IVANOVSKY,local,155,0,155,botujuru
+439,AVENIDA MANAUS,local,240,0,240,botujuru
+440,AVENIDA NICOLA DEMARCHI,local,3713,3713,0,botujuru
+441,AVENIDA NICOLA DEMARCHI,local,4126,0,4126,botujuru
+442,ESTRADA BRASILIO DE LIMA,local,15231,0,15231,botujuru
+443,ESTRADA DO  VERGUEIRO,local,835,0,835,botujuru
+444,ESTRADA RIBEIRÃO DO SOLDADO,local,5906,0,"5628,47",botujuru
+445,ESTRADA SEM NOME,local,7500,0,7500,botujuru
+446,RUA 3 DE DEZEMBRO,local,274,0,274,botujuru
+447,RUA AGOSTINHO MASINI,local,190,0,0,botujuru
+448,RUA ALBINA SILVA,local,"198,09",0,0,botujuru
+449,RUA ANTONIO FRANCISCO ZANELLATO,local,470,0,0,botujuru
+450,RUA ANTÔNIO MENEGHETTI,local,459,0,0,botujuru
+451,RUA ARCO-ÍRIS,local,352,0,352,botujuru
+452,RUA AUGUSTO ROSA DA SILVA,local,59,0,59,botujuru
+453,RUA BERTHA LUTZ,local,145,0,145,botujuru
+454,RUA BODAS DE PRATA,local,30,0,30,botujuru
+455,RUA CAIANA,local,61,0,61,botujuru
+456,RUA CHOPIN,local,39,0,39,botujuru
+457,RUA COPÉLIA,local,39,0,39,botujuru
+458,RUA CUNHÃ,local,187,0,187,botujuru
+459,RUA DANÚBIO AZUL,local,40,0,40,botujuru
+460,RUA DEBÉLIS,local,52,0,52,botujuru
+461,RUA DO  TESOURO,local,135,0,135,botujuru
+462,RUA EFRAIM RAMOS DA SILVA,local,214,0,214,botujuru
+463,RUA EMA CIPRIANI BRUNI,local,382,0,0,botujuru
+464,RUA EMÍLIO STUCHI,local,100,0,0,botujuru
+465,RUA FOLHAS DA MANHÃ,local,52,0,52,botujuru
+466,RUA GIUSEPPE SABATINI,local,60,0,0,botujuru
+467,RUA HUMAITÁ,local,573,0,573,botujuru
+468,RUA IRACEMA (VILA SANTOS DUMONT),local,520,0,520,botujuru
+469,RUA JACINTO SIMIONATO FILHO,local,363,0,0,botujuru
+470,RUA JOÃO INÁCIO DA SILVA,local,91,0,91,botujuru
+471,RUA JOÃO TURBAY,local,100,0,0,botujuru
+472,RUA DAS PALMEIRAS,local,80,0,80,botujuru
+473,RUA JOSÉ GOMES MORENO,local,298,0,0,botujuru
+474,RUA JÚLIO BARAZAL SALGADO,local,393,0,0,botujuru
+475,RUA JURUBEBA,local,385,0,385,botujuru
+476,RUA LAGUNA,local,39,0,39,botujuru
+477,RUA LUIZ DALMOLIN,local,479,0,0,botujuru
+478,RUA MANFREDO MEYER,local,330,0,330,botujuru
+479,RUA MANGUE SECO,local,116,0,116,botujuru
+480,RUA MARLI BEZERRA DA SILVA,local,428,428,0,botujuru
+481,RUA NICOLA FELTRIN,local,448,0,0,botujuru
+482,RUA PASTOR TITO RODRIGUES LINHARES,local,178,0,0,botujuru
+483,RUA PAVUNA,local,53,0,53,botujuru
+484,RUA PRIMAVERA,local,92,0,92,botujuru
+485,RUA SALIM MAHFOUD,local,1401,0,0,botujuru
+486,RUA SEBASTIÃO BRUNI,local,291,0,0,botujuru
+487,RUA SINFONIA,local,52,0,52,botujuru
+488,RUA STRAUSS,local,52,0,52,botujuru
+489,RUA TURUMÃ,local,175,0,175,botujuru
+490,RUA VALSA DA PRIMAVERA,local,52,0,52,botujuru
+491,RUA VALSA DE VIENA,local,52,0,52,botujuru
+492,RUA VALSA DO IMPERADOR,local,76,0,76,botujuru
+493,RUA YANOMAMI,local,70,0,70,botujuru
+494,TRAVESSA ANITA MARIA DOS SANTOS,local,52,0,52,botujuru
+495,TRAVESSA DA ÁRVORE,local,41,0,41,botujuru
+496,TRAVESSA BELA,local,20,0,20,botujuru
+497,TRAVESSA BELA DONA,local,27,0,27,botujuru
+498,TRAVESSA CAMAÇARI,local,40,0,40,botujuru
+499,TRAVESSA CAMÉLIA BRANCA,local,41,0,41,botujuru
+500,TRAVESSA CAMPOS ELÍSEOS,local,40,0,40,botujuru
+501,TRAVESSA DAS  ALIANÇAS,local,42,0,42,botujuru
+502,TRAVESSA JASMIN,local,39,0,39,botujuru
+503,TRAVESSA FELIPE MACEDO PONTES,local,40,0,40,botujuru
+504,TRAVESSA FLOR DE LARANJEIRA,local,34,0,34,botujuru
+505,TRAVESSA GARANHUNS,local,53,0,53,botujuru
+506,TRAVESSA GRAVATÁ,local,41,0,41,botujuru
+507,TRAVESSA IDEAL,local,92,0,92,botujuru
+508,TRAVESSA MARCELO FROMER,local,20,0,20,botujuru
+509,TRAVESSA POPULAR,local,54,0,54,botujuru
+510,TRAVESSA RACHEL DE QUEIROZ,local,61,0,61,botujuru
+511,TRAVESSA RECANTO DO SOL,local,34,0,34,botujuru
+512,TRAVESSA ROSA MÍSTICA,local,31,0,31,botujuru
+513,TRAVESSA SOBRADINHO,local,44,0,44,botujuru
+514,TRAVESSA CARLOS DRUMON DE ANDRADE,local,75,0,75,botujuru
+515,TRAVESSA PALMARES,local,76,0,76,botujuru
+516,TRAVESSA MANOEL DE OLIVEIRA,local,65,0,65,botujuru
+517,RUA NOVO ORIENTE ,local,85,0,85,botujuru
+518,TRAVESSA FÁBIO,local,42,0,42,botujuru
+519,RUA MAACUGEO,local,95,0,95,botujuru
+520,RUA PAVUNA / RUA 03,local,53,0,53,botujuru
+521,RUA ANÉSIO SIQUEIRA LIMA,local,64,0,64,botujuru
+522,AVENIDA CORAÇÃO EUCARÍSTICO DE JESUS,local,420,0,420,dos-fincos
+523,AVENIDA FRANCISCO FINCO,local,1119,0,1119,dos-fincos
+524,ESTRADA DA  ROSEIRA,local,837,0,837,dos-fincos
+525,ESTRADA DAS  ANDORINHAS,local,956,0,956,dos-fincos
+526,ESTRADA DO  ALADINO,local,620,0,620,dos-fincos
+527,ESTRADA DO HAWAI (TRECHO),local,2600,0,950,dos-fincos
+528,ESTRADA DO  MORRO GRANDE,local,1462,0,1462,dos-fincos
+529,ESTRADA DO  RIO ACIMA,local,2948,0,2948,dos-fincos
+530,ESTRADA DO RIO GRANDE,local,386,0,386,dos-fincos
+531,ESTRADA DOS  CAMPONESES,local,775,0,775,dos-fincos
+532,ESTRADA HENRIQUE ROSA,local,1705,1705,0,dos-fincos
+533,ESTRADA PARTICULAR JOSÉ MARION (TRECHO),local,538,0,225,dos-fincos
+534,RUA ÂNGELO BISOGNINI FILHO,local,234,0,234,dos-fincos
+535,RUA ANHANGUERA,local,71,0,71,dos-fincos
+536,RUA ANSELMO VENZOL,local,86,0,0,dos-fincos
+537,RUA ANTÔNIO BISOGNINI,local,284,0,284,dos-fincos
+538,RUA ANTONIO DEMARCHI- GAIA,local,289,0,289,dos-fincos
+539,RUA ATÍLIO JORGE SALUM,local,280,0,280,dos-fincos
+540,RUA BELMIRO PARDO ROMAN,local,284,0,284,dos-fincos
+541,RUA BENTO RIBEIRO DA SILVA,local,103,0,103,dos-fincos
+542,RUA CARLOS PEZZOLO JUNIOR,local,67,67,0,dos-fincos
+543,RUA DOIS,local,226,0,226,dos-fincos
+544,RUA FELICE ROSSI,local,704,0,704,dos-fincos
+545,RUA FORTUNATO BENEVENUTO FINCO,local,624,0,624,dos-fincos
+546,RUA FRANCISCO BERNARDELLO,local,342,0,342,dos-fincos
+547,RUA FRANCISCO MARIOTTO,local,196,0,196,dos-fincos
+548,RUA FRANCISCO ONÉSIMO MARTINS,local,117,0,117,dos-fincos
+549,RUA GELSON MOREIRA DE SOUZA,local,190,0,190,dos-fincos
+550,RUA GIUSEPPE PESSOTTI,local,309,0,309,dos-fincos
+551,RUA GOITACAZES,local,130,0,130,dos-fincos
+552,RUA GORDON FOX RULE,local,341,0,341,dos-fincos
+553,RUA JOAQUIM MASCARENHAS,local,292,0,292,dos-fincos
+554,RUA JOSÉ FARHAT,local,482,0,482,dos-fincos
+555,RUA JÚLIA A. TEPEDINO GUERRA,local,203,0,203,dos-fincos
+556,RUA LA PAZ,local,54,0,54,dos-fincos
+557,RUA LUIZA VIEZZER FINCO,local,230,0,230,dos-fincos
+558,RUA MARIA CATARINA ZAIA FINCO,local,105,0,105,dos-fincos
+559,RUA MARIA DE LOURDES NAPOLITANO,local,202,0,202,dos-fincos
+560,RUA MARIA MAGDALENA VENZOL,local,477,0,477,dos-fincos
+561,RUA MÁRIO PAULO AUTUORI,local,1044,0,1044,dos-fincos
+562,RUA MIGUEL GUERRA,local,561,0,561,dos-fincos
+563,RUA ODAIR VIEIRA,local,301,0,301,dos-fincos
+564,RUA PADRE BENTO DIAS PACHECO,local,658,0,658,dos-fincos
+565,RUA PALMERINA ODÍLIA F. GUASELLI,local,300,0,300,dos-fincos
+566,RUA PAULINO CONRADO,local,171,0,171,dos-fincos
+567,RUA PRIMO BERNARDELLO,local,66,0,66,dos-fincos
+568,RUA PROFESSOR OSWALDO CONEGLIAN,local,145,0,145,dos-fincos
+569,RUA ROSA INEZ BRUNI PINCHIARO,local,869,0,869,dos-fincos
+570,RUA ROSÂNGELA BATISTA SILVA,local,190,0,190,dos-fincos
+571,RUA RUGERO FINCO,local,54,0,54,dos-fincos
+572,RUA SANTO EXPEDITO,local,239,0,239,dos-fincos
+573,RUA TRINCA-FERRO,local,33,0,33,dos-fincos
+574,RUA TROPICAL,local,404,235,404,dos-fincos
+575,RUA TUPINIQUINS,local,187,0,187,dos-fincos
+576,RUA TURIASSÚ,local,183,0,183,dos-fincos
+577,RUA UBIRAJARA,local,243,0,243,dos-fincos
+578,RUA VITÓRIA ZAIA VICENTIN,local,299,0,299,dos-fincos
+579,AVENIDA DOUTOR JOSE FORNARI,arterial,531,531,0,ferrazópolis
+580,AVENIDA ALBERTO SCHWEITZER,coletora,550,550,0,ferrazópolis
+581,RUA NOSSA SENHORA DA BOA VIAGEM,coletora,770,770,0,ferrazópolis
+582,AVENIDA GENERAL BARRETO,coletora,600,600,0,ferrazópolis
+583,AVENIDA FELIPE COMERCIO,local,120,120,0,ferrazópolis
+584,AVENIDA FERNANDO FERRARI,local,380,380,0,ferrazópolis
+585,PASS MORUNBI,local,180,180,0,ferrazópolis
+586,RUA ROMILDO CEOLA,local,150,150,0,ferrazópolis
+587,RUA ANGELINA SCOPEL PINOTTI,local,450,450,0,ferrazópolis
+588,RUA AURELIANO DE SOUZA,local,180,180,0,ferrazópolis
+589,RUA BARTIRA,local,350,350,0,ferrazópolis
+590,RUA FRANCISCO TOSI,local,200,200,0,ferrazópolis
+591,RUA ISABEL DE ANDRADE MAIA,local,400,400,0,ferrazópolis
+592,RUA JESUS DE NAZARTH,local,760,760,0,ferrazópolis
+593,RUA JOSÉ TAVARES DE BASTOS,local,480,480,0,ferrazópolis
+594,RUA MONOEL DE LIMA,local,150,150,0,ferrazópolis
+595,RUA PADRE LEO COMISSARI,local,1100,1100,0,ferrazópolis
+596,RUA ROSA PACHECO,local,288,288,0,ferrazópolis
+597,RUA AFONSO FURTADO DE MENDONÇA,local,480,480,0,ferrazópolis
+598,RUA REGENTE LIMA E SILVA,local,610,610,0,ferrazópolis
+599,RUA HOLANDA CAVALCANTI,local,180,180,0,ferrazópolis
+600,RUA MINISTRO ADAUTO CARDOSO,local,300,300,0,ferrazópolis
+601,RUA ABRAMO LUCHESI,local,225,225,0,ferrazópolis
+602,RUA PADRE ANCHIETA,local,150,150,0,ferrazópolis
+603,RUA ANTONIO GUERRA,local,240,240,0,ferrazópolis
+604,RUA EÇA DE QUEIROZ,local,260,260,0,ferrazópolis
+605,RUA ANTONIO PINCHIARI,local,170,170,0,ferrazópolis
+606,RUA VICENTE M ROCHA,local,160,160,0,ferrazópolis
+607,AVENIDA DOS  FLAMINGOS,arterial,531,0,0,independência
+608,AVENIDA HUMBERTO DE ALENCAR CASTELO BRANCO,arterial,1691,0,0,independência
+609,AVENIDA ISAAC AIZEMBERG,arterial,3249,0,3249,independência
+610,AVENIDA JOSÉ ODORIZZI,arterial,2047,0,0,independência
+611,AVENIDA MOINHO FABRINI,arterial,1804,0,1804,independência
+612,AVENIDA ROBERT KENNEDY,arterial,3770,0,0,independência
+613,RUA FLORIANO PEIXOTO,arterial,197,0,0,independência
+614,RUA HÉLIO MITICA,arterial,198,0,0,independência
+615,AVENIDA DAS  ARARAS,coletora,1310,0,1310,independência
+616,RUA ANTÔNIO PEREIRA DE MATOS,coletora,329,0,329,independência
+617,RUA AUSTRÁLIA,coletora,507,0,0,independência
+618,RUA DOS  BICOS-DE-LACRE,coletora,1294,0,1294,independência
+619,RUA DOS  CANELEIROS,coletora,381,0,0,independência
+620,RUA JOAQUIM SERRA,coletora,328,0,328,independência
+621,RUA MARIA CECÍLIA,coletora,198,0,0,independência
+622,RUA PIETRO GUAZZELLI,coletora,237,0,0,independência
+623,AVENIDA DAS  ANDORINHAS,local,699,0,0,independência
+624,AVENIDA EDILÚ,local,804,0,804,independência
+625,AVENIDA JOAQUIM GONÇALVES LEDO,local,450,0,0,independência
+626,AVENIDA ROSA AIZEMBERG,local,759,0,759,independência
+627,RUA 1822,local,200,0,200,independência
+628,RUA AFONSO PENA,local,197,0,0,independência
+629,RUA ALMIRANTE COCKRANE,local,319,0,0,independência
+630,RUA ALZIRA,local,247,0,247,independência
+631,RUA ANÉSIA,local,120,0,120,independência
+632,RUA ANTÔNIO CARLOS DE ANDRADA E SILVA,local,281,0,281,independência
+633,RUA ANTÔNIO CARLOS DE LIMA,local,220,0,220,independência
+634,RUA ARACI,local,315,0,315,independência
+635,RUA BOLÍVIA,local,141,0,141,independência
+636,RUA BUENO DE PAIVA,local,216,0,216,independência
+637,RUA CAIRBAR SCHUTEL,local,59,0,0,independência
+638,RUA CANADÁ,local,193,0,0,independência
+639,RUA CARLOS AYRES,local,552,0,552,independência
+640,RUA CÔNEGO LUIZ CATELLI,local,328,0,328,independência
+641,RUA COSTA RICA,local,303,0,303,independência
+642,RUA CUBA,local,141,0,141,independência
+643,RUA CUNHA MATOS,local,130,0,130,independência
+644,RUA DA  INDEPENDÊNCIA,local,514,0,514,independência
+645,RUA DAS  ARAPONGAS,local,105,0,0,independência
+646,RUA DAS  CAMÉLIAS,local,266,0,266,independência
+647,RUA DAS  CODORNAS,local,540,0,0,independência
+648,RUA DAS  CORUJAS,local,133,0,0,independência
+649,RUA DAS  CURRUÍRAS,local,944,0,0,independência
+650,RUA DAS  GARÇAS,local,407,0,0,independência
+651,RUA DAS  GRALHAS,local,329,0,0,independência
+652,RUA DAS  GRAÚNAS,local,402,0,0,independência
+653,RUA DAS  JACUTINGAS,local,392,0,0,independência
+654,RUA DAS  PATATIVAS,local,548,0,0,independência
+655,RUA DAS  ROLINHAS,local,650,0,0,independência
+656,RUA DAS  SAÍRAS,local,261,0,0,independência
+657,RUA DAS  SARACURAS,local,277,0,0,independência
+658,RUA DAS  SERIEMAS,local,92,0,0,independência
+659,RUA DO  FICO,local,142,0,142,independência
+660,RUA DO  GRITO,local,227,0,227,independência
+661,RUA DO  MANIFESTO,local,273,0,273,independência
+662,RUA DOM JOÃO VI,local,174,0,174,independência
+663,RUA DONA MARIA I,local,223,0,223,independência
+664,RUA DOS  BEM-TE-VIS,local,266,0,0,independência
+665,RUA DOS  BREJAIS,local,716,0,0,independência
+666,RUA DOS  ESCUDEIROS,local,77,0,77,independência
+667,RUA DOS  FAISÕES,local,501,0,0,independência
+668,RUA DOS  GUARÁS,local,286,0,0,independência
+669,RUA DOS  MACUCOS,local,378,0,378,independência
+670,RUA DOS  MAINÁS,local,277,0,0,independência
+671,RUA DOS  MONTEIROS,local,173,0,0,independência
+672,RUA DOS  PARDAIS,local,226,0,0,independência
+673,RUA DOS  ROUXINÓIS,local,128,0,0,independência
+674,RUA DOS  SABIÁS,local,766,0,766,independência
+675,RUA DOS  TANGARÁS,local,1165,0,0,independência
+676,RUA DOS  TAPIRANGAS,local,696,0,0,independência
+677,RUA DOS  UIRAPURUS,local,586,0,0,independência
+678,RUA DOUTOR JOSÉ FERRAZ DE MAGALHÃES CASTRO,local,277,0,277,independência
+679,RUA DR. CURT,local,667,0,667,independência
+680,RUA EDSON CARVALHO NOGUEIRA,local,153,0,0,independência
+681,RUA EGITO,local,229,0,229,independência
+682,RUA ESTÁCIO COIMBRA,local,87,0,87,independência
+683,RUA EVARISTO DA VEIGA,local,153,0,0,independência
+684,RUA FRANCISCO MANOEL DA SILVA,local,288,0,288,independência
+685,RUA GENERAL LECOR,local,170,0,0,independência
+686,RUA GIOVANNI ZECHETTI,local,432,0,432,independência
+687,RUA GRÉCIA,local,280,0,0,independência
+688,RUA GROENLÂNDIA,local,64,0,0,independência
+689,RUA HIPÓLITO JOSÉ DA COSTA,local,247,0,247,independência
+690,RUA HONDURAS,local,256,0,0,independência
+691,RUA JOÃO GINEZ RAMBLE,local,275,0,275,independência
+692,RUA JOAQUIM XAVIER CURADO,local,279,0,0,independência
+693,RUA JOSÉ BASÍLIO DA GAMA,local,207,0,207,independência
+694,RUA JOSÉ CAMPI,local,233,0,233,independência
+695,RUA JOSÉ CLEMENTE PEREIRA,local,128,0,128,independência
+696,RUA JOSÉ ROCHA,local,394,0,394,independência
+697,RUA LABATUT,local,220,0,220,independência
+698,RUA LÁZARO ROSA,local,176,0,176,independência
+699,RUA LÍDIA AFONSO,local,180,0,180,independência
+700,RUA MARIA QUITÉRIA,local,133,0,133,independência
+701,RUA MARIA RAMOS,local,183,0,0,independência
+702,RUA MARTIN FRANCISCO DE ANDRADA E SILVA,local,279,0,279,independência
+703,RUA MELO VIANA,local,115,0,0,independência
+704,RUA MÉXICO,local,574,0,574,independência
+705,RUA NORUEGA,local,242,0,242,independência
+706,RUA ODETE,local,129,0,0,independência
+707,RUA PANAMÁ,local,84,0,0,independência
+708,RUA PERU,local,253,0,"232,19",independência
+709,RUA PRUDENTE DE MORAIS,local,"197,43",0,0,independência
+710,RUA RAFAEL TOBIAS DE AGUIAR,local,204,0,204,independência
+711,RUA RAUL QUARESMA,local,679,0,679,independência
+712,RUA ROSA E SILVA,local,255,0,255,independência
+713,RUA VICENTE LEPORACE,local,127,0,127,independência
+714,RUA XAVIER MARQUES,local,73,0,73,independência
+715,RUA GALILÉIA,local,230,0,230,independência
+716,RUA SANTA CLARA,local,150,0,150,independência
+717,TRAVESSA HAWAÍ,local,32,0,32,independência
+718,TRAVESSA KATIA,local,32,0,32,independência
+719,RUA ALENCASTRO,local,37,0,37,independência
+720,RUA TATIANA,local,37,0,37,independência
+721,TRAVESSA ALM.,local,30,0,30,independência
+722,PASSAGEM GALILÉIA,local,431,0,431,independência
+723,PASSAGEM SANTA CLARA,local,32,0,32,independência
+724,PASSAGEM HAWAY,local,36,0,36,independência
+725,PASSAGEM KÁTIA,local,"36,6",0,"36,6",independência
+726,PASSAGEM ALENCASTRO,local,41,0,41,independência
+727,PASSAGEM ALM.,local,34,0,34,independência
+728,AVENIDA PIRAPORINHA,arterial,3964,0,0,jordanópolis
+729,AVENIDA PADRE ANCHIETA,arterial,1156,0,1156,jordanópolis
+730,PRAÇA SALVADOR ROSA,arterial,230,230,0,jordanópolis
+731,RUA BORGES DE MEDEIROS,arterial,360,0,360,jordanópolis
+732,AVENIDA SÃO PAULO,coletora,1596,0,1596,jordanópolis
+733,RUA ALFREDO ANGELINI,coletora,560,0,560,jordanópolis
+734,RUA BORG WARNER,coletora,586,586,0,jordanópolis
+735,RUA BRASCOLA,coletora,309,309,0,jordanópolis
+736,RUA CECÍLIA,coletora,502,0,502,jordanópolis
+737,RUA NOVAIS TEIXEIRA,coletora,224,0,224,jordanópolis
+738,RUA OSWALD DE ANDRADE,coletora,826,826,0,jordanópolis
+739,RUA PINDORAMA,coletora,942,0,350,jordanópolis
+740,RUA PROFESSOR SEBASTIÃO FARIAS DE QUEIROZ,coletora,218,218,0,jordanópolis
+741,RUA RAQUIEL DA CUNHA,coletora,176,176,0,jordanópolis
+742,RUA SÉRGIO MILLIET,coletora,848,848,0,jordanópolis
+743,RUA SILVA BUENO,coletora,444,444,0,jordanópolis
+744,RUA WALDEMAR MARTINS FERREIRA,coletora,540,0,540,jordanópolis
+745,RUA WALFRIDO SILVA,coletora,187,0,187,jordanópolis
+746,PRAÇA ATÍLIO HILÁRIO SUSTER,local,76,76,0,jordanópolis
+747,PRAÇA EMÍLIO ESCUDERO,local,246,0,0,jordanópolis
+748,PRAÇA MARIA TUDOR,local,222,222,0,jordanópolis
+749,PRAÇA SALVADOR ROSA,local,"34,92","34,92",0,jordanópolis
+750,RUA ABILIO CÉSAR,local,67,0,67,jordanópolis
+751,RUA ADOLFO MONTEIRO,local,229,0,229,jordanópolis
+752,RUA AIURUOCA,local,64,0,64,jordanópolis
+753,RUA ALMEIDA BRANDÃO,local,308,308,0,jordanópolis
+754,RUA ALMIR CASTRIOTTO,local,135,135,0,jordanópolis
+755,RUA AMADEU ROCCO,local,123,0,123,jordanópolis
+756,RUA ANACLETO CAMPANELLA,local,282,0,0,jordanópolis
+757,RUA ANGEL SERRANO FERNANDES,local,255,255,0,jordanópolis
+758,RUA ANÍBAL MACHADO,local,97,0,97,jordanópolis
+759,RUA ANTENOR NASCENTES,local,84,0,84,jordanópolis
+760,RUA ARARAQUARA,local,580,0,580,jordanópolis
+761,RUA ARNALDO MARGONARI,local,199,0,199,jordanópolis
+762,RUA ARTUR PONTUAL,local,172,172,0,jordanópolis
+763,RUA AUGUSTO ERNANI,local,334,0,334,jordanópolis
+764,RUA BAHIA,local,308,308,0,jordanópolis
+765,RUA BÉLGICA,local,273,0,273,jordanópolis
+766,RUA BELO HORIZONTE,local,273,0,100,jordanópolis
+767,RUA BORBA GATO,local,226,0,0,jordanópolis
+768,RUA BOTUCATU,local,323,0,323,jordanópolis
+769,RUA BRUNO ANGELI,local,80,0,80,jordanópolis
+770,RUA CAPISTRANO DE ABREU,local,290,290,0,jordanópolis
+771,RUA CARLOS ESTEVÃO,local,247,0,0,jordanópolis
+772,RUA CARLOS PASQUALE,local,271,271,0,jordanópolis
+773,RUA CARLOS RIZZINI,local,108,0,108,jordanópolis
+774,RUA CELSO TADEU DOS SANTOS,local,158,0,158,jordanópolis
+775,RUA CIDADE DE PIRMASENS,local,101,0,101,jordanópolis
+776,RUA CLEONICE CÂNDIDA FANANI,local,196,196,0,jordanópolis
+777,RUA CLÓVIS BEVILACQUA,local,278,278,0,jordanópolis
+778,RUA COSTA AGUIAR,local,208,208,0,jordanópolis
+779,RUA COSTA ARAÚJO,local,105,0,0,jordanópolis
+780,RUA CRUZADA SANTA,local,189,189,0,jordanópolis
+781,RUA DALVA DE OLIVEIRA,local,275,0,275,jordanópolis
+782,RUA DELMIRO GOUVEIA,local,123,0,123,jordanópolis
+783,RUA DOMINGOS BERTAGLIA,local,139,139,0,jordanópolis
+784,RUA EDMUNDO BARRETO PINTO,local,115,115,0,jordanópolis
+785,RUA EDNO ZENORINI,local,81,0,81,jordanópolis
+786,RUA EDSON CARNEIRO,local,101,101,0,jordanópolis
+787,RUA EGÍDIO MICHAELSEN,local,123,123,0,jordanópolis
+788,RUA ELIAS FERES GERAISSATI,local,223,0,223,jordanópolis
+789,RUA EUGÊNIO GOMES,local,148,148,0,jordanópolis
+790,RUA FREI DAMIÃO,local,692,0,692,jordanópolis
+791,RUA GERALDO JOSÉ DE ALMEIDA,local,91,91,0,jordanópolis
+792,RUA GOIS MONTEIRO,local,173,0,173,jordanópolis
+793,RUA GUILHERME,local,165,0,165,jordanópolis
+794,RUA HAYDEÉ,local,299,0,299,jordanópolis
+795,RUA HÉLIO VIANA,local,120,120,0,jordanópolis
+796,RUA HENRIQUE DIAS,local,283,0,283,jordanópolis
+797,RUA HERBERT MOSES,local,556,0,556,jordanópolis
+798,RUA IRACEMA (JORDANÓPOLIS),local,132,0,132,jordanópolis
+799,RUA IVAN FLEURY MEIRELLES -  JURISTA,local,312,0,312,jordanópolis
+800,RUA IZIDORO VENZOL,local,97,0,97,jordanópolis
+801,RUA JOÃO B. AZEVEDO MARQUES,local,162,162,0,jordanópolis
+802,RUA JOÃO BORGES JUNIOR,local,169,0,169,jordanópolis
+803,RUA JORACY CAMARGO,local,291,291,0,jordanópolis
+804,RUA JOSÉ PIRES DE PAULA,local,92,0,92,jordanópolis
+805,RUA JULIETA,local,325,0,325,jordanópolis
+806,RUA LEONARDO DA VINCI,local,129,129,0,jordanópolis
+807,RUA LINO COUTINHO,local,186,0,0,jordanópolis
+808,RUA LOPES DE CAMARGO,local,42,0,42,jordanópolis
+809,RUA LUIS ALONSO PEREZ,local,446,0,466,jordanópolis
+810,RUA LUPICÍNIO RODRIGUES,local,273,273,0,jordanópolis
+811,RUA MANGER,local,160,0,160,jordanópolis
+812,RUA MARGARIDA DUSI ANGELI,local,170,0,170,jordanópolis
+813,RUA MARIA BORDIN,local,132,0,132,jordanópolis
+814,RUA MARIA GERTRUDES,local,42,0,42,jordanópolis
+815,RUA MARIA OLINDA,local,115,0,115,jordanópolis
+816,RUA MÁRIO JÚLIO RODRIGUES,local,114,0,114,jordanópolis
+817,RUA MARTIM SILVEIRA,local,150,150,0,jordanópolis
+818,RUA MARTINS FONTES,local,403,403,0,jordanópolis
+819,RUA MÉJICA L. SEQUEIRA DE RODRIGUES,local,485,485,0,jordanópolis
+820,RUA MIGUEL FEIJÓ,local,43,0,43,jordanópolis
+821,RUA MIGUEL GUSTAVO,local,145,145,0,jordanópolis
+822,RUA MILTON CAMPOS,local,170,0,170,jordanópolis
+823,RUA MILTON RIBEIRO,local,147,0,147,jordanópolis
+824,RUA MOACIR PADILHA,local,421,421,0,jordanópolis
+825,RUA NOEL NUTELS,local,399,0,399,jordanópolis
+826,RUA ODUVALDO VIANA,local,124,0,124,jordanópolis
+827,RUA OSWALDO CRUZ,local,390,0,390,jordanópolis
+828,RUA PADRE CARMELO,local,110,0,110,jordanópolis
+829,RUA PADRE GONÇALVES LIMA,local,44,0,44,jordanópolis
+830,RUA PAES LEME,local,178,178,0,jordanópolis
+831,RUA PAGANO SOBRINHO,local,173,0,0,jordanópolis
+832,RUA PARÁ,local,196,196,0,jordanópolis
+833,RUA PATRÍCIO TEIXEIRA,local,115,115,0,jordanópolis
+834,RUA PAULO MAGALHÃES,local,215,215,0,jordanópolis
+835,RUA PERCY LAU,local,136,0,136,jordanópolis
+836,RUA PIRATININGA,local,284,284,0,jordanópolis
+837,RUA PIXINGUINHA,local,91,91,0,jordanópolis
+838,RUA QUINTANILHA RIBEIRO,local,171,171,0,jordanópolis
+839,RUA RAIMUNDO DA MOTA CORREIA,local,230,0,230,jordanópolis
+840,RUA RANGEL DE CARVALHO,local,121,121,0,jordanópolis
+841,RUA RIO DE JANEIRO,local,314,0,314,jordanópolis
+842,RUA RODRIGUES DO VALE,local,171,171,0,jordanópolis
+843,RUA SANTA TEREZINHA,local,390,0,390,jordanópolis
+844,RUA SÃO SEBASTIÃO DA GRAMA,local,185,185,0,jordanópolis
+845,RUA SILAS DE OLIVEIRA,local,123,123,0,jordanópolis
+846,RUA SOUSA DANTAS,local,115,115,0,jordanópolis
+847,RUA TELMA,local,62,0,62,jordanópolis
+848,RUA VENTURINO VENTURINI,local,180,0,180,jordanópolis
+849,RUA VICTÓRIO VENZOL,local,64,0,0,jordanópolis
+850,RUA VITOR MEIRELES,local,108,108,0,jordanópolis
+851,RUA WALTER DARÉ,local,159,0,159,jordanópolis
+852,TRAVESSA PADRE ANCHIETA,local,132,132,0,jordanópolis
+853,TRAVESSA PIRATININGA,local,92,92,0,jordanópolis
+854,AVENIDA LUIZ PEQUINI,arterial,1764,0,0,montanhão
+855,AVENIDA PERY RONCHETTI,arterial,1056,0,0,montanhão
+856,PASSAGEM DOM PEDRO DE ALCÂNTARA (VILA SÃO PEDRO),arterial,549,3249,0,montanhão
+857,PASSAGEM DOM PEDRO DE ALCÂNTARA (VILA SÃO PEDRO),arterial,1207,0,0,montanhão
+858,RUA DOS  VIANAS,arterial,1021,0,0,montanhão
+859,RUA TIRADENTES,arterial,647,0,0,montanhão
+860,ALAMEDA DOM PEDRO DE ALCÂNTARA,coletora,510,1310,0,montanhão
+861,AVENIDA PEDRO MENDES,coletora,2752,0,0,montanhão
+862,AVENIDA SÉRGIO TREVISAN,coletora,611,0,0,montanhão
+863,ESTRADA DO  MONTANHÃO,coletora,853,1294,0,montanhão
+864,RUA ALMEIDA LEME,coletora,336,0,0,montanhão
+865,RUA HELENA APARECIDA SECOL,coletora,154,0,0,montanhão
+866,AVENIDA JARDIM (VILA ESPERANÇA),local,415,0,0,montanhão
+867,AVENIDA LONDRES,local,281,0,0,montanhão
+868,AVENIDA NELSON MANDELA,local,664,0,0,montanhão
+869,AVENIDA NELSON MANDELA - PROLONGAMENTO,local,108,0,0,montanhão
+870,ESTRADA CARLOS AUGUSTO (VILA SABESP),local,345,0,0,montanhão
+871,ESTRADA DA  PEDRA BRANCA,local,571,0,0,montanhão
+872,ESTRADA DO  FELISBERTO,local,614,0,0,montanhão
+873,ESTRADA DO  VERGUEIRO,local,24,0,0,montanhão
+874,PASSAGEM APARECIDA (VILA AREIÃO),local,483,0,0,montanhão
+875,PASSAGEM DA  BIQUINHA (VILA DA BIQUINHA),local,187,0,0,montanhão
+876,PASSAGEM DO  CRUZEIRO (VILA AREIÃO),local,558,0,0,montanhão
+877,PASSAGEM DO  SOSSEGO,local,418,0,0,montanhão
+878,PASSAGEM DOS  CAFEZAIS,local,31,0,0,montanhão
+879,PASSAGEM MARIA CANDIDA DE JESUS,local,"81,24",0,0,montanhão
+880,PASSAGEM NOSSA SENHORA APARECIDA (NÚCLEO VILA AREIÃO),local,526,0,0,montanhão
+881,PASSAGEM SARACANTAN (NÚCLEO SARACANTAN),local,141,0,0,montanhão
+882,RUA 15 DE NOVEMBRO (VILA SÃO PEDRO),local,279,0,0,montanhão
+883,RUA 18 DE ABRIL,local,102,0,0,montanhão
+884,RUA 18 DE OUTUBRO (VILA SÃO PEDRO),local,192,0,0,montanhão
+885,RUA 1º DE AGOSTO,local,189,0,0,montanhão
+886,RUA 1º DE MAIO (VILA SÃO PEDRO),local,234,0,0,montanhão
+887,RUA 21 DE ABRIL (VILA SÃO PEDRO),local,145,0,0,montanhão
+888,RUA 25 DE JULHO,local,167,0,0,montanhão
+889,RUA 26 DE MAIO,local,116,0,0,montanhão
+890,RUA 27 DE AGOSTO (VILA SÃO PEDRO),local,224,0,0,montanhão
+891,RUA 28 DE ABRIL,local,219,0,0,montanhão
+892,RUA 28 DE AGOSTO,local,174,0,0,montanhão
+893,RUA 28 DE JULHO,local,123,0,0,montanhão
+894,RUA 29 DE ABRIL,local,96,0,0,montanhão
+895,RUA 29 DE JUNHO,local,212,0,0,montanhão
+896,RUA 29 DE JUNHO,local,212,0,0,montanhão
+897,RUA 5 DE OUTUBRO,local,210,0,0,montanhão
+898,RUA 7 DE SETEMBRO (VILA SÃO PEDRO),local,217,0,0,montanhão
+899,RUA 9 DE JULHO (VILA SÃO PEDRO),local,59,0,0,montanhão
+900,RUA 9 DE JULHO (VILA SÃO PEDRO),local,59,0,0,montanhão
+901,RUA AGENOR SÉRGIO DE OLIVEIRA,local,127,0,0,montanhão
+902,RUA ÁGUIA DOURADA,local,301,0,0,montanhão
+903,RUA ALAESTE GARGANTINI,local,128,0,0,montanhão
+904,RUA ALBERTO LUCHESI,local,61,0,0,montanhão
+905,RUA ALEXANDRE DUARTE DA SILVA,local,169,0,0,montanhão
+906,RUA ALPINOS,local,100,0,0,montanhão
+907,RUA ALTO DA BELA VISTA,local,141,0,0,montanhão
+908,RUA ALTO DA BELA VISTA,local,751,0,0,montanhão
+909,RUA AMAZONAS (VILA SÃO PEDRO),local,295,0,0,montanhão
+910,RUA AMÉLIO STORTI,local,128,0,0,montanhão
+911,RUA ANACLETO STUCHI,local,237,0,0,montanhão
+912,RUA ÂNGELO BRUNO SUSTER,local,420,0,0,montanhão
+913,RUA ANTONIO CARLOS MONTEIRO NOGUEIRA,local,127,0,0,montanhão
+914,RUA ANTÔNIO DE OLIVEIRA,local,47,0,0,montanhão
+915,RUA ANTÔNIO FREGONESI,local,161,0,0,montanhão
+916,RUA ANTONIO GERÔNIMO DE FREITAS,local,63,0,0,montanhão
+917,RUA ANTONIO GUSMÃO FONTES,local,120,0,0,montanhão
+918,RUA ANTONIO LAGO,local,138,0,0,montanhão
+919,RUA APOLÔNIO MONTEIRO DA MOTA,local,326,0,0,montanhão
+920,RUA ARLINDO APARECIDO DA SILVA,local,361,0,0,montanhão
+921,RUA AUGUSTO DOS ANJOS,local,"68,14",0,0,montanhão
+922,RUA AVILAN (VILA SÃO PEDRO),local,372,0,0,montanhão
+923,RUA BAHIA (VILA SÃO PEDRO),local,405,0,0,montanhão
+924,RUA BANDEIRANTES,local,146,0,0,montanhão
+925,RUA BARBOSA DOS SANTOS,local,120,0,0,montanhão
+926,RUA BEIRA RIO (VILA SÃO PEDRO),local,90,0,0,montanhão
+927,RUA BEIRA RIO (VILA SÃO PEDRO),local,377,0,0,montanhão
+928,RUA BOA VISTA (VILA SÃO PEDRO),local,138,0,0,montanhão
+929,RUA BUENO VILELA,local,237,0,0,montanhão
+930,RUA CALIFÓRNIA,local,234,0,0,montanhão
+931,RUA CARLOS DRUMMOND DE ANDRADE,local,181,0,0,montanhão
+932,RUA CATANDUVA (VILA SÃO PEDRO),local,55,0,0,montanhão
+933,RUA CEARÁ (VILA SÃO PEDRO),local,54,0,0,montanhão
+934,RUA CECILIA MEIRELLES,local,53,0,0,montanhão
+935,RUA CENTRAL,local,544,0,0,montanhão
+936,RUA CHICO MENDES (VILA SÃO PEDRO),local,29,0,0,montanhão
+937,RUA CHICO MENDES (VILA SÃO PEDRO),local,448,0,0,montanhão
+938,RUA CHICO XAVIER,local,79,0,0,montanhão
+939,RUA CONSTITUINTE,local,143,0,0,montanhão
+940,RUA CORA CORALINA,local,126,0,0,montanhão
+941,RUA DA  BICA,local,447,0,0,montanhão
+942,RUA DA  BONDADE,local,143,0,0,montanhão
+943,RUA DA  COMUNIDADE,local,561,0,0,montanhão
+944,RUA DA  FIDELIDADE,local,54,0,0,montanhão
+945,RUA DA  LUA,local,177,0,0,montanhão
+946,RUA DA  PADARIA,local,68,0,0,montanhão
+947,RUA DA  PAZ (JARDIM DOS QUÍMICOS),local,90,0,0,montanhão
+948,RUA DA  PROSPERIDADE,local,136,0,0,montanhão
+949,RUA DAS  CHÁCARAS (VILA SÃO PEDRO),local,198,0,0,montanhão
+950,RUA DAS  ESTRELAS,local,431,0,0,montanhão
+951,RUA DAS  GRAÇAS,local,137,0,0,montanhão
+952,RUA DAS  ROSAS (VILA SÃO PEDRO),local,244,0,0,montanhão
+953,RUA DIOGO ALVARES - O CARAMURU,local,63,0,0,montanhão
+954,RUA DIRETORA MARIA CLEUZA,local,203,0,0,montanhão
+955,RUA DO  OLEODUTO (VILA SÃO PEDRO),local,690,0,0,montanhão
+956,RUA DOS  AMIGOS,local,259,0,0,montanhão
+957,RUA DOS  EVANGÉLICOS (VILA SÃO PEDRO),local,55,0,0,montanhão
+958,RUA DOS  PÁSSAROS (JARDIM DOS QUÍMICOS),local,118,0,0,montanhão
+959,RUA DOS  PÁSSAROS (VILA SÃO PEDRO),local,297,0,0,montanhão
+960,RUA DOS  PÁSSAROS (VILA SÃO PEDRO),local,343,0,0,montanhão
+961,RUA DOS  PIONEIROS,local,226,0,0,montanhão
+962,RUA DOS  UNIDOS,local,159,0,0,montanhão
+963,RUA DOUTOR ROQUE,local,170,0,0,montanhão
+964,RUA DURVALINA ALEIXO DOS SANTOS,local,71,0,0,montanhão
+965,RUA EDSON QUEIROZ,local,373,0,0,montanhão
+966,RUA ELIETE JUSTO DE OLIVEIRA,local,175,0,0,montanhão
+967,RUA ELIS REGINA (JARDIM DOS QUÍMICOS),local,27,0,0,montanhão
+968,RUA ELÓI BORGES,local,175,0,0,montanhão
+969,RUA ERNESTO GASTALDO,local,215,0,0,montanhão
+970,RUA EUFRATES,local,37,0,0,montanhão
+971,RUA FELÍCIO CARNAVAL PICCOLI,local,254,0,0,montanhão
+972,RUA FERNÃO LOPES,local,59,0,0,montanhão
+973,RUA FLOR DE MAIO (VILA SÃO PEDRO),local,225,0,0,montanhão
+974,RUA FORTUNATA BERNARDELLO MENEGUETTI,local,401,0,0,montanhão
+975,RUA FRANCISCO ANDRELINO DOS SANTOS,local,124,0,0,montanhão
+976,RUA FRANCISCO CHAGAS,local,161,0,0,montanhão
+977,RUA FRANCISCO TONICELLI,local,117,0,0,montanhão
+978,RUA FREI DAMIÃO (VILA SÃO PEDRO),local,109,0,0,montanhão
+979,RUA GENIVAL FRANCISCO DA SILVA,local,308,0,0,montanhão
+980,RUA GERALDO BARION,local,145,0,0,montanhão
+981,RUA GILSON DOS SANTOS,local,53,0,0,montanhão
+982,RUA GOLDEN PARK,local,460,0,0,montanhão
+983,RUA GUIMARÃES ROSA (VILA SÃO PEDRO),local,156,0,0,montanhão
+984,RUA HOLLYWOOD,local,102,0,0,montanhão
+985,RUA ITAMARATI,local,298,0,0,montanhão
+986,RUA ITAQUERA,local,50,0,0,montanhão
+987,RUA IZÍDIO,local,49,0,0,montanhão
+988,RUA JANETE CLAIR (JARDIM DOS QUÍMICOS),local,33,0,0,montanhão
+989,RUA JAVANESES,local,88,0,0,montanhão
+990,RUA JEAN PIAGET,local,39,0,0,montanhão
+991,RUA JERÔNIMO DOS SANTOS,local,204,0,0,montanhão
+992,RUA JERÔNIMO DOS SANTOS,local,238,0,0,montanhão
+993,RUA JESSÉ,local,60,0,0,montanhão
+994,RUA JOANA D'ARC,local,593,0,0,montanhão
+995,RUA JOÃO APOLÔNIO GOMES,local,230,0,0,montanhão
+996,RUA JOÃO BAPTISTA MARSON,local,259,0,0,montanhão
+997,RUA JOÃO XXIII (VILA SÃO PEDRO),local,129,0,0,montanhão
+998,RUA JOAQUIM GOMES MIRANDA,local,206,0,0,montanhão
+999,RUA JOAQUIM MANUEL DE MACEDO,local,441,0,0,montanhão
+1000,RUA JORGE FERNANDES NETO,local,88,0,0,montanhão
+1001,RUA JOSÉ ALVES DA SILVA,local,95,0,0,montanhão
+1002,RUA JOSÉ CARRAPEIRO,local,88,0,0,montanhão
+1003,RUA JOSÉ LINS DO REGO,local,41,0,0,montanhão
+1004,RUA JOSEFA DA SILVA,local,98,0,0,montanhão
+1005,RUA JOSEPHINA LEONORA LOTTO BUENO,local,589,0,0,montanhão
+1006,RUA LARISSA LONGO,local,151,0,0,montanhão
+1007,RUA LAURA PAZIM CAMPI,local,108,0,0,montanhão
+1008,RUA LEILA DINIZ,local,48,0,0,montanhão
+1009,RUA LUCIANA MARIA DA SILVA,local,77,0,0,montanhão
+1010,RUA LUIZ CUSTÓDIO TIAGO,local,160,0,0,montanhão
+1011,RUA LUIZ MARANESI FILHO,local,127,0,0,montanhão
+1012,RUA MACHADO BARBOSA,local,101,0,0,montanhão
+1013,RUA MANOEL DE FREITAS GAMA NETO,local,223,0,0,montanhão
+1014,RUA MANOEL GUSMÃO FONTES,local,156,0,0,montanhão
+1015,RUA MANOEL MESSIAS DE SOUZA SILVA,local,109,0,0,montanhão
+1016,RUA MANUEL ANTÔNIO DE ALMEIDA,local,59,0,0,montanhão
+1017,RUA MARIA ERMINIA DE JESUS,local,219,0,0,montanhão
+1018,RUA MARIA GASTALDO CATELAN,local,153,0,0,montanhão
+1019,RUA MARIA NICOLINA BELLUCCE PIATTO,local,748,0,0,montanhão
+1020,RUA MARINGÁ (VILA SÃO PEDRO),local,215,0,0,montanhão
+1021,RUA MARIO DEPOLLI,local,111,0,0,montanhão
+1022,RUA MARTE (JARDIM DOS QUÍMICOS),local,96,0,0,montanhão
+1023,RUA MATHEUS CAPASSI,local,129,0,0,montanhão
+1024,RUA MONTE BELO,local,42,0,0,montanhão
+1025,RUA MONTE DAS OLIVEIRAS,local,37,0,0,montanhão
+1026,RUA MONTE DAS OLIVEIRAS,local,174,0,0,montanhão
+1027,RUA MONTE LÍBANO (VILA SÃO PEDRO),local,65,0,0,montanhão
+1028,RUA MONTE SINAI,local,22,0,0,montanhão
+1029,RUA MONTEIRO LOBATO,local,101,0,0,montanhão
+1030,RUA MT-1430,local,262,0,0,montanhão
+1031,RUA MT-1431,local,103,0,0,montanhão
+1032,RUA MT-1432 (CONHECIDA ANA JULIA LUIZ),local,226,0,0,montanhão
+1033,RUA MT-1433 - CONHECIDA JORGE RAMALHO,local,153,804,0,montanhão
+1034,RUA MT-1435,local,46,0,0,montanhão
+1035,RUA NASCER DO SOL,local,173,759,0,montanhão
+1036,RUA NELLO ALBIERO,local,127,0,0,montanhão
+1037,RUA NILSON DIAS,local,241,0,0,montanhão
+1038,RUA NOSSA SENHORA DA PAZ,local,48,0,0,montanhão
+1039,RUA NOVE DE SETEMBRO,local,51,247,0,montanhão
+1040,RUA ODILA FIGUEIREDO NICOLAU,local,253,0,0,montanhão
+1041,RUA OLÍMPIA RAMOS SILVA,local,214,281,0,montanhão
+1042,RUA OLIVEIRA BARBOSA DOS SANTOS,local,50,220,0,montanhão
+1043,RUA OSWALDO STUCHI,local,478,0,0,montanhão
+1044,RUA OTACÍLIO MARQUES DA PURIFICAÇÃO,local,300,141,0,montanhão
+1045,RUA OURO NEGRO,local,31,216,0,montanhão
+1046,RUA PADRE ÂNGELO CERONNI,local,323,0,0,montanhão
+1047,RUA PARAÍSO (VILA SÃO PEDRO),local,103,0,0,montanhão
+1048,RUA PARANÁ (VILA SÃO PEDRO),local,324,0,0,montanhão
+1049,RUA PASTOR FRANCISCO RODRIGUES FILHO,local,127,328,0,montanhão
+1050,RUA PAULO JOSÉ LINS ROCHA,local,105,0,0,montanhão
+1051,RUA PAULO LOURENÇO,local,124,0,0,montanhão
+1052,RUA PEDRO SECOL,local,557,130,0,montanhão
+1053,RUA PERUÍBE,local,252,514,0,montanhão
+1054,RUA PLÍNIO CALDAS KERR,local,151,0,0,montanhão
+1055,RUA PORTINHO,local,42,266,0,montanhão
+1056,RUA PRIMO BECHELLI,local,452,0,0,montanhão
+1057,RUA PRIMO HENRIQUE ZAMPIERI,local,78,0,0,montanhão
+1058,RUA PRINCESA ISABEL (VILA DOS ESTUDANTES),local,90,0,0,montanhão
+1059,RUA PRINCESA ISABEL (VILA SÃO PEDRO),local,183,0,0,montanhão
+1060,RUA PROF. JOSÉ CARNEIRO,local,85,0,0,montanhão
+1061,RUA PROFESSORA ADÉLIA ALVES MARTINS,local,779,0,0,montanhão
+1062,RUA RAIMUNDO LALIA,local,98,0,0,montanhão
+1063,RUA REALINO ADÃO,local,123,0,0,montanhão
+1064,RUA RENY SERAFIM BUENO,local,128,0,0,montanhão
+1065,RUA RESENDE,local,79,0,0,montanhão
+1066,RUA REVERENDO PAULO LEIVAS MACALÃO,local,546,0,0,montanhão
+1067,RUA RICARDO BRAVIN,local,72,0,0,montanhão
+1068,RUA RINA FACIO MIRANDA,local,145,0,0,montanhão
+1069,RUA SANDRA NESMAH COTRIM GENEROSO,local,127,0,0,montanhão
+1070,RUA SANTA CRUZ (VILA SÃO PEDRO),local,208,273,0,montanhão
+1071,RUA SANTO ANTONIO (VILA SÃO PEDRO),local,405,0,0,montanhão
+1072,RUA SÃO FRANCISCO (VILA SÃO PEDRO),local,243,0,0,montanhão
+1073,RUA SÃO GERALDO (VILA SÃO PEDRO),local,199,0,0,montanhão
+1074,RUA SÃO JOÃO DEL REI (VILA SÃO PEDRO),local,343,0,0,montanhão
+1075,RUA SÃO JOSÉ (VILA BOA VISTA),local,37,0,0,montanhão
+1076,RUA SÃO JOSÉ (VILA SÃO PEDRO),local,283,0,0,montanhão
+1077,RUA SÃO JUDAS TADEU,local,115,0,0,montanhão
+1078,RUA SÃO JUDAS TADEU,local,115,378,0,montanhão
+1079,RUA SÃO PEDRO (VILA SÃO PEDRO),local,143,0,0,montanhão
+1080,RUA SÃO RAIMUNDO (VILA MARIANA),local,157,0,0,montanhão
+1081,RUA SÃO ROQUE (VILA SÃO PEDRO),local,132,0,0,montanhão
+1082,RUA SÃO TOMÉ,local,92,0,0,montanhão
+1083,RUA SEBASTIÃO EVANGELISTA BARBOSA,local,126,766,0,montanhão
+1084,RUA TANCREDO NEVES (VILA SÃO PEDRO),local,191,0,0,montanhão
+1085,RUA TEREZA DELTA,local,41,0,0,montanhão
+1086,RUA TERTULIANO JUNIOR,local,377,0,0,montanhão
+1087,RUA TIGRE,local,20,277,0,montanhão
+1088,RUA TRIBUTINO NUNES,local,270,0,0,montanhão
+1089,RUA TRIBUTINO NUNES,local,270,0,0,montanhão
+1090,RUA UBIRAJARA (VILA SÃO PEDRO),local,296,229,0,montanhão
+1091,RUA UNIÃO (VILA SÃO PEDRO),local,182,0,0,montanhão
+1092,RUA URBANO CONTESINI,local,253,0,0,montanhão
+1093,RUA VASCO DA GAMA (VILA SÃO PEDRO),local,80,0,0,montanhão
+1094,RUA VICENTE PASCHOALETTI,local,27,0,0,montanhão
+1095,RUA VINÍCIUS DE MORAES,local,128,432,0,montanhão
+1096,RUA VISCONDE DE TAUNAY,local,46,0,0,montanhão
+1097,RUA VITÓRIA DA CONQUISTA,local,65,0,0,montanhão
+1098,TRAVESSA DOS  BRILHANTES,local,53,0,0,montanhão
+1099,TRAVESSA EDUARDO CAMPOS,local,52,0,0,montanhão
+1100,TRAVESSA JOÃO ANTONIO,local,54,275,0,montanhão
+1101,TRAVESSA MANOEL FLORA,local,50,0,0,montanhão
+1102,TRAVESSA MORONI,local,48,207,0,montanhão
+1103,TRAVESSA MOSIAS,local,54,0,0,montanhão
+1104,TRAVESSA NÉFI,local,54,0,0,montanhão
+1105,TRAVESSA RAIO DE SOL (JARDIM PEDREIRA),local,75,394,0,montanhão
+1106,TRAVESSA SÃO PAULO (VILA SÃO PEDRO),local,50,0,0,montanhão
+1107,VIELA NAZARÉ (VILA SÃO PEDRO),local,30,0,0,montanhão
+1108,AVENIDA 31 DE MARÇO,arterial,3160,0,0,paulicéia
+1109,AVENIDA CÉZAR MAGNANI,arterial,479,0,479,paulicéia
+1110,AVENIDA NOVA LIONS,arterial,1499,0,0,paulicéia
+1111,RUA M.M.D.C.,arterial,1367,407,960,paulicéia
+1112,RUA DRÁUSIO,coletora,1260,1260,0,paulicéia
+1113,RUA FRANCISCO ALVES,coletora,1815,1615,200,paulicéia
+1114,RUA LÍBERO BADARÓ,coletora,1309,1309,0,paulicéia
+1115,RUA FERNÃO DIAS PAES LEME,coletora,503,0,0,paulicéia
+1116,AVENIDA CORONEL FRANCISCO RODRIGUES SECKLER,local,118,0,118,paulicéia
+1117,AVENIDA GASTÃO CASTRO CAMORIM,local,18,0,0,paulicéia
+1118,PRAÇA BARTHOLOMEU FERRERO,local,104,0,0,paulicéia
+1119,PRAÇA EUGÊNIO FANTI QUAGLIARINI,local,197,0,0,paulicéia
+1120,RUA 17 DE MARÇO,local,759,0,759,paulicéia
+1121,RUA ACLIMAÇÃO,local,405,0,0,paulicéia
+1122,RUA ÁGUA BRANCA,local,141,0,141,paulicéia
+1123,RUA ALMERINA CEMOLINE REBULCI,local,309,0,309,paulicéia
+1124,RUA ALTA SOROCABANA,local,255,0,225,paulicéia
+1125,RUA ALTO NOROESTE,local,130,130,0,paulicéia
+1126,RUA ALTO PARANÁ,local,405,405,0,paulicéia
+1127,RUA ÁLVARO ALVIM,local,1740,1740,0,paulicéia
+1128,RUA ÂNGELO GOBATO,local,152,0,152,paulicéia
+1129,RUA ANTENOR CORADI,local,232,0,232,paulicéia
+1130,RUA ANTÔNIO CERON,local,110,0,110,paulicéia
+1131,RUA APUCARANA,local,80,0,0,paulicéia
+1132,RUA ARNALDO PSOTA,local,152,0,152,paulicéia
+1133,RUA BARRA FUNDA,local,148,0,148,paulicéia
+1134,RUA BELÉM,local,517,0,517,paulicéia
+1135,RUA BENEDO RAGGIANI,local,212,0,212,paulicéia
+1136,RUA BOM RETIRO,local,222,0,0,paulicéia
+1137,RUA BRAZ,local,210,0,0,paulicéia
+1138,RUA BUTANTÃ,local,200,0,200,paulicéia
+1139,RUA CACIQUE TIBIRIÇÁ,local,414,0,0,paulicéia
+1140,RUA CAMARGO,local,979,0,979,paulicéia
+1141,RUA CANINDÉ,local,147,0,147,paulicéia
+1142,RUA CAROLINA CARLETTO NEGRI,local,67,0,0,paulicéia
+1143,RUA CASA VERDE,local,197,0,197,paulicéia
+1144,RUA CÁSPER LÍBERO,local,1607,1607,0,paulicéia
+1145,RUA CLEMENTINO,local,72,0,72,paulicéia
+1146,RUA CONSOLAÇÃO,local,100,0,100,paulicéia
+1147,RUA CRISTÓVÃO JAQUES,local,87,0,87,paulicéia
+1148,RUA DA  MOÓCA,local,209,0,209,paulicéia
+1149,RUA DA  PENHA,local,210,210,0,paulicéia
+1150,RUA DELFIM MOREIRA,local,102,0,102,paulicéia
+1151,RUA ELIAS ABRAHÃO D. N. DIBBI,local,103,0,103,paulicéia
+1152,RUA ERMANO GUAZZELLI,local,200,0,200,paulicéia
+1153,RUA GENERAL BERTOLDO KLINGER,local,1410,1410,0,paulicéia
+1154,RUA GENERAL IZIDORO DIAS LOPES,local,1384,1384,0,paulicéia
+1155,RUA GIACOMO GOBATO,local,164,0,164,paulicéia
+1156,RUA GINO AMADEI,local,559,0,559,paulicéia
+1157,RUA HEITOR VILLA LOBOS,local,435,0,0,paulicéia
+1158,RUA IBIRAPUERA,local,123,0,123,paulicéia
+1159,RUA JABAQUARA,local,210,0,210,paulicéia
+1160,RUA JACÓ DO BANDOLIM,local,204,0,204,paulicéia
+1161,RUA JOÃO BIANCALANA,local,544,0,544,paulicéia
+1162,RUA JOÃO DARÉ,local,50,0,0,paulicéia
+1163,RUA JOÃO DEPOLLI,local,210,0,0,paulicéia
+1164,RUA JOAQUIM JOSÉ DE FRANÇA,local,76,0,76,paulicéia
+1165,RUA JOSÉ DANTE,local,87,0,87,paulicéia
+1166,RUA JÚLIO DE MESQUITA,local,1479,1479,0,paulicéia
+1167,RUA JÚLIO DE MESQUITA FILHO,local,99,0,99,paulicéia
+1168,RUA LAPA,local,841,0,81,paulicéia
+1169,RUA LONDRINA,local,189,189,0,paulicéia
+1170,RUA MANOEL SIMÕES DE SOUZA,local,125,0,125,paulicéia
+1171,RUA MARINGÁ,local,97,97,0,paulicéia
+1172,RUA MARTINS,local,1289,0,1289,paulicéia
+1173,RUA MICHELÂNGELO,local,36,0,36,paulicéia
+1174,RUA MIGUEL GUILLEN,local,31,0,31,paulicéia
+1175,RUA MIRAGAIA,local,1315,980,335,paulicéia
+1176,RUA MORUMBI,local,317,0,317,paulicéia
+1177,RUA NAPOLEÃO DE ALENCASTRO GUIMARÃES,local,217,0,217,paulicéia
+1178,RUA NEWTON,local,212,0,212,paulicéia
+1179,RUA NOSSA SENHORA DA APARECIDA,local,208,0,208,paulicéia
+1180,RUA NOVA LONDRINA,local,201,0,0,paulicéia
+1181,RUA PACAEMBÚ,local,538,338,200,paulicéia
+1182,RUA PARANAVAÍ,local,114,114,0,paulicéia
+1183,RUA PARI,local,216,0,216,paulicéia
+1184,RUA PASCHOAL,local,211,0,211,paulicéia
+1185,RUA PAULO VIRGÍNIO,local,158,0,158,paulicéia
+1186,RUA PEDRO CHAVES,local,40,0,0,paulicéia
+1187,RUA PEDRO DE TOLEDO,local,608,0,608,paulicéia
+1188,RUA PERDIZES,local,419,0,0,paulicéia
+1189,RUA PIETRO ROMANI,local,211,0,211,paulicéia
+1190,RUA PINHEIROS,local,104,0,104,paulicéia
+1191,RUA REGENTE BRÁULIO MUNIZ,local,76,0,0,paulicéia
+1192,RUA ROSA CAPASSI,local,52,0,52,paulicéia
+1193,RUA SANTA CRUZ,local,224,0,224,paulicéia
+1194,RUA SANTANA,local,418,0,418,paulicéia
+1195,RUA SÃO JOSÉ,local,204,0,204,paulicéia
+1196,RUA SENADOR FAUSTO CABRAL,local,101,0,101,paulicéia
+1197,RUA SENJI SUGUINO,local,106,0,106,paulicéia
+1198,RUA STEFAN DEMBOSKI,local,149,0,149,paulicéia
+1199,RUA TATUAPÉ,local,204,0,204,paulicéia
+1200,RUA TENENTE PEREIRA SOBRINHO,local,75,0,75,paulicéia
+1201,RUA TUCURUVI,local,316,0,316,paulicéia
+1202,RUA VERÃO,local,638,0,638,paulicéia
+1203,RUA XAVIER DE TOLEDO,local,882,0,882,paulicéia
+1204,TRAVESSA SÃO JOSÉ,local,57,0,57,paulicéia
+1205,AVENIDA IVAÍ,arterial,223,61,0,rio-grande
+1206,RUA DO  PORTO,arterial,193,60,0,rio-grande
+1207,RUA HEINRICH NORDHOFF,arterial,226,226,0,rio-grande
+1208,RUA MARCÍLIO CONRADO (TRECHO),arterial,801,540,261,rio-grande
+1209,RUA RIO ACIMA,arterial,865,100,400,rio-grande
+1210,AVENIDA ARAGUAIA,coletora,300,0,300,rio-grande
+1211,AVENIDA AMAZONAS (RIACHO GRANDE),local,517,0,517,rio-grande
+1212,AVENIDA DA  PRAIA,local,301,0,301,rio-grande
+1213,AVENIDA RIO XINGU,local,535,0,535,rio-grande
+1214,AVENIDA TOCANTINS,local,388,0,388,rio-grande
+1215,ESTRADA DO  RIO ACIMA,local,459,0,459,rio-grande
+1216,ESTRADA SIMÃO PORTELA (TRECHO),local,718,600,118,rio-grande
+1217,PRAÇA INFANTE,local,36,0,36,rio-grande
+1218,PRAÇA MELVIN JONES,local,154,0,154,rio-grande
+1219,PRAÇA OLAVO FONTOURA,local,34,0,34,rio-grande
+1220,RUA 14 DE ABRIL (VILA PELE),local,295,0,295,rio-grande
+1221,RUA AÇORES,local,135,0,135,rio-grande
+1222,RUA ADÔNIS,local,144,0,144,rio-grande
+1223,RUA ALBERTINO PINOTTI,local,118,0,118,rio-grande
+1224,RUA ALJUBARROTA,local,913,0,913,rio-grande
+1225,RUA AMANARI,local,110,0,110,rio-grande
+1226,RUA ANA RUSSO VESTRI,local,203,0,203,rio-grande
+1227,RUA ANÁPOLIS,local,297,0,297,rio-grande
+1228,RUA ÂNGELA GIANOTTO,local,742,0,742,rio-grande
+1229,RUA ANTONIO CAPUTO,local,447,0,447,rio-grande
+1230,RUA AUGUSTO PAULINO,local,208,0,208,rio-grande
+1231,RUA BECHELLI,local,229,0,229,rio-grande
+1232,RUA BELO MONTE,local,135,0,135,rio-grande
+1233,RUA BUSACO,local,351,0,351,rio-grande
+1234,RUA CILEI JOSÉ TIAGO,local,105,0,105,rio-grande
+1235,RUA CINTRA,local,349,0,349,rio-grande
+1236,RUA DA  CONQUISTA (VILA PELÉ),local,170,0,170,rio-grande
+1237,RUA DA  QUADRA,local,38,0,38,rio-grande
+1238,RUA DAPHNIS,local,277,0,277,rio-grande
+1239,RUA DONA LUIZA,local,153,0,153,rio-grande
+1240,RUA JACIPORÃ (PARQUE RIO GRANDE),local,471,0,471,rio-grande
+1241,RUA JOÃO D'ANGELO,local,144,0,144,rio-grande
+1242,RUA JOSÉ,local,131,0,131,rio-grande
+1243,RUA JOSÉ GEA,local,337,337,0,rio-grande
+1244,RUA JOSÉ GREGÓRIO DE MEDEIROS,local,144,0,144,rio-grande
+1245,RUA JOSEFA CAPUTO DE LAURO,local,225,0,225,rio-grande
+1246,RUA JOSEFINA NANI GEA,local,292,0,292,rio-grande
+1247,RUA JURITI,local,259,0,259,rio-grande
+1248,RUA LAMBARI,local,191,0,191,rio-grande
+1249,RUA MAFRA,local,445,0,445,rio-grande
+1250,RUA MARIA CAPUTO PAGANO,local,317,0,317,rio-grande
+1251,RUA NOSSA SENHORA DO CARMO,local,147,0,147,rio-grande
+1252,RUA NOVA (VILA PELÉ),local,141,0,141,rio-grande
+1253,RUA PIRAQUARAS,local,389,0,389,rio-grande
+1254,RUA PORTUGAL,local,1092,0,1092,rio-grande
+1255,RUA RIO GRANDE (PARQUE RIO GRANDE),local,630,0,630,rio-grande
+1256,RUA ROLANDO MARQUES,local,97,0,97,rio-grande
+1257,RUA ROWENA,local,96,0,96,rio-grande
+1258,RUA SAGRES,local,229,0,229,rio-grande
+1259,RUA SANTA MARIA,local,96,0,96,rio-grande
+1260,RUA SEBASTIÃO DOMINGOS DA SILVA,local,135,318,135,rio-grande
+1261,RUA SEXTO GUAZELLI,local,193,0,193,rio-grande
+1262,RUA SOFIA D'ANGELO CAPUTO (TRECHO),local,423,0,200,rio-grande
+1263,RUA TÂMIRIS,local,318,0,318,rio-grande
+1264,RUA VICENTINA CAPUTO PELOSINI,local,154,0,154,rio-grande
+1265,RUA VISTA ALEGRE,local,230,0,230,rio-grande
+1266,AVENIDA 31 DE MARÇO,arterial,1461,0,0,taboao
+1267,AVENIDA ÁGUA FUNDA,arterial,913,0,913,taboao
+1268,AVENIDA DO  TABOÃO,arterial,6452,0,0,taboao
+1269,RUA JAPÃO,arterial,508,0,508,taboao
+1270,AVENIDA 31 DE MARÇO,arterial,1461,0,0,taboao
+1271,RUA DR. VITAL BRASIL,arterial,1480,141,0,taboao
+1272,AVENIDA PRESIDENTE JOÃO GOULART,arterial,390,0,390,taboao
+1273,RUA EUGÊNIA S. VITALE,coletora,1501,141,1360,taboao
+1274,AVENIDA HELVÉTIA,coletora,932,0,"675,88",taboao
+1275,RUA LUISIANA,coletora,1233,0,1233,taboao
+1276,RUA LUIZ FERIANI,coletora,343,343,0,taboao
+1277,AVENIDA GIOVANNI BATTISTIN - EX-COMBATENTE DA F.E.B.,local,205,0,205,taboao
+1278,AVENIDA OCTÁVIO CORLETTO - EX-COMBATENTE DA F.E.B.,local,414,0,414,taboao
+1279,AVENIDA OLINTO DEMARCHI - EX-COMBATENTE DA F.E.B.,local,311,0,311,taboao
+1280,AVENIDA ORLANDO ANGELO GASTALDO - EX-COMBATENTE DA F.E.B.,local,225,0,225,taboao
+1281,RUA AFONSO CELSO FIGUEIREDO,local,331,331,0,taboao
+1282,RUA ALBINO DOS SANTOS QUELHAS,local,241,241,0,taboao
+1283,RUA ALEMANHA,local,489,0,489,taboao
+1284,RUA ALFREDO BERNARDO LEITE,local,1300,1300,0,taboao
+1285,RUA ALFREDO DUMONT VILLARES,local,115,0,0,taboao
+1286,RUA ALMIRANTE TAMANDARÉ,local,402,0,402,taboao
+1287,RUA AMARO JOSÉ DOS SANTOS,local,107,107,0,taboao
+1288,RUA AMÉRICO MOLARI,local,64,64,0,taboao
+1289,RUA ANA MARIA,local,205,0,0,taboao
+1290,RUA ANGELINA GAETA,local,115,0,115,taboao
+1291,RUA ANGELINA SCILIANO FERIANI,local,193,0,193,taboao
+1292,RUA ANTÔNIO ÂNGELO CUZZIOL,local,84,0,0,taboao
+1293,RUA ARMANDO PINELLI,local,112,0,112,taboao
+1294,RUA ÁUSTRIA,local,488,0,488,taboao
+1295,RUA BERNA,local,126,0,0,taboao
+1296,RUA BIRMANIA,local,190,190,0,taboao
+1297,RUA BOA SORTE,local,169,0,0,taboao
+1298,RUA BRITO DE ALMEIDA,local,197,0,197,taboao
+1299,RUA BULGÁRIA,local,280,0,280,taboao
+1300,RUA CARLOS MAGALHÃES DE AZEREDO,local,48,0,0,taboao
+1301,RUA CHILE,local,885,885,0,taboao
+1302,RUA CHINA,local,476,476,0,taboao
+1303,RUA CIDADE DE JANDIRA,local,110,110,0,taboao
+1304,RUA COMANDANTE TAYLOR,local,100,100,0,taboao
+1305,RUA COSME DE FARIAS,local,93,93,0,taboao
+1306,RUA DINAMARCA,local,330,0,330,taboao
+1307,RUA DINAMARCA,local,350,350,0,taboao
+1308,RUA DOS  ALPES,local,471,471,0,taboao
+1309,RUA DOUTOR MÁRIO SANTALÚCIA,local,405,0,405,taboao
+1310,RUA DR. FRANCISCO SILVA PRADO,local,503,0,503,taboao
+1311,RUA ESPANHA,local,592,0,0,taboao
+1312,RUA ESTADOS UNIDOS,local,639,639,0,taboao
+1313,RUA ETIÓPIA,local,163,163,0,taboao
+1314,RUA ETTORE TOLDO,local,119,119,0,taboao
+1315,RUA EUROPA,local,579,579,0,taboao
+1316,RUA FÁBIO DA SILVA PRADO,local,585,0,585,taboao
+1317,RUA FERDINANDO DUCCA,local,139,0,139,taboao
+1318,RUA FILIPINAS,local,113,0,0,taboao
+1319,RUA FLÁVIO TAMBELLINI,local,200,0,200,taboao
+1320,RUA FORTUNA,local,157,0,157,taboao
+1321,RUA FRANÇA,local,393,0,393,taboao
+1322,RUA GENEBRA,local,502,0,0,taboao
+1323,RUA GENERAL OLÍMPIO MOURÃO FILHO,local,434,0,434,taboao
+1324,RUA GRÃ-BRETANHA,local,639,100,539,taboao
+1325,RUA GUILHERME TELL,local,540,0,0,taboao
+1326,RUA GUSTAVO TEIXEIRA,local,397,0,397,taboao
+1327,RUA HAITI,local,191,0,191,taboao
+1328,RUA HORÁCIO DE CARVALHO,local,563,85,478,taboao
+1329,RUA HUNGRIA,local,443,58,385,taboao
+1330,RUA ÍNDIA,local,146,0,146,taboao
+1331,RUA IRAN,local,61,0,0,taboao
+1332,RUA IRAQUE,local,45,0,0,taboao
+1333,RUA IRLANDA,local,70,0,0,taboao
+1334,RUA ISAO SATO,local,100,100,0,taboao
+1335,RUA ISLÂNDIA,local,109,0,0,taboao
+1336,RUA ISRAEL,local,199,0,0,taboao
+1337,RUA ITÁLIA,local,396,0,396,taboao
+1338,RUA JOÃO BAPTISTA DE ALMEIDA,local,367,367,0,taboao
+1339,RUA JOAQUIM FERREIRA DA SILVA,local,129,129,0,taboao
+1340,RUA JORGE CÂNDIDO MARIN,local,70,0,0,taboao
+1341,RUA JOSÉ BALBINO SILVA,local,112,0,0,taboao
+1342,RUA JOSÉ MEDEIROS E ALBUQUERQUE,local,521,521,0,taboao
+1343,RUA JOSÉ MOUTINHO - JAÚ,local,258,0,0,taboao
+1344,RUA JUDITH,local,177,0,0,taboao
+1345,RUA LAUSANNE,local,352,0,0,taboao
+1346,RUA LEONARDO MARCONDES GONZAGA,local,121,0,0,taboao
+1347,RUA LÍBANO,local,76,0,0,taboao
+1348,RUA LUIS GUIMARÃES JR.,local,98,0,0,taboao
+1349,RUA LUIZ VIEIRA DE SOUZA,local,"147,1",0,0,taboao
+1350,RUA LUZERN,local,464,0,0,taboao
+1351,RUA MARROCOS,local,59,0,59,taboao
+1352,RUA NEREU RAMOS,local,34,0,34,taboao
+1353,RUA NEUCHATEL,local,584,0,0,taboao
+1354,RUA NIGÉRIA,local,118,0,118,taboao
+1355,RUA OCTACÍLIO CELESTINO GALLO,local,553,553,0,taboao
+1356,RUA OLINTO SILVESTRI,local,89,0,89,taboao
+1357,RUA OTTORINO MIAN,local,56,0,56,taboao
+1358,RUA OVAIR LUIZ,local,55,0,55,taboao
+1359,RUA PAQUISTÃO,local,112,0,112,taboao
+1360,RUA PARANÁ,local,355,0,355,taboao
+1361,RUA PATAGÔNIA,local,225,0,225,taboao
+1362,RUA PAULO FANANI,local,120,0,120,taboao
+1363,RUA PAULO FANANI,local,100,100,0,taboao
+1364,RUA PEDRO IVO,local,260,0,0,taboao
+1365,RUA PRESIDENTE PRUDENTE,local,287,287,0,taboao
+1366,RUA PRESIDENTE WENCESLAU,local,171,171,0,taboao
+1367,RUA RANIERI MAZZILLI,local,453,0,0,taboao
+1368,RUA REPÚBLICA,local,213,213,0,taboao
+1369,RUA RÚSSIA,local,866,0,866,taboao
+1370,RUA SANTA CATARINA,local,282,282,0,taboao
+1371,RUA SANTOS,local,376,0,376,taboao
+1372,RUA SÃO PAULO,local,372,372,0,taboao
+1373,RUA SENADOR MANOEL VITORINO PEREIRA,local,56,0,56,taboao
+1374,RUA SÍRIA,local,133,0,0,taboao
+1375,RUA SUIÇA,local,313,0,313,taboao
+1376,RUA TASUKE UEMATSU,local,256,256,0,taboao
+1377,RUA TRINDADE,local,99,0,0,taboao
+1378,RUA TURQUIA,local,430,0,430,taboao
+1379,RUA VENEZUELA,local,535,535,0,taboao
+1380,RUA VICENZO CAPASSI,local,115,0,115,taboao
+1381,RUA VISCONDE DE CABO FRIO,local,198,70,128,taboao
+1382,RUA ZURICH,local,479,0,0,taboao
