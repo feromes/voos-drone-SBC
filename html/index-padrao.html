@@ -96,8 +96,7 @@
                         <td>' + (feature.properties['YouTube-Link'] !== null ? autolinker.link(feature.properties['YouTube-Link'].toLocaleString()) : '') + '</td>\
                     </tr>\
                     <tr>\
-                        <th scope="row">URL-YouTube</th>\
-                        <td>' + (feature.properties['URL-YouTube'] !== null ? autolinker.link(feature.properties['URL-YouTube'].toLocaleString()) : '') + '</td>\
+                        <td colspan="2"><strong>URL-YouTube</strong><br />' + (feature.properties['URL-YouTube'] !== null ? autolinker.link(feature.properties['URL-YouTube'].toLocaleString()) : '') + '</td>\
                     </tr>\
                 </table>';
             layer.bindPopup(popupContent, {maxHeight: 400});
