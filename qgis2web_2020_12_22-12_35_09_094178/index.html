@@ -629,10 +629,16 @@
                         <td>' + (feature.properties['logradouro'] !== null ? autolinker.link(feature.properties['logradouro'].toLocaleString()) : '') + '</td>\
                     </tr>\
                     <tr>\
-                        <td colspan="2">' + (feature.properties['Video_0_path'] !== null ? '<a href="../' + feature.properties['Video_0_path'].toLocaleString() + '"target="_blank">Abrir o video - ' + feature.properties['Video_0_path'].toLocaleString() + '</a>' : '') + '</td>\
+                        <td colspan="2">' + (feature.properties['Video_0'] !== null ? autolinker.link(feature.properties['Video_0'].toLocaleString()) : '') + '</td>\
                     </tr>\
                     <tr>\
-                        <td colspan="2">' + (feature.properties['Video_1_path'] !== null ? '<a href="../' + feature.properties['Video_1_path'].toLocaleString() + '"target="_blank">Abrir o video - ' + feature.properties['Video_1_path'].toLocaleString() + '</a>' : '') + '</td>\
+                        <td colspan="2">' + (feature.properties['Video_1'] !== null ? autolinker.link(feature.properties['Video_1'].toLocaleString()) : '') + '</td>\
+                    </tr>\
+                    <tr>\
+                        <td colspan="2">' + (feature.properties['Video_0_path'] !== null ? autolinker.link(feature.properties['Video_0_path'].toLocaleString()) : '') + '</td>\
+                    </tr>\
+                    <tr>\
+                        <td colspan="2">' + (feature.properties['Video_1_path'] !== null ? autolinker.link(feature.properties['Video_1_path'].toLocaleString()) : '') + '</td>\
                     </tr>\
                 </table>';
             layer.bindPopup(popupContent, {maxHeight: 400});
@@ -683,16 +689,28 @@
                         <td>' + (feature.properties['logradouro'] !== null ? autolinker.link(feature.properties['logradouro'].toLocaleString()) : '') + '</td>\
                     </tr>\
                     <tr>\
-                        <td colspan="2">' + (feature.properties['Video_0_path'] !== null ? '<a href="../' + feature.properties['Video_0_path'].toLocaleString() + '"target="_blank">Abrir o video - ' + feature.properties['Video_0_path'].toLocaleString() + '</a>' : '') + '</td>\
+                        <td colspan="2">' + (feature.properties['Video_0'] !== null ? autolinker.link(feature.properties['Video_0'].toLocaleString()) : '') + '</td>\
                     </tr>\
                     <tr>\
-                        <td colspan="2">' + (feature.properties['Video_1_path'] !== null ? '<a href="../' + feature.properties['Video_1_path'].toLocaleString() + '"target="_blank">Abrir o video - ' + feature.properties['Video_1_path'].toLocaleString() + '</a>' : '') + '</td>\
+                        <td colspan="2">' + (feature.properties['Video_1'] !== null ? autolinker.link(feature.properties['Video_1'].toLocaleString()) : '') + '</td>\
                     </tr>\
                     <tr>\
-                        <td colspan="2">' + (feature.properties['Video_2_path'] !== null ? '<a href="../' + feature.properties['Video_2_path'].toLocaleString() + '"target="_blank">Abrir o video - ' + feature.properties['Video_2_path'].toLocaleString() + '</a>' : '') + '</td>\
+                        <td colspan="2">' + (feature.properties['Video_2'] !== null ? autolinker.link(feature.properties['Video_2'].toLocaleString()) : '') + '</td>\
                     </tr>\
                     <tr>\
-                        <td colspan="2">' + (feature.properties['Video_3_path'] !== null ? '<a href="../' + feature.properties['Video_3_path'].toLocaleString() + '"target="_blank">Abrir o video - ' + feature.properties['Video_3_path'].toLocaleString() + '</a>' : '') + '</td>\
+                        <td colspan="2">' + (feature.properties['Video_3'] !== null ? autolinker.link(feature.properties['Video_3'].toLocaleString()) : '') + '</td>\
+                    </tr>\
+                    <tr>\
+                        <td colspan="2">' + (feature.properties['Video_0_path'] !== null ? autolinker.link(feature.properties['Video_0_path'].toLocaleString()) : '') + '</td>\
+                    </tr>\
+                    <tr>\
+                        <td colspan="2">' + (feature.properties['Video_1_path'] !== null ? autolinker.link(feature.properties['Video_1_path'].toLocaleString()) : '') + '</td>\
+                    </tr>\
+                    <tr>\
+                        <td colspan="2">' + (feature.properties['Video_2_path'] !== null ? autolinker.link(feature.properties['Video_2_path'].toLocaleString()) : '') + '</td>\
+                    </tr>\
+                    <tr>\
+                        <td colspan="2">' + (feature.properties['Video_3_path'] !== null ? autolinker.link(feature.properties['Video_3_path'].toLocaleString()) : '') + '</td>\
                     </tr>\
                 </table>';
             layer.bindPopup(popupContent, {maxHeight: 400});
@@ -780,10 +798,10 @@
                         <td>' + (feature.properties['EQUIP'] !== null ? autolinker.link(feature.properties['EQUIP'].toLocaleString()) : '') + '</td>\
                     </tr>\
                     <tr>\
-                        <td colspan="2">' + (feature.properties['video_0'] !== null ? '<a href="../' + feature.properties['video_0'].toLocaleString() + '"target="_blank">Abrir o video - ' + feature.properties['video_0'].toLocaleString() + '</a>' : '') + '</td>\
+                        <td colspan="2">' + (feature.properties['video_0'] !== null ? autolinker.link(feature.properties['video_0'].toLocaleString()) : '') + '</td>\
                     </tr>\
                     <tr>\
-                        <td colspan="2">' + (feature.properties['video_1'] !== null ? '<a href="../' + feature.properties['video_1'].toLocaleString() + '"target="_blank">Abrir o video - ' + feature.properties['video_1'].toLocaleString() + '</a>' : '') + '</td>\
+                        <td colspan="2">' + (feature.properties['video_1'] !== null ? autolinker.link(feature.properties['video_1'].toLocaleString()) : '') + '</td>\
                     </tr>\
                 </table>';
             layer.bindPopup(popupContent, {maxHeight: 400});
