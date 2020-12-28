@@ -35,8 +35,8 @@
         <script src="js/leaflet-control-geocoder.Geocoder.js"></script>
         <script src="js/leaflet-measure.js"></script>
         <script src="data/BairrosAlvarengas_1.js"></script>
-        <script src="data/BairrosProjeto_2.js"></script>
-        <script src="data/MunicipiodeSaoBernardodoCampo_3.js"></script>
+        <script src="data/MunicipiodeSaoBernardodoCampo_2.js"></script>
+        <script src="data/BairrosProjeto_3.js"></script>
         <script src="data/BAIRRODOSFINCOSEIXO_4.js"></script>
         <script src="data/BALNEARIAEIXO_5.js"></script>
         <script src="data/BATISTINIEIXO_6.js"></script>
@@ -49,7 +49,8 @@
         <script src="data/TABOAOEIXO_13.js"></script>
         <script src="data/LogradourosConflitodeProgramas_14.js"></script>
         <script src="data/LogradourosPROSAB_15.js"></script>
-        <script src="data/EquipamentosUrbanos_16.js"></script>
+        <script src="data/EquipamentosUrbanosPROJETO_16.js"></script>
+        <script src="data/EquipamentosUrbanos_17.js"></script>
         <script>
         var map = L.map('map', {
             zoomControl:true, maxZoom:28, minZoom:10
@@ -104,7 +105,7 @@
             return {
                 pane: 'pane_BairrosAlvarengas_1',
                 opacity: 1,
-                color: 'rgba(0,0,0,1.0)',
+                color: 'rgba(0,0,0,0.0)',
                 dashArray: '',
                 lineCap: 'butt',
                 lineJoin: 'miter',
@@ -129,48 +130,7 @@
         });
         bounds_group.addLayer(layer_BairrosAlvarengas_1);
         map.addLayer(layer_BairrosAlvarengas_1);
-        function pop_BairrosProjeto_2(feature, layer) {
-            var popupContent = '<table>\
-                    <tr>\
-                        <td colspan="2">' + (feature.properties['NOME'] !== null ? autolinker.link(feature.properties['NOME'].toLocaleString()) : '') + '</td>\
-                    </tr>\
-                    <tr>\
-                        <td colspan="2">' + (feature.properties['ZONA'] !== null ? autolinker.link(feature.properties['ZONA'].toLocaleString()) : '') + '</td>\
-                    </tr>\
-                </table>';
-            layer.bindPopup(popupContent, {maxHeight: 400});
-        }
-
-        function style_BairrosProjeto_2_0() {
-            return {
-                pane: 'pane_BairrosProjeto_2',
-                opacity: 1,
-                color: 'rgba(82,82,82,1.0)',
-                dashArray: '',
-                lineCap: 'butt',
-                lineJoin: 'miter',
-                weight: 3.0, 
-                fill: true,
-                fillOpacity: 1,
-                fillColor: 'rgba(204,204,204,0.0)',
-                interactive: false,
-            }
-        }
-        map.createPane('pane_BairrosProjeto_2');
-        map.getPane('pane_BairrosProjeto_2').style.zIndex = 402;
-        map.getPane('pane_BairrosProjeto_2').style['mix-blend-mode'] = 'normal';
-        var layer_BairrosProjeto_2 = new L.geoJson(json_BairrosProjeto_2, {
-            attribution: '',
-            interactive: false,
-            dataVar: 'json_BairrosProjeto_2',
-            layerName: 'layer_BairrosProjeto_2',
-            pane: 'pane_BairrosProjeto_2',
-            onEachFeature: pop_BairrosProjeto_2,
-            style: style_BairrosProjeto_2_0,
-        });
-        bounds_group.addLayer(layer_BairrosProjeto_2);
-        map.addLayer(layer_BairrosProjeto_2);
-        function pop_MunicipiodeSaoBernardodoCampo_3(feature, layer) {
+        function pop_MunicipiodeSaoBernardodoCampo_2(feature, layer) {
             var popupContent = '<table>\
                     <tr>\
                         <td colspan="2">' + (feature.properties['CD_MUN'] !== null ? autolinker.link(feature.properties['CD_MUN'].toLocaleString()) : '') + '</td>\
@@ -188,12 +148,12 @@
             layer.bindPopup(popupContent, {maxHeight: 400});
         }
 
-        function style_MunicipiodeSaoBernardodoCampo_3_0() {
+        function style_MunicipiodeSaoBernardodoCampo_2_0() {
             return {
-                pane: 'pane_MunicipiodeSaoBernardodoCampo_3',
+                pane: 'pane_MunicipiodeSaoBernardodoCampo_2',
                 opacity: 1,
                 color: 'rgba(0,0,0,1.0)',
-                dashArray: '10,5,1,5',
+                dashArray: '',
                 lineCap: 'butt',
                 lineJoin: 'miter',
                 weight: 3.0, 
@@ -203,20 +163,248 @@
                 interactive: false,
             }
         }
-        map.createPane('pane_MunicipiodeSaoBernardodoCampo_3');
-        map.getPane('pane_MunicipiodeSaoBernardodoCampo_3').style.zIndex = 403;
-        map.getPane('pane_MunicipiodeSaoBernardodoCampo_3').style['mix-blend-mode'] = 'normal';
-        var layer_MunicipiodeSaoBernardodoCampo_3 = new L.geoJson(json_MunicipiodeSaoBernardodoCampo_3, {
+        map.createPane('pane_MunicipiodeSaoBernardodoCampo_2');
+        map.getPane('pane_MunicipiodeSaoBernardodoCampo_2').style.zIndex = 402;
+        map.getPane('pane_MunicipiodeSaoBernardodoCampo_2').style['mix-blend-mode'] = 'normal';
+        var layer_MunicipiodeSaoBernardodoCampo_2 = new L.geoJson(json_MunicipiodeSaoBernardodoCampo_2, {
             attribution: '',
             interactive: false,
-            dataVar: 'json_MunicipiodeSaoBernardodoCampo_3',
-            layerName: 'layer_MunicipiodeSaoBernardodoCampo_3',
-            pane: 'pane_MunicipiodeSaoBernardodoCampo_3',
-            onEachFeature: pop_MunicipiodeSaoBernardodoCampo_3,
-            style: style_MunicipiodeSaoBernardodoCampo_3_0,
+            dataVar: 'json_MunicipiodeSaoBernardodoCampo_2',
+            layerName: 'layer_MunicipiodeSaoBernardodoCampo_2',
+            pane: 'pane_MunicipiodeSaoBernardodoCampo_2',
+            onEachFeature: pop_MunicipiodeSaoBernardodoCampo_2,
+            style: style_MunicipiodeSaoBernardodoCampo_2_0,
         });
-        bounds_group.addLayer(layer_MunicipiodeSaoBernardodoCampo_3);
-        map.addLayer(layer_MunicipiodeSaoBernardodoCampo_3);
+        bounds_group.addLayer(layer_MunicipiodeSaoBernardodoCampo_2);
+        map.addLayer(layer_MunicipiodeSaoBernardodoCampo_2);
+        function pop_BairrosProjeto_3(feature, layer) {
+            var popupContent = '<table>\
+                    <tr>\
+                        <td colspan="2">' + (feature.properties['NOME'] !== null ? autolinker.link(feature.properties['NOME'].toLocaleString()) : '') + '</td>\
+                    </tr>\
+                    <tr>\
+                        <td colspan="2">' + (feature.properties['ZONA'] !== null ? autolinker.link(feature.properties['ZONA'].toLocaleString()) : '') + '</td>\
+                    </tr>\
+                    <tr>\
+                        <td colspan="2">' + (feature.properties['cor'] !== null ? autolinker.link(feature.properties['cor'].toLocaleString()) : '') + '</td>\
+                    </tr>\
+                </table>';
+            layer.bindPopup(popupContent, {maxHeight: 400});
+        }
+
+        function style_BairrosProjeto_3_0(feature) {
+            switch(String(feature.properties['NOME'])) {
+                case 'BALNEÁRIA':
+                    return {
+                pane: 'pane_BairrosProjeto_3',
+                opacity: 1,
+                color: 'rgba(190,178,151,1.0)',
+                dashArray: '',
+                lineCap: 'butt',
+                lineJoin: 'miter',
+                weight: 3.0, 
+                fill: true,
+                fillOpacity: 1,
+                fillColor: 'rgba(220,173,45,0.3)',
+                interactive: false,
+            }
+                    break;
+                case 'BATISTINI':
+                    return {
+                pane: 'pane_BairrosProjeto_3',
+                opacity: 1,
+                color: 'rgba(145,82,45,1.0)',
+                dashArray: '',
+                lineCap: 'butt',
+                lineJoin: 'miter',
+                weight: 3.0, 
+                fill: true,
+                fillOpacity: 1,
+                fillColor: 'rgba(79,205,153,0.3)',
+                interactive: false,
+            }
+                    break;
+                case 'BOTUJURU':
+                    return {
+                pane: 'pane_BairrosProjeto_3',
+                opacity: 1,
+                color: 'rgba(125,139,143,1.0)',
+                dashArray: '',
+                lineCap: 'butt',
+                lineJoin: 'miter',
+                weight: 3.0, 
+                fill: true,
+                fillOpacity: 1,
+                fillColor: 'rgba(87,232,14,0.3)',
+                interactive: false,
+            }
+                    break;
+                case 'DOS ALVARENGA':
+                    return {
+                pane: 'pane_BairrosProjeto_3',
+                opacity: 1,
+                color: 'rgba(0,0,0,1.0)',
+                dashArray: '',
+                lineCap: 'butt',
+                lineJoin: 'miter',
+                weight: 3.0, 
+                fill: true,
+                fillOpacity: 1,
+                fillColor: 'rgba(210,61,158,0.3)',
+                interactive: false,
+            }
+                    break;
+                case 'DOS FINCO':
+                    return {
+                pane: 'pane_BairrosProjeto_3',
+                opacity: 1,
+                color: 'rgba(196,60,57,1.0)',
+                dashArray: '',
+                lineCap: 'butt',
+                lineJoin: 'miter',
+                weight: 3.0, 
+                fill: true,
+                fillOpacity: 1,
+                fillColor: 'rgba(251,154,153,0.3)',
+                interactive: false,
+            }
+                    break;
+                case 'FERRAZÓPOLIS':
+                    return {
+                pane: 'pane_BairrosProjeto_3',
+                opacity: 1,
+                color: 'rgba(133,182,111,1.0)',
+                dashArray: '',
+                lineCap: 'butt',
+                lineJoin: 'miter',
+                weight: 3.0, 
+                fill: true,
+                fillOpacity: 1,
+                fillColor: 'rgba(133,223,143,0.3)',
+                interactive: false,
+            }
+                    break;
+                case 'INDEPENDÊNCIA':
+                    return {
+                pane: 'pane_BairrosProjeto_3',
+                opacity: 1,
+                color: 'rgba(164,113,88,1.0)',
+                dashArray: '',
+                lineCap: 'butt',
+                lineJoin: 'miter',
+                weight: 3.0, 
+                fill: true,
+                fillOpacity: 1,
+                fillColor: 'rgba(154,100,231,0.3)',
+                interactive: false,
+            }
+                    break;
+                case 'JORDANÓPOLIS':
+                    return {
+                pane: 'pane_BairrosProjeto_3',
+                opacity: 1,
+                color: 'rgba(213,180,60,1.0)',
+                dashArray: '',
+                lineCap: 'butt',
+                lineJoin: 'miter',
+                weight: 3.0, 
+                fill: true,
+                fillOpacity: 1,
+                fillColor: 'rgba(50,55,212,0.3)',
+                interactive: false,
+            }
+                    break;
+                case 'MONTANHÃO':
+                    return {
+                pane: 'pane_BairrosProjeto_3',
+                opacity: 1,
+                color: 'rgba(125,139,143,1.0)',
+                dashArray: '',
+                lineCap: 'butt',
+                lineJoin: 'miter',
+                weight: 3.0, 
+                fill: true,
+                fillOpacity: 1,
+                fillColor: 'rgba(194,232,42,0.3)',
+                interactive: false,
+            }
+                    break;
+                case 'PAULICÉIA':
+                    return {
+                pane: 'pane_BairrosProjeto_3',
+                opacity: 1,
+                color: 'rgba(114,155,111,1.0)',
+                dashArray: '',
+                lineCap: 'butt',
+                lineJoin: 'miter',
+                weight: 3.0, 
+                fill: true,
+                fillOpacity: 1,
+                fillColor: 'rgba(236,89,118,0.3)',
+                interactive: false,
+            }
+                    break;
+                case 'RIO GRANDE':
+                    return {
+                pane: 'pane_BairrosProjeto_3',
+                opacity: 1,
+                color: 'rgba(243,166,178,1.0)',
+                dashArray: '',
+                lineCap: 'butt',
+                lineJoin: 'miter',
+                weight: 3.0, 
+                fill: true,
+                fillOpacity: 1,
+                fillColor: 'rgba(46,203,208,0.3)',
+                interactive: false,
+            }
+                    break;
+                case 'TABOÃO':
+                    return {
+                pane: 'pane_BairrosProjeto_3',
+                opacity: 1,
+                color: 'rgba(231,113,72,1.0)',
+                dashArray: '',
+                lineCap: 'butt',
+                lineJoin: 'miter',
+                weight: 3.0, 
+                fill: true,
+                fillOpacity: 1,
+                fillColor: 'rgba(231,114,68,0.3)',
+                interactive: false,
+            }
+                    break;
+                default:
+                    return {
+                pane: 'pane_BairrosProjeto_3',
+                opacity: 1,
+                color: 'rgba(143,100,223,1.0)',
+                dashArray: '',
+                lineCap: 'butt',
+                lineJoin: 'miter',
+                weight: 3.0, 
+                fill: true,
+                fillOpacity: 1,
+                fillColor: 'rgba(67,137,208,0.3)',
+                interactive: false,
+            }
+                    break;
+            }
+        }
+        map.createPane('pane_BairrosProjeto_3');
+        map.getPane('pane_BairrosProjeto_3').style.zIndex = 403;
+        map.getPane('pane_BairrosProjeto_3').style['mix-blend-mode'] = 'normal';
+        var layer_BairrosProjeto_3 = new L.geoJson(json_BairrosProjeto_3, {
+            attribution: '',
+            interactive: false,
+            dataVar: 'json_BairrosProjeto_3',
+            layerName: 'layer_BairrosProjeto_3',
+            pane: 'pane_BairrosProjeto_3',
+            onEachFeature: pop_BairrosProjeto_3,
+            style: style_BairrosProjeto_3_0,
+        });
+        bounds_group.addLayer(layer_BairrosProjeto_3);
+        map.addLayer(layer_BairrosProjeto_3);
         function pop_BAIRRODOSFINCOSEIXO_4(feature, layer) {
             var popupContent = '<table>\
                     <tr>\
@@ -237,7 +425,7 @@
                 dashArray: '',
                 lineCap: 'square',
                 lineJoin: 'bevel',
-                weight: 4.0,
+                weight: 1.0,
                 fillOpacity: 0,
                 interactive: false,
             }
@@ -276,7 +464,7 @@
                 dashArray: '',
                 lineCap: 'square',
                 lineJoin: 'bevel',
-                weight: 4.0,
+                weight: 1.0,
                 fillOpacity: 0,
                 interactive: false,
             }
@@ -315,7 +503,7 @@
                 dashArray: '',
                 lineCap: 'square',
                 lineJoin: 'bevel',
-                weight: 4.0,
+                weight: 1.0,
                 fillOpacity: 0,
                 interactive: false,
             }
@@ -354,7 +542,7 @@
                 dashArray: '',
                 lineCap: 'square',
                 lineJoin: 'bevel',
-                weight: 4.0,
+                weight: 1.0,
                 fillOpacity: 0,
                 interactive: false,
             }
@@ -393,7 +581,7 @@
                 dashArray: '',
                 lineCap: 'square',
                 lineJoin: 'bevel',
-                weight: 4.0,
+                weight: 1.0,
                 fillOpacity: 0,
                 interactive: false,
             }
@@ -432,7 +620,7 @@
                 dashArray: '',
                 lineCap: 'square',
                 lineJoin: 'bevel',
-                weight: 4.0,
+                weight: 1.0,
                 fillOpacity: 0,
                 interactive: false,
             }
@@ -474,7 +662,7 @@
                 dashArray: '',
                 lineCap: 'square',
                 lineJoin: 'bevel',
-                weight: 4.0,
+                weight: 1.0,
                 fillOpacity: 0,
                 interactive: false,
             }
@@ -513,7 +701,7 @@
                 dashArray: '',
                 lineCap: 'square',
                 lineJoin: 'bevel',
-                weight: 4.0,
+                weight: 1.0,
                 fillOpacity: 0,
                 interactive: false,
             }
@@ -552,7 +740,7 @@
                 dashArray: '',
                 lineCap: 'square',
                 lineJoin: 'bevel',
-                weight: 4.0,
+                weight: 1.0,
                 fillOpacity: 0,
                 interactive: false,
             }
@@ -591,7 +779,7 @@
                 dashArray: '',
                 lineCap: 'square',
                 lineJoin: 'bevel',
-                weight: 4.0,
+                weight: 1.0,
                 fillOpacity: 0,
                 interactive: false,
             }
@@ -613,19 +801,7 @@
         function pop_LogradourosConflitodeProgramas_14(feature, layer) {
             var popupContent = '<table>\
                     <tr>\
-                        <th scope="row">fid</th>\
-                        <td>' + (feature.properties['fid'] !== null ? autolinker.link(feature.properties['fid'].toLocaleString()) : '') + '</td>\
-                    </tr>\
-                    <tr>\
-                        <th scope="row">etapa</th>\
-                        <td>' + (feature.properties['etapa'] !== null ? autolinker.link(feature.properties['etapa'].toLocaleString()) : '') + '</td>\
-                    </tr>\
-                    <tr>\
-                        <th scope="row">data_voo</th>\
-                        <td>' + (feature.properties['data_voo'] !== null ? autolinker.link(feature.properties['data_voo'].toLocaleString()) : '') + '</td>\
-                    </tr>\
-                    <tr>\
-                        <th scope="row">logradouro</th>\
+                        <th scope="row">Logradouro</th>\
                         <td>' + (feature.properties['logradouro'] !== null ? autolinker.link(feature.properties['logradouro'].toLocaleString()) : '') + '</td>\
                     </tr>\
                     <tr>\
@@ -642,11 +818,11 @@
             return {
                 pane: 'pane_LogradourosConflitodeProgramas_14',
                 opacity: 1,
-                color: 'rgba(227,32,25,1.0)',
+                color: 'rgba(219,30,42,1.0)',
                 dashArray: '',
-                lineCap: 'round',
-                lineJoin: 'round',
-                weight: 7.0,
+                lineCap: 'square',
+                lineJoin: 'bevel',
+                weight: 2.0,
                 fillOpacity: 0,
                 interactive: true,
             }
@@ -668,19 +844,7 @@
         function pop_LogradourosPROSAB_15(feature, layer) {
             var popupContent = '<table>\
                     <tr>\
-                        <th scope="row">fid</th>\
-                        <td>' + (feature.properties['fid'] !== null ? autolinker.link(feature.properties['fid'].toLocaleString()) : '') + '</td>\
-                    </tr>\
-                    <tr>\
-                        <th scope="row">etapa</th>\
-                        <td>' + (feature.properties['etapa'] !== null ? autolinker.link(feature.properties['etapa'].toLocaleString()) : '') + '</td>\
-                    </tr>\
-                    <tr>\
-                        <th scope="row">data_voo</th>\
-                        <td>' + (feature.properties['data_voo'] !== null ? autolinker.link(feature.properties['data_voo'].toLocaleString()) : '') + '</td>\
-                    </tr>\
-                    <tr>\
-                        <th scope="row">logradouro</th>\
+                        <th scope="row">Logradouro</th>\
                         <td>' + (feature.properties['logradouro'] !== null ? autolinker.link(feature.properties['logradouro'].toLocaleString()) : '') + '</td>\
                     </tr>\
                     <tr>\
@@ -703,11 +867,11 @@
             return {
                 pane: 'pane_LogradourosPROSAB_15',
                 opacity: 1,
-                color: 'rgba(25,227,49,1.0)',
+                color: 'rgba(84,176,74,1.0)',
                 dashArray: '',
-                lineCap: 'round',
-                lineJoin: 'round',
-                weight: 7.0,
+                lineCap: 'square',
+                lineJoin: 'bevel',
+                weight: 2.0,
                 fillOpacity: 0,
                 interactive: true,
             }
@@ -725,8 +889,51 @@
             style: style_LogradourosPROSAB_15_0,
         });
         bounds_group.addLayer(layer_LogradourosPROSAB_15);
-        map.addLayer(layer_LogradourosPROSAB_15);
-        function pop_EquipamentosUrbanos_16(feature, layer) {
+        function pop_EquipamentosUrbanosPROJETO_16(feature, layer) {
+            var popupContent = '<table>\
+                    <tr>\
+                        <td colspan="2">' + (feature.properties['id'] !== null ? autolinker.link(feature.properties['id'].toLocaleString()) : '') + '</td>\
+                    </tr>\
+                </table>';
+            layer.bindPopup(popupContent, {maxHeight: 400});
+        }
+
+        function style_EquipamentosUrbanosPROJETO_16_0() {
+            return {
+                pane: 'pane_EquipamentosUrbanosPROJETO_16',
+                radius: 8.0,
+                opacity: 1,
+                color: 'rgba(83,83,83,1.0)',
+                dashArray: '',
+                lineCap: 'butt',
+                lineJoin: 'miter',
+                weight: 2.0,
+                fill: true,
+                fillOpacity: 1,
+                fillColor: 'rgba(203,203,203,1.0)',
+                interactive: true,
+            }
+        }
+        map.createPane('pane_EquipamentosUrbanosPROJETO_16');
+        map.getPane('pane_EquipamentosUrbanosPROJETO_16').style.zIndex = 416;
+        map.getPane('pane_EquipamentosUrbanosPROJETO_16').style['mix-blend-mode'] = 'normal';
+        var layer_EquipamentosUrbanosPROJETO_16 = new L.geoJson(json_EquipamentosUrbanosPROJETO_16, {
+            attribution: '',
+            interactive: true,
+            dataVar: 'json_EquipamentosUrbanosPROJETO_16',
+            layerName: 'layer_EquipamentosUrbanosPROJETO_16',
+            pane: 'pane_EquipamentosUrbanosPROJETO_16',
+            onEachFeature: pop_EquipamentosUrbanosPROJETO_16,
+            pointToLayer: function (feature, latlng) {
+                var context = {
+                    feature: feature,
+                    variables: {}
+                };
+                return L.circleMarker(latlng, style_EquipamentosUrbanosPROJETO_16_0(feature));
+            },
+        });
+        bounds_group.addLayer(layer_EquipamentosUrbanosPROJETO_16);
+        function pop_EquipamentosUrbanos_17(feature, layer) {
             var popupContent = '<table>\
                     <tr>\
                         <td colspan="2">' + (feature.properties['id'] !== null ? autolinker.link(feature.properties['id'].toLocaleString()) : '') + '</td>\
@@ -736,18 +943,18 @@
                         <td>' + (feature.properties['EQUIP'] !== null ? autolinker.link(feature.properties['EQUIP'].toLocaleString()) : '') + '</td>\
                     </tr>\
                     <tr>\
-                        <td colspan="2">' + (feature.properties['video_0'] !== null ? autolinker.link(feature.properties['video_0'].toLocaleString()) : '') + '</td>\
+                        <td colspan="2">' + (feature.properties['video_0'] !== null ? '<a href="../' + feature.properties['video_0'].toLocaleString() + '"target="_blank">Abrir o video - ' + feature.properties['video_0'].toLocaleString() + '</a>' : '') + '</td>\
                     </tr>\
                     <tr>\
-                        <td colspan="2">' + (feature.properties['video_1'] !== null ? autolinker.link(feature.properties['video_1'].toLocaleString()) : '') + '</td>\
+                        <td colspan="2">' + (feature.properties['video_1'] !== null ? '<a href="../' + feature.properties['video_1'].toLocaleString() + '"target="_blank">Abrir o video - ' + feature.properties['video_1'].toLocaleString() + '</a>' : '') + '</td>\
                     </tr>\
                 </table>';
             layer.bindPopup(popupContent, {maxHeight: 400});
         }
 
-        function style_EquipamentosUrbanos_16_0() {
+        function style_EquipamentosUrbanos_17_0() {
             return {
-                pane: 'pane_EquipamentosUrbanos_16',
+                pane: 'pane_EquipamentosUrbanos_17',
                 radius: 8.0,
                 opacity: 1,
                 color: 'rgba(255,255,255,1.0)',
@@ -761,26 +968,187 @@
                 interactive: true,
             }
         }
-        map.createPane('pane_EquipamentosUrbanos_16');
-        map.getPane('pane_EquipamentosUrbanos_16').style.zIndex = 416;
-        map.getPane('pane_EquipamentosUrbanos_16').style['mix-blend-mode'] = 'normal';
-        var layer_EquipamentosUrbanos_16 = new L.geoJson(json_EquipamentosUrbanos_16, {
+        map.createPane('pane_EquipamentosUrbanos_17');
+        map.getPane('pane_EquipamentosUrbanos_17').style.zIndex = 417;
+        map.getPane('pane_EquipamentosUrbanos_17').style['mix-blend-mode'] = 'normal';
+        var layer_EquipamentosUrbanos_17 = new L.geoJson(json_EquipamentosUrbanos_17, {
             attribution: '',
             interactive: true,
-            dataVar: 'json_EquipamentosUrbanos_16',
-            layerName: 'layer_EquipamentosUrbanos_16',
-            pane: 'pane_EquipamentosUrbanos_16',
-            onEachFeature: pop_EquipamentosUrbanos_16,
+            dataVar: 'json_EquipamentosUrbanos_17',
+            layerName: 'layer_EquipamentosUrbanos_17',
+            pane: 'pane_EquipamentosUrbanos_17',
+            onEachFeature: pop_EquipamentosUrbanos_17,
             pointToLayer: function (feature, latlng) {
                 var context = {
                     feature: feature,
                     variables: {}
                 };
-                return L.circleMarker(latlng, style_EquipamentosUrbanos_16_0(feature));
+                return L.circleMarker(latlng, style_EquipamentosUrbanos_17_0(feature));
             },
         });
-        bounds_group.addLayer(layer_EquipamentosUrbanos_16);
-        map.addLayer(layer_EquipamentosUrbanos_16);
+        bounds_group.addLayer(layer_EquipamentosUrbanos_17);
+        map.on("zoomend", function(e) {
+            if (map.getZoom() <= 19 && map.getZoom() >= 13) {
+                map.addLayer(layer_BairrosAlvarengas_1);
+            } else if (map.getZoom() > 19 || map.getZoom() < 13) {
+                map.removeLayer(layer_BairrosAlvarengas_1);
+            }
+            if (map.getZoom() <= 19 && map.getZoom() >= 13) {
+                map.addLayer(layer_BairrosProjeto_3);
+            } else if (map.getZoom() > 19 || map.getZoom() < 13) {
+                map.removeLayer(layer_BairrosProjeto_3);
+            }
+            if (map.getZoom() <= 19 && map.getZoom() >= 14) {
+                map.addLayer(layer_BAIRRODOSFINCOSEIXO_4);
+            } else if (map.getZoom() > 19 || map.getZoom() < 14) {
+                map.removeLayer(layer_BAIRRODOSFINCOSEIXO_4);
+            }
+            if (map.getZoom() <= 19 && map.getZoom() >= 14) {
+                map.addLayer(layer_BALNEARIAEIXO_5);
+            } else if (map.getZoom() > 19 || map.getZoom() < 14) {
+                map.removeLayer(layer_BALNEARIAEIXO_5);
+            }
+            if (map.getZoom() <= 19 && map.getZoom() >= 14) {
+                map.addLayer(layer_BATISTINIEIXO_6);
+            } else if (map.getZoom() > 19 || map.getZoom() < 14) {
+                map.removeLayer(layer_BATISTINIEIXO_6);
+            }
+            if (map.getZoom() <= 19 && map.getZoom() >= 14) {
+                map.addLayer(layer_BOTUJURUEIXO_7);
+            } else if (map.getZoom() > 19 || map.getZoom() < 14) {
+                map.removeLayer(layer_BOTUJURUEIXO_7);
+            }
+            if (map.getZoom() <= 19 && map.getZoom() >= 14) {
+                map.addLayer(layer_FERRASZPOLISEIXO_8);
+            } else if (map.getZoom() > 19 || map.getZoom() < 14) {
+                map.removeLayer(layer_FERRASZPOLISEIXO_8);
+            }
+            if (map.getZoom() <= 19 && map.getZoom() >= 14) {
+                map.addLayer(layer_INDEPENDENCIAEIXO_9);
+            } else if (map.getZoom() > 19 || map.getZoom() < 14) {
+                map.removeLayer(layer_INDEPENDENCIAEIXO_9);
+            }
+            if (map.getZoom() <= 19 && map.getZoom() >= 14) {
+                map.addLayer(layer_JORDANOPOLISEIXO_10);
+            } else if (map.getZoom() > 19 || map.getZoom() < 14) {
+                map.removeLayer(layer_JORDANOPOLISEIXO_10);
+            }
+            if (map.getZoom() <= 19 && map.getZoom() >= 14) {
+                map.addLayer(layer_PAULICEIAEIXO_11);
+            } else if (map.getZoom() > 19 || map.getZoom() < 14) {
+                map.removeLayer(layer_PAULICEIAEIXO_11);
+            }
+            if (map.getZoom() <= 19 && map.getZoom() >= 14) {
+                map.addLayer(layer_RIOGRANDEEIXO_12);
+            } else if (map.getZoom() > 19 || map.getZoom() < 14) {
+                map.removeLayer(layer_RIOGRANDEEIXO_12);
+            }
+            if (map.getZoom() <= 19 && map.getZoom() >= 14) {
+                map.addLayer(layer_TABOAOEIXO_13);
+            } else if (map.getZoom() > 19 || map.getZoom() < 14) {
+                map.removeLayer(layer_TABOAOEIXO_13);
+            }
+            if (map.getZoom() <= 19 && map.getZoom() >= 14) {
+                map.addLayer(layer_LogradourosConflitodeProgramas_14);
+            } else if (map.getZoom() > 19 || map.getZoom() < 14) {
+                map.removeLayer(layer_LogradourosConflitodeProgramas_14);
+            }
+            if (map.getZoom() <= 19 && map.getZoom() >= 14) {
+                map.addLayer(layer_LogradourosPROSAB_15);
+            } else if (map.getZoom() > 19 || map.getZoom() < 14) {
+                map.removeLayer(layer_LogradourosPROSAB_15);
+            }
+            if (map.getZoom() <= 19 && map.getZoom() >= 14) {
+                map.addLayer(layer_EquipamentosUrbanosPROJETO_16);
+            } else if (map.getZoom() > 19 || map.getZoom() < 14) {
+                map.removeLayer(layer_EquipamentosUrbanosPROJETO_16);
+            }
+            if (map.getZoom() <= 19 && map.getZoom() >= 14) {
+                map.addLayer(layer_EquipamentosUrbanos_17);
+            } else if (map.getZoom() > 19 || map.getZoom() < 14) {
+                map.removeLayer(layer_EquipamentosUrbanos_17);
+            }
+        });
+            if (map.getZoom() <= 19 && map.getZoom() >= 13) {
+                map.addLayer(layer_BairrosAlvarengas_1);
+            } else if (map.getZoom() > 19 || map.getZoom() < 13) {
+                map.removeLayer(layer_BairrosAlvarengas_1);
+            }
+            if (map.getZoom() <= 19 && map.getZoom() >= 13) {
+                map.addLayer(layer_BairrosProjeto_3);
+            } else if (map.getZoom() > 19 || map.getZoom() < 13) {
+                map.removeLayer(layer_BairrosProjeto_3);
+            }
+            if (map.getZoom() <= 19 && map.getZoom() >= 14) {
+                map.addLayer(layer_BAIRRODOSFINCOSEIXO_4);
+            } else if (map.getZoom() > 19 || map.getZoom() < 14) {
+                map.removeLayer(layer_BAIRRODOSFINCOSEIXO_4);
+            }
+            if (map.getZoom() <= 19 && map.getZoom() >= 14) {
+                map.addLayer(layer_BALNEARIAEIXO_5);
+            } else if (map.getZoom() > 19 || map.getZoom() < 14) {
+                map.removeLayer(layer_BALNEARIAEIXO_5);
+            }
+            if (map.getZoom() <= 19 && map.getZoom() >= 14) {
+                map.addLayer(layer_BATISTINIEIXO_6);
+            } else if (map.getZoom() > 19 || map.getZoom() < 14) {
+                map.removeLayer(layer_BATISTINIEIXO_6);
+            }
+            if (map.getZoom() <= 19 && map.getZoom() >= 14) {
+                map.addLayer(layer_BOTUJURUEIXO_7);
+            } else if (map.getZoom() > 19 || map.getZoom() < 14) {
+                map.removeLayer(layer_BOTUJURUEIXO_7);
+            }
+            if (map.getZoom() <= 19 && map.getZoom() >= 14) {
+                map.addLayer(layer_FERRASZPOLISEIXO_8);
+            } else if (map.getZoom() > 19 || map.getZoom() < 14) {
+                map.removeLayer(layer_FERRASZPOLISEIXO_8);
+            }
+            if (map.getZoom() <= 19 && map.getZoom() >= 14) {
+                map.addLayer(layer_INDEPENDENCIAEIXO_9);
+            } else if (map.getZoom() > 19 || map.getZoom() < 14) {
+                map.removeLayer(layer_INDEPENDENCIAEIXO_9);
+            }
+            if (map.getZoom() <= 19 && map.getZoom() >= 14) {
+                map.addLayer(layer_JORDANOPOLISEIXO_10);
+            } else if (map.getZoom() > 19 || map.getZoom() < 14) {
+                map.removeLayer(layer_JORDANOPOLISEIXO_10);
+            }
+            if (map.getZoom() <= 19 && map.getZoom() >= 14) {
+                map.addLayer(layer_PAULICEIAEIXO_11);
+            } else if (map.getZoom() > 19 || map.getZoom() < 14) {
+                map.removeLayer(layer_PAULICEIAEIXO_11);
+            }
+            if (map.getZoom() <= 19 && map.getZoom() >= 14) {
+                map.addLayer(layer_RIOGRANDEEIXO_12);
+            } else if (map.getZoom() > 19 || map.getZoom() < 14) {
+                map.removeLayer(layer_RIOGRANDEEIXO_12);
+            }
+            if (map.getZoom() <= 19 && map.getZoom() >= 14) {
+                map.addLayer(layer_TABOAOEIXO_13);
+            } else if (map.getZoom() > 19 || map.getZoom() < 14) {
+                map.removeLayer(layer_TABOAOEIXO_13);
+            }
+            if (map.getZoom() <= 19 && map.getZoom() >= 14) {
+                map.addLayer(layer_LogradourosConflitodeProgramas_14);
+            } else if (map.getZoom() > 19 || map.getZoom() < 14) {
+                map.removeLayer(layer_LogradourosConflitodeProgramas_14);
+            }
+            if (map.getZoom() <= 19 && map.getZoom() >= 14) {
+                map.addLayer(layer_LogradourosPROSAB_15);
+            } else if (map.getZoom() > 19 || map.getZoom() < 14) {
+                map.removeLayer(layer_LogradourosPROSAB_15);
+            }
+            if (map.getZoom() <= 19 && map.getZoom() >= 14) {
+                map.addLayer(layer_EquipamentosUrbanosPROJETO_16);
+            } else if (map.getZoom() > 19 || map.getZoom() < 14) {
+                map.removeLayer(layer_EquipamentosUrbanosPROJETO_16);
+            }
+            if (map.getZoom() <= 19 && map.getZoom() >= 14) {
+                map.addLayer(layer_EquipamentosUrbanos_17);
+            } else if (map.getZoom() > 19 || map.getZoom() < 14) {
+                map.removeLayer(layer_EquipamentosUrbanos_17);
+            }
         var osmGeocoder = new L.Control.Geocoder({
             collapsed: true,
             position: 'topleft',
@@ -792,7 +1160,7 @@
         document.getElementsByClassName('leaflet-control-geocoder-icon')[0]
         .title += 'Search for a place';
         var baseMaps = {};
-        L.control.layers(baseMaps,{'<img src="legend/EquipamentosUrbanos_16.png" /> Equipamentos Urbanos': layer_EquipamentosUrbanos_16,'<img src="legend/LogradourosPROSAB_15.png" /> Logradouros PROSAB': layer_LogradourosPROSAB_15,'<img src="legend/LogradourosConflitodeProgramas_14.png" /> Logradouros Conflito de Programas': layer_LogradourosConflitodeProgramas_14,'<img src="legend/TABOAOEIXO_13.png" /> TABOAO EIXO': layer_TABOAOEIXO_13,'<img src="legend/RIOGRANDEEIXO_12.png" /> RIO GRANDE EIXO': layer_RIOGRANDEEIXO_12,'<img src="legend/PAULICEIAEIXO_11.png" /> PAULICEIA EIXO': layer_PAULICEIAEIXO_11,'<img src="legend/JORDANOPOLISEIXO_10.png" /> JORDANOPOLIS EIXO': layer_JORDANOPOLISEIXO_10,'<img src="legend/INDEPENDENCIAEIXO_9.png" /> INDEPENDENCIA EIXO': layer_INDEPENDENCIAEIXO_9,'<img src="legend/FERRASZPOLISEIXO_8.png" /> FERRASZÓPOLIS EIXO': layer_FERRASZPOLISEIXO_8,'<img src="legend/BOTUJURUEIXO_7.png" /> BOTUJURU EIXO': layer_BOTUJURUEIXO_7,'<img src="legend/BATISTINIEIXO_6.png" /> BATISTINI EIXO': layer_BATISTINIEIXO_6,'<img src="legend/BALNEARIAEIXO_5.png" /> BALNEARIA EIXO': layer_BALNEARIAEIXO_5,'<img src="legend/BAIRRODOSFINCOSEIXO_4.png" /> BAIRRO DOS FINCOS EIXO': layer_BAIRRODOSFINCOSEIXO_4,'<img src="legend/MunicipiodeSaoBernardodoCampo_3.png" /> Municipio de Sao Bernardo do Campo': layer_MunicipiodeSaoBernardodoCampo_3,'<img src="legend/BairrosProjeto_2.png" /> Bairros Projeto': layer_BairrosProjeto_2,'<img src="legend/BairrosAlvarengas_1.png" /> Bairros Alvarengas': layer_BairrosAlvarengas_1,"OpenStreetMap": layer_OpenStreetMap_0,},{collapsed:false}).addTo(map);
+        L.control.layers(baseMaps,{'<img src="legend/EquipamentosUrbanos_17.png" /> Equipamentos Urbanos': layer_EquipamentosUrbanos_17,'<img src="legend/EquipamentosUrbanosPROJETO_16.png" /> Equipamentos Urbanos - PROJETO': layer_EquipamentosUrbanosPROJETO_16,'<img src="legend/LogradourosPROSAB_15.png" /> Logradouros PROSAB': layer_LogradourosPROSAB_15,'<img src="legend/LogradourosConflitodeProgramas_14.png" /> Logradouros Conflito de Programas': layer_LogradourosConflitodeProgramas_14,'<img src="legend/TABOAOEIXO_13.png" /> TABOAO EIXO': layer_TABOAOEIXO_13,'<img src="legend/RIOGRANDEEIXO_12.png" /> RIO GRANDE EIXO': layer_RIOGRANDEEIXO_12,'<img src="legend/PAULICEIAEIXO_11.png" /> PAULICEIA EIXO': layer_PAULICEIAEIXO_11,'<img src="legend/JORDANOPOLISEIXO_10.png" /> JORDANOPOLIS EIXO': layer_JORDANOPOLISEIXO_10,'<img src="legend/INDEPENDENCIAEIXO_9.png" /> INDEPENDENCIA EIXO': layer_INDEPENDENCIAEIXO_9,'<img src="legend/FERRASZPOLISEIXO_8.png" /> FERRASZÓPOLIS EIXO': layer_FERRASZPOLISEIXO_8,'<img src="legend/BOTUJURUEIXO_7.png" /> BOTUJURU EIXO': layer_BOTUJURUEIXO_7,'<img src="legend/BATISTINIEIXO_6.png" /> BATISTINI EIXO': layer_BATISTINIEIXO_6,'<img src="legend/BALNEARIAEIXO_5.png" /> BALNEARIA EIXO': layer_BALNEARIAEIXO_5,'<img src="legend/BAIRRODOSFINCOSEIXO_4.png" /> BAIRRO DOS FINCOS EIXO': layer_BAIRRODOSFINCOSEIXO_4,'Bairros Projeto<br /><table><tr><td style="text-align: center;"><img src="legend/BairrosProjeto_3_BALNEÁRIA0.png" /></td><td>BALNEÁRIA</td></tr><tr><td style="text-align: center;"><img src="legend/BairrosProjeto_3_BATISTINI1.png" /></td><td>BATISTINI</td></tr><tr><td style="text-align: center;"><img src="legend/BairrosProjeto_3_BOTUJURU2.png" /></td><td>BOTUJURU</td></tr><tr><td style="text-align: center;"><img src="legend/BairrosProjeto_3_DOSALVARENGA3.png" /></td><td>DOS ALVARENGA</td></tr><tr><td style="text-align: center;"><img src="legend/BairrosProjeto_3_DOSFINCO4.png" /></td><td>DOS FINCO</td></tr><tr><td style="text-align: center;"><img src="legend/BairrosProjeto_3_FERRAZÓPOLIS5.png" /></td><td>FERRAZÓPOLIS</td></tr><tr><td style="text-align: center;"><img src="legend/BairrosProjeto_3_INDEPENDÊNCIA6.png" /></td><td>INDEPENDÊNCIA</td></tr><tr><td style="text-align: center;"><img src="legend/BairrosProjeto_3_JORDANÓPOLIS7.png" /></td><td>JORDANÓPOLIS</td></tr><tr><td style="text-align: center;"><img src="legend/BairrosProjeto_3_MONTANHÃO8.png" /></td><td>MONTANHÃO</td></tr><tr><td style="text-align: center;"><img src="legend/BairrosProjeto_3_PAULICÉIA9.png" /></td><td>PAULICÉIA</td></tr><tr><td style="text-align: center;"><img src="legend/BairrosProjeto_3_RIOGRANDE10.png" /></td><td>RIO GRANDE</td></tr><tr><td style="text-align: center;"><img src="legend/BairrosProjeto_3_TABOÃO11.png" /></td><td>TABOÃO</td></tr><tr><td style="text-align: center;"><img src="legend/BairrosProjeto_3_12.png" /></td><td></td></tr></table>': layer_BairrosProjeto_3,'<img src="legend/MunicipiodeSaoBernardodoCampo_2.png" /> Municipio de Sao Bernardo do Campo': layer_MunicipiodeSaoBernardodoCampo_2,'<img src="legend/BairrosAlvarengas_1.png" /> Bairros Alvarengas': layer_BairrosAlvarengas_1,"OpenStreetMap": layer_OpenStreetMap_0,},{collapsed:false}).addTo(map);
         setBounds();
         var i = 0;
         layer_BairrosAlvarengas_1.eachLayer(function(layer) {
@@ -808,12 +1176,12 @@
               i++;
         });
         var i = 0;
-        layer_BairrosProjeto_2.eachLayer(function(layer) {
+        layer_BairrosProjeto_3.eachLayer(function(layer) {
             var context = {
                 feature: layer.feature,
                 variables: {}
             };
-            layer.bindTooltip((layer.feature.properties['NOME'] !== null?String('<div style="color: #012bff; font-size: 13pt; font-family: \'Ubuntu\', sans-serif;">' + layer.feature.properties['NOME']) + '</div>':''), {permanent: true, offset: [-0, -16], className: 'css_BairrosProjeto_2'});
+            layer.bindTooltip((layer.feature.properties['NOME'] !== null?String('<div style="color:' + layer.feature.properties['cor'] + '; font-size: 16pt; font-family: \'Ubuntu\', sans-serif;">' + layer.feature.properties['NOME']) + '</div>':''), {permanent: true, offset: [-0, -16], className: 'css_BairrosProjeto_3'});
             labels.push(layer);
             totalMarkers += 1;
               layer.added = true;
@@ -846,15 +1214,15 @@
               addLabel(layer, i);
               i++;
         });
-        resetLabels([layer_BairrosAlvarengas_1,layer_BairrosProjeto_2,layer_LogradourosConflitodeProgramas_14,layer_LogradourosPROSAB_15]);
+        resetLabels([layer_BairrosAlvarengas_1,layer_BairrosProjeto_3,layer_LogradourosConflitodeProgramas_14,layer_LogradourosPROSAB_15]);
         map.on("zoomend", function(){
-            resetLabels([layer_BairrosAlvarengas_1,layer_BairrosProjeto_2,layer_LogradourosConflitodeProgramas_14,layer_LogradourosPROSAB_15]);
+            resetLabels([layer_BairrosAlvarengas_1,layer_BairrosProjeto_3,layer_LogradourosConflitodeProgramas_14,layer_LogradourosPROSAB_15]);
         });
         map.on("layeradd", function(){
-            resetLabels([layer_BairrosAlvarengas_1,layer_BairrosProjeto_2,layer_LogradourosConflitodeProgramas_14,layer_LogradourosPROSAB_15]);
+            resetLabels([layer_BairrosAlvarengas_1,layer_BairrosProjeto_3,layer_LogradourosConflitodeProgramas_14,layer_LogradourosPROSAB_15]);
         });
         map.on("layerremove", function(){
-            resetLabels([layer_BairrosAlvarengas_1,layer_BairrosProjeto_2,layer_LogradourosConflitodeProgramas_14,layer_LogradourosPROSAB_15]);
+            resetLabels([layer_BairrosAlvarengas_1,layer_BairrosProjeto_3,layer_LogradourosConflitodeProgramas_14,layer_LogradourosPROSAB_15]);
         });
         </script>
     </body>
