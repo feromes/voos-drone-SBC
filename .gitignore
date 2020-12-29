@@ -1,3 +1,4 @@
 videos/*.MOV
 gis/planilhas
 videos/**/*.MOV
+*.zip
