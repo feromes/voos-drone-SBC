@@ -84,6 +84,11 @@
                 img.src = canvas.toDataURL();
             }
         });
+
+        L.tileLayer.grayscale = function (url, options) {
+            return new L.TileLayer.Grayscale(url, options);
+        };
+        
         var map = L.map('map', {
             zoomControl:true, maxZoom:18, minZoom:11
         })
