@@ -9,6 +9,7 @@
         <link rel="stylesheet" href="css/leaflet.css">
         <link rel="stylesheet" href="css/qgis2web.css"><link rel="stylesheet" href="css/fontawesome-all.min.css">
         <link rel="stylesheet" href="css/leaflet-control-geocoder.Geocoder.css">
+        <link rel="stylesheet" href="css/leaflet-search.css">
         <link rel="stylesheet" href="css/leaflet-measure.css">
         <style>
         html, body, #map {
@@ -35,6 +36,7 @@
         <script src="js/leaflet-control-geocoder.Geocoder.js"></script>
         <script src="js/leaflet-measure.js"></script>
         <script src="data/BATISTINILogradourosPROSABS_1.js"></script>
+        <script src="js/leaflet-search.js"></script>
         <script src="data/equipamentoscomfotosbatistini_2.js"></script>
         <script>
 
@@ -342,18 +344,15 @@ L.TileLayer.Grayscale = L.TileLayer.extend({
         });
         bounds_group.addLayer(layer_equipamentoscomfotosbatistini_2);
         map.addLayer(layer_equipamentoscomfotosbatistini_2);
-        var osmGeocoder = new L.Control.Geocoder({
-            collapsed: true,
-            position: 'topleft',
-            text: 'Search',
-            title: 'Testing'
-        }).addTo(map);
-        document.getElementsByClassName('leaflet-control-geocoder-icon')[0]
-        .className += ' fa fa-search';
-        document.getElementsByClassName('leaflet-control-geocoder-icon')[0]
-        .title += 'Search for a place';
+        map.addControl(new L.Control.Search({
+            layer: layer_BATISTINILogradourosPROSABS_1,
+            initial: false,
+            hideMarkerOnCollapse: true,
+            propertyName: 'logradouro'}));
+        document.getElementsByClassName('search-button')[0].className +=
+         ' fa fa-binoculars';
         var baseMaps = {};
-        L.control.layers(baseMaps,{'equipamentos-com-fotos-batistini<br /><table><tr><td style="text-align: center;"><img src="legend/equipamentoscomfotosbatistini_2_EXISTENTE0.png" /></td><td>EXISTENTE</td></tr><tr><td style="text-align: center;"><img src="legend/equipamentoscomfotosbatistini_2_JÁREALIZADA1.png" /></td><td>JÁ REALIZADA</td></tr><tr><td style="text-align: center;"><img src="legend/equipamentoscomfotosbatistini_2_NOVO2.png" /></td><td>NOVO</td></tr><tr><td style="text-align: center;"><img src="legend/equipamentoscomfotosbatistini_2_REFORMA3.png" /></td><td>REFORMA</td></tr><tr><td style="text-align: center;"><img src="legend/equipamentoscomfotosbatistini_2_REQUALIFICAÇÃO4.png" /></td><td>REQUALIFICAÇÃO</td></tr></table>': layer_equipamentoscomfotosbatistini_2,'<img src="legend/BATISTINILogradourosPROSABS_1.png" /> BATISTINI Logradouros PROSABS': layer_BATISTINILogradourosPROSABS_1,"OpenStreetMap": layer_OpenStreetMap_0,},{collapsed:false}).addTo(map);
+        L.control.layers(baseMaps,{'equipamentos-com-fotos-batistini<br /><table><tr><td style="text-align: center;"><img src="legend/equipamentoscomfotosbatistini_2_EXISTENTE0.png" /></td><td>EXISTENTE</td></tr><tr><td style="text-align: center;"><img src="legend/equipamentoscomfotosbatistini_2_JÁREALIZADA1.png" /></td><td>JÁ REALIZADA</td></tr><tr><td style="text-align: center;"><img src="legend/equipamentoscomfotosbatistini_2_NOVO2.png" /></td><td>NOVO</td></tr><tr><td style="text-align: center;"><img src="legend/equipamentoscomfotosbatistini_2_REFORMA3.png" /></td><td>REFORMA</td></tr><tr><td style="text-align: center;"><img src="legend/equipamentoscomfotosbatistini_2_REQUALIFICAÇÃO4.png" /></td><td>REQUALIFICAÇÃO</td></tr><tr><td style="text-align: center;">S</td><td>Saúde</td></tr><tr><td style="text-align: center;">E</td><td>Educação</td></tr><tr><td style="text-align: center;">B</td><td>Base de Vigilância</td></tr><tr><td style="text-align: center;">C</td><td>Coleta Seletiva</td></tr><tr><td style="text-align: center;">R</td><td>Requalificação de áreas urbanas</td></tr></table>': layer_equipamentoscomfotosbatistini_2,'<img src="legend/BATISTINILogradourosPROSABS_1.png" /> BATISTINI Logradouros PROSABS': layer_BATISTINILogradourosPROSABS_1,"OpenStreetMap": layer_OpenStreetMap_0,},{collapsed:false}).addTo(map);
         setBounds();
         var i = 0;
         layer_BATISTINILogradourosPROSABS_1.eachLayer(function(layer) {
@@ -369,6 +368,18 @@ L.TileLayer.Grayscale = L.TileLayer.extend({
               i++;
         });
         resetLabels([layer_BATISTINILogradourosPROSABS_1]);
+        layer_equipamentoscomfotosbatistini_2.eachLayer(function(layer) {
+            var context = {
+                feature: layer.feature,
+                variables: {}
+            };
+            layer.bindTooltip((layer.feature.properties['TIPO'] !== null?String('<div style="color: #000000; font-size: 16pt; font-family: \'Ubuntu\', sans-serif;">' + layer.feature.properties['TIPO'].slice(0, 1)) + '</div>':''), {permanent: true, offset: [-0, -0], className: 'css_Player_equipamentoscomfotosbatistini_2'});
+            labels.push(layer);
+            totalMarkers += 1;
+              layer.added = true;
+              addLabel(layer, i);
+              i++;
+        });
         map.on("zoomend", function(){
             resetLabels([layer_BATISTINILogradourosPROSABS_1]);
         });
