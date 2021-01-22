@@ -8,7 +8,7 @@
         <meta name="apple-mobile-web-app-capable" content="yes">
         <link rel="stylesheet" href="css/leaflet.css">
         <link rel="stylesheet" href="css/qgis2web.css"><link rel="stylesheet" href="css/fontawesome-all.min.css">
-        <link rel="stylesheet" href="css/leaflet-control-geocoder.Geocoder.css">
+        <link rel="stylesheet" href="css/leaflet-search.css">
         <link rel="stylesheet" href="css/leaflet-measure.css">
         <style>
         html, body, #map {
@@ -32,14 +32,12 @@
         <script src="js/rbush.min.js"></script>
         <script src="js/labelgun.min.js"></script>
         <script src="js/labels.js"></script>
-        <script src="js/leaflet-control-geocoder.Geocoder.js"></script>
         <script src="js/leaflet-measure.js"></script>
-        <script src="data/BOTUJURULogradouroscomconflitodeprogramas_1.js"></script>
-        <script src="data/BOTUJURULogradourosPROSABS_2.js"></script>
-        <script src="data/equipamentoscomfotosbotujuru_3.js"></script>
+        <script src="js/leaflet-search.js"></script>
+        <script src="data/BOTUJURU_1.js"></script>
+        <script src="data/equipamentoscomfotosbotujuru_2.js"></script>
         <script>
-
-L.TileLayer.Grayscale = L.TileLayer.extend({
+            L.TileLayer.Grayscale = L.TileLayer.extend({
             options: {
                 quotaRed: 21,
                 quotaGreen: 71,
@@ -93,7 +91,7 @@ L.TileLayer.Grayscale = L.TileLayer.extend({
         };
 
         var map = L.map('map', {
-            zoomControl:true, maxZoom:18, minZoom:14
+            zoomControl:true, maxZoom:18, minZoom:11
         })
         var hash = new L.Hash(map);
         map.attributionControl.setPrefix('<a href="https://github.com/tomchadwin/qgis2web" target="_blank">qgis2web</a> &middot; <a href="https://leafletjs.com" title="A JS library for interactive maps">Leaflet</a> &middot; <a href="https://qgis.org">QGIS</a>');
@@ -144,7 +142,7 @@ L.TileLayer.Grayscale = L.TileLayer.extend({
         var layer_OpenStreetMap_0 = mapaBase();
         layer_OpenStreetMap_0;
         map.addLayer(layer_OpenStreetMap_0);
-        function pop_BOTUJURULogradouroscomconflitodeprogramas_1(feature, layer) {
+        function pop_BOTUJURU_1(feature, layer) {
             var popupContent = '<table>\
                 <tr>\
                         <th scope="row">Logradouro</th>\
@@ -160,11 +158,13 @@ L.TileLayer.Grayscale = L.TileLayer.extend({
             layer.bindPopup(popupContent, {maxHeight: 400});
         }
 
-        function style_BOTUJURULogradouroscomconflitodeprogramas_1_0() {
-            return {
-                pane: 'pane_BOTUJURULogradouroscomconflitodeprogramas_1',
+        function style_BOTUJURU_1_0(feature) {
+            switch(String(feature.properties['Tipo'])) {
+                case 'Logradouros com conflito de programas':
+                    return {
+                pane: 'pane_BOTUJURU_1',
                 opacity: 1,
-                color: 'rgba(219,30,42,1.0)',
+                color: 'rgba(227,26,28,1.0)',
                 dashArray: '',
                 lineCap: 'square',
                 lineJoin: 'bevel',
@@ -172,40 +172,10 @@ L.TileLayer.Grayscale = L.TileLayer.extend({
                 fillOpacity: 0,
                 interactive: true,
             }
-        }
-        map.createPane('pane_BOTUJURULogradouroscomconflitodeprogramas_1');
-        map.getPane('pane_BOTUJURULogradouroscomconflitodeprogramas_1').style.zIndex = 401;
-        map.getPane('pane_BOTUJURULogradouroscomconflitodeprogramas_1').style['mix-blend-mode'] = 'normal';
-        var layer_BOTUJURULogradouroscomconflitodeprogramas_1 = new L.geoJson(json_BOTUJURULogradouroscomconflitodeprogramas_1, {
-            attribution: '',
-            interactive: true,
-            dataVar: 'json_BOTUJURULogradouroscomconflitodeprogramas_1',
-            layerName: 'layer_BOTUJURULogradouroscomconflitodeprogramas_1',
-            pane: 'pane_BOTUJURULogradouroscomconflitodeprogramas_1',
-            onEachFeature: pop_BOTUJURULogradouroscomconflitodeprogramas_1,
-            style: style_BOTUJURULogradouroscomconflitodeprogramas_1_0,
-        });
-        bounds_group.addLayer(layer_BOTUJURULogradouroscomconflitodeprogramas_1);
-        map.addLayer(layer_BOTUJURULogradouroscomconflitodeprogramas_1);
-        function pop_BOTUJURULogradourosPROSABS_2(feature, layer) {
-            var popupContent = '<table>\
-                <tr>\
-                        <th scope="row">Logradouro</th>\
-                        <td>' + (feature.properties['logradouro'] !== null ? autolinker.link(feature.properties['logradouro'].toLocaleString()) : '') + '</td>\
-                    </tr>\
-                    <tr>\
-                        <td colspan="2">' + (feature.properties['Video_0_path'] !== null ? '<a href="../' + feature.properties['Video_0_path'].toLocaleString() + '"target="_blank">Abrir o video - ' + feature.properties['Video_0_path'].toLocaleString() + '</a>' : '') + '</td>\
-                    </tr>\
-                    <tr>\
-                        <td colspan="2">' + (feature.properties['Video_1_path'] !== null ? '<a href="../' + feature.properties['Video_1_path'].toLocaleString() + '"target="_blank">Abrir o video - ' + feature.properties['Video_1_path'].toLocaleString() + '</a>' : '') + '</td>\
-                    </tr>\
-                </table>';
-            layer.bindPopup(popupContent, {maxHeight: 400});
-        }
-
-        function style_BOTUJURULogradourosPROSABS_2_0() {
-            return {
-                pane: 'pane_BOTUJURULogradourosPROSABS_2',
+                    break;
+                case 'Logradouros PROSABS':
+                    return {
+                pane: 'pane_BOTUJURU_1',
                 opacity: 1,
                 color: 'rgba(1,255,26,1.0)',
                 dashArray: '',
@@ -215,22 +185,37 @@ L.TileLayer.Grayscale = L.TileLayer.extend({
                 fillOpacity: 0,
                 interactive: true,
             }
+                    break;
+                default:
+                    return {
+                pane: 'pane_BOTUJURU_1',
+                opacity: 1,
+                color: 'rgba(0,0,0,1.0)',
+                dashArray: '',
+                lineCap: 'square',
+                lineJoin: 'bevel',
+                weight: 1.0,
+                fillOpacity: 0,
+                interactive: true,
+            }
+                    break;
+            }
         }
-        map.createPane('pane_BOTUJURULogradourosPROSABS_2');
-        map.getPane('pane_BOTUJURULogradourosPROSABS_2').style.zIndex = 402;
-        map.getPane('pane_BOTUJURULogradourosPROSABS_2').style['mix-blend-mode'] = 'normal';
-        var layer_BOTUJURULogradourosPROSABS_2 = new L.geoJson(json_BOTUJURULogradourosPROSABS_2, {
+        map.createPane('pane_BOTUJURU_1');
+        map.getPane('pane_BOTUJURU_1').style.zIndex = 401;
+        map.getPane('pane_BOTUJURU_1').style['mix-blend-mode'] = 'normal';
+        var layer_BOTUJURU_1 = new L.geoJson(json_BOTUJURU_1, {
             attribution: '',
             interactive: true,
-            dataVar: 'json_BOTUJURULogradourosPROSABS_2',
-            layerName: 'layer_BOTUJURULogradourosPROSABS_2',
-            pane: 'pane_BOTUJURULogradourosPROSABS_2',
-            onEachFeature: pop_BOTUJURULogradourosPROSABS_2,
-            style: style_BOTUJURULogradourosPROSABS_2_0,
+            dataVar: 'json_BOTUJURU_1',
+            layerName: 'layer_BOTUJURU_1',
+            pane: 'pane_BOTUJURU_1',
+            onEachFeature: pop_BOTUJURU_1,
+            style: style_BOTUJURU_1_0,
         });
-        bounds_group.addLayer(layer_BOTUJURULogradourosPROSABS_2);
-        map.addLayer(layer_BOTUJURULogradourosPROSABS_2);
-        function pop_equipamentoscomfotosbotujuru_3(feature, layer) {
+        bounds_group.addLayer(layer_BOTUJURU_1);
+        map.addLayer(layer_BOTUJURU_1);
+        function pop_equipamentoscomfotosbotujuru_2(feature, layer) {
             var popupContent = '<table>\
                 <tr>\
                         <th scope="row">NOME</th>\
@@ -279,11 +264,11 @@ L.TileLayer.Grayscale = L.TileLayer.extend({
             layer.bindPopup(popupContent, {maxHeight: 400});
         }
 
-        function style_equipamentoscomfotosbotujuru_3_0(feature) {
+        function style_equipamentoscomfotosbotujuru_2_0(feature) {
             switch(String(feature.properties['ESTADO DO EQUIPAMENTO'])) {
                 case 'EXISTENTE':
                     return {
-                pane: 'pane_equipamentoscomfotosbotujuru_3',
+                pane: 'pane_equipamentoscomfotosbotujuru_2',
                 radius: 6.4,
                 opacity: 1,
                 color: 'rgba(35,35,35,1.0)',
@@ -299,7 +284,7 @@ L.TileLayer.Grayscale = L.TileLayer.extend({
                     break;
                 case 'JÁ REALIZADA':
                     return {
-                pane: 'pane_equipamentoscomfotosbotujuru_3',
+                pane: 'pane_equipamentoscomfotosbotujuru_2',
                 radius: 6.4,
                 opacity: 1,
                 color: 'rgba(35,35,35,1.0)',
@@ -315,7 +300,7 @@ L.TileLayer.Grayscale = L.TileLayer.extend({
                     break;
                 case 'NOVO':
                     return {
-                pane: 'pane_equipamentoscomfotosbotujuru_3',
+                pane: 'pane_equipamentoscomfotosbotujuru_2',
                 radius: 6.4,
                 opacity: 1,
                 color: 'rgba(35,35,35,1.0)',
@@ -331,7 +316,7 @@ L.TileLayer.Grayscale = L.TileLayer.extend({
                     break;
                 case 'REFORMA':
                     return {
-                pane: 'pane_equipamentoscomfotosbotujuru_3',
+                pane: 'pane_equipamentoscomfotosbotujuru_2',
                 radius: 6.4,
                 opacity: 1,
                 color: 'rgba(35,35,35,1.0)',
@@ -347,7 +332,7 @@ L.TileLayer.Grayscale = L.TileLayer.extend({
                     break;
                 case 'REQUALIFICAÇÃO':
                     return {
-                pane: 'pane_equipamentoscomfotosbotujuru_3',
+                pane: 'pane_equipamentoscomfotosbotujuru_2',
                 radius: 6.4,
                 opacity: 1,
                 color: 'rgba(35,35,35,1.0)',
@@ -363,74 +348,70 @@ L.TileLayer.Grayscale = L.TileLayer.extend({
                     break;
             }
         }
-        map.createPane('pane_equipamentoscomfotosbotujuru_3');
-        map.getPane('pane_equipamentoscomfotosbotujuru_3').style.zIndex = 403;
-        map.getPane('pane_equipamentoscomfotosbotujuru_3').style['mix-blend-mode'] = 'normal';
-        var layer_equipamentoscomfotosbotujuru_3 = new L.geoJson(json_equipamentoscomfotosbotujuru_3, {
+        map.createPane('pane_equipamentoscomfotosbotujuru_2');
+        map.getPane('pane_equipamentoscomfotosbotujuru_2').style.zIndex = 402;
+        map.getPane('pane_equipamentoscomfotosbotujuru_2').style['mix-blend-mode'] = 'normal';
+        var layer_equipamentoscomfotosbotujuru_2 = new L.geoJson(json_equipamentoscomfotosbotujuru_2, {
             attribution: '',
             interactive: true,
-            dataVar: 'json_equipamentoscomfotosbotujuru_3',
-            layerName: 'layer_equipamentoscomfotosbotujuru_3',
-            pane: 'pane_equipamentoscomfotosbotujuru_3',
-            onEachFeature: pop_equipamentoscomfotosbotujuru_3,
+            dataVar: 'json_equipamentoscomfotosbotujuru_2',
+            layerName: 'layer_equipamentoscomfotosbotujuru_2',
+            pane: 'pane_equipamentoscomfotosbotujuru_2',
+            onEachFeature: pop_equipamentoscomfotosbotujuru_2,
             pointToLayer: function (feature, latlng) {
                 var context = {
                     feature: feature,
                     variables: {}
                 };
-                return L.circleMarker(latlng, style_equipamentoscomfotosbotujuru_3_0(feature));
+                return L.circleMarker(latlng, style_equipamentoscomfotosbotujuru_2_0(feature));
             },
         });
-        bounds_group.addLayer(layer_equipamentoscomfotosbotujuru_3);
-        map.addLayer(layer_equipamentoscomfotosbotujuru_3);
-        var osmGeocoder = new L.Control.Geocoder({
-            collapsed: true,
-            position: 'topleft',
-            text: 'Search',
-            title: 'Testing'
-        }).addTo(map);
-        document.getElementsByClassName('leaflet-control-geocoder-icon')[0]
-        .className += ' fa fa-search';
-        document.getElementsByClassName('leaflet-control-geocoder-icon')[0]
-        .title += 'Search for a place';
+        bounds_group.addLayer(layer_equipamentoscomfotosbotujuru_2);
+        map.addLayer(layer_equipamentoscomfotosbotujuru_2);
         var baseMaps = {};
-        L.control.layers(baseMaps,{'equipamentos-com-fotos-botujuru<br /><table><tr><td style="text-align: center;"><img src="legend/equipamentoscomfotosbotujuru_3_EXISTENTE0.png" /></td><td>EXISTENTE</td></tr><tr><td style="text-align: center;"><img src="legend/equipamentoscomfotosbotujuru_3_JÁREALIZADA1.png" /></td><td>JÁ REALIZADA</td></tr><tr><td style="text-align: center;"><img src="legend/equipamentoscomfotosbotujuru_3_NOVO2.png" /></td><td>NOVO</td></tr><tr><td style="text-align: center;"><img src="legend/equipamentoscomfotosbotujuru_3_REFORMA3.png" /></td><td>REFORMA</td></tr><tr><td style="text-align: center;"><img src="legend/equipamentoscomfotosbotujuru_3_REQUALIFICAÇÃO4.png" /></td><td>REQUALIFICAÇÃO</td></tr></table>': layer_equipamentoscomfotosbotujuru_3,'<img src="legend/BOTUJURULogradourosPROSABS_2.png" /> BOTUJURU Logradouros PROSABS': layer_BOTUJURULogradourosPROSABS_2,'<img src="legend/BOTUJURULogradouroscomconflitodeprogramas_1.png" /> BOTUJURU Logradouros com conflito de programas': layer_BOTUJURULogradouroscomconflitodeprogramas_1,"OpenStreetMap": layer_OpenStreetMap_0,},{collapsed:false}).addTo(map);
+        L.control.layers(baseMaps,{'equipamentos-com-fotos-botujuru<br /><table><tr><td style="text-align: center;"><img src="legend/equipamentoscomfotosbotujuru_2_EXISTENTE0.png" /></td><td>EXISTENTE</td></tr><tr><td style="text-align: center;"><img src="legend/equipamentoscomfotosbotujuru_2_JÁREALIZADA1.png" /></td><td>JÁ REALIZADA</td></tr><tr><td style="text-align: center;"><img src="legend/equipamentoscomfotosbotujuru_2_NOVO2.png" /></td><td>NOVO</td></tr><tr><td style="text-align: center;"><img src="legend/equipamentoscomfotosbotujuru_2_REFORMA3.png" /></td><td>REFORMA</td></tr><tr><td style="text-align: center;"><img src="legend/equipamentoscomfotosbotujuru_2_REQUALIFICAÇÃO4.png" /></td><td>REQUALIFICAÇÃO</td></tr><tr><td style="text-align: center;">S</td><td>Saúde</td></tr><tr><td style="text-align: center;">E</td><td>Educação</td></tr><tr><td style="text-align: center;">B</td><td>Base de Vigilância</td></tr><tr><td style="text-align: center;">C</td><td>Coleta Seletiva</td></tr><tr><td style="text-align: center;">R</td><td>Requalificação de áreas urbanas</td></tr></table>': layer_equipamentoscomfotosbotujuru_2,'BOTUJURU<br /><table><tr><td style="text-align: center;"><img src="legend/BOTUJURU_1_Logradouroscomconflitodeprogramas0.png" /></td><td>Logradouros com conflito de programas</td></tr><tr><td style="text-align: center;"><img src="legend/BOTUJURU_1_LogradourosPROSABS1.png" /></td><td>Logradouros PROSABS</td></tr><tr><td style="text-align: center;"><img src="legend/BOTUJURU_1_2.png" /></td><td></td></tr></table>': layer_BOTUJURU_1,"OpenStreetMap": layer_OpenStreetMap_0,},{collapsed:false}).addTo(map);
         setBounds();
         var i = 0;
-        layer_BOTUJURULogradouroscomconflitodeprogramas_1.eachLayer(function(layer) {
+        layer_BOTUJURU_1.eachLayer(function(layer) {
             var context = {
                 feature: layer.feature,
                 variables: {}
             };
-            layer.bindTooltip((layer.feature.properties['logradouro'] !== null?String('<div style="color: #000000; font-size: 10pt; font-family: \'Ubuntu\', sans-serif;">' + layer.feature.properties['logradouro']) + '</div>':''), {permanent: true, offset: [-0, -16], className: 'css_BOTUJURULogradouroscomconflitodeprogramas_1'});
+            layer.bindTooltip((layer.feature.properties['logradouro'] !== null?String('<div style="color: #000000; font-size: 10pt; font-family: \'Ubuntu\', sans-serif;">' + layer.feature.properties['logradouro']) + '</div>':''), {permanent: true, offset: [-0, -16], className: 'css_BOTUJURU_1'});
             labels.push(layer);
             totalMarkers += 1;
               layer.added = true;
               addLabel(layer, i);
               i++;
         });
-        var i = 0;
-        layer_BOTUJURULogradourosPROSABS_2.eachLayer(function(layer) {
+        layer_equipamentoscomfotosbotujuru_2.eachLayer(function(layer) {
             var context = {
                 feature: layer.feature,
                 variables: {}
             };
-            layer.bindTooltip((layer.feature.properties['logradouro'] !== null?String('<div style="color: #000000; font-size: 10pt; font-family: \'Ubuntu\', sans-serif;">' + layer.feature.properties['logradouro']) + '</div>':''), {permanent: true, offset: [-0, -16], className: 'css_BOTUJURULogradourosPROSABS_2'});
+            layer.bindTooltip((layer.feature.properties['TIPO'] !== null?String('<div style="color: #000000; font-size: 16pt; font-family: \'Ubuntu\', sans-serif;">' + layer.feature.properties['TIPO'].slice(0, 1)) + '</div>':''), {permanent: true, offset: [-0, -0], className: 'css_Player_equipamentoscomfotosbotujuru_2'});
             labels.push(layer);
             totalMarkers += 1;
               layer.added = true;
               addLabel(layer, i);
               i++;
         });
-        resetLabels([layer_BOTUJURULogradouroscomconflitodeprogramas_1,layer_BOTUJURULogradourosPROSABS_2]);
+        map.addControl(new L.Control.Search({
+            layer: layer_BOTUJURU_1,
+            initial: false,
+            hideMarkerOnCollapse: true,
+            propertyName: 'logradouro'}));
+        document.getElementsByClassName('search-button')[0].className +=
+         ' fa fa-binoculars';
+        resetLabels([layer_BOTUJURU_1]);
         map.on("zoomend", function(){
-            resetLabels([layer_BOTUJURULogradouroscomconflitodeprogramas_1,layer_BOTUJURULogradourosPROSABS_2]);
+            resetLabels([layer_BOTUJURU_1]);
         });
         map.on("layeradd", function(){
-            resetLabels([layer_BOTUJURULogradouroscomconflitodeprogramas_1,layer_BOTUJURULogradourosPROSABS_2]);
+            resetLabels([layer_BOTUJURU_1]);
         });
         map.on("layerremove", function(){
-            resetLabels([layer_BOTUJURULogradouroscomconflitodeprogramas_1,layer_BOTUJURULogradourosPROSABS_2]);
+            resetLabels([layer_BOTUJURU_1]);
         });
         </script>
     </body>
