@@ -8,7 +8,7 @@
         <meta name="apple-mobile-web-app-capable" content="yes">
         <link rel="stylesheet" href="css/leaflet.css">
         <link rel="stylesheet" href="css/qgis2web.css"><link rel="stylesheet" href="css/fontawesome-all.min.css">
-        <link rel="stylesheet" href="css/leaflet-control-geocoder.Geocoder.css">
+        <link rel="stylesheet" href="css/leaflet-search.css">
         <link rel="stylesheet" href="css/leaflet-measure.css">
         <style>
         html, body, #map {
@@ -32,15 +32,12 @@
         <script src="js/rbush.min.js"></script>
         <script src="js/labelgun.min.js"></script>
         <script src="js/labels.js"></script>
-        <script src="js/leaflet-control-geocoder.Geocoder.js"></script>
         <script src="js/leaflet-measure.js"></script>
-        <script src="data/SubBairros_1.js"></script>
-        <script src="data/DOSALVARENGALogradouroscomconflitodeprogramas_2.js"></script>
-        <script src="data/DOSALVARENGALogradourosPROSABS_3.js"></script>
-        <script src="data/DOSALVARENGAEquipamentos_4.js"></script>
+        <script src="js/leaflet-search.js"></script>
+        <script src="data/DOSALVARENGA_1.js"></script>
+        <script src="data/DOSALVARENGAEquipamentos_2.js"></script>
         <script>
-
-L.TileLayer.Grayscale = L.TileLayer.extend({
+            L.TileLayer.Grayscale = L.TileLayer.extend({
             options: {
                 quotaRed: 21,
                 quotaGreen: 71,
@@ -88,13 +85,13 @@ L.TileLayer.Grayscale = L.TileLayer.extend({
                 img.src = canvas.toDataURL();
             }
         });
-
+        
         L.tileLayer.grayscale = function (url, options) {
             return new L.TileLayer.Grayscale(url, options);
         };
 
         var map = L.map('map', {
-            zoomControl:true, maxZoom:28, minZoom:14
+            zoomControl:true, maxZoom:18, minZoom:11
         })
         var hash = new L.Hash(map);
         map.attributionControl.setPrefix('<a href="https://github.com/tomchadwin/qgis2web" target="_blank">qgis2web</a> &middot; <a href="https://leafletjs.com" title="A JS library for interactive maps">Leaflet</a> &middot; <a href="https://qgis.org">QGIS</a>');
@@ -145,83 +142,7 @@ L.TileLayer.Grayscale = L.TileLayer.extend({
         var layer_OpenStreetMap_0 = mapaBase();
         layer_OpenStreetMap_0;
         map.addLayer(layer_OpenStreetMap_0);
-        function pop_SubBairros_1(feature, layer) {
-            var popupContent = '<table>\
-                    <tr>\
-                        <td colspan="2">' + (feature.properties['id'] !== null ? autolinker.link(feature.properties['id'].toLocaleString()) : '') + '</td>\
-                    </tr>\
-                    <tr>\
-                        <td colspan="2">' + (feature.properties['BAIRRO'] !== null ? autolinker.link(feature.properties['BAIRRO'].toLocaleString()) : '') + '</td>\
-                    </tr>\
-                </table>';
-            layer.bindPopup(popupContent, {maxHeight: 400});
-        }
-
-        function style_SubBairros_1_0() {
-            return {
-                pane: 'pane_SubBairros_1',
-                stroke: false, 
-                fill: true,
-                fillOpacity: 1,
-                fillColor: 'rgba(150,150,150,0.0)',
-                interactive: false,
-            }
-        }
-        map.createPane('pane_SubBairros_1');
-        map.getPane('pane_SubBairros_1').style.zIndex = 401;
-        map.getPane('pane_SubBairros_1').style['mix-blend-mode'] = 'normal';
-        var layer_SubBairros_1 = new L.geoJson(json_SubBairros_1, {
-            attribution: '',
-            interactive: false,
-            dataVar: 'json_SubBairros_1',
-            layerName: 'layer_SubBairros_1',
-            pane: 'pane_SubBairros_1',
-            onEachFeature: pop_SubBairros_1,
-            style: style_SubBairros_1_0,
-        });
-        bounds_group.addLayer(layer_SubBairros_1);
-        map.addLayer(layer_SubBairros_1);
-        function pop_DOSALVARENGALogradouroscomconflitodeprogramas_2(feature, layer) {
-            var popupContent = '<table>\
-                <tr>\
-                        <th scope="row">Logradouro</th>\
-                        <td>' + (feature.properties['logradouro'] !== null ? autolinker.link(feature.properties['logradouro'].toLocaleString()) : '') + '</td>\
-                    </tr>\
-                    <tr>\
-                        <td colspan="2">' + (feature.properties['Video_0_path'] !== null ? '<a href="../' + feature.properties['Video_0_path'].toLocaleString() + '"target="_blank">Abrir o video - ' + feature.properties['Video_0_path'].toLocaleString() + '</a>' : '') + '</td>\
-                    </tr>\
-                </table>';
-            layer.bindPopup(popupContent, {maxHeight: 400});
-        }
-
-        function style_DOSALVARENGALogradouroscomconflitodeprogramas_2_0() {
-            return {
-                pane: 'pane_DOSALVARENGALogradouroscomconflitodeprogramas_2',
-                opacity: 1,
-                color: 'rgba(219,30,42,1.0)',
-                dashArray: '',
-                lineCap: 'square',
-                lineJoin: 'bevel',
-                weight: 3.0,
-                fillOpacity: 0,
-                interactive: true,
-            }
-        }
-        map.createPane('pane_DOSALVARENGALogradouroscomconflitodeprogramas_2');
-        map.getPane('pane_DOSALVARENGALogradouroscomconflitodeprogramas_2').style.zIndex = 402;
-        map.getPane('pane_DOSALVARENGALogradouroscomconflitodeprogramas_2').style['mix-blend-mode'] = 'normal';
-        var layer_DOSALVARENGALogradouroscomconflitodeprogramas_2 = new L.geoJson(json_DOSALVARENGALogradouroscomconflitodeprogramas_2, {
-            attribution: '',
-            interactive: true,
-            dataVar: 'json_DOSALVARENGALogradouroscomconflitodeprogramas_2',
-            layerName: 'layer_DOSALVARENGALogradouroscomconflitodeprogramas_2',
-            pane: 'pane_DOSALVARENGALogradouroscomconflitodeprogramas_2',
-            onEachFeature: pop_DOSALVARENGALogradouroscomconflitodeprogramas_2,
-            style: style_DOSALVARENGALogradouroscomconflitodeprogramas_2_0,
-        });
-        bounds_group.addLayer(layer_DOSALVARENGALogradouroscomconflitodeprogramas_2);
-        map.addLayer(layer_DOSALVARENGALogradouroscomconflitodeprogramas_2);
-        function pop_DOSALVARENGALogradourosPROSABS_3(feature, layer) {
+        function pop_DOSALVARENGA_1(feature, layer) {
             var popupContent = '<table>\
                 <tr>\
                         <th scope="row">Logradouro</th>\
@@ -243,9 +164,24 @@ L.TileLayer.Grayscale = L.TileLayer.extend({
             layer.bindPopup(popupContent, {maxHeight: 400});
         }
 
-        function style_DOSALVARENGALogradourosPROSABS_3_0() {
-            return {
-                pane: 'pane_DOSALVARENGALogradourosPROSABS_3',
+        function style_DOSALVARENGA_1_0(feature) {
+            switch(String(feature.properties['Tipo'])) {
+                case 'Logradouros com conflito de programas':
+                    return {
+                pane: 'pane_DOSALVARENGA_1',
+                opacity: 1,
+                color: 'rgba(227,26,28,1.0)',
+                dashArray: '',
+                lineCap: 'square',
+                lineJoin: 'bevel',
+                weight: 3.0,
+                fillOpacity: 0,
+                interactive: true,
+            }
+                    break;
+                case 'Logradouros PROSABS':
+                    return {
+                pane: 'pane_DOSALVARENGA_1',
                 opacity: 1,
                 color: 'rgba(1,255,26,1.0)',
                 dashArray: '',
@@ -255,24 +191,39 @@ L.TileLayer.Grayscale = L.TileLayer.extend({
                 fillOpacity: 0,
                 interactive: true,
             }
+                    break;
+                default:
+                    return {
+                pane: 'pane_DOSALVARENGA_1',
+                opacity: 1,
+                color: 'rgba(0,0,0,1.0)',
+                dashArray: '',
+                lineCap: 'square',
+                lineJoin: 'bevel',
+                weight: 1.0,
+                fillOpacity: 0,
+                interactive: true,
+            }
+                    break;
+            }
         }
-        map.createPane('pane_DOSALVARENGALogradourosPROSABS_3');
-        map.getPane('pane_DOSALVARENGALogradourosPROSABS_3').style.zIndex = 403;
-        map.getPane('pane_DOSALVARENGALogradourosPROSABS_3').style['mix-blend-mode'] = 'normal';
-        var layer_DOSALVARENGALogradourosPROSABS_3 = new L.geoJson(json_DOSALVARENGALogradourosPROSABS_3, {
+        map.createPane('pane_DOSALVARENGA_1');
+        map.getPane('pane_DOSALVARENGA_1').style.zIndex = 401;
+        map.getPane('pane_DOSALVARENGA_1').style['mix-blend-mode'] = 'normal';
+        var layer_DOSALVARENGA_1 = new L.geoJson(json_DOSALVARENGA_1, {
             attribution: '',
             interactive: true,
-            dataVar: 'json_DOSALVARENGALogradourosPROSABS_3',
-            layerName: 'layer_DOSALVARENGALogradourosPROSABS_3',
-            pane: 'pane_DOSALVARENGALogradourosPROSABS_3',
-            onEachFeature: pop_DOSALVARENGALogradourosPROSABS_3,
-            style: style_DOSALVARENGALogradourosPROSABS_3_0,
+            dataVar: 'json_DOSALVARENGA_1',
+            layerName: 'layer_DOSALVARENGA_1',
+            pane: 'pane_DOSALVARENGA_1',
+            onEachFeature: pop_DOSALVARENGA_1,
+            style: style_DOSALVARENGA_1_0,
         });
-        bounds_group.addLayer(layer_DOSALVARENGALogradourosPROSABS_3);
-        map.addLayer(layer_DOSALVARENGALogradourosPROSABS_3);
-        function pop_DOSALVARENGAEquipamentos_4(feature, layer) {
+        bounds_group.addLayer(layer_DOSALVARENGA_1);
+        map.addLayer(layer_DOSALVARENGA_1);
+        function pop_DOSALVARENGAEquipamentos_2(feature, layer) {
             var popupContent = '<table>\
-                    <tr>\
+                <tr>\
                         <th scope="row">NOME</th>\
                         <td>' + (feature.properties['NOME'] !== null ? autolinker.link(feature.properties['NOME'].toLocaleString()) : '') + '</td>\
                     </tr>\
@@ -319,11 +270,11 @@ L.TileLayer.Grayscale = L.TileLayer.extend({
             layer.bindPopup(popupContent, {maxHeight: 400});
         }
 
-        function style_DOSALVARENGAEquipamentos_4_0(feature) {
+        function style_DOSALVARENGAEquipamentos_2_0(feature) {
             switch(String(feature.properties['ESTADO DO EQUIPAMENTO'])) {
                 case 'EXISTENTE':
                     return {
-                pane: 'pane_DOSALVARENGAEquipamentos_4',
+                pane: 'pane_DOSALVARENGAEquipamentos_2',
                 radius: 6.4,
                 opacity: 1,
                 color: 'rgba(35,35,35,1.0)',
@@ -339,7 +290,7 @@ L.TileLayer.Grayscale = L.TileLayer.extend({
                     break;
                 case 'JÁ REALIZADA':
                     return {
-                pane: 'pane_DOSALVARENGAEquipamentos_4',
+                pane: 'pane_DOSALVARENGAEquipamentos_2',
                 radius: 6.4,
                 opacity: 1,
                 color: 'rgba(35,35,35,1.0)',
@@ -355,7 +306,7 @@ L.TileLayer.Grayscale = L.TileLayer.extend({
                     break;
                 case 'NOVO':
                     return {
-                pane: 'pane_DOSALVARENGAEquipamentos_4',
+                pane: 'pane_DOSALVARENGAEquipamentos_2',
                 radius: 6.4,
                 opacity: 1,
                 color: 'rgba(35,35,35,1.0)',
@@ -371,7 +322,7 @@ L.TileLayer.Grayscale = L.TileLayer.extend({
                     break;
                 case 'REFORMA':
                     return {
-                pane: 'pane_DOSALVARENGAEquipamentos_4',
+                pane: 'pane_DOSALVARENGAEquipamentos_2',
                 radius: 6.4,
                 opacity: 1,
                 color: 'rgba(35,35,35,1.0)',
@@ -387,7 +338,7 @@ L.TileLayer.Grayscale = L.TileLayer.extend({
                     break;
                 case 'REQUALIFICAÇÃO':
                     return {
-                pane: 'pane_DOSALVARENGAEquipamentos_4',
+                pane: 'pane_DOSALVARENGAEquipamentos_2',
                 radius: 6.4,
                 opacity: 1,
                 color: 'rgba(35,35,35,1.0)',
@@ -403,58 +354,36 @@ L.TileLayer.Grayscale = L.TileLayer.extend({
                     break;
             }
         }
-        map.createPane('pane_DOSALVARENGAEquipamentos_4');
-        map.getPane('pane_DOSALVARENGAEquipamentos_4').style.zIndex = 404;
-        map.getPane('pane_DOSALVARENGAEquipamentos_4').style['mix-blend-mode'] = 'normal';
-        var layer_DOSALVARENGAEquipamentos_4 = new L.geoJson(json_DOSALVARENGAEquipamentos_4, {
+        map.createPane('pane_DOSALVARENGAEquipamentos_2');
+        map.getPane('pane_DOSALVARENGAEquipamentos_2').style.zIndex = 402;
+        map.getPane('pane_DOSALVARENGAEquipamentos_2').style['mix-blend-mode'] = 'normal';
+        var layer_DOSALVARENGAEquipamentos_2 = new L.geoJson(json_DOSALVARENGAEquipamentos_2, {
             attribution: '',
             interactive: true,
-            dataVar: 'json_DOSALVARENGAEquipamentos_4',
-            layerName: 'layer_DOSALVARENGAEquipamentos_4',
-            pane: 'pane_DOSALVARENGAEquipamentos_4',
-            onEachFeature: pop_DOSALVARENGAEquipamentos_4,
+            dataVar: 'json_DOSALVARENGAEquipamentos_2',
+            layerName: 'layer_DOSALVARENGAEquipamentos_2',
+            pane: 'pane_DOSALVARENGAEquipamentos_2',
+            onEachFeature: pop_DOSALVARENGAEquipamentos_2,
             pointToLayer: function (feature, latlng) {
                 var context = {
                     feature: feature,
                     variables: {}
                 };
-                return L.circleMarker(latlng, style_DOSALVARENGAEquipamentos_4_0(feature));
+                return L.circleMarker(latlng, style_DOSALVARENGAEquipamentos_2_0(feature));
             },
         });
-        bounds_group.addLayer(layer_DOSALVARENGAEquipamentos_4);
-        map.addLayer(layer_DOSALVARENGAEquipamentos_4);
-        map.on("zoomend", function(e) {
-            if (map.getZoom() <= 19 && map.getZoom() >= 13) {
-                map.addLayer(layer_SubBairros_1);
-            } else if (map.getZoom() > 19 || map.getZoom() < 13) {
-                map.removeLayer(layer_SubBairros_1);
-            }
-        });
-            if (map.getZoom() <= 19 && map.getZoom() >= 13) {
-                map.addLayer(layer_SubBairros_1);
-            } else if (map.getZoom() > 19 || map.getZoom() < 13) {
-                map.removeLayer(layer_SubBairros_1);
-            }
-        var osmGeocoder = new L.Control.Geocoder({
-            collapsed: true,
-            position: 'topleft',
-            text: 'Search',
-            title: 'Testing'
-        }).addTo(map);
-        document.getElementsByClassName('leaflet-control-geocoder-icon')[0]
-        .className += ' fa fa-search';
-        document.getElementsByClassName('leaflet-control-geocoder-icon')[0]
-        .title += 'Search for a place';
+        bounds_group.addLayer(layer_DOSALVARENGAEquipamentos_2);
+        map.addLayer(layer_DOSALVARENGAEquipamentos_2);
         var baseMaps = {};
-        L.control.layers(baseMaps,{'DOS ALVARENGA Equipamentos<br /><table><tr><td style="text-align: center;"><img src="legend/DOSALVARENGAEquipamentos_4_EXISTENTE0.png" /></td><td>EXISTENTE</td></tr><tr><td style="text-align: center;"><img src="legend/DOSALVARENGAEquipamentos_4_JÁREALIZADA1.png" /></td><td>JÁ REALIZADA</td></tr><tr><td style="text-align: center;"><img src="legend/DOSALVARENGAEquipamentos_4_NOVO2.png" /></td><td>NOVO</td></tr><tr><td style="text-align: center;"><img src="legend/DOSALVARENGAEquipamentos_4_REFORMA3.png" /></td><td>REFORMA</td></tr><tr><td style="text-align: center;"><img src="legend/DOSALVARENGAEquipamentos_4_REQUALIFICAÇÃO4.png" /></td><td>REQUALIFICAÇÃO</td></tr><tr><td style="text-align: center;">S</td><td>Saúde</td></tr><tr><td style="text-align: center;">E</td><td>Educação</td></tr><tr><td style="text-align: center;">B</td><td>Base de Vigilância</td></tr><tr><td style="text-align: center;">C</td><td>Coleta Seletiva</td></tr><tr><td style="text-align: center;">R</td><td>Requalificação de áreas urbanas</td></tr></table>': layer_DOSALVARENGAEquipamentos_4,'<img src="legend/DOSALVARENGALogradourosPROSABS_3.png" /> DOS ALVARENGA Logradouros PROSABS': layer_DOSALVARENGALogradourosPROSABS_3,'<img src="legend/DOSALVARENGALogradouroscomconflitodeprogramas_2.png" /> DOS ALVARENGA Logradouros com conflito de programas': layer_DOSALVARENGALogradouroscomconflitodeprogramas_2,'<img src="legend/SubBairros_1.png" /> Sub Bairros': layer_SubBairros_1,"OpenStreetMap": layer_OpenStreetMap_0,},{collapsed:false}).addTo(map);
+        L.control.layers(baseMaps,{'DOS ALVARENGA Equipamentos<br /><table><tr><td style="text-align: center;"><img src="legend/DOSALVARENGAEquipamentos_2_EXISTENTE0.png" /></td><td>EXISTENTE</td></tr><tr><td style="text-align: center;"><img src="legend/DOSALVARENGAEquipamentos_2_JÁREALIZADA1.png" /></td><td>JÁ REALIZADA</td></tr><tr><td style="text-align: center;"><img src="legend/DOSALVARENGAEquipamentos_2_NOVO2.png" /></td><td>NOVO</td></tr><tr><td style="text-align: center;"><img src="legend/DOSALVARENGAEquipamentos_2_REFORMA3.png" /></td><td>REFORMA</td></tr><tr><td style="text-align: center;"><img src="legend/DOSALVARENGAEquipamentos_2_REQUALIFICAÇÃO4.png" /></td><td>REQUALIFICAÇÃO</td></tr><tr><td style="text-align: center;">S</td><td>Saúde</td></tr><tr><td style="text-align: center;">E</td><td>Educação</td></tr><tr><td style="text-align: center;">B</td><td>Base de Vigilância</td></tr><tr><td style="text-align: center;">C</td><td>Coleta Seletiva</td></tr><tr><td style="text-align: center;">R</td><td>Requalificação de áreas urbanas</td></tr></table>': layer_DOSALVARENGAEquipamentos_2,'DOS ALVARENGA<br /><table><tr><td style="text-align: center;"><img src="legend/DOSALVARENGA_1_Logradouroscomconflitodeprogramas0.png" /></td><td>Logradouros com conflito de programas</td></tr><tr><td style="text-align: center;"><img src="legend/DOSALVARENGA_1_LogradourosPROSABS1.png" /></td><td>Logradouros PROSABS</td></tr><tr><td style="text-align: center;"><img src="legend/DOSALVARENGA_1_2.png" /></td><td></td></tr></table>': layer_DOSALVARENGA_1,"OpenStreetMap": layer_OpenStreetMap_0,},{collapsed:false}).addTo(map);
         setBounds();
         var i = 0;
-        layer_SubBairros_1.eachLayer(function(layer) {
+        layer_DOSALVARENGA_1.eachLayer(function(layer) {
             var context = {
                 feature: layer.feature,
                 variables: {}
             };
-            layer.bindTooltip((layer.feature.properties['BAIRRO'] !== null?String('<div style="color: #868686; font-size: 12pt; font-weight: bold; font-family: \'Ubuntu\', sans-serif;">' + layer.feature.properties['BAIRRO']) + '</div>':''), {permanent: true, offset: [-0, -16], className: 'css_SubBairros_1'});
+            layer.bindTooltip((layer.feature.properties['logradouro'] !== null?String('<div style="color: #000000; font-size: 10pt; font-family: \'Ubuntu\', sans-serif;">' + layer.feature.properties['logradouro']) + '</div>':''), {permanent: true, offset: [-0, -16], className: 'css_DOSALVARENGA_1'});
             labels.push(layer);
             totalMarkers += 1;
               layer.added = true;
@@ -462,52 +391,34 @@ L.TileLayer.Grayscale = L.TileLayer.extend({
               i++;
         });
         var i = 0;
-        layer_DOSALVARENGALogradouroscomconflitodeprogramas_2.eachLayer(function(layer) {
+        layer_DOSALVARENGAEquipamentos_2.eachLayer(function(layer) {
             var context = {
                 feature: layer.feature,
                 variables: {}
             };
-            layer.bindTooltip((layer.feature.properties['logradouro'] !== null?String('<div style="color: #000000; font-size: 10pt; font-family: \'Ubuntu\', sans-serif;">' + layer.feature.properties['logradouro']) + '</div>':''), {permanent: true, offset: [-0, -16], className: 'css_DOSALVARENGALogradouroscomconflitodeprogramas_2'});
+            layer.bindTooltip((layer.feature.properties['TIPO'] !== null?String('<div style="color: #000000; font-size: 16pt; font-family: \'Ubuntu\', sans-serif;">' + layer.feature.properties['TIPO'].slice(0, 1)) + '</div>':''), {permanent: true, offset: [-0, -0], className: 'css_Player_DOSALVARENGAEquipamentos_2'});
             labels.push(layer);
             totalMarkers += 1;
               layer.added = true;
               addLabel(layer, i);
               i++;
         });
-        var i = 0;
-        layer_DOSALVARENGALogradourosPROSABS_3.eachLayer(function(layer) {
-            var context = {
-                feature: layer.feature,
-                variables: {}
-            };
-            layer.bindTooltip((layer.feature.properties['logradouro'] !== null?String('<div style="color: #000000; font-size: 10pt; font-family: \'Ubuntu\', sans-serif;">' + layer.feature.properties['logradouro']) + '</div>':''), {permanent: true, offset: [-0, -16], className: 'css_DOSALVARENGALogradourosPROSABS_3'});
-            labels.push(layer);
-            totalMarkers += 1;
-              layer.added = true;
-              addLabel(layer, i);
-              i++;
-        });
-        layer_DOSALVARENGAEquipamentos_4.eachLayer(function(layer) {
-            var context = {
-                feature: layer.feature,
-                variables: {}
-            };
-            layer.bindTooltip((layer.feature.properties['TIPO'] !== null?String('<div style="color: #000000; font-size: 16pt; font-family: \'Ubuntu\', sans-serif;">' + layer.feature.properties['TIPO'].slice(0, 1)) + '</div>':''), {permanent: true, offset: [-0, -0], className: 'css_DOSALVARENGAEquipamentos_4'});
-            labels.push(layer);
-            totalMarkers += 1;
-              layer.added = true;
-              addLabel(layer, i);
-              i++;
-        });
-        resetLabels([layer_SubBairros_1,layer_DOSALVARENGALogradouroscomconflitodeprogramas_2,layer_DOSALVARENGALogradourosPROSABS_3]);
+        map.addControl(new L.Control.Search({
+            layer: layer_DOSALVARENGA_1,
+            initial: false,
+            hideMarkerOnCollapse: true,
+            propertyName: 'logradouro'}));
+        document.getElementsByClassName('search-button')[0].className +=
+         ' fa fa-binoculars';
+        resetLabels([layer_DOSALVARENGA_1,layer_DOSALVARENGAEquipamentos_2]);
         map.on("zoomend", function(){
-            resetLabels([layer_SubBairros_1,layer_DOSALVARENGALogradouroscomconflitodeprogramas_2,layer_DOSALVARENGALogradourosPROSABS_3]);
+            resetLabels([layer_DOSALVARENGA_1,layer_DOSALVARENGAEquipamentos_2]);
         });
         map.on("layeradd", function(){
-            resetLabels([layer_SubBairros_1,layer_DOSALVARENGALogradouroscomconflitodeprogramas_2,layer_DOSALVARENGALogradourosPROSABS_3]);
+            resetLabels([layer_DOSALVARENGA_1,layer_DOSALVARENGAEquipamentos_2]);
         });
         map.on("layerremove", function(){
-            resetLabels([layer_SubBairros_1,layer_DOSALVARENGALogradouroscomconflitodeprogramas_2,layer_DOSALVARENGALogradourosPROSABS_3]);
+            resetLabels([layer_DOSALVARENGA_1,layer_DOSALVARENGAEquipamentos_2]);
         });
         </script>
     </body>
