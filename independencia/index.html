@@ -336,7 +336,7 @@
         bounds_group.addLayer(layer_INDEPENDNCIA_2);
         map.addLayer(layer_INDEPENDNCIA_2);
         var baseMaps = {};
-        L.control.layers(baseMaps,{'INDEPENDÊNCIA<br /><table><tr><td style="text-align: center;"><img src="legend/INDEPENDNCIA_2_EXISTENTE0.png" /></td><td>EXISTENTE</td></tr><tr><td style="text-align: center;"><img src="legend/INDEPENDNCIA_2_JÁREALIZADA1.png" /></td><td>JÁ REALIZADA</td></tr><tr><td style="text-align: center;"><img src="legend/INDEPENDNCIA_2_NOVO2.png" /></td><td>NOVO</td></tr><tr><td style="text-align: center;"><img src="legend/INDEPENDNCIA_2_REFORMA3.png" /></td><td>REFORMA</td></tr><tr><td style="text-align: center;"><img src="legend/INDEPENDNCIA_2_REQUALIFICAÇÃO4.png" /></td><td>REQUALIFICAÇÃO</td></tr><tr><td style="text-align: center;">S</td><td>Saúde</td></tr><tr><td style="text-align: center;">E</td><td>Educação</td></tr><tr><td style="text-align: center;">B</td><td>Base de Vigilância</td></tr><tr><td style="text-align: center;">C</td><td>Coleta Seletiva</td></tr><tr><td style="text-align: center;">R</td><td>Requalificação de áreas urbanas</td></tr></table>': layer_INDEPENDNCIA_2,'<img src="legend/INDEPENDNCIALogradourosPROSABS_1.png" /> INDEPENDÊNCIA Logradouros PROSABS': layer_INDEPENDNCIALogradourosPROSABS_1,"OpenStreetMap": layer_OpenStreetMap_0,},{collapsed:false}).addTo(map);
+        L.control.layers(baseMaps,{'INDEPENDÊNCIA<br /><table><tr><td style="text-align: center;"><img src="legend/INDEPENDNCIA_2_EXISTENTE0.png" /></td><td>EXISTENTE</td></tr><tr><td style="text-align: center;"><img src="legend/INDEPENDNCIA_2_JÁREALIZADA1.png" /></td><td>JÁ REALIZADA</td></tr><tr><td style="text-align: center;"><img src="legend/INDEPENDNCIA_2_NOVO2.png" /></td><td>NOVO</td></tr><tr><td style="text-align: center;"><img src="legend/INDEPENDNCIA_2_REFORMA3.png" /></td><td>REFORMA</td></tr><tr><td style="text-align: center;"><img src="legend/INDEPENDNCIA_2_REQUALIFICAÇÃO4.png" /></td><td>REQUALIFICAÇÃO</td></tr><tr><td style="text-align: center;">SAÚ</td><td>Saúde</td></tr><tr><td style="text-align: center;">EDU</td><td>Educação</td></tr><tr><td style="text-align: center;">BAS</td><td>Base de Vigilância</td></tr><tr><td style="text-align: center;">COL</td><td>Coleta Seletiva</td></tr><tr><td style="text-align: center;">REQ</td><td>Requalificação de áreas urbanas</td></tr></table>': layer_INDEPENDNCIA_2,'<img src="legend/INDEPENDNCIALogradourosPROSABS_1.png" /> INDEPENDÊNCIA Logradouros PROSABS': layer_INDEPENDNCIALogradourosPROSABS_1,"OpenStreetMap<hr/><table><tr><td></td><td>18 KM DE PAVIMENTAÇÃO, MICRODRENAGEM, <br/>MACRODRENAGEM E SINALIZAÇÃO</td></tr><tr><td></td><td>1 ECOPONTO</td></tr><tr><td></td><td>1 REQUALIFICAÇÃO DE PRAÇA PARQUE</td></tr><tr><td></td><td>1 CRECHE</td></tr><tr><td></td><td>ARBORIZAÇÃO</td></tr></table>": layer_OpenStreetMap_0,},{collapsed:false}).addTo(map);
         setBounds();
         var i = 0;
         layer_INDEPENDNCIALogradourosPROSABS_1.eachLayer(function(layer) {
@@ -344,7 +344,7 @@
                 feature: layer.feature,
                 variables: {}
             };
-            layer.bindTooltip((layer.feature.properties['logradouro'] !== null?String('<div style="color: #000000; font-size: 10pt; font-family: \'Ubuntu\', sans-serif;">' + layer.feature.properties['logradouro']) + '</div>':''), {permanent: true, offset: [-0, -16], className: 'css_INDEPENDNCIALogradourosPROSABS_1'});
+            layer.bindTooltip((layer.feature.properties['logradouro'] !== null?String('<div style="color: #000000; font-size: 10pt; font-family: \'Ubuntu\', sans-serif;">' + layer.feature.properties['logradouro']) + '</div>':''), {permanent: false, offset: [-0, -16], className: 'css_INDEPENDNCIALogradourosPROSABS_1'});
             labels.push(layer);
             totalMarkers += 1;
               layer.added = true;
@@ -356,7 +356,7 @@
                 feature: layer.feature,
                 variables: {}
             };
-            layer.bindTooltip((layer.feature.properties['TIPO'] !== null?String('<div style="color: #000000; font-size: 16pt; font-family: \'Ubuntu\', sans-serif;">' + layer.feature.properties['TIPO'].slice(0, 1)) + '</div>':''), {permanent: true, offset: [-0, -0], className: 'css_Player_INDEPENDNCIA_2'});
+            layer.bindTooltip((layer.feature.properties['TIPO'] !== null?String('<div style="color: #000000; font-size: 10pt; font-family: \'Ubuntu\', sans-serif;">' + layer.feature.properties['TIPO'].slice(0, 3)) + '</div>':''), {permanent: true, offset: [-0, -0], className: 'css_Player_INDEPENDNCIA_2'});
             labels.push(layer);
             totalMarkers += 1;
               layer.added = true;

@@ -8,7 +8,6 @@
         <meta name="apple-mobile-web-app-capable" content="yes">
         <link rel="stylesheet" href="css/leaflet.css">
         <link rel="stylesheet" href="css/qgis2web.css"><link rel="stylesheet" href="css/fontawesome-all.min.css">
-        <link rel="stylesheet" href="css/leaflet-control-geocoder.Geocoder.css">
         <link rel="stylesheet" href="css/leaflet-search.css">
         <link rel="stylesheet" href="css/leaflet-measure.css">
         <style>
@@ -33,14 +32,12 @@
         <script src="js/rbush.min.js"></script>
         <script src="js/labelgun.min.js"></script>
         <script src="js/labels.js"></script>
-        <script src="js/leaflet-control-geocoder.Geocoder.js"></script>
         <script src="js/leaflet-measure.js"></script>
-        <script src="data/BATISTINILogradourosPROSABS_1.js"></script>
         <script src="js/leaflet-search.js"></script>
-        <script src="data/equipamentoscomfotosbatistini_2.js"></script>
+        <script src="data/BATISTINI_1.js"></script>
+        <script src="data/BATISTINIEquipamentos_2.js"></script>
         <script>
-
-L.TileLayer.Grayscale = L.TileLayer.extend({
+            L.TileLayer.Grayscale = L.TileLayer.extend({
             options: {
                 quotaRed: 21,
                 quotaGreen: 71,
@@ -92,9 +89,8 @@ L.TileLayer.Grayscale = L.TileLayer.extend({
         L.tileLayer.grayscale = function (url, options) {
             return new L.TileLayer.Grayscale(url, options);
         };
-
         var map = L.map('map', {
-            zoomControl:true, maxZoom:18, minZoom:14
+            zoomControl:true, maxZoom:18, minZoom:11
         })
         var hash = new L.Hash(map);
         map.attributionControl.setPrefix('<a href="https://github.com/tomchadwin/qgis2web" target="_blank">qgis2web</a> &middot; <a href="https://leafletjs.com" title="A JS library for interactive maps">Leaflet</a> &middot; <a href="https://qgis.org">QGIS</a>');
@@ -145,7 +141,7 @@ L.TileLayer.Grayscale = L.TileLayer.extend({
         var layer_OpenStreetMap_0 = mapaBase();
         layer_OpenStreetMap_0;
         map.addLayer(layer_OpenStreetMap_0);
-        function pop_BATISTINILogradourosPROSABS_1(feature, layer) {
+        function pop_BATISTINI_1(feature, layer) {
             var popupContent = '<table>\
                 <tr>\
                         <th scope="row">Logradouro</th>\
@@ -164,9 +160,24 @@ L.TileLayer.Grayscale = L.TileLayer.extend({
             layer.bindPopup(popupContent, {maxHeight: 400});
         }
 
-        function style_BATISTINILogradourosPROSABS_1_0() {
-            return {
-                pane: 'pane_BATISTINILogradourosPROSABS_1',
+        function style_BATISTINI_1_0(feature) {
+            switch(String(feature.properties['Tipo'])) {
+                case 'Logradouros com conflito de programas':
+                    return {
+                pane: 'pane_BATISTINI_1',
+                opacity: 1,
+                color: 'rgba(227,26,28,1.0)',
+                dashArray: '',
+                lineCap: 'square',
+                lineJoin: 'bevel',
+                weight: 3.0,
+                fillOpacity: 0,
+                interactive: true,
+            }
+                    break;
+                case 'Logradouros PROSABS':
+                    return {
+                pane: 'pane_BATISTINI_1',
                 opacity: 1,
                 color: 'rgba(1,255,26,1.0)',
                 dashArray: '',
@@ -176,22 +187,37 @@ L.TileLayer.Grayscale = L.TileLayer.extend({
                 fillOpacity: 0,
                 interactive: true,
             }
+                    break;
+                default:
+                    return {
+                pane: 'pane_BATISTINI_1',
+                opacity: 1,
+                color: 'rgba(0,0,0,1.0)',
+                dashArray: '',
+                lineCap: 'square',
+                lineJoin: 'bevel',
+                weight: 1.0,
+                fillOpacity: 0,
+                interactive: true,
+            }
+                    break;
+            }
         }
-        map.createPane('pane_BATISTINILogradourosPROSABS_1');
-        map.getPane('pane_BATISTINILogradourosPROSABS_1').style.zIndex = 401;
-        map.getPane('pane_BATISTINILogradourosPROSABS_1').style['mix-blend-mode'] = 'normal';
-        var layer_BATISTINILogradourosPROSABS_1 = new L.geoJson(json_BATISTINILogradourosPROSABS_1, {
+        map.createPane('pane_BATISTINI_1');
+        map.getPane('pane_BATISTINI_1').style.zIndex = 401;
+        map.getPane('pane_BATISTINI_1').style['mix-blend-mode'] = 'normal';
+        var layer_BATISTINI_1 = new L.geoJson(json_BATISTINI_1, {
             attribution: '',
             interactive: true,
-            dataVar: 'json_BATISTINILogradourosPROSABS_1',
-            layerName: 'layer_BATISTINILogradourosPROSABS_1',
-            pane: 'pane_BATISTINILogradourosPROSABS_1',
-            onEachFeature: pop_BATISTINILogradourosPROSABS_1,
-            style: style_BATISTINILogradourosPROSABS_1_0,
+            dataVar: 'json_BATISTINI_1',
+            layerName: 'layer_BATISTINI_1',
+            pane: 'pane_BATISTINI_1',
+            onEachFeature: pop_BATISTINI_1,
+            style: style_BATISTINI_1_0,
         });
-        bounds_group.addLayer(layer_BATISTINILogradourosPROSABS_1);
-        map.addLayer(layer_BATISTINILogradourosPROSABS_1);
-        function pop_equipamentoscomfotosbatistini_2(feature, layer) {
+        bounds_group.addLayer(layer_BATISTINI_1);
+        map.addLayer(layer_BATISTINI_1);
+        function pop_BATISTINIEquipamentos_2(feature, layer) {
             var popupContent = '<table>\
                 <tr>\
                         <th scope="row">NOME</th>\
@@ -240,11 +266,11 @@ L.TileLayer.Grayscale = L.TileLayer.extend({
             layer.bindPopup(popupContent, {maxHeight: 400});
         }
 
-        function style_equipamentoscomfotosbatistini_2_0(feature) {
+        function style_BATISTINIEquipamentos_2_0(feature) {
             switch(String(feature.properties['ESTADO DO EQUIPAMENTO'])) {
                 case 'EXISTENTE':
                     return {
-                pane: 'pane_equipamentoscomfotosbatistini_2',
+                pane: 'pane_BATISTINIEquipamentos_2',
                 radius: 6.4,
                 opacity: 1,
                 color: 'rgba(35,35,35,1.0)',
@@ -260,7 +286,7 @@ L.TileLayer.Grayscale = L.TileLayer.extend({
                     break;
                 case 'JÁ REALIZADA':
                     return {
-                pane: 'pane_equipamentoscomfotosbatistini_2',
+                pane: 'pane_BATISTINIEquipamentos_2',
                 radius: 6.4,
                 opacity: 1,
                 color: 'rgba(35,35,35,1.0)',
@@ -276,7 +302,7 @@ L.TileLayer.Grayscale = L.TileLayer.extend({
                     break;
                 case 'NOVO':
                     return {
-                pane: 'pane_equipamentoscomfotosbatistini_2',
+                pane: 'pane_BATISTINIEquipamentos_2',
                 radius: 6.4,
                 opacity: 1,
                 color: 'rgba(35,35,35,1.0)',
@@ -292,7 +318,7 @@ L.TileLayer.Grayscale = L.TileLayer.extend({
                     break;
                 case 'REFORMA':
                     return {
-                pane: 'pane_equipamentoscomfotosbatistini_2',
+                pane: 'pane_BATISTINIEquipamentos_2',
                 radius: 6.4,
                 opacity: 1,
                 color: 'rgba(35,35,35,1.0)',
@@ -308,7 +334,7 @@ L.TileLayer.Grayscale = L.TileLayer.extend({
                     break;
                 case 'REQUALIFICAÇÃO':
                     return {
-                pane: 'pane_equipamentoscomfotosbatistini_2',
+                pane: 'pane_BATISTINIEquipamentos_2',
                 radius: 6.4,
                 opacity: 1,
                 color: 'rgba(35,35,35,1.0)',
@@ -324,70 +350,70 @@ L.TileLayer.Grayscale = L.TileLayer.extend({
                     break;
             }
         }
-        map.createPane('pane_equipamentoscomfotosbatistini_2');
-        map.getPane('pane_equipamentoscomfotosbatistini_2').style.zIndex = 402;
-        map.getPane('pane_equipamentoscomfotosbatistini_2').style['mix-blend-mode'] = 'normal';
-        var layer_equipamentoscomfotosbatistini_2 = new L.geoJson(json_equipamentoscomfotosbatistini_2, {
+        map.createPane('pane_BATISTINIEquipamentos_2');
+        map.getPane('pane_BATISTINIEquipamentos_2').style.zIndex = 402;
+        map.getPane('pane_BATISTINIEquipamentos_2').style['mix-blend-mode'] = 'normal';
+        var layer_BATISTINIEquipamentos_2 = new L.geoJson(json_BATISTINIEquipamentos_2, {
             attribution: '',
             interactive: true,
-            dataVar: 'json_equipamentoscomfotosbatistini_2',
-            layerName: 'layer_equipamentoscomfotosbatistini_2',
-            pane: 'pane_equipamentoscomfotosbatistini_2',
-            onEachFeature: pop_equipamentoscomfotosbatistini_2,
+            dataVar: 'json_BATISTINIEquipamentos_2',
+            layerName: 'layer_BATISTINIEquipamentos_2',
+            pane: 'pane_BATISTINIEquipamentos_2',
+            onEachFeature: pop_BATISTINIEquipamentos_2,
             pointToLayer: function (feature, latlng) {
                 var context = {
                     feature: feature,
                     variables: {}
                 };
-                return L.circleMarker(latlng, style_equipamentoscomfotosbatistini_2_0(feature));
+                return L.circleMarker(latlng, style_BATISTINIEquipamentos_2_0(feature));
             },
         });
-        bounds_group.addLayer(layer_equipamentoscomfotosbatistini_2);
-        map.addLayer(layer_equipamentoscomfotosbatistini_2);
+        bounds_group.addLayer(layer_BATISTINIEquipamentos_2);
+        map.addLayer(layer_BATISTINIEquipamentos_2);
+        var baseMaps = {};
+        L.control.layers(baseMaps,{'BATISTINI Equipamentos<br /><table><tr><td style="text-align: center;"><img src="legend/BATISTINIEquipamentos_2_EXISTENTE0.png" /></td><td>EXISTENTE</td></tr><tr><td style="text-align: center;"><img src="legend/BATISTINIEquipamentos_2_JÁREALIZADA1.png" /></td><td>JÁ REALIZADA</td></tr><tr><td style="text-align: center;"><img src="legend/BATISTINIEquipamentos_2_NOVO2.png" /></td><td>NOVO</td></tr><tr><td style="text-align: center;"><img src="legend/BATISTINIEquipamentos_2_REFORMA3.png" /></td><td>REFORMA</td></tr><tr><td style="text-align: center;"><img src="legend/BATISTINIEquipamentos_2_REQUALIFICAÇÃO4.png" /></td><td>REQUALIFICAÇÃO</td></tr><tr><td style="text-align: center;">SAÚ</td><td>Saúde</td></tr><tr><td style="text-align: center;">EDU</td><td>Educação</td></tr><tr><td style="text-align: center;">BAS</td><td>Base de Vigilância</td></tr><tr><td style="text-align: center;">COL</td><td>Coleta Seletiva</td></tr><tr><td style="text-align: center;">REQ</td><td>Requalificação de áreas urbanas</td></tr></table></table>': layer_BATISTINIEquipamentos_2,'BATISTINI<br /><table><tr><td style="text-align: center;"><img src="legend/BATISTINI_1_Logradouroscomconflitodeprogramas0.png" /></td><td>Logradouros com conflito de programas</td></tr><tr><td style="text-align: center;"><img src="legend/BATISTINI_1_LogradourosPROSABS1.png" /></td><td>Logradouros PROSABS</td></tr></table>': layer_BATISTINI_1,"OpenStreetMap<hr/><table><tr><td></td><td>46KM DE PAVIMENTAÇÃO, <br/>MICRODRENAGEM E SINALIZAÇÃO</td></tr><tr><td></td><td>20 KM DE PASSEIO/ACESSIBILIDADE</td></tr><tr><td></td><td>1 ECOPONTO</td></tr><tr><td></td><td>3 REFORMAS EM PRAÇAS</td></tr><tr><td></td><td>1 UPA</td></tr><tr><td></td><td>2 CAPS</td></tr></table>": layer_OpenStreetMap_0,},{collapsed:false}).addTo(map);
+        setBounds();
+        var i = 0;
+        layer_BATISTINI_1.eachLayer(function(layer) {
+            var context = {
+                feature: layer.feature,
+                variables: {}
+            };
+            layer.bindTooltip((layer.feature.properties['logradouro'] !== null?String('<div style="color: #000000; font-size: 10pt; font-family: \'Ubuntu\', sans-serif;">' + layer.feature.properties['logradouro']) + '</div>':''), {permanent: false, offset: [-0, -16], className: 'css_BATISTINI_1'});
+            labels.push(layer);
+            totalMarkers += 1;
+              layer.added = true;
+              addLabel(layer, i);
+              i++;
+        });
+        layer_BATISTINIEquipamentos_2.eachLayer(function(layer) {
+            var context = {
+                feature: layer.feature,
+                variables: {}
+            };
+            layer.bindTooltip((layer.feature.properties['TIPO'] !== null?String('<div style="color: #000000; font-size: 10pt; font-family: \'Ubuntu\', sans-serif;">' + layer.feature.properties['TIPO'].slice(0, 3)) + '</div>':''), {permanent: true, offset: [-0, -0], className: 'css_Player_BATISTINIEquipamentos_2'});
+            labels.push(layer);
+            totalMarkers += 1;
+              layer.added = true;
+              addLabel(layer, i);
+              i++;
+        });
         map.addControl(new L.Control.Search({
-            layer: layer_BATISTINILogradourosPROSABS_1,
+            layer: layer_BATISTINI_1,
             initial: false,
             hideMarkerOnCollapse: true,
             propertyName: 'logradouro'}));
         document.getElementsByClassName('search-button')[0].className +=
          ' fa fa-binoculars';
-        var baseMaps = {};
-        L.control.layers(baseMaps,{'equipamentos-com-fotos-batistini<br /><table><tr><td style="text-align: center;"><img src="legend/equipamentoscomfotosbatistini_2_EXISTENTE0.png" /></td><td>EXISTENTE</td></tr><tr><td style="text-align: center;"><img src="legend/equipamentoscomfotosbatistini_2_JÁREALIZADA1.png" /></td><td>JÁ REALIZADA</td></tr><tr><td style="text-align: center;"><img src="legend/equipamentoscomfotosbatistini_2_NOVO2.png" /></td><td>NOVO</td></tr><tr><td style="text-align: center;"><img src="legend/equipamentoscomfotosbatistini_2_REFORMA3.png" /></td><td>REFORMA</td></tr><tr><td style="text-align: center;"><img src="legend/equipamentoscomfotosbatistini_2_REQUALIFICAÇÃO4.png" /></td><td>REQUALIFICAÇÃO</td></tr><tr><td style="text-align: center;">S</td><td>Saúde</td></tr><tr><td style="text-align: center;">E</td><td>Educação</td></tr><tr><td style="text-align: center;">B</td><td>Base de Vigilância</td></tr><tr><td style="text-align: center;">C</td><td>Coleta Seletiva</td></tr><tr><td style="text-align: center;">R</td><td>Requalificação de áreas urbanas</td></tr></table>': layer_equipamentoscomfotosbatistini_2,'<img src="legend/BATISTINILogradourosPROSABS_1.png" /> BATISTINI Logradouros PROSABS': layer_BATISTINILogradourosPROSABS_1,"OpenStreetMap<hr/><table><tr><td></td><td>46 km de pavimentação, microdrenagem e sinalização</td></tr><tr><td></td><td>20 km de passeio/acessibilidade</td></tr><tr><td></td><td>Arborização</td></tr><tr><td></td><td>1 Ecoponto</td></tr><tr><td></td><td>3 Reformas de Praças</td></tr></table>": layer_OpenStreetMap_0,},{collapsed:false}).addTo(map);
-        setBounds();
-        var i = 0;
-        layer_BATISTINILogradourosPROSABS_1.eachLayer(function(layer) {
-            var context = {
-                feature: layer.feature,
-                variables: {}
-            };
-            layer.bindTooltip((layer.feature.properties['logradouro'] !== null?String('<div style="color: #000000; font-size: 10pt; font-family: \'Ubuntu\', sans-serif;">' + layer.feature.properties['logradouro']) + '</div>':''), {permanent: true, offset: [-0, -16], className: 'css_BATISTINILogradourosPROSABS_1'});
-            labels.push(layer);
-            totalMarkers += 1;
-              layer.added = true;
-              addLabel(layer, i);
-              i++;
-        });
-        resetLabels([layer_BATISTINILogradourosPROSABS_1]);
-        layer_equipamentoscomfotosbatistini_2.eachLayer(function(layer) {
-            var context = {
-                feature: layer.feature,
-                variables: {}
-            };
-            layer.bindTooltip((layer.feature.properties['TIPO'] !== null?String('<div style="color: #000000; font-size: 16pt; font-family: \'Ubuntu\', sans-serif;">' + layer.feature.properties['TIPO'].slice(0, 1)) + '</div>':''), {permanent: true, offset: [-0, -0], className: 'css_Player_equipamentoscomfotosbatistini_2'});
-            labels.push(layer);
-            totalMarkers += 1;
-              layer.added = true;
-              addLabel(layer, i);
-              i++;
-        });
+        resetLabels([layer_BATISTINI_1]);
         map.on("zoomend", function(){
-            resetLabels([layer_BATISTINILogradourosPROSABS_1]);
+            resetLabels([layer_BATISTINI_1]);
         });
         map.on("layeradd", function(){
-            resetLabels([layer_BATISTINILogradourosPROSABS_1]);
+            resetLabels([layer_BATISTINI_1]);
         });
         map.on("layerremove", function(){
-            resetLabels([layer_BATISTINILogradourosPROSABS_1]);
+            resetLabels([layer_BATISTINI_1]);
         });
         </script>
     </body>

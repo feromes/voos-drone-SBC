@@ -349,7 +349,7 @@ L.TileLayer.Grayscale = L.TileLayer.extend({
         document.getElementsByClassName('search-button')[0].className +=
          ' fa fa-binoculars';
         var baseMaps = {};
-        L.control.layers(baseMaps,{'FERRAZOPOLIS-MONTANHAO Equipamentos<br /><table><tr><td style="text-align: center;"><img src="legend/FERRAZOPOLISMONTANHAOEquipamentos_2_EXISTENTE0.png" /></td><td>EXISTENTE</td></tr><tr><td style="text-align: center;"><img src="legend/FERRAZOPOLISMONTANHAOEquipamentos_2_JÁREALIZADA1.png" /></td><td>JÁ REALIZADA</td></tr><tr><td style="text-align: center;"><img src="legend/FERRAZOPOLISMONTANHAOEquipamentos_2_NOVO2.png" /></td><td>NOVO</td></tr><tr><td style="text-align: center;"><img src="legend/FERRAZOPOLISMONTANHAOEquipamentos_2_REFORMA3.png" /></td><td>REFORMA</td></tr><tr><td style="text-align: center;"><img src="legend/FERRAZOPOLISMONTANHAOEquipamentos_2_REQUALIFICAÇÃO4.png" /></td><td>REQUALIFICAÇÃO</td></tr><tr><td style="text-align: center;">S</td><td>Saúde</td></tr><tr><td style="text-align: center;">E</td><td>Educação</td></tr><tr><td style="text-align: center;">B</td><td>Base de Vigilância</td></tr><tr><td style="text-align: center;">C</td><td>Coleta Seletiva</td></tr><tr><td style="text-align: center;">R</td><td>Requalificação de áreas urbanas</td></tr></table>': layer_FERRAZOPOLISMONTANHAOEquipamentos_2,'<img src="legend/FERRAZOPOLISMONTANHAOLogradourosPROSABS_1.png" /> FERRAZOPOLIS-MONTANHAO Logradouros PROSABS': layer_FERRAZOPOLISMONTANHAOLogradourosPROSABS_1,"OpenStreetMap": layer_OpenStreetMap_0,},{collapsed:false}).addTo(map);
+        L.control.layers(baseMaps,{'FERRAZOPOLIS-MONTANHAO Equipamentos<br /><table><tr><td style="text-align: center;"><img src="legend/FERRAZOPOLISMONTANHAOEquipamentos_2_EXISTENTE0.png" /></td><td>EXISTENTE</td></tr><tr><td style="text-align: center;"><img src="legend/FERRAZOPOLISMONTANHAOEquipamentos_2_JÁREALIZADA1.png" /></td><td>JÁ REALIZADA</td></tr><tr><td style="text-align: center;"><img src="legend/FERRAZOPOLISMONTANHAOEquipamentos_2_NOVO2.png" /></td><td>NOVO</td></tr><tr><td style="text-align: center;"><img src="legend/FERRAZOPOLISMONTANHAOEquipamentos_2_REFORMA3.png" /></td><td>REFORMA</td></tr><tr><td style="text-align: center;"><img src="legend/FERRAZOPOLISMONTANHAOEquipamentos_2_REQUALIFICAÇÃO4.png" /></td><td>REQUALIFICAÇÃO</td></tr><tr><td style="text-align: center;">SAÚ</td><td>Saúde</td></tr><tr><td style="text-align: center;">EDU</td><td>Educação</td></tr><tr><td style="text-align: center;">BAS</td><td>Base de Vigilância</td></tr><tr><td style="text-align: center;">COL</td><td>Coleta Seletiva</td></tr><tr><td style="text-align: center;">REQ</td><td>Requalificação de áreas urbanas</td></tr></table>': layer_FERRAZOPOLISMONTANHAOEquipamentos_2,'<img src="legend/FERRAZOPOLISMONTANHAOLogradourosPROSABS_1.png" /> FERRAZOPOLIS-MONTANHAO Logradouros PROSABS': layer_FERRAZOPOLISMONTANHAOLogradourosPROSABS_1,"OpenStreetMap": layer_OpenStreetMap_0,},{collapsed:false}).addTo(map);
         setBounds();
         var i = 0;
         layer_FERRAZOPOLISMONTANHAOLogradourosPROSABS_1.eachLayer(function(layer) {
@@ -357,7 +357,7 @@ L.TileLayer.Grayscale = L.TileLayer.extend({
                 feature: layer.feature,
                 variables: {}
             };
-            layer.bindTooltip((layer.feature.properties['logradouro'] !== null?String('<div style="color: #000000; font-size: 10pt; font-family: \'Ubuntu\', sans-serif;">' + layer.feature.properties['logradouro']) + '</div>':''), {permanent: true, offset: [-0, -16], className: 'css_FERRAZOPOLISMONTANHAOLogradourosPROSABS_1'});
+            layer.bindTooltip((layer.feature.properties['logradouro'] !== null?String('<div style="color: #000000; font-size: 10pt; font-family: \'Ubuntu\', sans-serif;">' + layer.feature.properties['logradouro']) + '</div>':''), {permanent: false, offset: [-0, -16], className: 'css_FERRAZOPOLISMONTANHAOLogradourosPROSABS_1'});
             labels.push(layer);
             totalMarkers += 1;
               layer.added = true;
@@ -369,7 +369,7 @@ L.TileLayer.Grayscale = L.TileLayer.extend({
                 feature: layer.feature,
                 variables: {}
             };
-            layer.bindTooltip((layer.feature.properties['TIPO'] !== null?String('<div style="color: #000000; font-size: 16pt; font-family: \'Ubuntu\', sans-serif;">' + layer.feature.properties['TIPO'].slice(0, 1)) + '</div>':''), {permanent: true, offset: [-0, -0], className: 'css_Player_FERRAZOPOLISMONTANHAOEquipamentos_2'});
+            layer.bindTooltip((layer.feature.properties['TIPO'] !== null?String('<div style="color: #000000; font-size: 10pt; font-family: \'Ubuntu\', sans-serif;">' + layer.feature.properties['TIPO'].slice(0, 3)) + '</div>':''), {permanent: true, offset: [-0, -0], className: 'css_Player_FERRAZOPOLISMONTANHAOEquipamentos_2'});
             labels.push(layer);
             totalMarkers += 1;
               layer.added = true;
