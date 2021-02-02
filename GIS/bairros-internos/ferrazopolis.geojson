@@ -1,0 +1,24 @@
+{
+"type": "FeatureCollection",
+"name": "ferrazopolis",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "id": null, "BAIRRO": "VILA FORMOSA" }, "geometry": { "type": "Point", "coordinates": [ -46.546850525498868, -23.724244783172878 ] } },
+{ "type": "Feature", "properties": { "id": null, "BAIRRO": "S B MIRIM" }, "geometry": { "type": "Point", "coordinates": [ -46.543309468084885, -23.724692154452164 ] } },
+{ "type": "Feature", "properties": { "id": null, "BAIRRO": "VILA FERRAZOPOLIS" }, "geometry": { "type": "Point", "coordinates": [ -46.544067724490453, -23.72724747853891 ] } },
+{ "type": "Feature", "properties": { "id": null, "BAIRRO": "VILA ROMILDO GEOLA" }, "geometry": { "type": "Point", "coordinates": [ -46.54136833168667, -23.726117676494614 ] } },
+{ "type": "Feature", "properties": { "id": null, "BAIRRO": "VILA BOA VIAGEM" }, "geometry": { "type": "Point", "coordinates": [ -46.539950392208262, -23.726921428284502 ] } },
+{ "type": "Feature", "properties": { "id": null, "BAIRRO": "JARDIM SABATINI" }, "geometry": { "type": "Point", "coordinates": [ -46.538903998368582, -23.728817069298408 ] } },
+{ "type": "Feature", "properties": { "id": null, "BAIRRO": "JARDIM LIMÃO" }, "geometry": { "type": "Point", "coordinates": [ -46.537281329660679, -23.726618125722293 ] } },
+{ "type": "Feature", "properties": { "id": null, "BAIRRO": "VILA DO TANQUE" }, "geometry": { "type": "Point", "coordinates": [ -46.537630127607237, -23.724836223169213 ] } },
+{ "type": "Feature", "properties": { "id": null, "BAIRRO": "JARDIM REGINA" }, "geometry": { "type": "Point", "coordinates": [ -46.535165794289171, -23.724874135989499 ] } },
+{ "type": "Feature", "properties": { "id": null, "BAIRRO": "JARDIM LEBLON" }, "geometry": { "type": "Point", "coordinates": [ -46.537637710171296, -23.723152893948868 ] } },
+{ "type": "Feature", "properties": { "id": null, "BAIRRO": "JARDIM PARAISO\/BELA VISTA" }, "geometry": { "type": "Point", "coordinates": [ -46.540337102975101, -23.723774664201432 ] } },
+{ "type": "Feature", "properties": { "id": null, "BAIRRO": "JARDIM NOVO HORIZONTE" }, "geometry": { "type": "Point", "coordinates": [ -46.532693878407059, -23.728028482636635 ] } },
+{ "type": "Feature", "properties": { "id": null, "BAIRRO": "VILA SAO JOSÉ" }, "geometry": { "type": "Point", "coordinates": [ -46.536943905560229, -23.731925920561203 ] } },
+{ "type": "Feature", "properties": { "id": null, "BAIRRO": "NOVA WANDA BUENO" }, "geometry": { "type": "Point", "coordinates": [ -46.538824381446013, -23.733472763628534 ] } },
+{ "type": "Feature", "properties": { "id": null, "BAIRRO": "C H NOVA SILVINA" }, "geometry": { "type": "Point", "coordinates": [ -46.541235636815678, -23.735747532845203 ] } },
+{ "type": "Feature", "properties": { "id": null, "BAIRRO": "JARDIM SILVINA" }, "geometry": { "type": "Point", "coordinates": [ -46.535124090186912, -23.738166370778938 ] } },
+{ "type": "Feature", "properties": { "id": null, "BAIRRO": "NOVA GASPAR DE SOUZA" }, "geometry": { "type": "Point", "coordinates": [ -46.535745860439462, -23.741078075376272 ] } }
+]
+}

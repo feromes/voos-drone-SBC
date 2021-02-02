@@ -1,0 +1,25 @@
+{
+"type": "FeatureCollection",
+"name": "batistini",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "id": null, "BAIRRO": "PARQUE LOS ANGELES" }, "geometry": { "type": "Point", "coordinates": [ -46.610885278948416, -23.770604579808872 ] } },
+{ "type": "Feature", "properties": { "id": null, "BAIRRO": "JARDIM CANAA" }, "geometry": { "type": "Point", "coordinates": [ -46.614646230719991, -23.774335201324224 ] } },
+{ "type": "Feature", "properties": { "id": null, "BAIRRO": "JARDIM DA REPRESA" }, "geometry": { "type": "Point", "coordinates": [ -46.597517218518391, -23.771575148007983 ] } },
+{ "type": "Feature", "properties": { "id": null, "BAIRRO": "VILA SANTA MARIA" }, "geometry": { "type": "Point", "coordinates": [ -46.601293335418077, -23.773440458765666 ] } },
+{ "type": "Feature", "properties": { "id": null, "BAIRRO": "JARDIM UIRIÇABA" }, "geometry": { "type": "Point", "coordinates": [ -46.596986439034502, -23.775866879263472 ] } },
+{ "type": "Feature", "properties": { "id": null, "BAIRRO": "VILA DO SOL" }, "geometry": { "type": "Point", "coordinates": [ -46.598184484155283, -23.774411026964785 ] } },
+{ "type": "Feature", "properties": { "id": null, "BAIRRO": "VILA TADEU" }, "geometry": { "type": "Point", "coordinates": [ -46.600231776450293, -23.776716126437687 ] } },
+{ "type": "Feature", "properties": { "id": null, "BAIRRO": "PARQUE IMIGRANTES" }, "geometry": { "type": "Point", "coordinates": [ -46.590344112921784, -23.773667935687335 ] } },
+{ "type": "Feature", "properties": { "id": null, "BAIRRO": "CHACARAS ROYAL PARK" }, "geometry": { "type": "Point", "coordinates": [ -46.576634837109253, -23.770179956221764 ] } },
+{ "type": "Feature", "properties": { "id": null, "BAIRRO": "ROYAL PARK" }, "geometry": { "type": "Point", "coordinates": [ -46.582867704762968, -23.771059533652206 ] } },
+{ "type": "Feature", "properties": { "id": null, "BAIRRO": "RECANTO IPAUÇU" }, "geometry": { "type": "Point", "coordinates": [ -46.593756266746816, -23.781386985895946 ] } },
+{ "type": "Feature", "properties": { "id": null, "BAIRRO": "JARDIM MARCO POLO" }, "geometry": { "type": "Point", "coordinates": [ -46.576225378650257, -23.760580430127355 ] } },
+{ "type": "Feature", "properties": { "id": null, "BAIRRO": "A C NOVA ERA" }, "geometry": { "type": "Point", "coordinates": [ -46.567095971527316, -23.753543810683745 ] } },
+{ "type": "Feature", "properties": { "id": null, "BAIRRO": "VILA NORMA" }, "geometry": { "type": "Point", "coordinates": [ -46.574466223789358, -23.751966637360184 ] } },
+{ "type": "Feature", "properties": { "id": null, "BAIRRO": "VILA BATISTINI" }, "geometry": { "type": "Point", "coordinates": [ -46.581411852464285, -23.751860481463407 ] } },
+{ "type": "Feature", "properties": { "id": null, "BAIRRO": "J SKAF" }, "geometry": { "type": "Point", "coordinates": [ -46.585157639107756, -23.756637496818438 ] } },
+{ "type": "Feature", "properties": { "id": null, "BAIRRO": "NOVA RUA DAS FLORES" }, "geometry": { "type": "Point", "coordinates": [ -46.580972063749066, -23.755484947081982 ] } },
+{ "type": "Feature", "properties": { "id": null, "BAIRRO": "NOVA VILA DOS BOSQUES" }, "geometry": { "type": "Point", "coordinates": [ -46.579667862731498, -23.753756122477299 ] } }
+]
+}
