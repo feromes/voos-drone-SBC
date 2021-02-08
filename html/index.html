@@ -45,6 +45,7 @@
         <script src="js/leaflet-measure.js"></script>
         <script src="data/MunicipiodeSaoBernardodoCampo_1.js"></script>
         <script src="data/BairrosProjeto_2.js"></script>
+        <script src="data/PsBalsas_0.js"></script>
         <script>
 
 
@@ -406,6 +407,112 @@
         });
         bounds_group.addLayer(layer_BairrosProjeto_2);
         map.addLayer(layer_BairrosProjeto_2);
+        function pop_PsBalsas_0(feature, layer) {
+            var popupContent = '<table>\
+                    <tr>\
+                        <th scope="row">NOME</th>\
+                        <td>' + (feature.properties['NOME'] !== null ? autolinker.link(feature.properties['NOME'].toLocaleString()) : '') + '</td>\
+                    </tr>\
+                    <tr>\
+                        <td colspan="2"><a href="../pós-balsas/index.html" target="_blank"> Abrir PÓS-BALSAS em outra aba</a></td>\
+                    </tr>\
+                </table>';
+            layer.bindPopup(popupContent, {maxHeight: 400});
+        }
+
+        function style_PsBalsas_0_0(feature) {
+            switch(String(feature.properties['NOME'])) {
+                case 'CAPIVARI':
+                    return {
+                pane: 'pane_PsBalsas_0',
+                opacity: 1,
+                color: 'rgba(235,33,124,1.0)',
+                dashArray: '',
+                lineCap: 'butt',
+                lineJoin: 'miter',
+                weight: 2.0, 
+                fill: true,
+                fillOpacity: 1,
+                fillColor: 'rgba(235,33,124,0.5019607843137255)',
+                interactive: true,
+            }
+                    break;
+                case 'CURUCUTU':
+                    return {
+                pane: 'pane_PsBalsas_0',
+                opacity: 1,
+                color: 'rgba(114,200,48,1.0)',
+                dashArray: '',
+                lineCap: 'butt',
+                lineJoin: 'miter',
+                weight: 2.0, 
+                fill: true,
+                fillOpacity: 1,
+                fillColor: 'rgba(114,200,48,0.5019607843137255)',
+                interactive: true,
+            }
+                    break;
+                case 'SANTA CRUZ':
+                    return {
+                pane: 'pane_PsBalsas_0',
+                opacity: 1,
+                color: 'rgba(132,42,205,1.0)',
+                dashArray: '',
+                lineCap: 'butt',
+                lineJoin: 'miter',
+                weight: 2.0, 
+                fill: true,
+                fillOpacity: 1,
+                fillColor: 'rgba(132,42,205,0.5019607843137255)',
+                interactive: true,
+            }
+                    break;
+                case 'TAQUACETUBA':
+                    return {
+                pane: 'pane_PsBalsas_0',
+                opacity: 1,
+                color: 'rgba(203,127,33,1.0)',
+                dashArray: '',
+                lineCap: 'butt',
+                lineJoin: 'miter',
+                weight: 2.0, 
+                fill: true,
+                fillOpacity: 1,
+                fillColor: 'rgba(203,127,33,0.5019607843137255)',
+                interactive: true,
+            }
+                    break;
+                case 'TATETOS':
+                    return {
+                pane: 'pane_PsBalsas_0',
+                opacity: 1,
+                color: 'rgba(105,159,224,1.0)',
+                dashArray: '',
+                lineCap: 'butt',
+                lineJoin: 'miter',
+                weight: 2.0, 
+                fill: true,
+                fillOpacity: 1,
+                fillColor: 'rgba(105,159,224,0.5019607843137255)',
+                interactive: true,
+            }
+                    break;
+            }
+        }
+        map.createPane('pane_PsBalsas_0');
+        map.getPane('pane_PsBalsas_0').style.zIndex = 404;
+        map.getPane('pane_PsBalsas_0').style['mix-blend-mode'] = 'normal';
+        var layer_PsBalsas_0 = new L.geoJson(json_PsBalsas_0, {
+            attribution: '',
+            interactive: true,
+            dataVar: 'json_PsBalsas_0',
+            layerName: 'layer_PsBalsas_0',
+            pane: 'pane_PsBalsas_0',
+            onEachFeature: pop_PsBalsas_0,
+            style: style_PsBalsas_0_0,
+        });
+        bounds_group.addLayer(layer_PsBalsas_0);
+        // map.addLayer(layer_PsBalsas_0);
         var osmGeocoder = new L.Control.Geocoder({
             collapsed: true,
             position: 'topleft',
@@ -421,7 +528,8 @@
         var controlContainer = document.getElementsByClassName('leaflet-control-container')[0];
         controlContainer.insertAdjacentHTML('afterbegin', '<h1>São Bernardo do Campo - PROSABS</h1>');
 
-        L.control.layers(baseMaps,{'12 Bairros<br /><table><tr><td></td><td>280 KM DE PAVIMENTAÇÃO, MICRODRENAGEM E SINALIZAÇÃO </td></tr><tr><td></td><td>50 KM DE ILUMINAÇÃO </td></tr><tr><td></td><td>50 KM DE ACESSIBILIDADE</td></tr><tr><td></td><td>30 KM DE CICLOVIA</td></tr><tr><td></td><td>MACRODRENAGEM</td></tr><tr><td></td><td>12 REFORMAS EM PRAÇAS</td></tr><tr><td></td><td>2 PARQUES</td></tr><tr><td></td><td>SISTEMA DE COLETA SELETIVA NO POS BALSAS</td></tr><tr><td></td><td>12 ECOPONTOS</td></tr><tr><td></td><td>3 TERMINAIS DE ACESSO E VIGILÂNCIA </td></tr><tr><td></td><td>3 CASAS DIA PARA IDOSO</td></tr><tr><td></td><td>2 CENTRO DE SAÚDE E DA FAMÍLIA</td></tr><tr><td></td><td>5 CRECHES</td></tr><tr><td></td><td>9 ESCOLAS</td></tr><tr><td></td><td>13 REFORMAS DE ESCOLA</td></tr><tr><td></td><td>2 ÔNIBUS PARA O ITINERANTE DA SAÚDE</td></tr><tr><td></td><td>5 BASES DE VIGILÂNCIA</td></tr><tr><td></td><td>RECOMPOSIÇÃO DE ÁREAS DEGRADADAS </td></tr><tr><td></td><td>PLANO DE ARBORIZAÇÃO</td></tr><tr><td></td><td>PROJETO DE FORTALECIMENTO SOCIAL</td></tr><tr><td></td><td>PROGRAMA DE CAPACITAÇÃO AMBIENTAL</td></tr><tr><td></td><td>PROGRAMA DE CAPACITAÇÃO DOS SERVIDORES DA GUARDA CIVIL</td></tr></table>': layer_BairrosProjeto_2,'<img src="legend/MunicipiodeSaoBernardodoCampo_1.png" /> Municipio de Sao Bernardo do Campo': layer_MunicipiodeSaoBernardodoCampo_1,"OpenStreetMap": layer_OpenStreetMap_0,},{collapsed:false}).addTo(map);
+        L.control.layers(baseMaps,{'12 Bairros<br /><table><tr><td></td><td>280 KM DE PAVIMENTAÇÃO, MICRODRENAGEM E SINALIZAÇÃO </td></tr><tr><td></td><td>50 KM DE ILUMINAÇÃO </td></tr><tr><td></td><td>50 KM DE ACESSIBILIDADE</td></tr><tr><td></td><td>30 KM DE CICLOVIA</td></tr><tr><td></td><td>MACRODRENAGEM<a href="../regioes_com_alagamento/index.html" target="_blank"> (Clique para abrir em outra aba)</a></td></tr><tr><td></td><td>12 REFORMAS EM PRAÇAS</td></tr><tr><td></td><td>2 PARQUES</td></tr><tr><td></td><td>SISTEMA DE COLETA SELETIVA NO POS BALSAS</td></tr><tr><td></td><td>12 ECOPONTOS</td></tr><tr><td></td><td>3 TERMINAIS DE ACESSO E VIGILÂNCIA </td></tr><tr><td></td><td>3 CASAS DIA PARA IDOSO</td></tr><tr><td></td><td>2 CENTRO DE SAÚDE E DA FAMÍLIA</td></tr><tr><td></td><td>5 CRECHES</td></tr><tr><td></td><td>9 ESCOLAS</td></tr><tr><td></td><td>13 REFORMAS DE ESCOLA</td></tr><tr><td></td><td>2 ÔNIBUS PARA O ITINERANTE DA SAÚDE</td></tr><tr><td></td><td>5 BASES DE VIGILÂNCIA</td></tr><tr><td></td><td>RECOMPOSIÇÃO DE ÁREAS DEGRADADAS </td></tr><tr><td></td><td>PLANO DE ARBORIZAÇÃO</td></tr><tr><td></td><td>PROJETO DE FORTALECIMENTO SOCIAL</td></tr><tr><td></td><td>PROGRAMA DE CAPACITAÇÃO AMBIENTAL</td></tr><tr><td></td><td>PROGRAMA DE CAPACITAÇÃO DOS SERVIDORES DA GUARDA CIVIL</td></tr></table>': layer_BairrosProjeto_2,'<img src="legend/MunicipiodeSaoBernardodoCampo_1.png" /> Municipio de Sao Bernardo do Campo': layer_MunicipiodeSaoBernardodoCampo_1,"OpenStreetMap": layer_OpenStreetMap_0,},{collapsed:false}).addTo(map);
+        
         setBounds();
         var i = 0;
         layer_BairrosProjeto_2.eachLayer(function(layer) {
@@ -436,14 +544,17 @@
               addLabel(layer, i);
               i++;
         });
-        resetLabels([layer_BairrosProjeto_2]);
-        map.removeLayer(layer_BairrosProjeto_2)
+        resetLabels([layer_BairrosProjeto_2, layer_PsBalsas_0]);
+        map.removeLayer(layer_BairrosProjeto_2);
+        map.removeLayer(layer_PsBalsas_0);
         map.on("zoomend", function(){
-            resetLabels([layer_BairrosProjeto_2]);
+            resetLabels([layer_BairrosProjeto_2, layer_PsBalsas_0]);
             if (map.getZoom() <= 19 && map.getZoom() >= 13) {
                 map.addLayer(layer_BairrosProjeto_2);
+                map.addLayer(layer_PsBalsas_0);
             } else if (map.getZoom() > 19 || map.getZoom() < 13) {
                 map.removeLayer(layer_BairrosProjeto_2);
+                map.removeLayer(layer_PsBalsas_0);
             }
         });
         </script>
