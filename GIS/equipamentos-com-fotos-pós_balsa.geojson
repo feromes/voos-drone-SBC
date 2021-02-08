@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"features": [
+{ "type": "Feature", "properties": { "BAIRRO": "PÓS BALSA", "NOME": "Balsa", "TIPO": "REQUALIFICAÇÃO DE ÁREAS URBANAS ", "ENDEREÇO": "Bairro Capivari", "PRIORIDADE": null, "ESTADO DO EQUIPAMENTO": "NOVO", "Video_0": "novos_equipamentos\/Balsa - Bairro Capivari.MOV", "cod": null, "imagem_0": null, "imagem_1": null, "imagem_2": null, "imagem_3": null, "imagem_4": null, "imagem_5": null, "imagem_6": null, "imagem_7": null }, "geometry": { "type": "Point", "coordinates": [ -46.5442048550157, -23.8099634409065 ] } },
+{ "type": "Feature", "properties": { "BAIRRO": "PÓS BALSA", "NOME": "Base de Segurança", "TIPO": "BASE DE VIGILÂNCIA", "ENDEREÇO": "Estrada do Rio Acima n°12.500", "PRIORIDADE": null, "ESTADO DO EQUIPAMENTO": "NOVO", "Video_0": "novos_equipamentos\/Base de Segurança - Pós Balsas - Santa Cruz - Estrada do Rio Acima n°12.500.MOV", "cod": null, "imagem_0": null, "imagem_1": null, "imagem_2": null, "imagem_3": null, "imagem_4": null, "imagem_5": null, "imagem_6": null, "imagem_7": null }, "geometry": { "type": "Point", "coordinates": [ -46.594303447148498, -23.842949011294198 ] } },
+{ "type": "Feature", "properties": { "BAIRRO": "PÓS BALSA", "NOME": "Casa de Triagem", "TIPO": "SAÚDE", "ENDEREÇO": "Estrada do Rio Acima n° 12.965", "PRIORIDADE": null, "ESTADO DO EQUIPAMENTO": "NOVO", "Video_0": "novos_equipamentos\/Casa de Triagem Estrada do Rio Acima n° 12.965.MOV", "cod": null, "imagem_0": null, "imagem_1": null, "imagem_2": null, "imagem_3": null, "imagem_4": null, "imagem_5": null, "imagem_6": null, "imagem_7": null }, "geometry": { "type": "Point", "coordinates": [ -46.598678242034701, -23.844610474622002 ] } }
+]
+}
