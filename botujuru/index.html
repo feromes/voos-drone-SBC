@@ -417,7 +417,7 @@
                 feature: layer.feature,
                 variables: {}
             };
-            layer.bindTooltip((layer.feature.properties['logradouro'] !== null?String('<div style="color: #000000; font-size: 10pt; font-family: \'Ubuntu\', sans-serif;">' + layer.feature.properties['logradouro']) + '</div>':''), {permanent: false, offset: [-0, -16], className: 'css_BOTUJURU_1'});
+            // layer.bindTooltip((layer.feature.properties['logradouro'] !== null?String('<div style="color: #000000; font-size: 10pt; font-family: \'Ubuntu\', sans-serif;">' + layer.feature.properties['logradouro']) + '</div>':''), {permanent: false, offset: [-0, -16], className: 'css_BOTUJURU_1'});
             labels.push(layer);
             totalMarkers += 1;
               layer.added = true;
@@ -459,9 +459,9 @@
             hideMarkerOnCollapse: true,
             propertyName: 'NOME'}));
         document.getElementsByClassName('search-button')[0].className +=
-         ' fa fa-binoculars';
+         ' fa fa-road';
         document.getElementsByClassName('search-button')[1].className +=
-         ' fa fa-binoculars';
+         ' fa fa-circle';
         resetLabels([layer_BOTUJURU_1, layer_BairrosInternos_1]);
         map.on("zoomend", function(){
             resetLabels([layer_BOTUJURU_1, layer_BairrosInternos_1]);
