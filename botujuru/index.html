@@ -453,7 +453,14 @@
             initial: false,
             hideMarkerOnCollapse: true,
             propertyName: 'logradouro'}));
+        map.addControl(new L.Control.Search({
+            layer: layer_equipamentoscomfotosbotujuru_2,
+            initial: false,
+            hideMarkerOnCollapse: true,
+            propertyName: 'NOME'}));
         document.getElementsByClassName('search-button')[0].className +=
+         ' fa fa-binoculars';
+        document.getElementsByClassName('search-button')[1].className +=
          ' fa fa-binoculars';
         resetLabels([layer_BOTUJURU_1, layer_BairrosInternos_1]);
         map.on("zoomend", function(){
