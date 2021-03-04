@@ -1,0 +1,10946 @@
+999
+dxfrw 0.6.3
+  0
+SECTION
+  2
+HEADER
+  9
+$ACADVER
+  1
+AC1021
+  9
+$DWGCODEPAGE
+  3
+ANSI_1252
+  9
+$INSBASE
+ 10
+0
+ 20
+0
+ 30
+0
+  9
+$EXTMIN
+ 10
+341202.1420694716
+ 20
+7371058.060375133
+ 30
+0
+  9
+$EXTMAX
+ 10
+343573.7237873357
+ 20
+7373190.547710095
+ 30
+0
+  9
+$LIMMIN
+ 10
+0
+ 20
+0
+  9
+$LIMMAX
+ 10
+420
+ 20
+297
+  9
+$ORTHOMODE
+ 70
+    0
+  9
+$REGENMODE
+ 70
+    1
+  9
+$FILLMODE
+ 70
+    1
+  9
+$QTEXTMODE
+ 70
+    0
+  9
+$MIRRTEXT
+ 70
+    0
+  9
+$LTSCALE
+ 40
+1
+  9
+$ATTMODE
+ 70
+    1
+  9
+$TEXTSIZE
+ 40
+2.5
+  9
+$TRACEWID
+ 40
+1
+  9
+$TEXTSTYLE
+  7
+Standard
+  9
+$CLAYER
+  8
+RUA GIUSEPPE SABATINI - 28_12_20 - PASTA �NICA - DJI_0038
+  9
+$CELTYPE
+  6
+ByLayer
+  9
+$CECOLOR
+ 62
+  256
+  9
+$CELTSCALE
+ 40
+1
+  9
+$DISPSILH
+ 70
+    0
+  9
+$DIMSCALE
+ 40
+1
+  9
+$DIMASZ
+ 40
+2.5
+  9
+$DIMEXO
+ 40
+0.625
+  9
+$DIMDLI
+ 40
+3.75
+  9
+$DIMRND
+ 40
+0
+  9
+$DIMDLE
+ 40
+0
+  9
+$DIMEXE
+ 40
+1.25
+  9
+$DIMTP
+ 40
+0
+  9
+$DIMTM
+ 40
+0
+  9
+$DIMTXT
+ 40
+2.5
+  9
+$DIMCEN
+ 40
+2.5
+  9
+$DIMTSZ
+ 40
+0
+  9
+$DIMTOL
+ 70
+    0
+  9
+$DIMLIM
+ 70
+    0
+  9
+$DIMTIH
+ 70
+    0
+  9
+$DIMTOH
+ 70
+    0
+  9
+$DIMSE1
+ 70
+    0
+  9
+$DIMSE2
+ 70
+    0
+  9
+$DIMTAD
+ 70
+    1
+  9
+$DIMZIN
+ 70
+    8
+  9
+$DIMBLK
+  1
+
+  9
+$DIMASO
+ 70
+    1
+  9
+$DIMSHO
+ 70
+    1
+  9
+$DIMPOST
+  1
+
+  9
+$DIMAPOST
+  1
+
+  9
+$DIMALT
+ 70
+    0
+  9
+$DIMALTD
+ 70
+    3
+  9
+$DIMALTF
+ 40
+0.03937007874016
+  9
+$DIMLFAC
+ 40
+1
+  9
+$DIMTOFL
+ 70
+    1
+  9
+$DIMTVP
+ 40
+0
+  9
+$DIMTIX
+ 70
+    0
+  9
+$DIMSOXD
+ 70
+    0
+  9
+$DIMSAH
+ 70
+    0
+  9
+$DIMBLK1
+  1
+
+  9
+$DIMBLK2
+  1
+
+  9
+$DIMSTYLE
+  2
+ISO-25
+  9
+$DIMCLRD
+ 70
+    0
+  9
+$DIMCLRE
+ 70
+    0
+  9
+$DIMCLRT
+ 70
+    0
+  9
+$DIMTFAC
+ 40
+1
+  9
+$DIMGAP
+ 40
+0.625
+  9
+$DIMJUST
+ 70
+    0
+  9
+$DIMSD1
+ 70
+    0
+  9
+$DIMSD2
+ 70
+    0
+  9
+$DIMTOLJ
+ 70
+    0
+  9
+$DIMTZIN
+ 70
+    8
+  9
+$DIMALTZ
+ 70
+    0
+  9
+$DIMALTTZ
+ 70
+    0
+  9
+$DIMUPT
+ 70
+    0
+  9
+$DIMDEC
+ 70
+    2
+  9
+$DIMTDEC
+ 70
+    2
+  9
+$DIMALTU
+ 70
+    2
+  9
+$DIMALTTD
+ 70
+    3
+  9
+$DIMTXSTY
+  7
+Standard
+  9
+$DIMAUNIT
+ 70
+    0
+  9
+$DIMADEC
+ 70
+    0
+  9
+$DIMALTRND
+ 40
+0
+  9
+$DIMAZIN
+ 70
+    0
+  9
+$DIMDSEP
+ 70
+   44
+  9
+$DIMATFIT
+ 70
+    3
+  9
+$DIMFRAC
+ 70
+    0
+  9
+$DIMLDRBLK
+  1
+
+  9
+$DIMLUNIT
+ 70
+    2
+  9
+$DIMLWD
+ 70
+   -2
+  9
+$DIMLWE
+ 70
+   -2
+  9
+$DIMTMOVE
+ 70
+    0
+  9
+$DIMFXL
+ 40
+1
+  9
+$DIMFXLON
+ 70
+    0
+  9
+$DIMJOGANG
+ 40
+0.7854
+  9
+$DIMTFILL
+ 70
+    0
+  9
+$DIMTFILLCLR
+ 70
+    0
+  9
+$DIMARCSYM
+ 70
+    0
+  9
+$DIMLTYPE
+  6
+
+  9
+$DIMLTEX1
+  6
+
+  9
+$DIMLTEX2
+  6
+
+  9
+$LUNITS
+ 70
+    2
+  9
+$LUPREC
+ 70
+    4
+  9
+$SKETCHINC
+ 40
+1
+  9
+$FILLETRAD
+ 40
+0
+  9
+$AUNITS
+ 70
+    0
+  9
+$AUPREC
+ 70
+    0
+  9
+$MENU
+  1
+.
+  9
+$ELEVATION
+ 40
+0
+  9
+$PELEVATION
+ 40
+0
+  9
+$THICKNESS
+ 40
+0
+  9
+$LIMCHECK
+ 70
+    0
+  9
+$CHAMFERA
+ 40
+0
+  9
+$CHAMFERB
+ 40
+0
+  9
+$CHAMFERC
+ 40
+0
+  9
+$CHAMFERD
+ 40
+0
+  9
+$SKPOLY
+ 70
+    0
+  9
+$USRTIMER
+ 70
+    1
+  9
+$ANGBASE
+ 50
+0
+  9
+$ANGDIR
+ 70
+    0
+  9
+$PDMODE
+ 70
+    0
+  9
+$PDSIZE
+ 40
+0
+  9
+$PLINEWID
+ 40
+0
+  9
+$SPLFRAME
+ 70
+    0
+  9
+$SPLINETYPE
+ 70
+    6
+  9
+$SPLINESEGS
+ 70
+    8
+  9
+$HANDSEED
+  5
+20000
+  9
+$SURFTAB1
+ 70
+    6
+  9
+$SURFTAB2
+ 70
+    6
+  9
+$SURFTYPE
+ 70
+    6
+  9
+$SURFU
+ 70
+    6
+  9
+$SURFV
+ 70
+    6
+  9
+$UCSBASE
+  2
+
+  9
+$UCSNAME
+  2
+
+  9
+$UCSORG
+ 10
+0
+ 20
+0
+ 30
+0
+  9
+$UCSXDIR
+ 10
+1
+ 20
+0
+ 30
+0
+  9
+$UCSYDIR
+ 10
+0
+ 20
+1
+ 30
+0
+  9
+$UCSORTHOREF
+  2
+
+  9
+$UCSORTHOVIEW
+ 70
+    0
+  9
+$UCSORGTOP
+ 10
+0
+ 20
+0
+ 30
+0
+  9
+$UCSORGBOTTOM
+ 10
+0
+ 20
+0
+ 30
+0
+  9
+$UCSORGLEFT
+ 10
+0
+ 20
+0
+ 30
+0
+  9
+$UCSORGRIGHT
+ 10
+0
+ 20
+0
+ 30
+0
+  9
+$UCSORGFRONT
+ 10
+0
+ 20
+0
+ 30
+0
+  9
+$UCSORGBACK
+ 10
+0
+ 20
+0
+ 30
+0
+  9
+$PUCSBASE
+  2
+
+  9
+$PUCSNAME
+  2
+
+  9
+$PUCSORG
+ 10
+0
+ 20
+0
+ 30
+0
+  9
+$PUCSXDIR
+ 10
+1
+ 20
+0
+ 30
+0
+  9
+$PUCSYDIR
+ 10
+0
+ 20
+1
+ 30
+0
+  9
+$PUCSORTHOREF
+  2
+
+  9
+$PUCSORTHOVIEW
+ 70
+    0
+  9
+$PUCSORGTOP
+ 10
+0
+ 20
+0
+ 30
+0
+  9
+$PUCSORGBOTTOM
+ 10
+0
+ 20
+0
+ 30
+0
+  9
+$PUCSORGLEFT
+ 10
+0
+ 20
+0
+ 30
+0
+  9
+$PUCSORGRIGHT
+ 10
+0
+ 20
+0
+ 30
+0
+  9
+$PUCSORGFRONT
+ 10
+0
+ 20
+0
+ 30
+0
+  9
+$PUCSORGBACK
+ 10
+0
+ 20
+0
+ 30
+0
+  9
+$USERI1
+ 70
+    0
+  9
+$USERI2
+ 70
+    0
+  9
+$USERI3
+ 70
+    0
+  9
+$USERI4
+ 70
+    0
+  9
+$USERI5
+ 70
+    0
+  9
+$USERR1
+ 40
+0
+  9
+$USERR2
+ 40
+0
+  9
+$USERR3
+ 40
+0
+  9
+$USERR4
+ 40
+0
+  9
+$USERR5
+ 40
+0
+  9
+$WORLDVIEW
+ 70
+    1
+  9
+$SHADEDGE
+ 70
+    3
+  9
+$SHADEDIF
+ 70
+   70
+  9
+$TILEMODE
+ 70
+    1
+  9
+$MAXACTVP
+ 70
+   64
+  9
+$PINSBASE
+ 10
+0
+ 20
+0
+ 30
+0
+  9
+$PLIMCHECK
+ 70
+    0
+  9
+$PEXTMIN
+ 10
+0
+ 20
+0
+ 30
+0
+  9
+$PEXTMAX
+ 10
+0
+ 20
+0
+ 30
+0
+  9
+$GRIDMODE
+ 70
+    1
+  9
+$SNAPSTYLE
+ 70
+    0
+  9
+$PLIMMIN
+ 10
+0
+ 20
+0
+  9
+$PLIMMAX
+ 10
+12
+ 20
+9
+  9
+$UNITMODE
+ 70
+    0
+  9
+$VISRETAIN
+ 70
+    1
+  9
+$PLINEGEN
+ 70
+    0
+  9
+$PSLTSCALE
+ 70
+    1
+  9
+$TREEDEPTH
+ 70
+ 3020
+  9
+$CMLSTYLE
+  2
+Standard
+  9
+$CMLJUST
+ 70
+    0
+  9
+$CMLSCALE
+ 40
+20
+  9
+$PROXYGRAPHICS
+ 70
+    1
+  9
+$MEASUREMENT
+ 70
+    1
+  9
+$CELWEIGHT
+370
+   -1
+  9
+$ENDCAPS
+280
+    0
+  9
+$JOINSTYLE
+280
+    0
+  9
+$LWDISPLAY
+290
+    0
+  9
+$INSUNITS
+ 70
+    4
+  9
+$HYPERLINKBASE
+  1
+
+  9
+$STYLESHEET
+  1
+
+  9
+$XEDIT
+290
+    1
+  9
+$CEPSNTYPE
+380
+    0
+  9
+$PSTYLEMODE
+290
+    1
+  9
+$EXTNAMES
+290
+    1
+  9
+$PSVPSCALE
+ 40
+0
+  9
+$OLESTARTUP
+290
+    0
+  9
+$SORTENTS
+280
+  127
+  9
+$INDEXCTL
+280
+    0
+  9
+$HIDETEXT
+280
+    1
+  9
+$XCLIPFRAME
+290
+    0
+  9
+$HALOGAP
+280
+    0
+  9
+$OBSCOLOR
+ 70
+  257
+  9
+$OBSLTYPE
+280
+    0
+  9
+$INTERSECTIONDISPLAY
+280
+    0
+  9
+$INTERSECTIONCOLOR
+ 70
+  257
+  9
+$DIMASSOC
+280
+    1
+  9
+$PROJECTNAME
+  1
+
+  9
+$CAMERADISPLAY
+290
+    0
+  9
+$LENSLENGTH
+ 40
+50
+  9
+$CAMERAHEIGHT
+ 40
+0
+  9
+$STEPSPERSEC
+ 40
+2
+  9
+$STEPSIZE
+ 40
+50
+  9
+$3DDWFPREC
+ 40
+2
+  9
+$PSOLWIDTH
+ 40
+5
+  9
+$PSOLHEIGHT
+ 40
+80
+  9
+$LOFTANG1
+ 40
+1.570796326794897
+  9
+$LOFTANG2
+ 40
+1.570796326794897
+  9
+$LOFTMAG1
+ 40
+0
+  9
+$LOFTMAG2
+ 40
+0
+  9
+$LOFTPARAM
+ 70
+    7
+  9
+$LOFTNORMALS
+280
+    1
+  9
+$LATITUDE
+ 40
+1
+  9
+$LONGITUDE
+ 40
+1
+  9
+$NORTHDIRECTION
+ 40
+0
+  9
+$TIMEZONE
+ 70
+-8000
+  9
+$LIGHTGLYPHDISPLAY
+280
+    1
+  9
+$TILEMODELIGHTSYNCH
+280
+    1
+  9
+$SOLIDHIST
+280
+    1
+  9
+$SHOWHIST
+280
+    1
+  9
+$DWFFRAME
+280
+    2
+  9
+$DGNFRAME
+280
+    0
+  9
+$REALWORLDSCALE
+290
+    1
+  9
+$INTERFERECOLOR
+ 62
+    1
+  9
+$CSHADOW
+280
+    0
+  9
+$SHADOWPLANELOCATION
+ 40
+0
+  0
+ENDSEC
+  0
+SECTION
+  2
+CLASSES
+  0
+ENDSEC
+  0
+SECTION
+  2
+TABLES
+  0
+TABLE
+  2
+VPORT
+  5
+8
+330
+0
+100
+AcDbSymbolTable
+ 70
+    1
+  0
+VPORT
+  5
+31
+330
+2
+100
+AcDbSymbolTableRecord
+100
+AcDbViewportTableRecord
+  2
+*ACTIVE
+ 70
+    0
+ 10
+0
+ 20
+0
+ 11
+1
+ 21
+1
+ 12
+171841.8936337889
+ 22
+3686583.212270748
+ 13
+0
+ 23
+0
+ 14
+10
+ 24
+10
+ 15
+10
+ 25
+10
+ 16
+0
+ 26
+0
+ 36
+1
+ 17
+0
+ 27
+0
+ 37
+0
+ 40
+2134.993195520125
+ 41
+1.215962441314554
+ 42
+50
+ 43
+0
+ 44
+0
+ 50
+0
+ 51
+0
+ 71
+    0
+ 72
+  100
+ 73
+    1
+ 74
+    3
+ 75
+    0
+ 76
+    1
+ 77
+    0
+ 78
+    0
+281
+    0
+ 65
+    1
+110
+0
+120
+0
+130
+0
+111
+1
+121
+0
+131
+0
+112
+0
+122
+1
+132
+0
+ 79
+    0
+146
+0
+348
+10020
+ 60
+    7
+ 61
+    5
+292
+1
+282
+    1
+141
+0
+142
+0
+ 63
+  250
+421
+3358443
+  0
+ENDTAB
+  0
+TABLE
+  2
+LTYPE
+  5
+5
+330
+0
+100
+AcDbSymbolTable
+ 70
+    4
+  0
+LTYPE
+  5
+14
+330
+5
+100
+AcDbSymbolTableRecord
+100
+AcDbLinetypeTableRecord
+  2
+ByBlock
+ 70
+    0
+  3
+
+ 72
+   65
+ 73
+    0
+ 40
+0
+  0
+LTYPE
+  5
+15
+330
+5
+100
+AcDbSymbolTableRecord
+100
+AcDbLinetypeTableRecord
+  2
+ByLayer
+ 70
+    0
+  3
+
+ 72
+   65
+ 73
+    0
+ 40
+0
+  0
+LTYPE
+  5
+16
+330
+5
+100
+AcDbSymbolTableRecord
+100
+AcDbLinetypeTableRecord
+  2
+Continuous
+ 70
+    0
+  3
+Solid line
+ 72
+   65
+ 73
+    0
+ 40
+0
+  0
+LTYPE
+  5
+32
+330
+5
+100
+AcDbSymbolTableRecord
+100
+AcDbLinetypeTableRecord
+  2
+DOT
+ 70
+    0
+  3
+Dot . . . . . . . . . . . . . . . . . . . . . .
+ 72
+   65
+ 73
+    2
+ 40
+6.35
+ 49
+0
+ 74
+    0
+ 49
+-6.35
+ 74
+    0
+  0
+LTYPE
+  5
+33
+330
+5
+100
+AcDbSymbolTableRecord
+100
+AcDbLinetypeTableRecord
+  2
+DOTTINY
+ 70
+    0
+  3
+Dot (.15x) .....................................
+ 72
+   65
+ 73
+    2
+ 40
+0.9525
+ 49
+0
+ 74
+    0
+ 49
+-0.9525
+ 74
+    0
+  0
+LTYPE
+  5
+34
+330
+5
+100
+AcDbSymbolTableRecord
+100
+AcDbLinetypeTableRecord
+  2
+DOT2
+ 70
+    0
+  3
+Dot (.5x) .....................................
+ 72
+   65
+ 73
+    2
+ 40
+3.175
+ 49
+0
+ 74
+    0
+ 49
+-3.175
+ 74
+    0
+  0
+LTYPE
+  5
+35
+330
+5
+100
+AcDbSymbolTableRecord
+100
+AcDbLinetypeTableRecord
+  2
+DOTX2
+ 70
+    0
+  3
+Dot (2x) .  .  .  .  .  .  .  .  .  .  .  .  .
+ 72
+   65
+ 73
+    2
+ 40
+12.7
+ 49
+0
+ 74
+    0
+ 49
+-12.7
+ 74
+    0
+  0
+LTYPE
+  5
+36
+330
+5
+100
+AcDbSymbolTableRecord
+100
+AcDbLinetypeTableRecord
+  2
+DASHED
+ 70
+    0
+  3
+Dashed _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+ 72
+   65
+ 73
+    2
+ 40
+19.05
+ 49
+12.7
+ 74
+    0
+ 49
+-6.35
+ 74
+    0
+  0
+LTYPE
+  5
+37
+330
+5
+100
+AcDbSymbolTableRecord
+100
+AcDbLinetypeTableRecord
+  2
+DASHEDTINY
+ 70
+    0
+  3
+Dashed (.15x) _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+ 72
+   65
+ 73
+    2
+ 40
+2.8575
+ 49
+1.905
+ 74
+    0
+ 49
+-0.9525
+ 74
+    0
+  0
+LTYPE
+  5
+38
+330
+5
+100
+AcDbSymbolTableRecord
+100
+AcDbLinetypeTableRecord
+  2
+DASHED2
+ 70
+    0
+  3
+Dashed (.5x) _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+ 72
+   65
+ 73
+    2
+ 40
+9.524999999999999
+ 49
+6.35
+ 74
+    0
+ 49
+-3.175
+ 74
+    0
+  0
+LTYPE
+  5
+39
+330
+5
+100
+AcDbSymbolTableRecord
+100
+AcDbLinetypeTableRecord
+  2
+DASHEDX2
+ 70
+    0
+  3
+Dashed (2x) ____  ____  ____  ____  ____  ___
+ 72
+   65
+ 73
+    2
+ 40
+38.09999999999999
+ 49
+25.4
+ 74
+    0
+ 49
+-12.7
+ 74
+    0
+  0
+LTYPE
+  5
+3A
+330
+5
+100
+AcDbSymbolTableRecord
+100
+AcDbLinetypeTableRecord
+  2
+DASHDOT
+ 70
+    0
+  3
+Dash dot __ . __ . __ . __ . __ . __ . __ . __
+ 72
+   65
+ 73
+    4
+ 40
+25.4
+ 49
+12.7
+ 74
+    0
+ 49
+-6.35
+ 74
+    0
+ 49
+0
+ 74
+    0
+ 49
+-6.35
+ 74
+    0
+  0
+LTYPE
+  5
+3B
+330
+5
+100
+AcDbSymbolTableRecord
+100
+AcDbLinetypeTableRecord
+  2
+DASHDOTTINY
+ 70
+    0
+  3
+Dash dot (.15x) _._._._._._._._._._._._._._._.
+ 72
+   65
+ 73
+    4
+ 40
+3.81
+ 49
+1.905
+ 74
+    0
+ 49
+-0.9525
+ 74
+    0
+ 49
+0
+ 74
+    0
+ 49
+-0.9525
+ 74
+    0
+  0
+LTYPE
+  5
+3C
+330
+5
+100
+AcDbSymbolTableRecord
+100
+AcDbLinetypeTableRecord
+  2
+DASHDOT2
+ 70
+    0
+  3
+Dash dot (.5x) _._._._._._._._._._._._._._._.
+ 72
+   65
+ 73
+    4
+ 40
+12.7
+ 49
+6.35
+ 74
+    0
+ 49
+-3.175
+ 74
+    0
+ 49
+0
+ 74
+    0
+ 49
+-3.175
+ 74
+    0
+  0
+LTYPE
+  5
+3D
+330
+5
+100
+AcDbSymbolTableRecord
+100
+AcDbLinetypeTableRecord
+  2
+DASHDOTX2
+ 70
+    0
+  3
+Dash dot (2x) ____  .  ____  .  ____  .  ___
+ 72
+   65
+ 73
+    4
+ 40
+50.8
+ 49
+25.4
+ 74
+    0
+ 49
+-12.7
+ 74
+    0
+ 49
+0
+ 74
+    0
+ 49
+-12.7
+ 74
+    0
+  0
+LTYPE
+  5
+3E
+330
+5
+100
+AcDbSymbolTableRecord
+100
+AcDbLinetypeTableRecord
+  2
+DIVIDE
+ 70
+    0
+  3
+Divide ____ . . ____ . . ____ . . ____ . . ____
+ 72
+   65
+ 73
+    6
+ 40
+31.75
+ 49
+12.7
+ 74
+    0
+ 49
+-6.35
+ 74
+    0
+ 49
+0
+ 74
+    0
+ 49
+-6.35
+ 74
+    0
+ 49
+0
+ 74
+    0
+ 49
+-6.35
+ 74
+    0
+  0
+LTYPE
+  5
+3F
+330
+5
+100
+AcDbSymbolTableRecord
+100
+AcDbLinetypeTableRecord
+  2
+DIVIDETINY
+ 70
+    0
+  3
+Divide (.15x) __..__..__..__..__..__..__..__.._
+ 72
+   65
+ 73
+    6
+ 40
+4.7625
+ 49
+1.905
+ 74
+    0
+ 49
+-0.9525
+ 74
+    0
+ 49
+0
+ 74
+    0
+ 49
+-0.9525
+ 74
+    0
+ 49
+0
+ 74
+    0
+ 49
+-0.9525
+ 74
+    0
+  0
+LTYPE
+  5
+40
+330
+5
+100
+AcDbSymbolTableRecord
+100
+AcDbLinetypeTableRecord
+  2
+DIVIDE2
+ 70
+    0
+  3
+Divide (.5x) __..__..__..__..__..__..__..__.._
+ 72
+   65
+ 73
+    6
+ 40
+15.875
+ 49
+6.35
+ 74
+    0
+ 49
+-3.175
+ 74
+    0
+ 49
+0
+ 74
+    0
+ 49
+-3.175
+ 74
+    0
+ 49
+0
+ 74
+    0
+ 49
+-3.175
+ 74
+    0
+  0
+LTYPE
+  5
+41
+330
+5
+100
+AcDbSymbolTableRecord
+100
+AcDbLinetypeTableRecord
+  2
+DIVIDEX2
+ 70
+    0
+  3
+Divide (2x) ________  .  .  ________  .  .  _
+ 72
+   65
+ 73
+    6
+ 40
+63.5
+ 49
+25.4
+ 74
+    0
+ 49
+-12.7
+ 74
+    0
+ 49
+0
+ 74
+    0
+ 49
+-12.7
+ 74
+    0
+ 49
+0
+ 74
+    0
+ 49
+-12.7
+ 74
+    0
+  0
+LTYPE
+  5
+42
+330
+5
+100
+AcDbSymbolTableRecord
+100
+AcDbLinetypeTableRecord
+  2
+BORDER
+ 70
+    0
+  3
+Border __ __ . __ __ . __ __ . __ __ . __ __ .
+ 72
+   65
+ 73
+    6
+ 40
+44.45
+ 49
+12.7
+ 74
+    0
+ 49
+-6.35
+ 74
+    0
+ 49
+12.7
+ 74
+    0
+ 49
+-6.35
+ 74
+    0
+ 49
+0
+ 74
+    0
+ 49
+-6.35
+ 74
+    0
+  0
+LTYPE
+  5
+43
+330
+5
+100
+AcDbSymbolTableRecord
+100
+AcDbLinetypeTableRecord
+  2
+BORDERTINY
+ 70
+    0
+  3
+Border (.15x) __.__.__.__.__.__.__.__.__.__.__.
+ 72
+   65
+ 73
+    6
+ 40
+6.6675
+ 49
+1.905
+ 74
+    0
+ 49
+-0.9525
+ 74
+    0
+ 49
+1.905
+ 74
+    0
+ 49
+-0.9525
+ 74
+    0
+ 49
+0
+ 74
+    0
+ 49
+-0.9525
+ 74
+    0
+  0
+LTYPE
+  5
+44
+330
+5
+100
+AcDbSymbolTableRecord
+100
+AcDbLinetypeTableRecord
+  2
+BORDER2
+ 70
+    0
+  3
+Border (.5x) __.__.__.__.__.__.__.__.__.__.__.
+ 72
+   65
+ 73
+    6
+ 40
+22.225
+ 49
+6.35
+ 74
+    0
+ 49
+-3.175
+ 74
+    0
+ 49
+6.35
+ 74
+    0
+ 49
+-3.175
+ 74
+    0
+ 49
+0
+ 74
+    0
+ 49
+-3.175
+ 74
+    0
+  0
+LTYPE
+  5
+45
+330
+5
+100
+AcDbSymbolTableRecord
+100
+AcDbLinetypeTableRecord
+  2
+BORDERX2
+ 70
+    0
+  3
+Border (2x) ____  ____  .  ____  ____  .  ___
+ 72
+   65
+ 73
+    6
+ 40
+88.89999999999999
+ 49
+25.4
+ 74
+    0
+ 49
+-12.7
+ 74
+    0
+ 49
+25.4
+ 74
+    0
+ 49
+-12.7
+ 74
+    0
+ 49
+0
+ 74
+    0
+ 49
+-12.7
+ 74
+    0
+  0
+LTYPE
+  5
+46
+330
+5
+100
+AcDbSymbolTableRecord
+100
+AcDbLinetypeTableRecord
+  2
+CENTER
+ 70
+    0
+  3
+Center ____ _ ____ _ ____ _ ____ _ ____ _ ____
+ 72
+   65
+ 73
+    4
+ 40
+50.8
+ 49
+31.75
+ 74
+    0
+ 49
+-6.35
+ 74
+    0
+ 49
+6.35
+ 74
+    0
+ 49
+-6.35
+ 74
+    0
+  0
+LTYPE
+  5
+47
+330
+5
+100
+AcDbSymbolTableRecord
+100
+AcDbLinetypeTableRecord
+  2
+CENTERTINY
+ 70
+    0
+  3
+Center (.15x) ___ _ ___ _ ___ _ ___ _ ___ _ ___
+ 72
+   65
+ 73
+    4
+ 40
+7.619999999999999
+ 49
+4.7625
+ 74
+    0
+ 49
+-0.9525
+ 74
+    0
+ 49
+0.9525
+ 74
+    0
+ 49
+-0.9525
+ 74
+    0
+  0
+LTYPE
+  5
+48
+330
+5
+100
+AcDbSymbolTableRecord
+100
+AcDbLinetypeTableRecord
+  2
+CENTER2
+ 70
+    0
+  3
+Center (.5x) ___ _ ___ _ ___ _ ___ _ ___ _ ___
+ 72
+   65
+ 73
+    4
+ 40
+28.575
+ 49
+19.05
+ 74
+    0
+ 49
+-3.175
+ 74
+    0
+ 49
+3.175
+ 74
+    0
+ 49
+-3.175
+ 74
+    0
+  0
+LTYPE
+  5
+49
+330
+5
+100
+AcDbSymbolTableRecord
+100
+AcDbLinetypeTableRecord
+  2
+CENTERX2
+ 70
+    0
+  3
+Center (2x) ________  __  ________  __  _____
+ 72
+   65
+ 73
+    4
+ 40
+101.6
+ 49
+63.5
+ 74
+    0
+ 49
+-12.7
+ 74
+    0
+ 49
+12.7
+ 74
+    0
+ 49
+-12.7
+ 74
+    0
+  0
+ENDTAB
+  0
+TABLE
+  2
+LAYER
+  5
+2
+330
+0
+100
+AcDbSymbolTable
+ 70
+    1
+  0
+LAYER
+  5
+10
+330
+2
+100
+AcDbSymbolTableRecord
+100
+AcDbLayerTableRecord
+  2
+0
+ 70
+    0
+ 62
+    7
+  6
+CONTINUOUS
+370
+   -3
+390
+F
+  0
+LAYER
+  5
+4A
+330
+2
+100
+AcDbSymbolTableRecord
+100
+AcDbLayerTableRecord
+  2
+AVENIDA BEETHOVEN - 29_12_20 - MAVIC - BOTUJURU - ETAPA 01 - DJI_0066
+ 70
+    0
+ 62
+    7
+  6
+CONTINUOUS
+370
+   -3
+390
+F
+  0
+LAYER
+  5
+4B
+330
+2
+100
+AcDbSymbolTableRecord
+100
+AcDbLayerTableRecord
+  2
+AVENIDA IVANOVSKY - 29_12_20 - MAVIC - BOTUJURU - ETAPA 01 - DJI_0069
+ 70
+    0
+ 62
+    7
+  6
+CONTINUOUS
+370
+   -3
+390
+F
+  0
+LAYER
+  5
+4C
+330
+2
+100
+AcDbSymbolTableRecord
+100
+AcDbLayerTableRecord
+  2
+AVENIDA MANAUS - 29_12_20 - PHANTOM 4 - BOTUJURU - DJI_0014
+ 70
+    0
+ 62
+    7
+  6
+CONTINUOUS
+370
+   -3
+390
+F
+  0
+LAYER
+  5
+4D
+330
+2
+100
+AcDbSymbolTableRecord
+100
+AcDbLayerTableRecord
+  2
+AVENIDA NICOLA DEMARCHI - 29_12_20 - MAVIC - BOTUJURU - ETAPA 01 - DJI_0065
+ 70
+    0
+ 62
+    7
+  6
+CONTINUOUS
+370
+   -3
+390
+F
+  0
+LAYER
+  5
+4E
+330
+2
+100
+AcDbSymbolTableRecord
+100
+AcDbLayerTableRecord
+  2
+ESTRADA DO VERGUEIRO - 29_12_20 - PHANTOM 4 - BOTUJURU - DJI_0011
+ 70
+    0
+ 62
+    7
+  6
+CONTINUOUS
+370
+   -3
+390
+F
+  0
+LAYER
+  5
+4F
+330
+2
+100
+AcDbSymbolTableRecord
+100
+AcDbLayerTableRecord
+  2
+MCT - EIXO VIAS
+ 70
+    0
+ 62
+    1
+  6
+CONTINUOUS
+370
+    9
+390
+F
+  0
+LAYER
+  5
+50
+330
+2
+100
+AcDbSymbolTableRecord
+100
+AcDbLayerTableRecord
+  2
+MCT - RUA AUGUSTO ROSA DA SILVA
+ 70
+    0
+ 62
+    1
+  6
+CONTINUOUS
+370
+   -3
+390
+F
+  0
+LAYER
+  5
+51
+330
+2
+100
+AcDbSymbolTableRecord
+100
+AcDbLayerTableRecord
+  2
+MCT - TRAVESSA CAMA�ARI
+ 70
+    0
+ 62
+    7
+  6
+CONTINUOUS
+370
+   -3
+390
+F
+  0
+LAYER
+  5
+52
+330
+2
+100
+AcDbSymbolTableRecord
+100
+AcDbLayerTableRecord
+  2
+MCT - TRAVESSA FROMER
+ 70
+    0
+ 62
+    7
+  6
+CONTINUOUS
+370
+   -3
+390
+F
+  0
+LAYER
+  5
+53
+330
+2
+100
+AcDbSymbolTableRecord
+100
+AcDbLayerTableRecord
+  2
+MCT - TRAVESSA GRAVAT�
+ 70
+    0
+ 62
+    7
+  6
+CONTINUOUS
+370
+   -3
+390
+F
+  0
+LAYER
+  5
+54
+330
+2
+100
+AcDbSymbolTableRecord
+100
+AcDbLayerTableRecord
+  2
+RUA 2 DE DEZEMBRO - 29_12_20 - PHANTOM 4 - BOTUJURU - DJI_0016
+ 70
+    0
+ 62
+    7
+  6
+CONTINUOUS
+370
+   -3
+390
+F
+  0
+LAYER
+  5
+55
+330
+2
+100
+AcDbSymbolTableRecord
+100
+AcDbLayerTableRecord
+  2
+RUA AGOSTINHO MASINI - 28_12_20 - PASTA �NICA - DJI_0160
+ 70
+    0
+ 62
+    1
+  6
+CONTINUOUS
+370
+   -3
+390
+F
+  0
+LAYER
+  5
+56
+330
+2
+100
+AcDbSymbolTableRecord
+100
+AcDbLayerTableRecord
+  2
+RUA ALBINA SILVA - 28_12_20 - PASTA �NICA - DJI_0161
+ 70
+    0
+ 62
+    1
+  6
+CONTINUOUS
+370
+   -3
+390
+F
+  0
+LAYER
+  5
+57
+330
+2
+100
+AcDbSymbolTableRecord
+100
+AcDbLayerTableRecord
+  2
+RUA ALIAN�AS - 29_12_20 - MAVIC - BOTUJURU - ETAPA 01 - DJI_0062
+ 70
+    0
+ 62
+    7
+  6
+CONTINUOUS
+370
+   -3
+390
+F
+  0
+LAYER
+  5
+58
+330
+2
+100
+AcDbSymbolTableRecord
+100
+AcDbLayerTableRecord
+  2
+RUA ANTONIO FRANCISCO ZANELLATO
+ 70
+    0
+ 62
+    1
+  6
+CONTINUOUS
+370
+   -3
+390
+F
+  0
+LAYER
+  5
+59
+330
+2
+100
+AcDbSymbolTableRecord
+100
+AcDbLayerTableRecord
+  2
+RUA ANTONIO MENEGHETTI - 28_12_20 - PASTA �NICA - DJI_0162
+ 70
+    0
+ 62
+    1
+  6
+CONTINUOUS
+370
+   -3
+390
+F
+  0
+LAYER
+  5
+5A
+330
+2
+100
+AcDbSymbolTableRecord
+100
+AcDbLayerTableRecord
+  2
+RUA AN�SIO SIQUEIRA LIMA - 29_12_20 - PHANTOM 4 - BOTUJURU - DJI_0022
+ 70
+    0
+ 62
+    7
+  6
+CONTINUOUS
+370
+   -3
+390
+F
+  0
+LAYER
+  5
+5B
+330
+2
+100
+AcDbSymbolTableRecord
+100
+AcDbLayerTableRecord
+  2
+RUA ARCO VERDE - 29_12_20 _ MAVIC - BOTUJURU - ETAPA 01 - DJI_0054
+ 70
+    0
+ 62
+    7
+  6
+CONTINUOUS
+370
+   -3
+390
+F
+  0
+LAYER
+  5
+5C
+330
+2
+100
+AcDbSymbolTableRecord
+100
+AcDbLayerTableRecord
+  2
+RUA ARCO-�RIS - 29_12_20 - MAVIC - BOTUJURU - ETAPA 01 - DJI_0047
+ 70
+    0
+ 62
+    7
+  6
+CONTINUOUS
+370
+   -3
+390
+F
+  0
+LAYER
+  5
+5D
+330
+2
+100
+AcDbSymbolTableRecord
+100
+AcDbLayerTableRecord
+  2
+RUA BODAS DE PRATA - 29_12_20 - MAVIC - BOTUJURU - ETAPA 01 - DJI_0067
+ 70
+    0
+ 62
+    7
+  6
+CONTINUOUS
+370
+   -3
+390
+F
+  0
+LAYER
+  5
+5E
+330
+2
+100
+AcDbSymbolTableRecord
+100
+AcDbLayerTableRecord
+  2
+RUA CHOPIN - 29_12_20 - MAVIC - BOTUJURU - ETAPA 01 - DJI_0080
+ 70
+    0
+ 62
+    7
+  6
+CONTINUOUS
+370
+   -3
+390
+F
+  0
+LAYER
+  5
+5F
+330
+2
+100
+AcDbSymbolTableRecord
+100
+AcDbLayerTableRecord
+  2
+RUA COP�LIA - 29_12_20 - MAVIC - BOTUJURU - ETAPA 01 - DJI_0076
+ 70
+    0
+ 62
+    7
+  6
+CONTINUOUS
+370
+   -3
+390
+F
+  0
+LAYER
+  5
+60
+330
+2
+100
+AcDbSymbolTableRecord
+100
+AcDbLayerTableRecord
+  2
+RUA CUNHA - 29_12_20 - PHANTOM 4 - BOTUJURU - DJI_0015
+ 70
+    0
+ 62
+    7
+  6
+CONTINUOUS
+370
+   -3
+390
+F
+  0
+LAYER
+  5
+61
+330
+2
+100
+AcDbSymbolTableRecord
+100
+AcDbLayerTableRecord
+  2
+RUA DAN�BIO AZUL - 29_12_20 - MAVIC - BOTUJURU - ETAPA 01 - DJI_0081
+ 70
+    0
+ 62
+    7
+  6
+CONTINUOUS
+370
+   -3
+390
+F
+  0
+LAYER
+  5
+62
+330
+2
+100
+AcDbSymbolTableRecord
+100
+AcDbLayerTableRecord
+  2
+RUA DEB�LIS - 29_12_20 - MAVIC - BOTUJURU - ETAPA 01 - DJI_0070
+ 70
+    0
+ 62
+    7
+  6
+CONTINUOUS
+370
+   -3
+390
+F
+  0
+LAYER
+  5
+63
+330
+2
+100
+AcDbSymbolTableRecord
+100
+AcDbLayerTableRecord
+  2
+RUA DO TESOURO - 29_12_20 - MAVIC - BOTUJURU - ETAPA 01 - DJI_0079
+ 70
+    0
+ 62
+    7
+  6
+CONTINUOUS
+370
+   -3
+390
+F
+  0
+LAYER
+  5
+64
+330
+2
+100
+AcDbSymbolTableRecord
+100
+AcDbLayerTableRecord
+  2
+RUA EFRAIM RAMOS DA SILVA -29_12_20 - MAVIC - BOTUJURU - ETAPA 01 - DJI_0051
+ 70
+    0
+ 62
+    7
+  6
+CONTINUOUS
+370
+   -3
+390
+F
+  0
+LAYER
+  5
+65
+330
+2
+100
+AcDbSymbolTableRecord
+100
+AcDbLayerTableRecord
+  2
+RUA EMA CIPRIANI BRUNI - 28_12_20 - PASTA �NICA - DJI_0001
+ 70
+    0
+ 62
+    1
+  6
+CONTINUOUS
+370
+   -3
+390
+F
+  0
+LAYER
+  5
+66
+330
+2
+100
+AcDbSymbolTableRecord
+100
+AcDbLayerTableRecord
+  2
+RUA EM�LIO STUCHI - 28_12_20 - PASTA �NICA - DJI_0008
+ 70
+    0
+ 62
+    1
+  6
+CONTINUOUS
+370
+   -3
+390
+F
+  0
+LAYER
+  5
+67
+330
+2
+100
+AcDbSymbolTableRecord
+100
+AcDbLayerTableRecord
+  2
+RUA FELIPE MACEDO PONTES - 29_12_20 - MAVIC - BOTUJURU - ETAPA 01 - DJI_0055
+ 70
+    0
+ 62
+    7
+  6
+CONTINUOUS
+370
+   -3
+390
+F
+  0
+LAYER
+  5
+68
+330
+2
+100
+AcDbSymbolTableRecord
+100
+AcDbLayerTableRecord
+  2
+RUA FOLHAS DA MANH� - 29_12_20 - MAVIC - BOTUJURU - ETAPA 01 - DJI_0072
+ 70
+    0
+ 62
+    7
+  6
+CONTINUOUS
+370
+   -3
+390
+F
+  0
+LAYER
+  5
+69
+330
+2
+100
+AcDbSymbolTableRecord
+100
+AcDbLayerTableRecord
+  2
+RUA GIUSEPPE SABATINI - 28_12_20 - PASTA �NICA - DJI_0038
+ 70
+    0
+ 62
+    1
+  6
+CONTINUOUS
+370
+   -3
+390
+F
+  0
+LAYER
+  5
+6A
+330
+2
+100
+AcDbSymbolTableRecord
+100
+AcDbLayerTableRecord
+  2
+RUA HUMAIT� - 29_12_20 - PHANTOM 4 - BOTUJURU - DJI_0012
+ 70
+    0
+ 62
+    7
+  6
+CONTINUOUS
+370
+   -3
+390
+F
+  0
+LAYER
+  5
+6B
+330
+2
+100
+AcDbSymbolTableRecord
+100
+AcDbLayerTableRecord
+  2
+RUA JACINTO SIMIONATO FILHO - 28_12_20 - PASTA �NICA - DJI_0035
+ 70
+    0
+ 62
+    1
+  6
+CONTINUOUS
+370
+   -3
+390
+F
+  0
+LAYER
+  5
+6C
+330
+2
+100
+AcDbSymbolTableRecord
+100
+AcDbLayerTableRecord
+  2
+RUA JOSE D'ANGELO - 28 _12_20 - PASTA �NICA - DJI_0005
+ 70
+    0
+ 62
+    1
+  6
+CONTINUOUS
+370
+   -3
+390
+F
+  0
+LAYER
+  5
+6D
+330
+2
+100
+AcDbSymbolTableRecord
+100
+AcDbLayerTableRecord
+  2
+RUA JOS� CARLOS DO NASCIMENTO - 29_12_20 - MAVIC - BOTUJURU - ETAPA 01 - DJI_0071
+ 70
+    0
+ 62
+    7
+  6
+CONTINUOUS
+370
+   -3
+390
+F
+  0
+LAYER
+  5
+6E
+330
+2
+100
+AcDbSymbolTableRecord
+100
+AcDbLayerTableRecord
+  2
+RUA JOS� GOMES MORENO - 28_12_20 - PASTA �NICA - DJI_0006 - DJI_0165
+ 70
+    0
+ 62
+    1
+  6
+CONTINUOUS
+370
+   -3
+390
+F
+  0
+LAYER
+  5
+6F
+330
+2
+100
+AcDbSymbolTableRecord
+100
+AcDbLayerTableRecord
+  2
+RUA JO�O IN�CIO DA SILVA - 29_12_20 - MAVIC - BOTUJURU - ETAPA 01 - DJI_0052
+ 70
+    0
+ 62
+    7
+  6
+CONTINUOUS
+370
+   -3
+390
+F
+  0
+LAYER
+  5
+70
+330
+2
+100
+AcDbSymbolTableRecord
+100
+AcDbLayerTableRecord
+  2
+RUA JO�O TURBAY - 28_12_20 - PASTA �NICA - DJI_0009
+ 70
+    0
+ 62
+    1
+  6
+CONTINUOUS
+370
+   -3
+390
+F
+  0
+LAYER
+  5
+71
+330
+2
+100
+AcDbSymbolTableRecord
+100
+AcDbLayerTableRecord
+  2
+RUA JULIO BARAZAL SALGADO - 28_12_20 - PASTA �NICA - DJI_0164
+ 70
+    0
+ 62
+    1
+  6
+CONTINUOUS
+370
+   -3
+390
+F
+  0
+LAYER
+  5
+72
+330
+2
+100
+AcDbSymbolTableRecord
+100
+AcDbLayerTableRecord
+  2
+RUA JURUBEBA - 29_12_20 - PHANTOM 4 - BOTUJURU - DJI_0013
+ 70
+    0
+ 62
+    7
+  6
+CONTINUOUS
+370
+   -3
+390
+F
+  0
+LAYER
+  5
+73
+330
+2
+100
+AcDbSymbolTableRecord
+100
+AcDbLayerTableRecord
+  2
+RUA LAGUNA - 29_12_20 - MAVIC - BOTUJURU - ETAPA 01 - DJI_0077
+ 70
+    0
+ 62
+    7
+  6
+CONTINUOUS
+370
+   -3
+390
+F
+  0
+LAYER
+  5
+74
+330
+2
+100
+AcDbSymbolTableRecord
+100
+AcDbLayerTableRecord
+  2
+RUA LUIZ DALMOLIN - 28_12_20 - PASTA �NICA - DJI_0163
+ 70
+    0
+ 62
+    1
+  6
+CONTINUOUS
+370
+   -3
+390
+F
+  0
+LAYER
+  5
+75
+330
+2
+100
+AcDbSymbolTableRecord
+100
+AcDbLayerTableRecord
+  2
+RUA MANFREDO MEYER - 29_12_20 - PHANTOM 4 - BOTUJURU - DJI_0020
+ 70
+    0
+ 62
+    7
+  6
+CONTINUOUS
+370
+   -3
+390
+F
+  0
+LAYER
+  5
+76
+330
+2
+100
+AcDbSymbolTableRecord
+100
+AcDbLayerTableRecord
+  2
+RUA MANGUE SECO - 29_12_20 - PHANTOM 4 - BOTUJURU - DJI_0018
+ 70
+    0
+ 62
+    7
+  6
+CONTINUOUS
+370
+   -3
+390
+F
+  0
+LAYER
+  5
+77
+330
+2
+100
+AcDbSymbolTableRecord
+100
+AcDbLayerTableRecord
+  2
+RUA MARLI BEZARRA DA SILVA - 29_12_20 - MAVIC - BOTUJURU - ETAPA 01 - DJI_0063 - DJI_0064
+ 70
+    0
+ 62
+    7
+  6
+CONTINUOUS
+370
+   -3
+390
+F
+  0
+LAYER
+  5
+78
+330
+2
+100
+AcDbSymbolTableRecord
+100
+AcDbLayerTableRecord
+  2
+RUA MUCUGEO - 29_12_20 - MAVIC - BOTUJURU - ETAPA 01 - DJI_0071
+ 70
+    0
+ 62
+    7
+  6
+CONTINUOUS
+370
+   -3
+390
+F
+  0
+LAYER
+  5
+79
+330
+2
+100
+AcDbSymbolTableRecord
+100
+AcDbLayerTableRecord
+  2
+RUA NICOLA FELTRIN - 28_12_20 - PASTA �NICA - DJI_0039
+ 70
+    0
+ 62
+    1
+  6
+CONTINUOUS
+370
+   -3
+390
+F
+  0
+LAYER
+  5
+7A
+330
+2
+100
+AcDbSymbolTableRecord
+100
+AcDbLayerTableRecord
+  2
+RUA NOVO ORIENTE - 29_12_20 - PHANTOM 4 - BOTUJURU - DJI_0017
+ 70
+    0
+ 62
+    7
+  6
+CONTINUOUS
+370
+   -3
+390
+F
+  0
+LAYER
+  5
+7B
+330
+2
+100
+AcDbSymbolTableRecord
+100
+AcDbLayerTableRecord
+  2
+RUA O - TRES - 29_12_20 - PHANTOM 4 - BOTUJURU - DJI_0019
+ 70
+    0
+ 62
+    7
+  6
+CONTINUOUS
+370
+   -3
+390
+F
+  0
+LAYER
+  5
+7C
+330
+2
+100
+AcDbSymbolTableRecord
+100
+AcDbLayerTableRecord
+  2
+RUA OMAR DAIBERT - 28_12_20 - PASTA �NICA - DJI_0004
+ 70
+    0
+ 62
+    1
+  6
+CONTINUOUS
+370
+   -3
+390
+F
+  0
+LAYER
+  5
+7D
+330
+2
+100
+AcDbSymbolTableRecord
+100
+AcDbLayerTableRecord
+  2
+RUA PASTOR TITO RODRIGUES LINHARES - 28_12_20 - PASTA �NICA - DJI_0007
+ 70
+    0
+ 62
+    1
+  6
+CONTINUOUS
+370
+   -3
+390
+F
+  0
+LAYER
+  5
+7E
+330
+2
+100
+AcDbSymbolTableRecord
+100
+AcDbLayerTableRecord
+  2
+RUA POPULAR - 29_12_20 - MAVIC - BOTUJURU - ETAPA 01 - DJI_0042
+ 70
+    0
+ 62
+    7
+  6
+CONTINUOUS
+370
+   -3
+390
+F
+  0
+LAYER
+  5
+7F
+330
+2
+100
+AcDbSymbolTableRecord
+100
+AcDbLayerTableRecord
+  2
+RUA PRIMAVERA - 29_12_20 - MAVIC - BOTUJURU - ETAPA 01 - DJI_0041
+ 70
+    0
+ 62
+    7
+  6
+CONTINUOUS
+370
+   -3
+390
+F
+  0
+LAYER
+  5
+80
+330
+2
+100
+AcDbSymbolTableRecord
+100
+AcDbLayerTableRecord
+  2
+RUA SALIM MAHFOUD - 28_12_20 - PASTA �NICA - DJI_0036
+ 70
+    0
+ 62
+    1
+  6
+CONTINUOUS
+370
+   -3
+390
+F
+  0
+LAYER
+  5
+81
+330
+2
+100
+AcDbSymbolTableRecord
+100
+AcDbLayerTableRecord
+  2
+RUA SEBASTI�O BRUNI - 28_12_20 - PASTA �NICA - DJI_0159
+ 70
+    0
+ 62
+    1
+  6
+CONTINUOUS
+370
+   -3
+390
+F
+  0
+LAYER
+  5
+82
+330
+2
+100
+AcDbSymbolTableRecord
+100
+AcDbLayerTableRecord
+  2
+RUA SINFONIA - 29_12_20 -MAVIC - BOTUJURU - ETAPA 01 - DJI_0073
+ 70
+    0
+ 62
+    7
+  6
+CONTINUOUS
+370
+   -3
+390
+F
+  0
+LAYER
+  5
+83
+330
+2
+100
+AcDbSymbolTableRecord
+100
+AcDbLayerTableRecord
+  2
+RUA STRAUSS - 29_12_20 - MAVIC - BOTUJURU - ETAPA 01 - DJI_0078
+ 70
+    0
+ 62
+    7
+  6
+CONTINUOUS
+370
+   -3
+390
+F
+  0
+LAYER
+  5
+84
+330
+2
+100
+AcDbSymbolTableRecord
+100
+AcDbLayerTableRecord
+  2
+RUA TARUM� - 29_12_20 - PHANTOM 4 - BOTUJURU - DJI_0021
+ 70
+    0
+ 62
+    7
+  6
+CONTINUOUS
+370
+   -3
+390
+F
+  0
+LAYER
+  5
+85
+330
+2
+100
+AcDbSymbolTableRecord
+100
+AcDbLayerTableRecord
+  2
+RUA UNI�O - 29 _12_20 - MAVIC - BOTUJURU - ETAPA 01 - DJI_0058
+ 70
+    0
+ 62
+    7
+  6
+CONTINUOUS
+370
+   -3
+390
+F
+  0
+LAYER
+  5
+86
+330
+2
+100
+AcDbSymbolTableRecord
+100
+AcDbLayerTableRecord
+  2
+RUA VALSA DE VIENA - 29_12_20 - MAVIC - BOTUJURU - ETAPA 01 - DJI_0075
+ 70
+    0
+ 62
+    7
+  6
+CONTINUOUS
+370
+   -3
+390
+F
+  0
+LAYER
+  5
+87
+330
+2
+100
+AcDbSymbolTableRecord
+100
+AcDbLayerTableRecord
+  2
+RUA VALSA DO IMPERADOR - 29_12_20 - MAVIC - BOTUJURU - ETAPA 01 - DJI_0075
+ 70
+    0
+ 62
+    7
+  6
+CONTINUOUS
+370
+   -3
+390
+F
+  0
+LAYER
+  5
+88
+330
+2
+100
+AcDbSymbolTableRecord
+100
+AcDbLayerTableRecord
+  2
+RUA YANOMAMI - 29_12_20 - MAVIC - BOTUJURU - ETAPA 01 - DJI_0041
+ 70
+    0
+ 62
+    7
+  6
+CONTINUOUS
+370
+   -3
+390
+F
+  0
+LAYER
+  5
+89
+330
+2
+100
+AcDbSymbolTableRecord
+100
+AcDbLayerTableRecord
+  2
+TRAVESSA ANITA MARIA DOS SANTOS - 29_12_20 - MAVIC - BOTUJURU - ETAPA 01 - DJI_0048
+ 70
+    0
+ 62
+    7
+  6
+CONTINUOUS
+370
+   -3
+390
+F
+  0
+LAYER
+  5
+8A
+330
+2
+100
+AcDbSymbolTableRecord
+100
+AcDbLayerTableRecord
+  2
+TRAVESSA BELA - 29_12_20 - MAVIC - BOTUJURU - ETAPA 01 - DJI_0043
+ 70
+    0
+ 62
+    7
+  6
+CONTINUOUS
+370
+   -3
+390
+F
+  0
+LAYER
+  5
+8B
+330
+2
+100
+AcDbSymbolTableRecord
+100
+AcDbLayerTableRecord
+  2
+TRAVESSA BELA DONA - 29_12_20 - MAVIC - BOTUJURU - ETAPA 01 - DJI_0057
+ 70
+    0
+ 62
+    7
+  6
+CONTINUOUS
+370
+   -3
+390
+F
+  0
+LAYER
+  5
+8C
+330
+2
+100
+AcDbSymbolTableRecord
+100
+AcDbLayerTableRecord
+  2
+TRAVESSA CAM�LIA BRANCA - 29_12_20 - MAVIC - BOTUJURU - ETAPA 01 - DJI_0044
+ 70
+    0
+ 62
+    7
+  6
+CONTINUOUS
+370
+   -3
+390
+F
+  0
+LAYER
+  5
+8D
+330
+2
+100
+AcDbSymbolTableRecord
+100
+AcDbLayerTableRecord
+  2
+TRAVESSA ESTRELA DE PRATA - 29_12_20 - MAVIC - BOTUJURU - ETAPA 01 - DJI_0045
+ 70
+    0
+ 62
+    7
+  6
+CONTINUOUS
+370
+   -3
+390
+F
+  0
+LAYER
+  5
+8E
+330
+2
+100
+AcDbSymbolTableRecord
+100
+AcDbLayerTableRecord
+  2
+TRAVESSA GARANHUNS - 29_12_20 - PHANTOM 4 - BOTUJURU - DJI_0007
+ 70
+    0
+ 62
+    7
+  6
+CONTINUOUS
+370
+   -3
+390
+F
+  0
+LAYER
+  5
+8F
+330
+2
+100
+AcDbSymbolTableRecord
+100
+AcDbLayerTableRecord
+  2
+TRAVESSA IDEAL - 29_12_20 - MAVIC - BOTUJURU - ETAPA 01 - DJI_0050
+ 70
+    0
+ 62
+    7
+  6
+CONTINUOUS
+370
+   -3
+390
+F
+  0
+LAYER
+  5
+90
+330
+2
+100
+AcDbSymbolTableRecord
+100
+AcDbLayerTableRecord
+  2
+TRAVESSA MANOEL DE OLIVEIRA - 29_12_20 - MAVIC - BOTUJURU - ETAPA 01 -DJI_0059
+ 70
+    0
+ 62
+    7
+  6
+CONTINUOUS
+370
+   -3
+390
+F
+  0
+LAYER
+  5
+91
+330
+2
+100
+AcDbSymbolTableRecord
+100
+AcDbLayerTableRecord
+  2
+TRAVESSA RACHEL DE QUEIROZ - 29_12_20 - MAVIC - BOTUJURU - ETAPA 01 - DJI_0049
+ 70
+    0
+ 62
+    7
+  6
+CONTINUOUS
+370
+   -3
+390
+F
+  0
+LAYER
+  5
+92
+330
+2
+100
+AcDbSymbolTableRecord
+100
+AcDbLayerTableRecord
+  2
+TRAVESSA RECANTO DO SOL - 29_12_20 - MAVIC - BOTUJURU - ETAPA 01 - DJI_0061
+ 70
+    0
+ 62
+    7
+  6
+CONTINUOUS
+370
+   -3
+390
+F
+  0
+LAYER
+  5
+93
+330
+2
+100
+AcDbSymbolTableRecord
+100
+AcDbLayerTableRecord
+  2
+TRAVESSA SOBRAL - 29_12_20 - MAVIC - BOTUJURU - ETAPA 01 - DJI_0060
+ 70
+    0
+ 62
+    7
+  6
+CONTINUOUS
+370
+   -3
+390
+F
+  0
+LAYER
+  5
+94
+330
+2
+100
+AcDbSymbolTableRecord
+100
+AcDbLayerTableRecord
+  2
+TRAVESSA TEREZINHA LIMA - 29_12_20 - MAVIC - BOTUJURU - ETAPA 01 - DJI_0056
+ 70
+    0
+ 62
+    7
+  6
+CONTINUOUS
+370
+   -3
+390
+F
+  0
+ENDTAB
+  0
+TABLE
+  2
+STYLE
+  5
+3
+330
+0
+100
+AcDbSymbolTable
+ 70
+    3
+  0
+STYLE
+  5
+95
+330
+2
+100
+AcDbSymbolTableRecord
+100
+AcDbTextStyleTableRecord
+  2
+Standard
+ 70
+    0
+ 40
+0
+ 41
+1
+ 50
+0
+ 71
+    0
+ 42
+1
+  3
+txt
+  4
+
+  0
+ENDTAB
+  0
+TABLE
+  2
+VIEW
+  5
+6
+330
+0
+100
+AcDbSymbolTable
+ 70
+    0
+  0
+ENDTAB
+  0
+TABLE
+  2
+UCS
+  5
+7
+330
+0
+100
+AcDbSymbolTable
+ 70
+    0
+  0
+ENDTAB
+  0
+TABLE
+  2
+APPID
+  5
+9
+330
+0
+100
+AcDbSymbolTable
+ 70
+    1
+  0
+APPID
+  5
+12
+330
+9
+100
+AcDbSymbolTableRecord
+100
+AcDbRegAppTableRecord
+  2
+ACAD
+ 70
+    0
+  0
+APPID
+  5
+96
+330
+9
+100
+AcDbSymbolTableRecord
+100
+AcDbRegAppTableRecord
+  2
+LibreCad
+ 70
+    0
+  0
+ENDTAB
+  0
+TABLE
+  2
+DIMSTYLE
+  5
+A
+330
+0
+100
+AcDbSymbolTable
+ 70
+    1
+100
+AcDbDimStyleTable
+ 71
+    1
+  0
+DIMSTYLE
+105
+97
+330
+A
+100
+AcDbSymbolTableRecord
+100
+AcDbDimStyleTableRecord
+  2
+Standard
+ 70
+    0
+ 40
+1
+ 41
+2.5
+ 42
+0.625
+ 43
+0.38
+ 44
+1.25
+ 45
+0
+ 46
+0
+ 47
+0
+ 48
+0
+ 49
+1
+140
+2.5
+141
+0.09
+142
+0
+143
+25.4
+144
+1
+145
+0
+146
+1
+147
+0.625
+148
+0
+ 71
+    0
+ 72
+    0
+ 73
+    0
+ 74
+    1
+ 75
+    0
+ 76
+    0
+ 77
+    0
+ 78
+    8
+ 79
+    0
+170
+    0
+171
+    2
+172
+    0
+173
+    0
+174
+    0
+175
+    0
+176
+    0
+177
+    0
+178
+    0
+179
+    0
+271
+    2
+272
+    4
+273
+    2
+274
+    2
+275
+    0
+276
+    0
+277
+    2
+278
+   44
+279
+    0
+280
+    0
+281
+    0
+282
+    0
+283
+    1
+284
+    0
+285
+    0
+286
+    0
+288
+    0
+289
+    3
+340
+Standard
+341
+
+371
+   -2
+372
+   -2
+  0
+ENDTAB
+  0
+TABLE
+  2
+BLOCK_RECORD
+  5
+1
+330
+0
+100
+AcDbSymbolTable
+ 70
+    2
+  0
+BLOCK_RECORD
+  5
+1F
+330
+1
+100
+AcDbSymbolTableRecord
+100
+AcDbBlockTableRecord
+  2
+*Model_Space
+ 70
+    0
+280
+    1
+281
+    0
+  0
+BLOCK_RECORD
+  5
+1E
+330
+1
+100
+AcDbSymbolTableRecord
+100
+AcDbBlockTableRecord
+  2
+*Paper_Space
+ 70
+    0
+280
+    1
+281
+    0
+  0
+BLOCK_RECORD
+  5
+98
+330
+1
+100
+AcDbSymbolTableRecord
+100
+AcDbBlockTableRecord
+  2
+EIXO VIAS
+ 70
+    0
+280
+    1
+281
+    0
+  0
+ENDTAB
+  0
+ENDSEC
+  0
+SECTION
+  2
+BLOCKS
+  0
+BLOCK
+  5
+20
+330
+1F
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockBegin
+  2
+*Model_Space
+ 70
+    0
+ 10
+0
+ 20
+0
+ 30
+0
+  3
+*Model_Space
+  1
+
+  0
+ENDBLK
+  5
+21
+330
+1F
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockEnd
+  0
+BLOCK
+  5
+1C
+330
+1B
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockBegin
+  2
+*Paper_Space
+ 70
+    0
+ 10
+0
+ 20
+0
+ 30
+0
+  3
+*Paper_Space
+  1
+
+  0
+ENDBLK
+  5
+1D
+330
+1F
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockEnd
+  0
+BLOCK
+  5
+99
+330
+98
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockBegin
+  2
+EIXO VIAS
+ 70
+    0
+ 10
+0
+ 20
+0
+  3
+EIXO VIAS
+  1
+
+  0
+LWPOLYLINE
+  5
+9B
+100
+AcDbEntity
+  8
+MCT - EIXO VIAS
+  6
+CONTINUOUS
+ 62
+  256
+370
+   -1
+100
+AcDbPolyline
+ 90
+    2
+ 70
+    0
+ 43
+0
+ 10
+345327.3395451689
+ 20
+7372440.60194017
+ 10
+345376.130662948
+ 20
+7372431.409240654
+  0
+LWPOLYLINE
+  5
+9C
+100
+AcDbEntity
+  8
+MCT - EIXO VIAS
+  6
+CONTINUOUS
+ 62
+  256
+370
+   -1
+100
+AcDbPolyline
+ 90
+    2
+ 70
+    0
+ 43
+0
+ 10
+345376.130662948
+ 20
+7372431.409240654
+ 10
+345425.0082542074
+ 20
+7372422.586496697
+  0
+LWPOLYLINE
+  5
+9D
+100
+AcDbEntity
+  8
+MCT - EIXO VIAS
+  6
+CONTINUOUS
+ 62
+  256
+370
+   -1
+100
+AcDbPolyline
+ 90
+    2
+ 70
+    0
+ 43
+0
+ 10
+345368.3267852533
+ 20
+7372393.122245061
+ 10
+345451.1744858424
+ 20
+7372375.773027712
+  0
+LWPOLYLINE
+  5
+9E
+100
+AcDbEntity
+  8
+MCT - EIXO VIAS
+  6
+CONTINUOUS
+ 62
+  256
+370
+   -1
+100
+AcDbPolyline
+ 90
+    2
+ 70
+    0
+ 43
+0
+ 10
+345322.2412249424
+ 20
+7372404.494323638
+ 10
+345368.8251085893
+ 20
+7372395.567094164
+  0
+LWPOLYLINE
+  5
+9F
+100
+AcDbEntity
+  8
+MCT - EIXO VIAS
+  6
+CONTINUOUS
+ 62
+  256
+370
+   -1
+100
+AcDbPolyline
+ 90
+    2
+ 70
+    0
+ 43
+0
+ 10
+345317.4296777096
+ 20
+7372368.288057487
+ 10
+345361.64174512
+ 20
+7372360.324434525
+  0
+LWPOLYLINE
+  5
+A0
+100
+AcDbEntity
+  8
+MCT - EIXO VIAS
+  6
+CONTINUOUS
+ 62
+  256
+370
+   -1
+100
+AcDbPolyline
+ 90
+    6
+ 70
+    0
+ 43
+0
+ 10
+345302.0606073881
+ 20
+7372328.40146153
+ 10
+345342.2199855042
+ 20
+7372321.376621726
+ 10
+345346.5792005039
+ 20
+7372320.505324132
+ 10
+345352.1917043352
+ 20
+7372317.183501467
+ 10
+345355.4066274718
+ 20
+7372312.064624558
+ 10
+345385.2967665874
+ 20
+7372306.873771825
+  0
+LWPOLYLINE
+  5
+A1
+100
+AcDbEntity
+  8
+MCT - EIXO VIAS
+  6
+CONTINUOUS
+ 62
+  256
+370
+   -1
+100
+AcDbPolyline
+ 90
+    4
+ 70
+    0
+ 43
+0
+ 10
+345386.0426144866
+ 20
+7372311.16853776
+ 10
+345406.0807528121
+ 20
+7372307.126121097
+ 10
+345410.1087182358
+ 20
+7372304.841653648
+ 10
+345437.8721780346
+ 20
+7372299.964492141
+  0
+LWPOLYLINE
+  5
+A2
+100
+AcDbEntity
+  8
+MCT - EIXO VIAS
+  6
+CONTINUOUS
+ 62
+  256
+370
+   -1
+100
+AcDbPolyline
+ 90
+    2
+ 70
+    0
+ 43
+0
+ 10
+345391.5583369183
+ 20
+7372342.929352289
+ 10
+345442.7872257184
+ 20
+7372333.63221207
+  0
+LWPOLYLINE
+  5
+A3
+100
+AcDbEntity
+  8
+MCT - EIXO VIAS
+  6
+CONTINUOUS
+ 62
+  256
+370
+   -1
+100
+AcDbPolyline
+ 90
+    2
+ 70
+    0
+ 43
+0
+ 10
+345359.8395576296
+ 20
+7372351.482632129
+ 10
+345391.90858072
+ 20
+7372344.946137683
+  0
+LWPOLYLINE
+  5
+A4
+100
+AcDbEntity
+  8
+MCT - EIXO VIAS
+  6
+CONTINUOUS
+ 62
+  256
+370
+   -1
+100
+AcDbPolyline
+ 90
+    2
+ 70
+    0
+ 43
+0
+ 10
+345383.9578400391
+ 20
+7372299.163920888
+ 10
+345399.1535178062
+ 20
+7372386.664172974
+  0
+LWPOLYLINE
+  5
+A5
+100
+AcDbEntity
+  8
+MCT - EIXO VIAS
+  6
+CONTINUOUS
+ 62
+  256
+370
+   -1
+100
+AcDbPolyline
+ 90
+    2
+ 70
+    0
+ 43
+0
+ 10
+345485.8530213037
+ 20
+7372291.352868519
+ 10
+345495.9387855565
+ 20
+7372127.60108985
+  0
+LWPOLYLINE
+  5
+A6
+100
+AcDbEntity
+  8
+MCT - EIXO VIAS
+  6
+CONTINUOUS
+ 62
+  256
+370
+   -1
+100
+AcDbPolyline
+ 90
+    2
+ 70
+    0
+ 43
+0
+ 10
+345547.3014974958
+ 20
+7372273.093963554
+ 10
+345552.1169008036
+ 20
+7372199.248189603
+  0
+LWPOLYLINE
+  5
+A7
+100
+AcDbEntity
+  8
+MCT - EIXO VIAS
+  6
+CONTINUOUS
+ 62
+  256
+370
+   -1
+100
+AcDbPolyline
+ 90
+    2
+ 70
+    0
+ 43
+0
+ 10
+345489.5031089288
+ 20
+7372232.090295457
+ 10
+345549.7217853933
+ 20
+7372235.978062442
+  0
+LWPOLYLINE
+  5
+A8
+100
+AcDbEntity
+  8
+MCT - EIXO VIAS
+  6
+CONTINUOUS
+ 62
+  256
+370
+   -1
+100
+AcDbPolyline
+ 90
+    2
+ 70
+    0
+ 43
+0
+ 10
+345547.3014974958
+ 20
+7372273.093963554
+ 10
+345487.2407503543
+ 20
+7372268.821794556
+  0
+LWPOLYLINE
+  5
+A9
+100
+AcDbEntity
+  8
+MCT - EIXO VIAS
+  6
+CONTINUOUS
+ 62
+  256
+370
+   -1
+100
+AcDbPolyline
+ 90
+    2
+ 70
+    0
+ 43
+0
+ 10
+345491.8047307274
+ 20
+7372194.721321339
+ 10
+345552.1169008036
+ 20
+7372199.248189603
+  0
+LWPOLYLINE
+  5
+AA
+100
+AcDbEntity
+  8
+MCT - EIXO VIAS
+  6
+CONTINUOUS
+ 62
+  256
+370
+   -1
+100
+AcDbPolyline
+ 90
+    4
+ 70
+    0
+ 43
+0
+ 10
+345492.2230048821
+ 20
+7372187.930250769
+ 10
+345456.1346978465
+ 20
+7372185.920002642
+ 10
+345453.064624181
+ 20
+7372182.558837346
+ 10
+345448.6798595481
+ 20
+7372132.766123565
+  0
+LWPOLYLINE
+  5
+AB
+100
+AcDbEntity
+  8
+MCT - EIXO VIAS
+  6
+CONTINUOUS
+ 62
+  256
+370
+   -1
+100
+AcDbPolyline
+ 90
+    6
+ 70
+    0
+ 43
+0
+ 10
+345411.8833525724
+ 20
+7372136.787696106
+ 10
+345414.9746468078
+ 20
+7372166.007094937
+ 10
+345417.0385958852
+ 20
+7372184.055339172
+ 10
+345383.7869757327
+ 20
+7372187.956764729
+ 10
+345379.8947491892
+ 20
+7372187.278591692
+ 10
+345374.608550555
+ 20
+7372140.861542582
+  0
+LWPOLYLINE
+  5
+AC
+100
+AcDbEntity
+  8
+MCT - EIXO VIAS
+  6
+CONTINUOUS
+ 62
+  256
+370
+   -1
+100
+AcDbPolyline
+ 90
+    4
+ 70
+    0
+ 43
+0
+ 10
+345362.4964931047
+ 20
+7372142.185296428
+ 10
+345356.5452776273
+ 20
+7372087.732979667
+ 10
+345393.4929475504
+ 20
+7372084.754611887
+ 10
+345399.8698267735
+ 20
+7372138.100681207
+  0
+LWPOLYLINE
+  5
+AD
+100
+AcDbEntity
+  8
+MCT - EIXO VIAS
+  6
+CONTINUOUS
+ 62
+  256
+370
+   -1
+100
+AcDbPolyline
+ 90
+    4
+ 70
+    0
+ 43
+0
+ 10
+345436.2481196588
+ 20
+7372134.124816217
+ 10
+345430.234695133
+ 20
+7372078.068623194
+ 10
+345467.4990888822
+ 20
+7372074.599830217
+ 10
+345472.8735060366
+ 20
+7372130.121945834
+  0
+LWPOLYLINE
+  5
+AE
+100
+AcDbEntity
+  8
+MCT - EIXO VIAS
+  6
+CONTINUOUS
+ 62
+  256
+370
+   -1
+100
+AcDbPolyline
+ 90
+    3
+ 70
+    0
+ 43
+0
+ 10
+345468.3836257718
+ 20
+7372083.737818212
+ 10
+345504.8203913256
+ 20
+7372079.844148203
+ 10
+345509.8351314856
+ 20
+7372126.082327124
+  0
+LWPOLYLINE
+  5
+AF
+100
+AcDbEntity
+  8
+MCT - EIXO VIAS
+  6
+CONTINUOUS
+ 62
+  256
+370
+   -1
+100
+AcDbPolyline
+ 90
+    5
+ 70
+    0
+ 43
+0
+ 10
+345387.7824802937
+ 20
+7372754.509299745
+ 10
+345390.9735308534
+ 20
+7372741.739928109
+ 10
+345418.5730566085
+ 20
+7372661.103168393
+ 10
+345453.7423440281
+ 20
+7372558.830768651
+ 10
+345463.6236940756
+ 20
+7372554.250995541
+  0
+LWPOLYLINE
+  5
+B0
+100
+AcDbEntity
+  8
+MCT - EIXO VIAS
+  6
+CONTINUOUS
+ 62
+  256
+370
+   -1
+100
+AcDbPolyline
+ 90
+   12
+ 70
+    0
+ 43
+0
+ 10
+347246.8379919245
+ 20
+7371431.914904144
+ 10
+347259.0313199415
+ 20
+7371432.17417436
+ 10
+347276.9321689379
+ 20
+7371435.976797868
+ 10
+347301.6647529334
+ 20
+7371442.544973493
+ 10
+347311.2637456905
+ 20
+7371451.446571583
+ 10
+347330.7211875463
+ 20
+7371476.077204131
+ 10
+347347.2927505863
+ 20
+7371494.688675443
+ 10
+347355.5173444645
+ 20
+7371507.234133107
+ 10
+347378.0272821954
+ 20
+7371556.419464332
+ 10
+347385.7964118632
+ 20
+7371573.611760396
+ 10
+347404.2324971613
+ 20
+7371624.224915525
+ 10
+347416.7630938195
+ 20
+7371661.346999051
+  0
+LWPOLYLINE
+  5
+B1
+100
+AcDbEntity
+  8
+MCT - EIXO VIAS
+  6
+CONTINUOUS
+ 62
+  256
+370
+   -1
+100
+AcDbPolyline
+ 90
+    5
+ 70
+    0
+ 43
+0
+ 10
+347380.2427066599
+ 20
+7371740.881521649
+ 10
+347401.4437421306
+ 20
+7371708.604705347
+ 10
+347412.7285225927
+ 20
+7371678.090061359
+ 10
+347419.0272073963
+ 20
+7371651.951156827
+ 10
+347464.9125489007
+ 20
+7371535.466663399
+  0
+LWPOLYLINE
+  5
+B2
+100
+AcDbEntity
+  8
+MCT - EIXO VIAS
+  6
+CONTINUOUS
+ 62
+  256
+370
+   -1
+100
+AcDbPolyline
+ 90
+   29
+ 70
+    0
+ 43
+0
+ 10
+347367.161741564
+ 20
+7372071.870596768
+ 10
+347377.8067526095
+ 20
+7372057.363788817
+ 10
+347384.6060191638
+ 20
+7372044.642558405
+ 10
+347390.0437598086
+ 20
+7372034.977648903
+ 10
+347398.3252038305
+ 20
+7372017.134498787
+ 10
+347404.61368062
+ 20
+7372004.393415583
+ 10
+347409.1441587914
+ 20
+7371993.67007716
+ 10
+347414.8378074598
+ 20
+7371968.626568047
+ 10
+347422.1528380593
+ 20
+7371939.844481653
+ 10
+347424.2854242152
+ 20
+7371926.10536207
+ 10
+347426.6573586815
+ 20
+7371911.549945623
+ 10
+347428.2856159201
+ 20
+7371901.765520842
+ 10
+347431.9501525054
+ 20
+7371895.020179697
+ 10
+347437.802885902
+ 20
+7371885.998088782
+ 10
+347446.5270456175
+ 20
+7371872.24984599
+ 10
+347454.0508474872
+ 20
+7371867.456152328
+ 10
+347458.6063730431
+ 20
+7371863.186211205
+ 10
+347461.3221571262
+ 20
+7371860.22987039
+ 10
+347463.0672125556
+ 20
+7371857.491577413
+ 10
+347464.4991211273
+ 20
+7371854.018563444
+ 10
+347468.919786319
+ 20
+7371841.114055976
+ 10
+347472.0495521447
+ 20
+7371830.43461755
+ 10
+347473.0686496162
+ 20
+7371819.176707544
+ 10
+347473.1195922574
+ 20
+7371797.502935849
+ 10
+347473.25909186
+ 20
+7371788.881874324
+ 10
+347474.788961921
+ 20
+7371783.534499773
+ 10
+347479.8088896298
+ 20
+7371778.532525714
+ 10
+347499.4322095391
+ 20
+7371761.620088614
+ 10
+347534.6653749507
+ 20
+7371736.717642741
+  0
+LWPOLYLINE
+  5
+B3
+100
+AcDbEntity
+  8
+MCT - EIXO VIAS
+  6
+CONTINUOUS
+ 62
+  256
+370
+   -1
+100
+AcDbPolyline
+ 90
+    2
+ 70
+    0
+ 43
+0
+ 10
+347302.6985041508
+ 20
+7371443.503619684
+ 10
+347333.3672647827
+ 20
+7371261.459436206
+  0
+LWPOLYLINE
+  5
+B4
+100
+AcDbEntity
+  8
+MCT - EIXO VIAS
+  6
+CONTINUOUS
+ 62
+  256
+370
+   -1
+100
+AcDbPolyline
+ 90
+   12
+ 70
+    0
+ 43
+0
+ 10
+347262.8529919243
+ 20
+7371375.199904145
+ 10
+347265.9543288653
+ 20
+7371346.874095044
+ 10
+347268.1805265018
+ 20
+7371330.517274786
+ 10
+347272.1808500569
+ 20
+7371307.819943598
+ 10
+347278.937285847
+ 20
+7371270.976891795
+ 10
+347282.0828149768
+ 20
+7371261.407145936
+ 10
+347276.0007219235
+ 20
+7371248.474677505
+ 10
+347252.000315469
+ 20
+7371206.457424114
+ 10
+347243.1660645236
+ 20
+7371190.228198018
+ 10
+347234.5916640097
+ 20
+7371171.921636817
+ 10
+347225.7574130643
+ 20
+7371152.706227888
+ 10
+347207.4867010345
+ 20
+7371108.292904054
+  0
+LWPOLYLINE
+  5
+B5
+100
+AcDbEntity
+  8
+MCT - EIXO VIAS
+  6
+CONTINUOUS
+ 62
+  256
+370
+   -1
+100
+AcDbPolyline
+ 90
+    4
+ 70
+    0
+ 43
+0
+ 10
+347225.6225970742
+ 20
+7371306.120632396
+ 10
+347226.4740394538
+ 20
+7371302.197915728
+ 10
+347226.4740394538
+ 20
+7371302.197915728
+ 10
+347233.5522530482
+ 20
+7371255.359719695
+  0
+LWPOLYLINE
+  5
+B6
+100
+AcDbEntity
+  8
+MCT - EIXO VIAS
+  6
+CONTINUOUS
+ 62
+  256
+370
+   -1
+100
+AcDbPolyline
+ 90
+    4
+ 70
+    0
+ 43
+0
+ 10
+347389.6240743397
+ 20
+7371309.284559627
+ 10
+347379.2468126608
+ 20
+7371370.753906895
+ 10
+347363.5257643808
+ 20
+7371450.914928685
+ 10
+347352.0343999628
+ 20
+7371501.921392632
+  0
+LWPOLYLINE
+  5
+B7
+100
+AcDbEntity
+  8
+MCT - EIXO VIAS
+  6
+CONTINUOUS
+ 62
+  256
+370
+   -1
+100
+AcDbPolyline
+ 90
+    2
+ 70
+    0
+ 43
+0
+ 10
+347409.1593366788
+ 20
+7371342.21093773
+ 10
+347449.5379919244
+ 20
+7371318.214904146
+  0
+LWPOLYLINE
+  5
+B8
+100
+AcDbEntity
+  8
+MCT - EIXO VIAS
+  6
+CONTINUOUS
+ 62
+  256
+370
+   -1
+100
+AcDbPolyline
+ 90
+    2
+ 70
+    0
+ 43
+0
+ 10
+345355.9227638052
+ 20
+7372732.49515906
+ 10
+345362.59246686
+ 20
+7372710.882726189
+  0
+LWPOLYLINE
+  5
+B9
+100
+AcDbEntity
+  8
+MCT - EIXO VIAS
+  6
+CONTINUOUS
+ 62
+  256
+370
+   -1
+100
+AcDbPolyline
+ 90
+    2
+ 70
+    0
+ 43
+0
+ 10
+345343.1047957436
+ 20
+7372704.76484793
+ 10
+345397.7566054888
+ 20
+7372721.922009337
+  0
+LWPOLYLINE
+  5
+BA
+100
+AcDbEntity
+  8
+MCT - EIXO VIAS
+  6
+CONTINUOUS
+ 62
+  256
+370
+   -1
+100
+AcDbPolyline
+ 90
+    2
+ 70
+    0
+ 43
+0
+ 10
+345440.1862455553
+ 20
+7372734.160939391
+ 10
+345399.1097168425
+ 20
+7372717.968661876
+  0
+LWPOLYLINE
+  5
+BB
+100
+AcDbEntity
+  8
+MCT - EIXO VIAS
+  6
+CONTINUOUS
+ 62
+  256
+370
+   -1
+100
+AcDbPolyline
+ 90
+    2
+ 70
+    0
+ 43
+0
+ 10
+345307.9762402504
+ 20
+7372653.145114829
+ 10
+345409.2945029231
+ 20
+7372688.212058258
+  0
+LWPOLYLINE
+  5
+BC
+100
+AcDbEntity
+  8
+MCT - EIXO VIAS
+  6
+CONTINUOUS
+ 62
+  256
+370
+   -1
+100
+AcDbPolyline
+ 90
+    3
+ 70
+    0
+ 43
+0
+ 10
+345273.8364106597
+ 20
+7372659.468409018
+ 10
+345301.2414811711
+ 20
+7372611.968639729
+ 10
+345320.0377784958
+ 20
+7372618.650886805
+  0
+LWPOLYLINE
+  5
+BD
+100
+AcDbEntity
+  8
+MCT - EIXO VIAS
+  6
+CONTINUOUS
+ 62
+  256
+370
+   -1
+100
+AcDbPolyline
+ 90
+    2
+ 70
+    0
+ 43
+0
+ 10
+345296.5374818357
+ 20
+7372576.506638568
+ 10
+345330.8564868498
+ 20
+7372587.710969749
+  0
+LWPOLYLINE
+  5
+BE
+100
+AcDbEntity
+  8
+MCT - EIXO VIAS
+  6
+CONTINUOUS
+ 62
+  256
+370
+   -1
+100
+AcDbPolyline
+ 90
+    2
+ 70
+    0
+ 43
+0
+ 10
+345329.1437883986
+ 20
+7372592.609035792
+ 10
+345429.946313595
+ 20
+7372628.02970088
+  0
+LWPOLYLINE
+  5
+BF
+100
+AcDbEntity
+  8
+MCT - EIXO VIAS
+  6
+CONTINUOUS
+ 62
+  256
+370
+   -1
+100
+AcDbPolyline
+ 90
+    2
+ 70
+    0
+ 43
+0
+ 10
+345311.862307542
+ 20
+7372543.611559657
+ 10
+345342.5529711039
+ 20
+7372554.260742528
+  0
+LWPOLYLINE
+  5
+C0
+100
+AcDbEntity
+  8
+MCT - EIXO VIAS
+  6
+CONTINUOUS
+ 62
+  256
+370
+   -1
+100
+AcDbPolyline
+ 90
+    4
+ 70
+    0
+ 43
+0
+ 10
+345341.7275258906
+ 20
+7372557.022699228
+ 10
+345365.8770566939
+ 20
+7372565.448922707
+ 10
+345371.3065576231
+ 20
+7372565.200877748
+ 10
+345421.9233900658
+ 20
+7372583.470549329
+  0
+LWPOLYLINE
+  5
+C1
+100
+AcDbEntity
+  8
+MCT - EIXO VIAS
+  6
+CONTINUOUS
+ 62
+  256
+370
+   -1
+100
+AcDbPolyline
+ 90
+    4
+ 70
+    0
+ 43
+0
+ 10
+345434.1255969098
+ 20
+7372548.777769608
+ 10
+345380.7538879953
+ 20
+7372530.526683537
+ 10
+345377.755278728
+ 20
+7372531.182219432
+ 10
+345353.609374486
+ 20
+7372522.641052601
+  0
+LWPOLYLINE
+  5
+C2
+100
+AcDbEntity
+  8
+MCT - EIXO VIAS
+  6
+CONTINUOUS
+ 62
+  256
+370
+   -1
+100
+AcDbPolyline
+ 90
+    2
+ 70
+    0
+ 43
+0
+ 10
+345321.5024036559
+ 20
+7372509.681555775
+ 10
+345354.4898183852
+ 20
+7372520.123112352
+  0
+LWPOLYLINE
+  5
+C3
+100
+AcDbEntity
+  8
+MCT - EIXO VIAS
+  6
+CONTINUOUS
+ 62
+  256
+370
+   -1
+100
+AcDbPolyline
+ 90
+    4
+ 70
+    0
+ 43
+0
+ 10
+345365.6360276437
+ 20
+7372488.246590807
+ 10
+345390.9176737962
+ 20
+7372497.806848697
+ 10
+345393.7380922065
+ 20
+7372496.447863543
+ 10
+345434.4884829243
+ 20
+7372510.840046145
+  0
+LWPOLYLINE
+  5
+C4
+100
+AcDbEntity
+  8
+MCT - EIXO VIAS
+  6
+CONTINUOUS
+ 62
+  256
+370
+   -1
+100
+AcDbPolyline
+ 90
+    2
+ 70
+    0
+ 43
+0
+ 10
+345327.1747994897
+ 20
+7372473.844810047
+ 10
+345366.2083594593
+ 20
+7372486.609805867
+  0
+LWPOLYLINE
+  5
+C5
+100
+AcDbEntity
+  8
+MCT - EIXO VIAS
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbPolyline
+ 90
+    2
+ 70
+    0
+ 43
+0
+ 10
+345558.5997180177
+ 20
+7372120.752736405
+ 10
+345310.0600434984
+ 20
+7372147.916193275
+  0
+LWPOLYLINE
+  5
+C6
+100
+AcDbEntity
+  8
+MCT - EIXO VIAS
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbPolyline
+ 90
+    2
+ 70
+    0
+ 43
+0
+ 10
+345556.8748204874
+ 20
+7372162.454506764
+ 10
+345494.0575689195
+ 20
+7372158.144394516
+  0
+LWPOLYLINE
+  5
+C7
+100
+AcDbEntity
+  8
+MCT - EIXO VIAS
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbPolyline
+ 90
+    2
+ 70
+    0
+ 43
+0
+ 10
+345538.5192224822
+ 20
+7372122.94737867
+ 10
+345535.2703817083
+ 20
+7372160.956572801
+  0
+LWPOLYLINE
+  5
+C8
+100
+AcDbEntity
+  8
+MCT - EIXO VIAS
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbPolyline
+ 90
+   13
+ 70
+    0
+ 43
+0
+ 10
+347573.7237873357
+ 20
+7371768.635829005
+ 10
+347536.0767240152
+ 20
+7371739.343739895
+ 10
+347523.6228442138
+ 20
+7371716.170806219
+ 10
+347519.6370726955
+ 20
+7371705.538564541
+ 10
+347425.0968922837
+ 20
+7371411.728274343
+ 10
+347409.0469052696
+ 20
+7371341.720528014
+ 10
+347392.1699657804
+ 20
+7371313.043702099
+ 10
+347349.0215365781
+ 20
+7371249.332779377
+ 10
+347321.2700584543
+ 20
+7371212.891431651
+ 10
+347290.7500792692
+ 20
+7371169.075907975
+ 10
+347251.8235569519
+ 20
+7371101.48937601
+ 10
+347237.7170492643
+ 20
+7371081.972513775
+ 10
+347217.5637475871
+ 20
+7371058.060375133
+  0
+LWPOLYLINE
+  5
+C9
+100
+AcDbEntity
+  8
+MCT - EIXO VIAS
+  6
+CONTINUOUS
+ 62
+  256
+370
+   -1
+100
+AcDbPolyline
+ 90
+    2
+ 70
+    0
+ 43
+0
+ 10
+345377.6479919243
+ 20
+7372657.244904146
+ 10
+345391.142115912
+ 20
+7372614.394422525
+  0
+LWPOLYLINE
+  5
+CA
+100
+AcDbEntity
+  8
+MCT - EIXO VIAS
+  6
+CONTINUOUS
+ 62
+  256
+370
+   -1
+100
+AcDbPolyline
+ 90
+    2
+ 70
+    0
+ 43
+0
+ 10
+345342.8860228437
+ 20
+7372645.92506005
+ 10
+345357.6310529653
+ 20
+7372602.619081231
+  0
+LWPOLYLINE
+  5
+CB
+100
+AcDbEntity
+  8
+MCT - EIXO VIAS
+  6
+CONTINUOUS
+ 62
+  256
+370
+   -1
+100
+AcDbPolyline
+ 90
+    2
+ 70
+    0
+ 43
+0
+ 10
+345507.9010599272
+ 20
+7372638.663787467
+ 10
+345473.7698473832
+ 20
+7372629.777082186
+  0
+LWPOLYLINE
+  5
+CC
+100
+AcDbEntity
+  8
+MCT - EIXO VIAS
+  6
+CONTINUOUS
+ 62
+  256
+370
+   -1
+100
+AcDbPolyline
+ 90
+    3
+ 70
+    0
+ 43
+0
+ 10
+347336.0271817328
+ 20
+7371232.269479136
+ 10
+347416.9367208104
+ 20
+7371182.372948758
+ 10
+347399.0845613779
+ 20
+7371148.334201442
+  0
+LWPOLYLINE
+  5
+CD
+100
+AcDbEntity
+  8
+MCT - EIXO VIAS
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbPolyline
+ 90
+    3
+ 70
+    0
+ 43
+0
+ 10
+345300.6683948595
+ 20
+7372674.044479412
+ 10
+345379.5847220675
+ 20
+7372448.355373262
+ 10
+345352.6875800519
+ 20
+7372316.393956383
+  0
+LWPOLYLINE
+  5
+CE
+100
+AcDbEntity
+  8
+MCT - EIXO VIAS
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbPolyline
+ 90
+   14
+ 70
+    0
+ 43
+0
+ 10
+345202.1420694716
+ 20
+7372621.210660849
+ 10
+345291.5884679912
+ 20
+7372519.184209787
+ 10
+345304.1189130436
+ 20
+7372488.367816693
+ 10
+345304.1189130429
+ 20
+7372424.130068297
+ 10
+345285.5904620913
+ 20
+7372368.873356328
+ 10
+345242.8729948629
+ 20
+7372294.224481656
+ 10
+345235.1198144438
+ 20
+7372268.183268365
+ 10
+345241.9446278518
+ 20
+7372244.944174735
+ 10
+345287.3407111147
+ 20
+7372205.955194496
+ 10
+345305.9937277604
+ 20
+7372174.395066426
+ 10
+345311.9103269074
+ 20
+7372135.867591338
+ 10
+345332.3382576928
+ 20
+7372067.803215473
+ 10
+345331.6362607097
+ 20
+7371987.92520162
+ 10
+345296.6901918369
+ 20
+7371927.254399182
+  0
+LWPOLYLINE
+  5
+CF
+100
+AcDbEntity
+  8
+MCT - EIXO VIAS
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbPolyline
+ 90
+    4
+ 70
+    0
+ 43
+0
+ 10
+345390.5709015105
+ 20
+7372777.774320501
+ 10
+345351.0792259999
+ 20
+7372748.306354407
+ 10
+345301.8478767216
+ 20
+7372674.68521513
+ 10
+345202.1420694716
+ 20
+7372621.210660849
+  0
+LWPOLYLINE
+  5
+D0
+100
+AcDbEntity
+  8
+MCT - EIXO VIAS
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbPolyline
+ 90
+    2
+ 70
+    0
+ 43
+0
+ 10
+345655.6237997654
+ 20
+7372914.380958514
+ 10
+345699.1323838654
+ 20
+7372929.274532809
+  0
+LWPOLYLINE
+  5
+D1
+100
+AcDbEntity
+  8
+MCT - EIXO VIAS
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbPolyline
+ 90
+    7
+ 70
+    0
+ 43
+0
+ 10
+345655.6237997673
+ 20
+7372914.380958512
+ 10
+345620.8642183464
+ 20
+7372918.043151115
+ 10
+345545.0266858471
+ 20
+7372914.397624753
+ 10
+345478.4087045734
+ 20
+7372896.716428503
+ 10
+345443.595192684
+ 20
+7372834.237379313
+ 10
+345426.6397264358
+ 20
+7372811.832401651
+ 10
+345390.5709015105
+ 20
+7372777.774320501
+  0
+LWPOLYLINE
+  5
+D2
+100
+AcDbEntity
+  8
+MCT - EIXO VIAS
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbPolyline
+ 90
+   70
+ 70
+    0
+ 43
+0
+ 10
+346922.5492368742
+ 20
+7373190.547710095
+ 10
+346754.1746677568
+ 20
+7373117.056717128
+ 10
+346670.9672109365
+ 20
+7373077.742743991
+ 10
+346626.9429663981
+ 20
+7373067.962515754
+ 10
+346581.3867765688
+ 20
+7373065.159990739
+ 10
+346556.7683784974
+ 20
+7373071.441853282
+ 10
+346531.8334280627
+ 20
+7373070.240836831
+ 10
+346519.7299960446
+ 20
+7373066.600861724
+ 10
+346514.9161014086
+ 20
+7373063.510308145
+ 10
+346510.5836068783
+ 20
+7373059.046181587
+ 10
+346501.5945094898
+ 20
+7373048.948050755
+ 10
+346491.1218888393
+ 20
+7373033.133479435
+ 10
+346478.2771998073
+ 20
+7373018.640859068
+ 10
+346451.5715722765
+ 20
+7373000.897044526
+ 10
+346435.6627743568
+ 20
+7372987.625248281
+ 10
+346414.9064202781
+ 20
+7372948.639346811
+ 10
+346400.3637518239
+ 20
+7372933.798737697
+ 10
+346378.4175430562
+ 20
+7372927.775938855
+ 10
+346341.5761162963
+ 20
+7372934.249545989
+ 10
+346310.2432760696
+ 20
+7372942.941129942
+ 10
+346285.0926472258
+ 20
+7372940.80274334
+ 10
+346264.9406603824
+ 20
+7372937.152751418
+ 10
+346242.2893525388
+ 20
+7372928.028391501
+ 10
+346218.4922587003
+ 20
+7372914.540207273
+ 10
+346197.471492472
+ 20
+7372898.275043938
+ 10
+346175.2168028604
+ 20
+7372877.664088631
+ 10
+346158.9009552699
+ 20
+7372851.454485445
+ 10
+346145.0458696558
+ 20
+7372823.637816951
+ 10
+346138.5847746579
+ 20
+7372799.529322198
+ 10
+346133.1266009811
+ 20
+7372762.477669614
+ 10
+346135.6418327266
+ 20
+7372712.324348635
+ 10
+346139.1270637733
+ 20
+7372691.243886833
+ 10
+346148.9518622484
+ 20
+7372666.902193919
+ 10
+346173.3659177821
+ 20
+7372628.908070701
+ 10
+346192.0510433194
+ 20
+7372608.657762026
+ 10
+346206.9462613192
+ 20
+7372596.576099684
+ 10
+346234.709537464
+ 20
+7372578.435573838
+ 10
+346256.0828532306
+ 20
+7372567.886659702
+ 10
+346275.4730778438
+ 20
+7372565.217874588
+ 10
+346296.600009388
+ 20
+7372566.132443584
+ 10
+346316.5414779913
+ 20
+7372576.795670704
+ 10
+346330.0746369289
+ 20
+7372592.408233036
+ 10
+346337.7610221046
+ 20
+7372612.304432204
+ 10
+346337.14260362
+ 20
+7372632.327351679
+ 10
+346333.3793395263
+ 20
+7372646.687949909
+ 10
+346324.962219293
+ 20
+7372661.041686064
+ 10
+346315.9722060661
+ 20
+7372670.346369304
+ 10
+346304.470277379
+ 20
+7372677.757657694
+ 10
+346292.924279998
+ 20
+7372683.419809893
+ 10
+346280.45284007
+ 20
+7372691.786811875
+ 10
+346267.5407132308
+ 20
+7372701.398044753
+ 10
+346259.3439364609
+ 20
+7372712.596122838
+ 10
+346252.6895639252
+ 20
+7372727.689184598
+ 10
+346249.9132363077
+ 20
+7372743.954347929
+ 10
+346249.7369615388
+ 20
+7372758.758892382
+ 10
+346253.8353499274
+ 20
+7372776.142060289
+ 10
+346260.0931042309
+ 20
+7372787.556526352
+ 10
+346270.713659073
+ 20
+7372801.60371287
+ 10
+346284.4630910705
+ 20
+7372813.739472209
+ 10
+346299.5786525335
+ 20
+7372821.799924548
+ 10
+346315.6196565281
+ 20
+7372825.983425538
+ 10
+346337.5217966016
+ 20
+7372825.676875895
+ 10
+346388.717864497
+ 20
+7372821.992445876
+ 10
+346411.6036549749
+ 20
+7372822.595988659
+ 10
+346429.222093583
+ 20
+7372827.455867333
+ 10
+346442.9513351328
+ 20
+7372839.610611403
+ 10
+346449.9957293416
+ 20
+7372853.718683906
+ 10
+346454.9452588697
+ 20
+7372869.625675011
+ 10
+346464.3980903054
+ 20
+7372915.780206775
+ 10
+346484.6995443234
+ 20
+7373025.887169251
+  0
+LWPOLYLINE
+  5
+D3
+100
+AcDbEntity
+  8
+MCT - EIXO VIAS
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbPolyline
+ 90
+   21
+ 70
+    0
+ 43
+0
+ 10
+346257.4482951963
+ 20
+7372567.698726284
+ 10
+346277.9000603239
+ 20
+7372620.214688023
+ 10
+346273.3937253884
+ 20
+7372626.041388403
+ 10
+346266.8142890799
+ 20
+7372630.794290857
+ 10
+346242.5096960019
+ 20
+7372648.491183094
+ 10
+346224.0889826219
+ 20
+7372664.954702078
+ 10
+346211.6616113957
+ 20
+7372682.373934646
+ 10
+346202.5393920864
+ 20
+7372700.514460491
+ 10
+346198.0626702994
+ 20
+7372718.875479847
+ 10
+346195.0531613809
+ 20
+7372741.334943526
+ 10
+346194.8909209783
+ 20
+7372750.003240855
+ 10
+346196.9039471088
+ 20
+7372773.385503522
+ 10
+346202.598005241
+ 20
+7372794.523745628
+ 10
+346222.5767215588
+ 20
+7372829.854278556
+ 10
+346234.5241920746
+ 20
+7372843.50163183
+ 10
+346250.6242506592
+ 20
+7372855.870840386
+ 10
+346268.1552600169
+ 20
+7372866.475143426
+ 10
+346292.8192599332
+ 20
+7372876.176135544
+ 10
+346316.7213738363
+ 20
+7372882.731173882
+ 10
+346409.4979919244
+ 20
+7372878.964904145
+ 10
+346409.4979919244
+ 20
+7372878.964904145
+  0
+LWPOLYLINE
+  5
+D4
+100
+AcDbEntity
+  8
+MCT - EIXO VIAS
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbPolyline
+ 90
+    2
+ 70
+    0
+ 43
+0
+ 10
+346313.9304716284
+ 20
+7372941.918319066
+ 10
+346316.7213738363
+ 20
+7372882.731173882
+  0
+LWPOLYLINE
+  5
+D5
+100
+AcDbEntity
+  8
+MCT - EIXO VIAS
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbPolyline
+ 90
+    3
+ 70
+    0
+ 43
+0
+ 10
+346063.2981822534
+ 20
+7373024.858013768
+ 10
+345948.4662823894
+ 20
+7373025.853511752
+ 10
+345885.7406999428
+ 20
+7373025.554545766
+  0
+LWPOLYLINE
+  5
+D6
+100
+AcDbEntity
+  8
+MCT - EIXO VIAS
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbPolyline
+ 90
+    3
+ 70
+    0
+ 43
+0
+ 10
+345886.0244931312
+ 20
+7373047.351097186
+ 10
+345883.9441045642
+ 20
+7372692.902396614
+ 10
+345905.0256916747
+ 20
+7372588.864981658
+  0
+LWPOLYLINE
+  5
+D7
+100
+AcDbEntity
+  8
+MCT - EIXO VIAS
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbPolyline
+ 90
+    6
+ 70
+    0
+ 43
+0
+ 10
+345930.5029919244
+ 20
+7372634.314904145
+ 10
+345942.0470488918
+ 20
+7372637.844580878
+ 10
+345943.8142933169
+ 20
+7372662.878844773
+ 10
+345943.8142933169
+ 20
+7372662.878844773
+ 10
+345945.2429490009
+ 20
+7372707.292631038
+ 10
+345947.7780213756
+ 20
+7372827.30187331
+  0
+LWPOLYLINE
+  5
+D8
+100
+AcDbEntity
+  8
+MCT - EIXO VIAS
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbPolyline
+ 90
+    2
+ 70
+    0
+ 43
+0
+ 10
+346008.5932489187
+ 20
+7372826.017213892
+ 10
+346006.7779919242
+ 20
+7372633.124904145
+  0
+LWPOLYLINE
+  5
+D9
+100
+AcDbEntity
+  8
+MCT - EIXO VIAS
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbPolyline
+ 90
+   11
+ 70
+    0
+ 43
+0
+ 10
+346070.4911360494
+ 20
+7372629.011393868
+ 10
+346070.5404899775
+ 20
+7372809.819210186
+ 10
+346070.5404899775
+ 20
+7372809.819210186
+ 10
+346072.6439748435
+ 20
+7372856.92871444
+ 10
+346071.2393365356
+ 20
+7372916.510615448
+ 10
+346067.4888719396
+ 20
+7372923.256154066
+ 10
+346067.4888719396
+ 20
+7372923.256154066
+ 10
+346067.4888719396
+ 20
+7372923.256154066
+ 10
+345779.5961966728
+ 20
+7372927.167979702
+ 10
+345707.4411477864
+ 20
+7372929.055734736
+ 10
+345699.1323838654
+ 20
+7372929.274532809
+  0
+LWPOLYLINE
+  5
+DA
+100
+AcDbEntity
+  8
+MCT - EIXO VIAS
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbPolyline
+ 90
+    2
+ 70
+    0
+ 43
+0
+ 10
+346011.9590125978
+ 20
+7373025.303082081
+ 10
+346012.2319559296
+ 20
+7372924.006973517
+  0
+LWPOLYLINE
+  5
+DB
+100
+AcDbEntity
+  8
+MCT - EIXO VIAS
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbPolyline
+ 90
+    2
+ 70
+    0
+ 43
+0
+ 10
+345948.4662823894
+ 20
+7373025.853511752
+ 10
+345948.0620690416
+ 20
+7372924.878900557
+  0
+LWPOLYLINE
+  5
+DC
+100
+AcDbEntity
+  8
+MCT - EIXO VIAS
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbPolyline
+ 90
+    8
+ 70
+    0
+ 43
+0
+ 10
+345825.5962240131
+ 20
+7373038.612020597
+ 10
+345825.4117370179
+ 20
+7373016.256415943
+ 10
+345825.4117370179
+ 20
+7373016.256415943
+ 10
+345823.8983844243
+ 20
+7372830.950062644
+ 10
+345822.5846354791
+ 20
+7372785.830997202
+ 10
+345821.5801178271
+ 20
+7372707.841328042
+ 10
+345824.327996063
+ 20
+7372694.199616526
+ 10
+345821.7826600288
+ 20
+7372571.351044919
+  0
+LWPOLYLINE
+  5
+DD
+100
+AcDbEntity
+  8
+MCT - EIXO VIAS
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbPolyline
+ 90
+    7
+ 70
+    0
+ 43
+0
+ 10
+345757.4029919243
+ 20
+7372620.669904147
+ 10
+345758.3730916097
+ 20
+7372761.335904686
+ 10
+345760.3945193844
+ 20
+7372830.729218613
+ 10
+345760.3945193844
+ 20
+7372830.729218613
+ 10
+345762.1958802609
+ 20
+7372927.623215137
+ 10
+345762.4168372386
+ 20
+7372942.932189127
+ 10
+345764.5942797203
+ 20
+7373017.003648708
+  0
+LWPOLYLINE
+  5
+DE
+100
+AcDbEntity
+  8
+MCT - EIXO VIAS
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbPolyline
+ 90
+    5
+ 70
+    0
+ 43
+0
+ 10
+345694.0873752528
+ 20
+7372829.40708828
+ 10
+345698.6599418886
+ 20
+7372925.565252024
+ 10
+345700.6937973551
+ 20
+7372941.533648936
+ 10
+345701.1955355353
+ 20
+7373017.881588306
+ 10
+345825.4117370179
+ 20
+7373016.256415943
+  0
+LWPOLYLINE
+  5
+DF
+100
+AcDbEntity
+  8
+MCT - EIXO VIAS
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbPolyline
+ 90
+   15
+ 70
+    0
+ 43
+0
+ 10
+346367.9779919243
+ 20
+7373010.504904145
+ 10
+346342.3835699096
+ 20
+7373012.865493279
+ 10
+346308.5413074256
+ 20
+7373013.86375341
+ 10
+346286.2633961071
+ 20
+7373011.476935378
+ 10
+346262.1444366774
+ 20
+7373006.660873976
+ 10
+346250.3998597841
+ 20
+7373003.359362613
+ 10
+346232.8662962974
+ 20
+7372997.310111255
+ 10
+346209.109757131
+ 20
+7372986.227383016
+ 10
+346183.2001936381
+ 20
+7372972.00815
+ 10
+346158.2782799037
+ 20
+7372954.044756437
+ 10
+346143.5669757527
+ 20
+7372940.33851741
+ 10
+346131.2656519484
+ 20
+7372927.509624387
+ 10
+346116.9320396236
+ 20
+7372911.306403254
+ 10
+346101.0920232979
+ 20
+7372889.378578483
+ 10
+346072.4977119778
+ 20
+7372863.132887808
+  0
+LWPOLYLINE
+  5
+E0
+100
+AcDbEntity
+  8
+MCT - EIXO VIAS
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbPolyline
+ 90
+    3
+ 70
+    0
+ 43
+0
+ 10
+345757.9200532725
+ 20
+7372695.644623721
+ 10
+345949.0461605219
+ 20
+7372691.485804932
+ 10
+346139.127063773
+ 20
+7372691.243886833
+  0
+LWPOLYLINE
+  5
+E1
+100
+AcDbEntity
+  8
+MCT - EIXO VIAS
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbPolyline
+ 90
+    4
+ 70
+    0
+ 43
+0
+ 10
+345649.7611355993
+ 20
+7372819.086445739
+ 10
+345689.3981507346
+ 20
+7372829.313587558
+ 10
+345773.3242459341
+ 20
+7372830.987030705
+ 10
+346144.8057428793
+ 20
+7372822.74182407
+  0
+LWPOLYLINE
+  5
+E2
+100
+AcDbEntity
+  8
+MCT - EIXO VIAS
+  6
+CONTINUOUS
+ 62
+  256
+370
+   -1
+100
+AcDbPolyline
+ 90
+   15
+ 70
+    0
+ 43
+0
+ 10
+347349.0215365781
+ 20
+7371249.332779377
+ 10
+347337.8131519984
+ 20
+7371260.044913388
+ 10
+347328.921377567
+ 20
+7371262.873959031
+ 10
+347304.1849042403
+ 20
+7371262.935125098
+ 10
+347277.9533740019
+ 20
+7371263.437395355
+ 10
+347238.4351319909
+ 20
+7371256.41766205
+ 10
+347216.0894830429
+ 20
+7371251.576172274
+ 10
+347201.3125164924
+ 20
+7371245.192366284
+ 10
+347187.8784364754
+ 20
+7371237.875087906
+ 10
+347181.4305910216
+ 20
+7371189.854205398
+ 10
+347178.5948160863
+ 20
+7371175.78712106
+ 10
+347171.7523577017
+ 20
+7371149.962450524
+ 10
+347161.9435881423
+ 20
+7371120.857938693
+ 10
+347210.6069796678
+ 20
+7371107.43204043
+ 10
+347247.5484206476
+ 20
+7371095.574570721
+  0
+LWPOLYLINE
+  5
+E3
+100
+AcDbEntity
+  8
+MCT - EIXO VIAS
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbPolyline
+ 90
+   13
+ 70
+    0
+ 43
+0
+ 10
+345432.7920672156
+ 20
+7372819.962113667
+ 10
+345452.7741971118
+ 20
+7372786.813013882
+ 10
+345459.3031488516
+ 20
+7372755.452880917
+ 10
+345452.1821272445
+ 20
+7372715.359185296
+ 10
+345456.2133083458
+ 20
+7372680.698427699
+ 10
+345481.1859654146
+ 20
+7372608.267221511
+ 10
+345480.7277375315
+ 20
+7372582.624368975
+ 10
+345459.5980428075
+ 20
+7372547.572966043
+ 10
+345457.2564643611
+ 20
+7372533.735723185
+ 10
+345457.7826780783
+ 20
+7372488.57368407
+ 10
+345458.0432337233
+ 20
+7372481.542971139
+ 10
+345452.441183645
+ 20
+7372475.553838642
+ 10
+345379.5847220675
+ 20
+7372448.355373262
+  0
+ENDBLK
+  5
+9A
+330
+98
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockEnd
+  0
+ENDSEC
+  0
+SECTION
+  2
+ENTITIES
+  0
+LWPOLYLINE
+  5
+E4
+100
+AcDbEntity
+  8
+RUA JOS� CARLOS DO NASCIMENTO - 29_12_20 - MAVIC - BOTUJURU - ETAPA 01 - DJI_0071
+  6
+CONTINUOUS
+ 62
+  256
+370
+   -1
+100
+AcDbPolyline
+ 90
+    2
+ 70
+    0
+ 43
+0
+ 10
+341368.3267852533
+ 20
+7372393.122245061
+ 10
+341451.1744858425
+ 20
+7372375.773027712
+  0
+LWPOLYLINE
+  5
+E5
+100
+AcDbEntity
+  8
+TRAVESSA ESTRELA DE PRATA - 29_12_20 - MAVIC - BOTUJURU - ETAPA 01 - DJI_0045
+  6
+CONTINUOUS
+ 62
+  256
+370
+   -1
+100
+AcDbPolyline
+ 90
+    2
+ 70
+    0
+ 43
+0
+ 10
+341322.2412249425
+ 20
+7372404.494323638
+ 10
+341368.8251085893
+ 20
+7372395.567094164
+  0
+LWPOLYLINE
+  5
+E6
+100
+AcDbEntity
+  8
+TRAVESSA CAM�LIA BRANCA - 29_12_20 - MAVIC - BOTUJURU - ETAPA 01 - DJI_0044
+  6
+CONTINUOUS
+ 62
+  256
+370
+   -1
+100
+AcDbPolyline
+ 90
+    2
+ 70
+    0
+ 43
+0
+ 10
+341317.4296777096
+ 20
+7372368.288057487
+ 10
+341361.64174512
+ 20
+7372360.324434525
+  0
+LWPOLYLINE
+  5
+E7
+100
+AcDbEntity
+  8
+RUA PRIMAVERA - 29_12_20 - MAVIC - BOTUJURU - ETAPA 01 - DJI_0041
+  6
+CONTINUOUS
+ 62
+  256
+370
+   -1
+100
+AcDbPolyline
+ 90
+    6
+ 70
+    0
+ 43
+0
+ 10
+341302.0606073882
+ 20
+7372328.40146153
+ 10
+341342.2199855042
+ 20
+7372321.376621726
+ 10
+341346.5792005039
+ 20
+7372320.505324132
+ 10
+341352.1917043354
+ 20
+7372317.183501467
+ 10
+341355.4066274719
+ 20
+7372312.064624558
+ 10
+341385.2967665873
+ 20
+7372306.873771825
+  0
+LWPOLYLINE
+  5
+E8
+100
+AcDbEntity
+  8
+TRAVESSA GARANHUNS - 29_12_20 - PHANTOM 4 - BOTUJURU - DJI_0007
+  6
+CONTINUOUS
+ 62
+  256
+370
+   -1
+100
+AcDbPolyline
+ 90
+    4
+ 70
+    0
+ 43
+0
+ 10
+341386.0426144867
+ 20
+7372311.16853776
+ 10
+341406.0807528122
+ 20
+7372307.126121097
+ 10
+341410.1087182358
+ 20
+7372304.841653648
+ 10
+341437.8721780347
+ 20
+7372299.964492141
+  0
+LWPOLYLINE
+  5
+E9
+100
+AcDbEntity
+  8
+RUA POPULAR - 29_12_20 - MAVIC - BOTUJURU - ETAPA 01 - DJI_0042
+  6
+CONTINUOUS
+ 62
+  256
+370
+   -1
+100
+AcDbPolyline
+ 90
+    2
+ 70
+    0
+ 43
+0
+ 10
+341391.5583369182
+ 20
+7372342.929352289
+ 10
+341442.7872257184
+ 20
+7372333.63221207
+  0
+LWPOLYLINE
+  5
+EA
+100
+AcDbEntity
+  8
+TRAVESSA BELA - 29_12_20 - MAVIC - BOTUJURU - ETAPA 01 - DJI_0043
+  6
+CONTINUOUS
+ 62
+  256
+370
+   -1
+100
+AcDbPolyline
+ 90
+    2
+ 70
+    0
+ 43
+0
+ 10
+341359.8395576296
+ 20
+7372351.482632129
+ 10
+341391.9085807201
+ 20
+7372344.946137683
+  0
+LWPOLYLINE
+  5
+EB
+100
+AcDbEntity
+  8
+RUA YANOMAMI - 29_12_20 - MAVIC - BOTUJURU - ETAPA 01 - DJI_0041
+  6
+CONTINUOUS
+ 62
+  256
+370
+   -1
+100
+AcDbPolyline
+ 90
+    2
+ 70
+    0
+ 43
+0
+ 10
+341383.957840039
+ 20
+7372299.163920888
+ 10
+341399.1535178062
+ 20
+7372386.664172974
+  0
+LWPOLYLINE
+  5
+EC
+100
+AcDbEntity
+  8
+AVENIDA IVANOVSKY - 29_12_20 - MAVIC - BOTUJURU - ETAPA 01 - DJI_0069
+  6
+CONTINUOUS
+ 62
+  256
+370
+   -1
+100
+AcDbPolyline
+ 90
+    2
+ 70
+    0
+ 43
+0
+ 10
+341485.8530213037
+ 20
+7372291.352868519
+ 10
+341495.9387855565
+ 20
+7372127.60108985
+  0
+LWPOLYLINE
+  5
+ED
+100
+AcDbEntity
+  8
+RUA MUCUGEO - 29_12_20 - MAVIC - BOTUJURU - ETAPA 01 - DJI_0071
+  6
+CONTINUOUS
+ 62
+  256
+370
+   -1
+100
+AcDbPolyline
+ 90
+    2
+ 70
+    0
+ 43
+0
+ 10
+341547.3014974959
+ 20
+7372273.093963554
+ 10
+341552.1169008036
+ 20
+7372199.248189603
+  0
+LWPOLYLINE
+  5
+EE
+100
+AcDbEntity
+  8
+RUA SINFONIA - 29_12_20 -MAVIC - BOTUJURU - ETAPA 01 - DJI_0073
+  6
+CONTINUOUS
+ 62
+  256
+370
+   -1
+100
+AcDbPolyline
+ 90
+    2
+ 70
+    0
+ 43
+0
+ 10
+341489.5031089288
+ 20
+7372232.090295457
+ 10
+341549.7217853932
+ 20
+7372235.978062442
+  0
+LWPOLYLINE
+  5
+EF
+100
+AcDbEntity
+  8
+RUA DEB�LIS - 29_12_20 - MAVIC - BOTUJURU - ETAPA 01 - DJI_0070
+  6
+CONTINUOUS
+ 62
+  256
+370
+   -1
+100
+AcDbPolyline
+ 90
+    2
+ 70
+    0
+ 43
+0
+ 10
+341547.3014974959
+ 20
+7372273.093963554
+ 10
+341487.2407503543
+ 20
+7372268.821794556
+  0
+LWPOLYLINE
+  5
+F0
+100
+AcDbEntity
+  8
+RUA FOLHAS DA MANH� - 29_12_20 - MAVIC - BOTUJURU - ETAPA 01 - DJI_0072
+  6
+CONTINUOUS
+ 62
+  256
+370
+   -1
+100
+AcDbPolyline
+ 90
+    2
+ 70
+    0
+ 43
+0
+ 10
+341491.8047307274
+ 20
+7372194.721321339
+ 10
+341552.1169008036
+ 20
+7372199.248189603
+  0
+LWPOLYLINE
+  5
+F1
+100
+AcDbEntity
+  8
+RUA VALSA DO IMPERADOR - 29_12_20 - MAVIC - BOTUJURU - ETAPA 01 - DJI_0075
+  6
+CONTINUOUS
+ 62
+  256
+370
+   -1
+100
+AcDbPolyline
+ 90
+    4
+ 70
+    0
+ 43
+0
+ 10
+341492.2230048822
+ 20
+7372187.930250769
+ 10
+341456.1346978465
+ 20
+7372185.920002642
+ 10
+341453.0646241811
+ 20
+7372182.558837346
+ 10
+341448.6798595481
+ 20
+7372132.766123565
+  0
+LWPOLYLINE
+  5
+F2
+100
+AcDbEntity
+  8
+RUA DO TESOURO - 29_12_20 - MAVIC - BOTUJURU - ETAPA 01 - DJI_0079
+  6
+CONTINUOUS
+ 62
+  256
+370
+   -1
+100
+AcDbPolyline
+ 90
+    4
+ 70
+    0
+ 43
+0
+ 10
+341362.4964931047
+ 20
+7372142.185296428
+ 10
+341356.5452776272
+ 20
+7372087.732979667
+ 10
+341393.4929475504
+ 20
+7372084.754611887
+ 10
+341399.8698267736
+ 20
+7372138.100681207
+  0
+LWPOLYLINE
+  5
+F3
+100
+AcDbEntity
+  8
+RUA COP�LIA - 29_12_20 - MAVIC - BOTUJURU - ETAPA 01 - DJI_0076
+  6
+CONTINUOUS
+ 62
+  256
+370
+   -1
+100
+AcDbPolyline
+ 90
+    3
+ 70
+    0
+ 43
+0
+ 10
+341468.3836257716
+ 20
+7372083.737818212
+ 10
+341504.8203913256
+ 20
+7372079.844148203
+ 10
+341509.8351314856
+ 20
+7372126.082327124
+  0
+LWPOLYLINE
+  5
+F4
+100
+AcDbEntity
+  8
+RUA EFRAIM RAMOS DA SILVA -29_12_20 - MAVIC - BOTUJURU - ETAPA 01 - DJI_0051
+  6
+CONTINUOUS
+ 62
+  256
+370
+   -1
+100
+AcDbPolyline
+ 90
+    5
+ 70
+    0
+ 43
+0
+ 10
+341387.7824802938
+ 20
+7372754.509299745
+ 10
+341390.9735308534
+ 20
+7372741.739928109
+ 10
+341418.5730566085
+ 20
+7372661.103168393
+ 10
+341453.7423440281
+ 20
+7372558.830768651
+ 10
+341463.6236940756
+ 20
+7372554.250995541
+  0
+LWPOLYLINE
+  5
+F5
+100
+AcDbEntity
+  8
+AVENIDA MANAUS - 29_12_20 - PHANTOM 4 - BOTUJURU - DJI_0014
+  6
+CONTINUOUS
+ 62
+  256
+370
+   -1
+100
+AcDbPolyline
+ 90
+   12
+ 70
+    0
+ 43
+0
+ 10
+343246.8379919245
+ 20
+7371431.914904144
+ 10
+343259.0313199415
+ 20
+7371432.17417436
+ 10
+343276.9321689379
+ 20
+7371435.976797868
+ 10
+343301.6647529334
+ 20
+7371442.544973493
+ 10
+343311.2637456905
+ 20
+7371451.446571583
+ 10
+343330.7211875463
+ 20
+7371476.077204131
+ 10
+343347.2927505863
+ 20
+7371494.688675443
+ 10
+343355.5173444645
+ 20
+7371507.234133107
+ 10
+343378.0272821954
+ 20
+7371556.419464332
+ 10
+343385.7964118632
+ 20
+7371573.611760396
+ 10
+343404.2324971613
+ 20
+7371624.224915525
+ 10
+343416.7630938195
+ 20
+7371661.346999051
+  0
+LWPOLYLINE
+  5
+F6
+100
+AcDbEntity
+  8
+RUA JURUBEBA - 29_12_20 - PHANTOM 4 - BOTUJURU - DJI_0013
+  6
+CONTINUOUS
+ 62
+  256
+370
+   -1
+100
+AcDbPolyline
+ 90
+   29
+ 70
+    0
+ 43
+0
+ 10
+343367.161741564
+ 20
+7372071.870596768
+ 10
+343377.8067526095
+ 20
+7372057.363788817
+ 10
+343384.6060191638
+ 20
+7372044.642558405
+ 10
+343390.0437598087
+ 20
+7372034.977648903
+ 10
+343398.3252038305
+ 20
+7372017.134498787
+ 10
+343404.61368062
+ 20
+7372004.393415583
+ 10
+343409.1441587914
+ 20
+7371993.67007716
+ 10
+343414.8378074598
+ 20
+7371968.626568047
+ 10
+343422.1528380593
+ 20
+7371939.844481653
+ 10
+343424.2854242152
+ 20
+7371926.10536207
+ 10
+343426.6573586815
+ 20
+7371911.549945623
+ 10
+343428.2856159201
+ 20
+7371901.765520842
+ 10
+343431.9501525054
+ 20
+7371895.020179697
+ 10
+343437.8028859021
+ 20
+7371885.998088782
+ 10
+343446.5270456178
+ 20
+7371872.24984599
+ 10
+343454.0508474872
+ 20
+7371867.456152328
+ 10
+343458.6063730431
+ 20
+7371863.186211205
+ 10
+343461.3221571262
+ 20
+7371860.22987039
+ 10
+343463.0672125556
+ 20
+7371857.491577413
+ 10
+343464.4991211273
+ 20
+7371854.018563444
+ 10
+343468.9197863189
+ 20
+7371841.114055976
+ 10
+343472.0495521446
+ 20
+7371830.43461755
+ 10
+343473.0686496163
+ 20
+7371819.176707544
+ 10
+343473.1195922574
+ 20
+7371797.502935849
+ 10
+343473.25909186
+ 20
+7371788.881874324
+ 10
+343474.788961921
+ 20
+7371783.534499773
+ 10
+343479.8088896298
+ 20
+7371778.532525714
+ 10
+343499.4322095391
+ 20
+7371761.620088614
+ 10
+343534.6653749507
+ 20
+7371736.717642741
+  0
+LWPOLYLINE
+  5
+F7
+100
+AcDbEntity
+  8
+RUA CUNHA - 29_12_20 - PHANTOM 4 - BOTUJURU - DJI_0015
+  6
+CONTINUOUS
+ 62
+  256
+370
+   -1
+100
+AcDbPolyline
+ 90
+    2
+ 70
+    0
+ 43
+0
+ 10
+343302.6985041508
+ 20
+7371443.503619684
+ 10
+343333.3672647827
+ 20
+7371261.459436206
+  0
+LWPOLYLINE
+  5
+F8
+100
+AcDbEntity
+  8
+RUA 2 DE DEZEMBRO - 29_12_20 - PHANTOM 4 - BOTUJURU - DJI_0016
+  6
+CONTINUOUS
+ 62
+  256
+370
+   -1
+100
+AcDbPolyline
+ 90
+   12
+ 70
+    0
+ 43
+0
+ 10
+343262.8529919243
+ 20
+7371375.199904145
+ 10
+343265.9543288651
+ 20
+7371346.874095044
+ 10
+343268.1805265018
+ 20
+7371330.517274786
+ 10
+343272.180850057
+ 20
+7371307.819943598
+ 10
+343278.937285847
+ 20
+7371270.976891795
+ 10
+343282.0828149768
+ 20
+7371261.407145936
+ 10
+343276.0007219235
+ 20
+7371248.474677505
+ 10
+343252.000315469
+ 20
+7371206.457424114
+ 10
+343243.1660645236
+ 20
+7371190.228198018
+ 10
+343234.5916640097
+ 20
+7371171.921636817
+ 10
+343225.7574130642
+ 20
+7371152.706227888
+ 10
+343207.4867010344
+ 20
+7371108.292904054
+  0
+LWPOLYLINE
+  5
+F9
+100
+AcDbEntity
+  8
+RUA TARUM� - 29_12_20 - PHANTOM 4 - BOTUJURU - DJI_0021
+  6
+CONTINUOUS
+ 62
+  256
+370
+   -1
+100
+AcDbPolyline
+ 90
+    4
+ 70
+    0
+ 43
+0
+ 10
+343389.6240743397
+ 20
+7371309.284559627
+ 10
+343379.2468126608
+ 20
+7371370.753906895
+ 10
+343363.5257643807
+ 20
+7371450.914928685
+ 10
+343352.0343999628
+ 20
+7371501.921392632
+  0
+LWPOLYLINE
+  5
+FA
+100
+AcDbEntity
+  8
+RUA AN�SIO SIQUEIRA LIMA - 29_12_20 - PHANTOM 4 - BOTUJURU - DJI_0022
+  6
+CONTINUOUS
+ 62
+  256
+370
+   -1
+100
+AcDbPolyline
+ 90
+    2
+ 70
+    0
+ 43
+0
+ 10
+343409.1593366788
+ 20
+7371342.21093773
+ 10
+343449.5379919244
+ 20
+7371318.214904146
+  0
+LWPOLYLINE
+  5
+FB
+100
+AcDbEntity
+  8
+MCT - TRAVESSA FROMER
+  6
+CONTINUOUS
+ 62
+  256
+370
+   -1
+100
+AcDbPolyline
+ 90
+    2
+ 70
+    0
+ 43
+0
+ 10
+341355.9227638052
+ 20
+7372732.49515906
+ 10
+341362.59246686
+ 20
+7372710.882726189
+  0
+LWPOLYLINE
+  5
+FC
+100
+AcDbEntity
+  8
+TRAVESSA RACHEL DE QUEIROZ - 29_12_20 - MAVIC - BOTUJURU - ETAPA 01 - DJI_0049
+  6
+CONTINUOUS
+ 62
+  256
+370
+   -1
+100
+AcDbPolyline
+ 90
+    2
+ 70
+    0
+ 43
+0
+ 10
+341343.1047957436
+ 20
+7372704.76484793
+ 10
+341397.7566054888
+ 20
+7372721.922009337
+  0
+LWPOLYLINE
+  5
+FD
+100
+AcDbEntity
+  8
+MCT - TRAVESSA CAMA�ARI
+  6
+CONTINUOUS
+ 62
+  256
+370
+   -1
+100
+AcDbPolyline
+ 90
+    2
+ 70
+    0
+ 43
+0
+ 10
+341440.1862455553
+ 20
+7372734.160939391
+ 10
+341399.1097168425
+ 20
+7372717.968661876
+  0
+LWPOLYLINE
+  5
+FE
+100
+AcDbEntity
+  8
+TRAVESSA IDEAL - 29_12_20 - MAVIC - BOTUJURU - ETAPA 01 - DJI_0050
+  6
+CONTINUOUS
+ 62
+  256
+370
+   -1
+100
+AcDbPolyline
+ 90
+    2
+ 70
+    0
+ 43
+0
+ 10
+341307.9762402503
+ 20
+7372653.145114829
+ 10
+341409.2945029231
+ 20
+7372688.212058258
+  0
+LWPOLYLINE
+  5
+FF
+100
+AcDbEntity
+  8
+TRAVESSA ANITA MARIA DOS SANTOS - 29_12_20 - MAVIC - BOTUJURU - ETAPA 01 - DJI_0048
+  6
+CONTINUOUS
+ 62
+  256
+370
+   -1
+100
+AcDbPolyline
+ 90
+    3
+ 70
+    0
+ 43
+0
+ 10
+341273.8364106598
+ 20
+7372659.468409018
+ 10
+341301.2414811711
+ 20
+7372611.968639729
+ 10
+341320.0377784958
+ 20
+7372618.650886805
+  0
+LWPOLYLINE
+  5
+100
+100
+AcDbEntity
+  8
+TRAVESSA BELA DONA - 29_12_20 - MAVIC - BOTUJURU - ETAPA 01 - DJI_0057
+  6
+CONTINUOUS
+ 62
+  256
+370
+   -1
+100
+AcDbPolyline
+ 90
+    2
+ 70
+    0
+ 43
+0
+ 10
+341311.862307542
+ 20
+7372543.611559657
+ 10
+341342.552971104
+ 20
+7372554.260742528
+  0
+LWPOLYLINE
+  5
+101
+100
+AcDbEntity
+  8
+TRAVESSA TEREZINHA LIMA - 29_12_20 - MAVIC - BOTUJURU - ETAPA 01 - DJI_0056
+  6
+CONTINUOUS
+ 62
+  256
+370
+   -1
+100
+AcDbPolyline
+ 90
+    4
+ 70
+    0
+ 43
+0
+ 10
+341341.7275258906
+ 20
+7372557.022699228
+ 10
+341365.8770566939
+ 20
+7372565.448922707
+ 10
+341371.3065576231
+ 20
+7372565.200877748
+ 10
+341421.9233900658
+ 20
+7372583.470549329
+  0
+LWPOLYLINE
+  5
+102
+100
+AcDbEntity
+  8
+TRAVESSA MANOEL DE OLIVEIRA - 29_12_20 - MAVIC - BOTUJURU - ETAPA 01 -DJI_0059
+  6
+CONTINUOUS
+ 62
+  256
+370
+   -1
+100
+AcDbPolyline
+ 90
+    4
+ 70
+    0
+ 43
+0
+ 10
+341434.1255969098
+ 20
+7372548.777769608
+ 10
+341380.7538879954
+ 20
+7372530.526683537
+ 10
+341377.755278728
+ 20
+7372531.182219432
+ 10
+341353.609374486
+ 20
+7372522.641052601
+  0
+LWPOLYLINE
+  5
+103
+100
+AcDbEntity
+  8
+RUA UNI�O - 29 _12_20 - MAVIC - BOTUJURU - ETAPA 01 - DJI_0058
+  6
+CONTINUOUS
+ 62
+  256
+370
+   -1
+100
+AcDbPolyline
+ 90
+    2
+ 70
+    0
+ 43
+0
+ 10
+341321.5024036559
+ 20
+7372509.681555775
+ 10
+341354.4898183852
+ 20
+7372520.123112352
+  0
+LWPOLYLINE
+  5
+104
+100
+AcDbEntity
+  8
+TRAVESSA SOBRAL - 29_12_20 - MAVIC - BOTUJURU - ETAPA 01 - DJI_0060
+  6
+CONTINUOUS
+ 62
+  256
+370
+   -1
+100
+AcDbPolyline
+ 90
+    4
+ 70
+    0
+ 43
+0
+ 10
+341365.6360276437
+ 20
+7372488.246590807
+ 10
+341390.9176737962
+ 20
+7372497.806848697
+ 10
+341393.7380922065
+ 20
+7372496.447863543
+ 10
+341434.4884829243
+ 20
+7372510.840046145
+  0
+LWPOLYLINE
+  5
+105
+100
+AcDbEntity
+  8
+TRAVESSA RECANTO DO SOL - 29_12_20 - MAVIC - BOTUJURU - ETAPA 01 - DJI_0061
+  6
+CONTINUOUS
+ 62
+  256
+370
+   -1
+100
+AcDbPolyline
+ 90
+    2
+ 70
+    0
+ 43
+0
+ 10
+341327.1747994897
+ 20
+7372473.844810047
+ 10
+341366.2083594593
+ 20
+7372486.609805867
+  0
+LWPOLYLINE
+  5
+106
+100
+AcDbEntity
+  8
+AVENIDA BEETHOVEN - 29_12_20 - MAVIC - BOTUJURU - ETAPA 01 - DJI_0066
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbPolyline
+ 90
+    2
+ 70
+    0
+ 43
+0
+ 10
+341558.5997180177
+ 20
+7372120.752736405
+ 10
+341310.0600434984
+ 20
+7372147.916193275
+  0
+LWPOLYLINE
+  5
+107
+100
+AcDbEntity
+  8
+RUA VALSA DE VIENA - 29_12_20 - MAVIC - BOTUJURU - ETAPA 01 - DJI_0075
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbPolyline
+ 90
+    2
+ 70
+    0
+ 43
+0
+ 10
+341556.8748204874
+ 20
+7372162.454506764
+ 10
+341494.0575689195
+ 20
+7372158.144394516
+  0
+LWPOLYLINE
+  5
+108
+100
+AcDbEntity
+  8
+RUA BODAS DE PRATA - 29_12_20 - MAVIC - BOTUJURU - ETAPA 01 - DJI_0067
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbPolyline
+ 90
+    2
+ 70
+    0
+ 43
+0
+ 10
+341538.5192224821
+ 20
+7372122.94737867
+ 10
+341535.2703817083
+ 20
+7372160.956572801
+  0
+LWPOLYLINE
+  5
+109
+100
+AcDbEntity
+  8
+ESTRADA DO VERGUEIRO - 29_12_20 - PHANTOM 4 - BOTUJURU - DJI_0011
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbPolyline
+ 90
+   13
+ 70
+    0
+ 43
+0
+ 10
+343573.7237873357
+ 20
+7371768.635829005
+ 10
+343536.0767240152
+ 20
+7371739.343739895
+ 10
+343523.6228442138
+ 20
+7371716.170806219
+ 10
+343519.6370726956
+ 20
+7371705.538564541
+ 10
+343425.0968922836
+ 20
+7371411.728274343
+ 10
+343409.0469052696
+ 20
+7371341.720528014
+ 10
+343392.1699657804
+ 20
+7371313.043702099
+ 10
+343349.0215365781
+ 20
+7371249.332779377
+ 10
+343321.2700584543
+ 20
+7371212.891431651
+ 10
+343290.7500792691
+ 20
+7371169.075907975
+ 10
+343251.8235569519
+ 20
+7371101.48937601
+ 10
+343237.7170492643
+ 20
+7371081.972513775
+ 10
+343217.5637475872
+ 20
+7371058.060375133
+  0
+LWPOLYLINE
+  5
+10A
+100
+AcDbEntity
+  8
+RUA FELIPE MACEDO PONTES - 29_12_20 - MAVIC - BOTUJURU - ETAPA 01 - DJI_0055
+  6
+CONTINUOUS
+ 62
+  256
+370
+   -1
+100
+AcDbPolyline
+ 90
+    2
+ 70
+    0
+ 43
+0
+ 10
+341377.6479919243
+ 20
+7372657.244904146
+ 10
+341391.142115912
+ 20
+7372614.394422525
+  0
+LWPOLYLINE
+  5
+10B
+100
+AcDbEntity
+  8
+RUA ARCO VERDE - 29_12_20 _ MAVIC - BOTUJURU - ETAPA 01 - DJI_0054
+  6
+CONTINUOUS
+ 62
+  256
+370
+   -1
+100
+AcDbPolyline
+ 90
+    2
+ 70
+    0
+ 43
+0
+ 10
+341342.8860228437
+ 20
+7372645.92506005
+ 10
+341357.6310529653
+ 20
+7372602.619081231
+  0
+LWPOLYLINE
+  5
+10C
+100
+AcDbEntity
+  8
+MCT - TRAVESSA GRAVAT�
+  6
+CONTINUOUS
+ 62
+  256
+370
+   -1
+100
+AcDbPolyline
+ 90
+    2
+ 70
+    0
+ 43
+0
+ 10
+341507.9010599271
+ 20
+7372638.663787467
+ 10
+341473.7698473832
+ 20
+7372629.777082186
+  0
+LWPOLYLINE
+  5
+10D
+100
+AcDbEntity
+  8
+RUA MANFREDO MEYER - 29_12_20 - PHANTOM 4 - BOTUJURU - DJI_0020
+  6
+CONTINUOUS
+ 62
+  256
+370
+   -1
+100
+AcDbPolyline
+ 90
+    3
+ 70
+    0
+ 43
+0
+ 10
+343336.0271817328
+ 20
+7371232.269479136
+ 10
+343416.9367208104
+ 20
+7371182.372948758
+ 10
+343399.0845613779
+ 20
+7371148.334201442
+  0
+LWPOLYLINE
+  5
+10E
+100
+AcDbEntity
+  8
+RUA ARCO-�RIS - 29_12_20 - MAVIC - BOTUJURU - ETAPA 01 - DJI_0047
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbPolyline
+ 90
+    3
+ 70
+    0
+ 43
+0
+ 10
+341300.6683948595
+ 20
+7372674.044479412
+ 10
+341379.5847220676
+ 20
+7372448.355373262
+ 10
+341352.6875800519
+ 20
+7372316.393956383
+  0
+LWPOLYLINE
+  5
+10F
+100
+AcDbEntity
+  8
+RUA GIUSEPPE SABATINI - 28_12_20 - PASTA �NICA - DJI_0038
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbPolyline
+ 90
+    2
+ 70
+    0
+ 43
+0
+ 10
+342313.9304716284
+ 20
+7372941.918319066
+ 10
+342316.7213738363
+ 20
+7372882.731173882
+  0
+LWPOLYLINE
+  5
+110
+100
+AcDbEntity
+  8
+RUA PASTOR TITO RODRIGUES LINHARES - 28_12_20 - PASTA �NICA - DJI_0007
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbPolyline
+ 90
+    3
+ 70
+    0
+ 43
+0
+ 10
+342063.2981822534
+ 20
+7373024.858013768
+ 10
+341948.4662823894
+ 20
+7373025.853511752
+ 10
+341885.7406999427
+ 20
+7373025.554545766
+  0
+LWPOLYLINE
+  5
+111
+100
+AcDbEntity
+  8
+RUA ANTONIO MENEGHETTI - 28_12_20 - PASTA �NICA - DJI_0162
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbPolyline
+ 90
+    3
+ 70
+    0
+ 43
+0
+ 10
+341886.0244931313
+ 20
+7373047.351097186
+ 10
+341883.9441045643
+ 20
+7372692.902396614
+ 10
+341905.0256916747
+ 20
+7372588.864981658
+  0
+LWPOLYLINE
+  5
+112
+100
+AcDbEntity
+  8
+RUA ALBINA SILVA - 28_12_20 - PASTA �NICA - DJI_0161
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbPolyline
+ 90
+    6
+ 70
+    0
+ 43
+0
+ 10
+341930.5029919244
+ 20
+7372634.314904145
+ 10
+341942.0470488918
+ 20
+7372637.844580878
+ 10
+341943.8142933169
+ 20
+7372662.878844773
+ 10
+341943.8142933169
+ 20
+7372662.878844773
+ 10
+341945.2429490009
+ 20
+7372707.292631038
+ 10
+341947.7780213756
+ 20
+7372827.30187331
+  0
+LWPOLYLINE
+  5
+113
+100
+AcDbEntity
+  8
+RUA AGOSTINHO MASINI - 28_12_20 - PASTA �NICA - DJI_0160
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbPolyline
+ 90
+    2
+ 70
+    0
+ 43
+0
+ 10
+342008.5932489187
+ 20
+7372826.017213892
+ 10
+342006.7779919242
+ 20
+7372633.124904145
+  0
+LWPOLYLINE
+  5
+114
+100
+AcDbEntity
+  8
+RUA EM�LIO STUCHI - 28_12_20 - PASTA �NICA - DJI_0008
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbPolyline
+ 90
+    2
+ 70
+    0
+ 43
+0
+ 10
+342011.9590125978
+ 20
+7373025.303082081
+ 10
+342012.2319559296
+ 20
+7372924.006973517
+  0
+LWPOLYLINE
+  5
+115
+100
+AcDbEntity
+  8
+RUA JO�O TURBAY - 28_12_20 - PASTA �NICA - DJI_0009
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbPolyline
+ 90
+    2
+ 70
+    0
+ 43
+0
+ 10
+341948.4662823894
+ 20
+7373025.853511752
+ 10
+341948.0620690416
+ 20
+7372924.878900557
+  0
+LWPOLYLINE
+  5
+116
+100
+AcDbEntity
+  8
+RUA LUIZ DALMOLIN - 28_12_20 - PASTA �NICA - DJI_0163
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbPolyline
+ 90
+    8
+ 70
+    0
+ 43
+0
+ 10
+341825.5962240131
+ 20
+7373038.612020597
+ 10
+341825.4117370179
+ 20
+7373016.256415943
+ 10
+341825.4117370179
+ 20
+7373016.256415943
+ 10
+341823.8983844243
+ 20
+7372830.950062644
+ 10
+341822.5846354791
+ 20
+7372785.830997202
+ 10
+341821.5801178271
+ 20
+7372707.841328042
+ 10
+341824.3279960631
+ 20
+7372694.199616526
+ 10
+341821.7826600288
+ 20
+7372571.351044919
+  0
+LWPOLYLINE
+  5
+117
+100
+AcDbEntity
+  8
+RUA JULIO BARAZAL SALGADO - 28_12_20 - PASTA �NICA - DJI_0164
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbPolyline
+ 90
+    7
+ 70
+    0
+ 43
+0
+ 10
+341757.4029919245
+ 20
+7372620.669904147
+ 10
+341758.3730916097
+ 20
+7372761.335904686
+ 10
+341760.3945193845
+ 20
+7372830.729218613
+ 10
+341760.3945193845
+ 20
+7372830.729218613
+ 10
+341762.1958802609
+ 20
+7372927.623215137
+ 10
+341762.4168372386
+ 20
+7372942.932189127
+ 10
+341764.5942797204
+ 20
+7373017.003648708
+  0
+LWPOLYLINE
+  5
+118
+100
+AcDbEntity
+  8
+RUA JACINTO SIMIONATO FILHO - 28_12_20 - PASTA �NICA - DJI_0035
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbPolyline
+ 90
+   15
+ 70
+    0
+ 43
+0
+ 10
+342367.9779919243
+ 20
+7373010.504904145
+ 10
+342342.3835699097
+ 20
+7373012.865493279
+ 10
+342308.5413074256
+ 20
+7373013.86375341
+ 10
+342286.2633961071
+ 20
+7373011.476935378
+ 10
+342262.1444366774
+ 20
+7373006.660873976
+ 10
+342250.3998597843
+ 20
+7373003.359362613
+ 10
+342232.8662962974
+ 20
+7372997.310111255
+ 10
+342209.1097571311
+ 20
+7372986.227383016
+ 10
+342183.2001936381
+ 20
+7372972.00815
+ 10
+342158.2782799037
+ 20
+7372954.044756437
+ 10
+342143.5669757527
+ 20
+7372940.33851741
+ 10
+342131.2656519483
+ 20
+7372927.509624387
+ 10
+342116.9320396238
+ 20
+7372911.306403254
+ 10
+342101.0920232979
+ 20
+7372889.378578483
+ 10
+342072.4977119778
+ 20
+7372863.132887808
+  0
+LWPOLYLINE
+  5
+119
+100
+AcDbEntity
+  8
+RUA EMA CIPRIANI BRUNI - 28_12_20 - PASTA �NICA - DJI_0001
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbPolyline
+ 90
+    3
+ 70
+    0
+ 43
+0
+ 10
+341757.9200532725
+ 20
+7372695.644623721
+ 10
+341949.0461605219
+ 20
+7372691.485804932
+ 10
+342139.127063773
+ 20
+7372691.243886833
+  0
+LWPOLYLINE
+  5
+11A
+100
+AcDbEntity
+  8
+RUA OMAR DAIBERT - 28_12_20 - PASTA �NICA - DJI_0004
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbPolyline
+ 90
+    4
+ 70
+    0
+ 43
+0
+ 10
+341649.7611355993
+ 20
+7372819.086445739
+ 10
+341689.3981507346
+ 20
+7372829.313587558
+ 10
+341773.3242459341
+ 20
+7372830.987030705
+ 10
+342144.8057428793
+ 20
+7372822.74182407
+  0
+LWPOLYLINE
+  5
+11B
+100
+AcDbEntity
+  8
+RUA MANGUE SECO - 29_12_20 - PHANTOM 4 - BOTUJURU - DJI_0018
+  6
+CONTINUOUS
+ 62
+  256
+370
+   -1
+100
+AcDbPolyline
+ 90
+   13
+ 70
+    0
+ 43
+0
+ 10
+343349.0215365781
+ 20
+7371249.332779377
+ 10
+343337.8131519984
+ 20
+7371260.044913388
+ 10
+343328.921377567
+ 20
+7371262.873959031
+ 10
+343304.1849042403
+ 20
+7371262.935125098
+ 10
+343277.9533740019
+ 20
+7371263.437395355
+ 10
+343238.4351319909
+ 20
+7371256.41766205
+ 10
+343216.0894830429
+ 20
+7371251.576172274
+ 10
+343201.3125164924
+ 20
+7371245.192366284
+ 10
+343187.8784364754
+ 20
+7371237.875087906
+ 10
+343181.4305910216
+ 20
+7371189.854205398
+ 10
+343178.5948160863
+ 20
+7371175.78712106
+ 10
+343171.7523577017
+ 20
+7371149.962450524
+ 10
+343161.9916367478
+ 20
+7371121.000508176
+  0
+LWPOLYLINE
+  5
+11C
+100
+AcDbEntity
+  8
+RUA MARLI BEZARRA DA SILVA - 29_12_20 - MAVIC - BOTUJURU - ETAPA 01 - DJI_0063 - DJI_0064
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbPolyline
+ 90
+   13
+ 70
+    0
+ 43
+0
+ 10
+341432.7920672156
+ 20
+7372819.962113667
+ 10
+341452.7741971118
+ 20
+7372786.813013882
+ 10
+341459.3031488518
+ 20
+7372755.452880917
+ 10
+341452.1821272445
+ 20
+7372715.359185296
+ 10
+341456.2133083458
+ 20
+7372680.698427699
+ 10
+341481.1859654147
+ 20
+7372608.267221511
+ 10
+341480.7277375315
+ 20
+7372582.624368975
+ 10
+341459.5980428075
+ 20
+7372547.572966043
+ 10
+341457.2564643612
+ 20
+7372533.735723185
+ 10
+341457.7826780783
+ 20
+7372488.57368407
+ 10
+341458.0432337233
+ 20
+7372481.542971139
+ 10
+341452.441183645
+ 20
+7372475.553838642
+ 10
+341379.5847220676
+ 20
+7372448.355373262
+  0
+LWPOLYLINE
+  5
+11D
+100
+AcDbEntity
+  8
+RUA ANTONIO FRANCISCO ZANELLATO
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbPolyline
+ 90
+   12
+ 70
+    0
+ 43
+0
+ 10
+342922.5492368742
+ 20
+7373190.547710095
+ 10
+342754.1746677568
+ 20
+7373117.056717128
+ 10
+342670.9672109365
+ 20
+7373077.742743991
+ 10
+342626.9429663981
+ 20
+7373067.962515754
+ 10
+342581.3867765687
+ 20
+7373065.159990739
+ 10
+342556.7683784973
+ 20
+7373071.441853282
+ 10
+342531.8334280627
+ 20
+7373070.240836831
+ 10
+342519.7299960446
+ 20
+7373066.600861724
+ 10
+342514.9161014086
+ 20
+7373063.510308145
+ 10
+342510.5836068783
+ 20
+7373059.046181587
+ 10
+342501.5945094898
+ 20
+7373048.948050755
+ 10
+342484.6995443238
+ 20
+7373025.887169252
+  0
+LWPOLYLINE
+  5
+11E
+100
+AcDbEntity
+  8
+RUA SALIM MAHFOUD - 28_12_20 - PASTA �NICA - DJI_0036
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbPolyline
+ 90
+   59
+ 70
+    0
+ 43
+0
+ 10
+342484.6995443238
+ 20
+7373025.887169252
+ 10
+342478.2771998073
+ 20
+7373018.640859068
+ 10
+342451.5715722765
+ 20
+7373000.897044526
+ 10
+342435.6627743569
+ 20
+7372987.625248281
+ 10
+342414.9064202781
+ 20
+7372948.639346811
+ 10
+342400.3637518239
+ 20
+7372933.798737697
+ 10
+342378.4175430562
+ 20
+7372927.775938855
+ 10
+342341.5761162964
+ 20
+7372934.249545989
+ 10
+342310.2432760696
+ 20
+7372942.941129942
+ 10
+342285.0926472257
+ 20
+7372940.80274334
+ 10
+342264.9406603824
+ 20
+7372937.152751418
+ 10
+342242.2893525388
+ 20
+7372928.028391501
+ 10
+342218.4922587003
+ 20
+7372914.540207273
+ 10
+342197.471492472
+ 20
+7372898.275043938
+ 10
+342175.2168028604
+ 20
+7372877.664088631
+ 10
+342158.9009552699
+ 20
+7372851.454485445
+ 10
+342145.0458696558
+ 20
+7372823.637816951
+ 10
+342138.5847746579
+ 20
+7372799.529322198
+ 10
+342133.1266009811
+ 20
+7372762.477669614
+ 10
+342135.6418327266
+ 20
+7372712.324348635
+ 10
+342139.1270637732
+ 20
+7372691.243886833
+ 10
+342148.9518622486
+ 20
+7372666.902193919
+ 10
+342173.3659177821
+ 20
+7372628.908070701
+ 10
+342192.0510433194
+ 20
+7372608.657762026
+ 10
+342206.9462613193
+ 20
+7372596.576099684
+ 10
+342234.709537464
+ 20
+7372578.435573838
+ 10
+342256.0828532307
+ 20
+7372567.886659702
+ 10
+342275.4730778438
+ 20
+7372565.217874588
+ 10
+342296.600009388
+ 20
+7372566.132443584
+ 10
+342316.5414779912
+ 20
+7372576.795670704
+ 10
+342330.0746369289
+ 20
+7372592.408233036
+ 10
+342337.7610221046
+ 20
+7372612.304432204
+ 10
+342337.14260362
+ 20
+7372632.327351679
+ 10
+342333.3793395264
+ 20
+7372646.687949909
+ 10
+342324.962219293
+ 20
+7372661.041686064
+ 10
+342315.9722060661
+ 20
+7372670.346369304
+ 10
+342304.470277379
+ 20
+7372677.757657694
+ 10
+342292.9242799979
+ 20
+7372683.419809893
+ 10
+342280.45284007
+ 20
+7372691.786811875
+ 10
+342267.5407132308
+ 20
+7372701.398044753
+ 10
+342259.3439364611
+ 20
+7372712.596122838
+ 10
+342252.6895639252
+ 20
+7372727.689184598
+ 10
+342249.9132363077
+ 20
+7372743.954347929
+ 10
+342249.7369615388
+ 20
+7372758.758892382
+ 10
+342253.8353499274
+ 20
+7372776.142060289
+ 10
+342260.0931042309
+ 20
+7372787.556526352
+ 10
+342270.713659073
+ 20
+7372801.60371287
+ 10
+342284.4630910706
+ 20
+7372813.739472209
+ 10
+342299.5786525336
+ 20
+7372821.799924548
+ 10
+342315.6196565282
+ 20
+7372825.983425538
+ 10
+342337.5217966016
+ 20
+7372825.676875895
+ 10
+342388.717864497
+ 20
+7372821.992445876
+ 10
+342411.603654975
+ 20
+7372822.595988659
+ 10
+342429.2220935831
+ 20
+7372827.455867333
+ 10
+342442.9513351327
+ 20
+7372839.610611403
+ 10
+342449.9957293416
+ 20
+7372853.718683906
+ 10
+342454.9452588697
+ 20
+7372869.625675011
+ 10
+342464.3980903052
+ 20
+7372915.780206775
+ 10
+342484.6995443234
+ 20
+7373025.887169251
+  0
+LWPOLYLINE
+  5
+11F
+100
+AcDbEntity
+  8
+MCT - RUA AUGUSTO ROSA DA SILVA
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbPolyline
+ 90
+    2
+ 70
+    0
+ 43
+0
+ 10
+342257.4482951963
+ 20
+7372567.698726284
+ 10
+342277.9000603239
+ 20
+7372620.214688023
+  0
+LWPOLYLINE
+  5
+120
+100
+AcDbEntity
+  8
+RUA NICOLA FELTRIN - 28_12_20 - PASTA �NICA - DJI_0039
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbPolyline
+ 90
+   20
+ 70
+    0
+ 43
+0
+ 10
+342277.9000603239
+ 20
+7372620.214688023
+ 10
+342273.3937253884
+ 20
+7372626.041388403
+ 10
+342266.8142890799
+ 20
+7372630.794290857
+ 10
+342242.5096960019
+ 20
+7372648.491183094
+ 10
+342224.088982622
+ 20
+7372664.954702078
+ 10
+342211.6616113957
+ 20
+7372682.373934646
+ 10
+342202.5393920864
+ 20
+7372700.514460491
+ 10
+342198.0626702993
+ 20
+7372718.875479847
+ 10
+342195.0531613809
+ 20
+7372741.334943526
+ 10
+342194.8909209783
+ 20
+7372750.003240855
+ 10
+342196.9039471088
+ 20
+7372773.385503522
+ 10
+342202.598005241
+ 20
+7372794.523745628
+ 10
+342222.5767215588
+ 20
+7372829.854278556
+ 10
+342234.5241920746
+ 20
+7372843.50163183
+ 10
+342250.6242506592
+ 20
+7372855.870840386
+ 10
+342268.1552600169
+ 20
+7372866.475143426
+ 10
+342292.8192599332
+ 20
+7372876.176135544
+ 10
+342316.7213738363
+ 20
+7372882.731173882
+ 10
+342409.4979919245
+ 20
+7372878.964904145
+ 10
+342409.4979919245
+ 20
+7372878.964904145
+  0
+LWPOLYLINE
+  5
+121
+100
+AcDbEntity
+  8
+RUA JOSE D'ANGELO - 28 _12_20 - PASTA �NICA - DJI_0005
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbPolyline
+ 90
+    8
+ 70
+    0
+ 43
+0
+ 10
+341478.4087045735
+ 20
+7372896.716428503
+ 10
+341545.0266858471
+ 20
+7372914.397624753
+ 10
+341620.8642183465
+ 20
+7372918.043151115
+ 10
+341655.6237997673
+ 20
+7372914.380958512
+ 10
+341699.1323838654
+ 20
+7372929.274532809
+ 10
+341707.4411477865
+ 20
+7372929.055734736
+ 10
+341779.5961966728
+ 20
+7372927.167979702
+ 10
+342071.0814618477
+ 20
+7372923.207338702
+  0
+LWPOLYLINE
+  5
+122
+100
+AcDbEntity
+  8
+RUA JOS� GOMES MORENO - 28_12_20 - PASTA �NICA - DJI_0006 - DJI_0165
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbPolyline
+ 90
+    5
+ 70
+    0
+ 43
+0
+ 10
+341694.0873752527
+ 20
+7372829.40708828
+ 10
+341698.6599418886
+ 20
+7372925.565252024
+ 10
+341699.1257187309
+ 20
+7372929.274708325
+ 10
+341701.1955355353
+ 20
+7373017.881588306
+ 10
+341825.4117370179
+ 20
+7373016.256415943
+  0
+LWPOLYLINE
+  5
+123
+100
+AcDbEntity
+  8
+RUA SEBASTI�O BRUNI - 28_12_20 - PASTA �NICA - DJI_0159
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbPolyline
+ 90
+    5
+ 70
+    0
+ 43
+0
+ 10
+342070.4911360494
+ 20
+7372629.011393868
+ 10
+342070.539642962
+ 20
+7372806.716173736
+ 10
+342071.2151110255
+ 20
+7372824.927977377
+ 10
+342072.6439748435
+ 20
+7372856.92871444
+ 10
+342071.0814618477
+ 20
+7372923.207338702
+  0
+LWPOLYLINE
+  5
+124
+100
+AcDbEntity
+  8
+RUA LAGUNA - 29_12_20 - MAVIC - BOTUJURU - ETAPA 01 - DJI_0077
+  6
+CONTINUOUS
+ 62
+  256
+370
+   -1
+100
+AcDbPolyline
+ 90
+    2
+ 70
+    0
+ 43
+0
+ 10
+341467.5246008993
+ 20
+7372074.863390179
+ 10
+341472.8735060367
+ 20
+7372130.121945834
+  0
+LWPOLYLINE
+  5
+125
+100
+AcDbEntity
+  8
+RUA STRAUSS - 29_12_20 - MAVIC - BOTUJURU - ETAPA 01 - DJI_0078
+  6
+CONTINUOUS
+ 62
+  256
+370
+   -1
+100
+AcDbPolyline
+ 90
+    3
+ 70
+    0
+ 43
+0
+ 10
+341436.2481196588
+ 20
+7372134.124816217
+ 10
+341430.234695133
+ 20
+7372078.068623194
+ 10
+341467.5246008993
+ 20
+7372074.863390179
+  0
+LWPOLYLINE
+  5
+126
+100
+AcDbEntity
+  8
+RUA DAN�BIO AZUL - 29_12_20 - MAVIC - BOTUJURU - ETAPA 01 - DJI_0081
+  6
+CONTINUOUS
+ 62
+  256
+370
+   -1
+100
+AcDbPolyline
+ 90
+    3
+ 70
+    0
+ 43
+0
+ 10
+341411.8833525724
+ 20
+7372136.787696106
+ 10
+341414.9746468079
+ 20
+7372166.007094937
+ 10
+341417.0385958853
+ 20
+7372184.055339172
+  0
+LWPOLYLINE
+  5
+127
+100
+AcDbEntity
+  8
+RUA CHOPIN - 29_12_20 - MAVIC - BOTUJURU - ETAPA 01 - DJI_0080
+  6
+CONTINUOUS
+ 62
+  256
+370
+   -1
+100
+AcDbPolyline
+ 90
+    2
+ 70
+    0
+ 43
+0
+ 10
+341379.8947491893
+ 20
+7372187.278591692
+ 10
+341374.608550555
+ 20
+7372140.861542582
+  0
+LWPOLYLINE
+  5
+128
+100
+AcDbEntity
+  8
+RUA ALIAN�AS - 29_12_20 - MAVIC - BOTUJURU - ETAPA 01 - DJI_0062
+  6
+CONTINUOUS
+ 62
+  256
+370
+   -1
+100
+AcDbPolyline
+ 90
+    3
+ 70
+    0
+ 43
+0
+ 10
+341327.3395451689
+ 20
+7372440.60194017
+ 10
+341376.130662948
+ 20
+7372431.409240654
+ 10
+341425.0082542074
+ 20
+7372422.586496697
+  0
+LWPOLYLINE
+  5
+129
+100
+AcDbEntity
+  8
+RUA JO�O IN�CIO DA SILVA - 29_12_20 - MAVIC - BOTUJURU - ETAPA 01 - DJI_0052
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbPolyline
+ 90
+    4
+ 70
+    0
+ 43
+0
+ 10
+341296.5374818357
+ 20
+7372576.506638568
+ 10
+341330.856077687
+ 20
+7372587.712139896
+ 10
+341337.6779382622
+ 20
+7372595.607822415
+ 10
+341429.946313595
+ 20
+7372628.02970088
+  0
+LWPOLYLINE
+  5
+12A
+100
+AcDbEntity
+  8
+AVENIDA NICOLA DEMARCHI - 29_12_20 - MAVIC - BOTUJURU - ETAPA 01 - DJI_0065
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbPolyline
+ 90
+   20
+ 70
+    0
+ 43
+0
+ 10
+341477.7877415229
+ 20
+7372895.601999681
+ 10
+341443.595192684
+ 20
+7372834.237379313
+ 10
+341426.6397264358
+ 20
+7372811.832401651
+ 10
+341390.5709015105
+ 20
+7372777.774320501
+ 10
+341351.0792259999
+ 20
+7372748.306354407
+ 10
+341301.8478767216
+ 20
+7372674.68521513
+ 10
+341202.1420694716
+ 20
+7372621.210660849
+ 10
+341291.5884679912
+ 20
+7372519.184209787
+ 10
+341304.1189130436
+ 20
+7372488.367816693
+ 10
+341304.1189130429
+ 20
+7372424.130068297
+ 10
+341285.5904620913
+ 20
+7372368.873356328
+ 10
+341242.8729948629
+ 20
+7372294.224481656
+ 10
+341235.1198144438
+ 20
+7372268.183268365
+ 10
+341241.9446278518
+ 20
+7372244.944174735
+ 10
+341287.3407111148
+ 20
+7372205.955194496
+ 10
+341305.9937277604
+ 20
+7372174.395066426
+ 10
+341311.9103269077
+ 20
+7372135.867591338
+ 10
+341332.3382576928
+ 20
+7372067.803215473
+ 10
+341331.6362607097
+ 20
+7371987.92520162
+ 10
+341296.690191837
+ 20
+7371927.254399182
+  0
+LWPOLYLINE
+  5
+12B
+100
+AcDbEntity
+  8
+RUA HUMAIT� - 29_12_20 - PHANTOM 4 - BOTUJURU - DJI_0012
+  6
+CONTINUOUS
+ 62
+  256
+370
+   -1
+100
+AcDbPolyline
+ 90
+   10
+ 70
+    0
+ 43
+0
+ 10
+343311.0173766116
+ 20
+7371948.506131436
+ 10
+343324.0237376057
+ 20
+7371927.739021516
+ 10
+343330.6985680014
+ 20
+7371911.507573242
+ 10
+343340.4170840522
+ 20
+7371884.32370988
+ 10
+343367.1753294775
+ 20
+7371770.569475582
+ 10
+343383.1058975056
+ 20
+7371742.649903819
+ 10
+343401.4437421306
+ 20
+7371708.604705347
+ 10
+343412.7285225927
+ 20
+7371678.090061359
+ 10
+343419.0272073963
+ 20
+7371651.951156827
+ 10
+343464.9125489008
+ 20
+7371535.466663399
+  0
+LWPOLYLINE
+  5
+12C
+100
+AcDbEntity
+  8
+RUA NOVO ORIENTE - 29_12_20 - PHANTOM 4 - BOTUJURU - DJI_0017
+  6
+CONTINUOUS
+ 62
+  256
+370
+   -1
+100
+AcDbPolyline
+ 90
+    3
+ 70
+    0
+ 43
+0
+ 10
+343162.0138507248
+ 20
+7371121.066421332
+ 10
+343207.4867010344
+ 20
+7371108.292904054
+ 10
+343247.5484206476
+ 20
+7371095.574570721
+  0
+LWPOLYLINE
+  5
+12D
+100
+AcDbEntity
+  8
+RUA O - TRES - 29_12_20 - PHANTOM 4 - BOTUJURU - DJI_0019
+  6
+CONTINUOUS
+ 62
+  256
+370
+   -1
+100
+AcDbPolyline
+ 90
+    3
+ 70
+    0
+ 43
+0
+ 10
+343225.6225970742
+ 20
+7371306.120632396
+ 10
+343226.4740394538
+ 20
+7371302.197915728
+ 10
+343233.5522530483
+ 20
+7371255.359719695
+  0
+ENDSEC
+  0
+SECTION
+  2
+OBJECTS
+  0
+DICTIONARY
+  5
+C
+330
+0
+100
+AcDbDictionary
+281
+    1
+  3
+ACAD_GROUP
+350
+D
+  0
+DICTIONARY
+  5
+D
+330
+C
+100
+AcDbDictionary
+281
+    1
+  0
+ENDSEC
+  0
+EOF

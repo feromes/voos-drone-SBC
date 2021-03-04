@@ -1,0 +1,9666 @@
+999
+dxfrw 0.6.3
+  0
+SECTION
+  2
+HEADER
+  9
+$ACADVER
+  1
+AC1021
+  9
+$DWGCODEPAGE
+  3
+ANSI_1252
+  9
+$INSBASE
+ 10
+0
+ 20
+0
+ 30
+0
+  9
+$EXTMIN
+ 10
+336867.6997889683
+ 20
+7380668.306700381
+ 30
+0
+  9
+$EXTMAX
+ 10
+339169.405599609
+ 20
+7382765.847797883
+ 30
+0
+  9
+$LIMMIN
+ 10
+0
+ 20
+0
+  9
+$LIMMAX
+ 10
+420
+ 20
+297
+  9
+$ORTHOMODE
+ 70
+    0
+  9
+$REGENMODE
+ 70
+    1
+  9
+$FILLMODE
+ 70
+    1
+  9
+$QTEXTMODE
+ 70
+    0
+  9
+$MIRRTEXT
+ 70
+    0
+  9
+$LTSCALE
+ 40
+1
+  9
+$ATTMODE
+ 70
+    1
+  9
+$TEXTSIZE
+ 40
+2.5
+  9
+$TRACEWID
+ 40
+1
+  9
+$TEXTSTYLE
+  7
+Standard
+  9
+$CLAYER
+  8
+RUA J�LIO DE MESQUITA - 06_01_2021 - PAL65
+  9
+$CELTYPE
+  6
+ByLayer
+  9
+$CECOLOR
+ 62
+  256
+  9
+$CELTSCALE
+ 40
+1
+  9
+$DISPSILH
+ 70
+    0
+  9
+$DIMSCALE
+ 40
+1
+  9
+$DIMASZ
+ 40
+2.5
+  9
+$DIMEXO
+ 40
+0.625
+  9
+$DIMDLI
+ 40
+3.75
+  9
+$DIMRND
+ 40
+0
+  9
+$DIMDLE
+ 40
+0
+  9
+$DIMEXE
+ 40
+1.25
+  9
+$DIMTP
+ 40
+0
+  9
+$DIMTM
+ 40
+0
+  9
+$DIMTXT
+ 40
+2.5
+  9
+$DIMCEN
+ 40
+2.5
+  9
+$DIMTSZ
+ 40
+0
+  9
+$DIMTOL
+ 70
+    0
+  9
+$DIMLIM
+ 70
+    0
+  9
+$DIMTIH
+ 70
+    0
+  9
+$DIMTOH
+ 70
+    0
+  9
+$DIMSE1
+ 70
+    0
+  9
+$DIMSE2
+ 70
+    0
+  9
+$DIMTAD
+ 70
+    1
+  9
+$DIMZIN
+ 70
+    8
+  9
+$DIMBLK
+  1
+
+  9
+$DIMASO
+ 70
+    1
+  9
+$DIMSHO
+ 70
+    1
+  9
+$DIMPOST
+  1
+
+  9
+$DIMAPOST
+  1
+
+  9
+$DIMALT
+ 70
+    0
+  9
+$DIMALTD
+ 70
+    3
+  9
+$DIMALTF
+ 40
+0.03937007874016
+  9
+$DIMLFAC
+ 40
+1
+  9
+$DIMTOFL
+ 70
+    1
+  9
+$DIMTVP
+ 40
+0
+  9
+$DIMTIX
+ 70
+    0
+  9
+$DIMSOXD
+ 70
+    0
+  9
+$DIMSAH
+ 70
+    0
+  9
+$DIMBLK1
+  1
+
+  9
+$DIMBLK2
+  1
+
+  9
+$DIMSTYLE
+  2
+ISO-25
+  9
+$DIMCLRD
+ 70
+    0
+  9
+$DIMCLRE
+ 70
+    0
+  9
+$DIMCLRT
+ 70
+    0
+  9
+$DIMTFAC
+ 40
+1
+  9
+$DIMGAP
+ 40
+0.625
+  9
+$DIMJUST
+ 70
+    0
+  9
+$DIMSD1
+ 70
+    0
+  9
+$DIMSD2
+ 70
+    0
+  9
+$DIMTOLJ
+ 70
+    0
+  9
+$DIMTZIN
+ 70
+    8
+  9
+$DIMALTZ
+ 70
+    0
+  9
+$DIMALTTZ
+ 70
+    0
+  9
+$DIMUPT
+ 70
+    0
+  9
+$DIMDEC
+ 70
+    2
+  9
+$DIMTDEC
+ 70
+    2
+  9
+$DIMALTU
+ 70
+    2
+  9
+$DIMALTTD
+ 70
+    3
+  9
+$DIMTXSTY
+  7
+Standard
+  9
+$DIMAUNIT
+ 70
+    0
+  9
+$DIMADEC
+ 70
+    0
+  9
+$DIMALTRND
+ 40
+0
+  9
+$DIMAZIN
+ 70
+    0
+  9
+$DIMDSEP
+ 70
+   44
+  9
+$DIMATFIT
+ 70
+    3
+  9
+$DIMFRAC
+ 70
+    0
+  9
+$DIMLDRBLK
+  1
+
+  9
+$DIMLUNIT
+ 70
+    2
+  9
+$DIMLWD
+ 70
+   -2
+  9
+$DIMLWE
+ 70
+   -2
+  9
+$DIMTMOVE
+ 70
+    0
+  9
+$DIMFXL
+ 40
+1
+  9
+$DIMFXLON
+ 70
+    0
+  9
+$DIMJOGANG
+ 40
+0.7854
+  9
+$DIMTFILL
+ 70
+    0
+  9
+$DIMTFILLCLR
+ 70
+    0
+  9
+$DIMARCSYM
+ 70
+    0
+  9
+$DIMLTYPE
+  6
+
+  9
+$DIMLTEX1
+  6
+
+  9
+$DIMLTEX2
+  6
+
+  9
+$LUNITS
+ 70
+    2
+  9
+$LUPREC
+ 70
+    4
+  9
+$SKETCHINC
+ 40
+1
+  9
+$FILLETRAD
+ 40
+0
+  9
+$AUNITS
+ 70
+    0
+  9
+$AUPREC
+ 70
+    0
+  9
+$MENU
+  1
+.
+  9
+$ELEVATION
+ 40
+0
+  9
+$PELEVATION
+ 40
+0
+  9
+$THICKNESS
+ 40
+0
+  9
+$LIMCHECK
+ 70
+    0
+  9
+$CHAMFERA
+ 40
+0
+  9
+$CHAMFERB
+ 40
+0
+  9
+$CHAMFERC
+ 40
+0
+  9
+$CHAMFERD
+ 40
+0
+  9
+$SKPOLY
+ 70
+    0
+  9
+$USRTIMER
+ 70
+    1
+  9
+$ANGBASE
+ 50
+0
+  9
+$ANGDIR
+ 70
+    0
+  9
+$PDMODE
+ 70
+    0
+  9
+$PDSIZE
+ 40
+0
+  9
+$PLINEWID
+ 40
+0
+  9
+$SPLFRAME
+ 70
+    0
+  9
+$SPLINETYPE
+ 70
+    6
+  9
+$SPLINESEGS
+ 70
+    8
+  9
+$HANDSEED
+  5
+20000
+  9
+$SURFTAB1
+ 70
+    6
+  9
+$SURFTAB2
+ 70
+    6
+  9
+$SURFTYPE
+ 70
+    6
+  9
+$SURFU
+ 70
+    6
+  9
+$SURFV
+ 70
+    6
+  9
+$UCSBASE
+  2
+
+  9
+$UCSNAME
+  2
+
+  9
+$UCSORG
+ 10
+0
+ 20
+0
+ 30
+0
+  9
+$UCSXDIR
+ 10
+1
+ 20
+0
+ 30
+0
+  9
+$UCSYDIR
+ 10
+0
+ 20
+1
+ 30
+0
+  9
+$UCSORTHOREF
+  2
+
+  9
+$UCSORTHOVIEW
+ 70
+    0
+  9
+$UCSORGTOP
+ 10
+0
+ 20
+0
+ 30
+0
+  9
+$UCSORGBOTTOM
+ 10
+0
+ 20
+0
+ 30
+0
+  9
+$UCSORGLEFT
+ 10
+0
+ 20
+0
+ 30
+0
+  9
+$UCSORGRIGHT
+ 10
+0
+ 20
+0
+ 30
+0
+  9
+$UCSORGFRONT
+ 10
+0
+ 20
+0
+ 30
+0
+  9
+$UCSORGBACK
+ 10
+0
+ 20
+0
+ 30
+0
+  9
+$PUCSBASE
+  2
+
+  9
+$PUCSNAME
+  2
+
+  9
+$PUCSORG
+ 10
+0
+ 20
+0
+ 30
+0
+  9
+$PUCSXDIR
+ 10
+1
+ 20
+0
+ 30
+0
+  9
+$PUCSYDIR
+ 10
+0
+ 20
+1
+ 30
+0
+  9
+$PUCSORTHOREF
+  2
+
+  9
+$PUCSORTHOVIEW
+ 70
+    0
+  9
+$PUCSORGTOP
+ 10
+0
+ 20
+0
+ 30
+0
+  9
+$PUCSORGBOTTOM
+ 10
+0
+ 20
+0
+ 30
+0
+  9
+$PUCSORGLEFT
+ 10
+0
+ 20
+0
+ 30
+0
+  9
+$PUCSORGRIGHT
+ 10
+0
+ 20
+0
+ 30
+0
+  9
+$PUCSORGFRONT
+ 10
+0
+ 20
+0
+ 30
+0
+  9
+$PUCSORGBACK
+ 10
+0
+ 20
+0
+ 30
+0
+  9
+$USERI1
+ 70
+    0
+  9
+$USERI2
+ 70
+    0
+  9
+$USERI3
+ 70
+    0
+  9
+$USERI4
+ 70
+    0
+  9
+$USERI5
+ 70
+    0
+  9
+$USERR1
+ 40
+0
+  9
+$USERR2
+ 40
+0
+  9
+$USERR3
+ 40
+0
+  9
+$USERR4
+ 40
+0
+  9
+$USERR5
+ 40
+0
+  9
+$WORLDVIEW
+ 70
+    1
+  9
+$SHADEDGE
+ 70
+    3
+  9
+$SHADEDIF
+ 70
+   70
+  9
+$TILEMODE
+ 70
+    1
+  9
+$MAXACTVP
+ 70
+   64
+  9
+$PINSBASE
+ 10
+0
+ 20
+0
+ 30
+0
+  9
+$PLIMCHECK
+ 70
+    0
+  9
+$PEXTMIN
+ 10
+0
+ 20
+0
+ 30
+0
+  9
+$PEXTMAX
+ 10
+0
+ 20
+0
+ 30
+0
+  9
+$GRIDMODE
+ 70
+    1
+  9
+$SNAPSTYLE
+ 70
+    0
+  9
+$PLIMMIN
+ 10
+0
+ 20
+0
+  9
+$PLIMMAX
+ 10
+12
+ 20
+9
+  9
+$UNITMODE
+ 70
+    0
+  9
+$VISRETAIN
+ 70
+    1
+  9
+$PLINEGEN
+ 70
+    0
+  9
+$PSLTSCALE
+ 70
+    1
+  9
+$TREEDEPTH
+ 70
+ 3020
+  9
+$CMLSTYLE
+  2
+Standard
+  9
+$CMLJUST
+ 70
+    0
+  9
+$CMLSCALE
+ 40
+20
+  9
+$PROXYGRAPHICS
+ 70
+    1
+  9
+$MEASUREMENT
+ 70
+    1
+  9
+$CELWEIGHT
+370
+   -1
+  9
+$ENDCAPS
+280
+    0
+  9
+$JOINSTYLE
+280
+    0
+  9
+$LWDISPLAY
+290
+    0
+  9
+$INSUNITS
+ 70
+    4
+  9
+$HYPERLINKBASE
+  1
+
+  9
+$STYLESHEET
+  1
+
+  9
+$XEDIT
+290
+    1
+  9
+$CEPSNTYPE
+380
+    0
+  9
+$PSTYLEMODE
+290
+    1
+  9
+$EXTNAMES
+290
+    1
+  9
+$PSVPSCALE
+ 40
+0
+  9
+$OLESTARTUP
+290
+    0
+  9
+$SORTENTS
+280
+  127
+  9
+$INDEXCTL
+280
+    0
+  9
+$HIDETEXT
+280
+    1
+  9
+$XCLIPFRAME
+290
+    0
+  9
+$HALOGAP
+280
+    0
+  9
+$OBSCOLOR
+ 70
+  257
+  9
+$OBSLTYPE
+280
+    0
+  9
+$INTERSECTIONDISPLAY
+280
+    0
+  9
+$INTERSECTIONCOLOR
+ 70
+  257
+  9
+$DIMASSOC
+280
+    1
+  9
+$PROJECTNAME
+  1
+
+  9
+$CAMERADISPLAY
+290
+    0
+  9
+$LENSLENGTH
+ 40
+50
+  9
+$CAMERAHEIGHT
+ 40
+0
+  9
+$STEPSPERSEC
+ 40
+2
+  9
+$STEPSIZE
+ 40
+50
+  9
+$3DDWFPREC
+ 40
+2
+  9
+$PSOLWIDTH
+ 40
+5
+  9
+$PSOLHEIGHT
+ 40
+80
+  9
+$LOFTANG1
+ 40
+1.570796326794897
+  9
+$LOFTANG2
+ 40
+1.570796326794897
+  9
+$LOFTMAG1
+ 40
+0
+  9
+$LOFTMAG2
+ 40
+0
+  9
+$LOFTPARAM
+ 70
+    7
+  9
+$LOFTNORMALS
+280
+    1
+  9
+$LATITUDE
+ 40
+1
+  9
+$LONGITUDE
+ 40
+1
+  9
+$NORTHDIRECTION
+ 40
+0
+  9
+$TIMEZONE
+ 70
+-8000
+  9
+$LIGHTGLYPHDISPLAY
+280
+    1
+  9
+$TILEMODELIGHTSYNCH
+280
+    1
+  9
+$SOLIDHIST
+280
+    1
+  9
+$SHOWHIST
+280
+    1
+  9
+$DWFFRAME
+280
+    2
+  9
+$DGNFRAME
+280
+    0
+  9
+$REALWORLDSCALE
+290
+    1
+  9
+$INTERFERECOLOR
+ 62
+    1
+  9
+$CSHADOW
+280
+    0
+  9
+$SHADOWPLANELOCATION
+ 40
+0
+  0
+ENDSEC
+  0
+SECTION
+  2
+CLASSES
+  0
+ENDSEC
+  0
+SECTION
+  2
+TABLES
+  0
+TABLE
+  2
+VPORT
+  5
+8
+330
+0
+100
+AcDbSymbolTable
+ 70
+    1
+  0
+VPORT
+  5
+31
+330
+2
+100
+AcDbSymbolTableRecord
+100
+AcDbViewportTableRecord
+  2
+*ACTIVE
+ 70
+    0
+ 10
+0
+ 20
+0
+ 11
+1
+ 21
+1
+ 12
+169863.2027570647
+ 22
+3691490.800017797
+ 13
+0
+ 23
+0
+ 14
+10
+ 24
+10
+ 15
+10
+ 25
+10
+ 16
+0
+ 26
+0
+ 36
+1
+ 17
+0
+ 27
+0
+ 37
+0
+ 40
+3509.638392400308
+ 41
+1.215962441314554
+ 42
+50
+ 43
+0
+ 44
+0
+ 50
+0
+ 51
+0
+ 71
+    0
+ 72
+  100
+ 73
+    1
+ 74
+    3
+ 75
+    0
+ 76
+    1
+ 77
+    0
+ 78
+    0
+281
+    0
+ 65
+    1
+110
+0
+120
+0
+130
+0
+111
+1
+121
+0
+131
+0
+112
+0
+122
+1
+132
+0
+ 79
+    0
+146
+0
+348
+10020
+ 60
+    7
+ 61
+    5
+292
+1
+282
+    1
+141
+0
+142
+0
+ 63
+  250
+421
+3358443
+  0
+ENDTAB
+  0
+TABLE
+  2
+LTYPE
+  5
+5
+330
+0
+100
+AcDbSymbolTable
+ 70
+    4
+  0
+LTYPE
+  5
+14
+330
+5
+100
+AcDbSymbolTableRecord
+100
+AcDbLinetypeTableRecord
+  2
+ByBlock
+ 70
+    0
+  3
+
+ 72
+   65
+ 73
+    0
+ 40
+0
+  0
+LTYPE
+  5
+15
+330
+5
+100
+AcDbSymbolTableRecord
+100
+AcDbLinetypeTableRecord
+  2
+ByLayer
+ 70
+    0
+  3
+
+ 72
+   65
+ 73
+    0
+ 40
+0
+  0
+LTYPE
+  5
+16
+330
+5
+100
+AcDbSymbolTableRecord
+100
+AcDbLinetypeTableRecord
+  2
+Continuous
+ 70
+    0
+  3
+Solid line
+ 72
+   65
+ 73
+    0
+ 40
+0
+  0
+LTYPE
+  5
+32
+330
+5
+100
+AcDbSymbolTableRecord
+100
+AcDbLinetypeTableRecord
+  2
+DOT
+ 70
+    0
+  3
+Dot . . . . . . . . . . . . . . . . . . . . . .
+ 72
+   65
+ 73
+    2
+ 40
+6.35
+ 49
+0
+ 74
+    0
+ 49
+-6.35
+ 74
+    0
+  0
+LTYPE
+  5
+33
+330
+5
+100
+AcDbSymbolTableRecord
+100
+AcDbLinetypeTableRecord
+  2
+DOTTINY
+ 70
+    0
+  3
+Dot (.15x) .....................................
+ 72
+   65
+ 73
+    2
+ 40
+0.9525
+ 49
+0
+ 74
+    0
+ 49
+-0.9525
+ 74
+    0
+  0
+LTYPE
+  5
+34
+330
+5
+100
+AcDbSymbolTableRecord
+100
+AcDbLinetypeTableRecord
+  2
+DOT2
+ 70
+    0
+  3
+Dot (.5x) .....................................
+ 72
+   65
+ 73
+    2
+ 40
+3.175
+ 49
+0
+ 74
+    0
+ 49
+-3.175
+ 74
+    0
+  0
+LTYPE
+  5
+35
+330
+5
+100
+AcDbSymbolTableRecord
+100
+AcDbLinetypeTableRecord
+  2
+DOTX2
+ 70
+    0
+  3
+Dot (2x) .  .  .  .  .  .  .  .  .  .  .  .  .
+ 72
+   65
+ 73
+    2
+ 40
+12.7
+ 49
+0
+ 74
+    0
+ 49
+-12.7
+ 74
+    0
+  0
+LTYPE
+  5
+36
+330
+5
+100
+AcDbSymbolTableRecord
+100
+AcDbLinetypeTableRecord
+  2
+DASHED
+ 70
+    0
+  3
+Dashed _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+ 72
+   65
+ 73
+    2
+ 40
+19.05
+ 49
+12.7
+ 74
+    0
+ 49
+-6.35
+ 74
+    0
+  0
+LTYPE
+  5
+37
+330
+5
+100
+AcDbSymbolTableRecord
+100
+AcDbLinetypeTableRecord
+  2
+DASHEDTINY
+ 70
+    0
+  3
+Dashed (.15x) _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+ 72
+   65
+ 73
+    2
+ 40
+2.8575
+ 49
+1.905
+ 74
+    0
+ 49
+-0.9525
+ 74
+    0
+  0
+LTYPE
+  5
+38
+330
+5
+100
+AcDbSymbolTableRecord
+100
+AcDbLinetypeTableRecord
+  2
+DASHED2
+ 70
+    0
+  3
+Dashed (.5x) _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+ 72
+   65
+ 73
+    2
+ 40
+9.524999999999999
+ 49
+6.35
+ 74
+    0
+ 49
+-3.175
+ 74
+    0
+  0
+LTYPE
+  5
+39
+330
+5
+100
+AcDbSymbolTableRecord
+100
+AcDbLinetypeTableRecord
+  2
+DASHEDX2
+ 70
+    0
+  3
+Dashed (2x) ____  ____  ____  ____  ____  ___
+ 72
+   65
+ 73
+    2
+ 40
+38.09999999999999
+ 49
+25.4
+ 74
+    0
+ 49
+-12.7
+ 74
+    0
+  0
+LTYPE
+  5
+3A
+330
+5
+100
+AcDbSymbolTableRecord
+100
+AcDbLinetypeTableRecord
+  2
+DASHDOT
+ 70
+    0
+  3
+Dash dot __ . __ . __ . __ . __ . __ . __ . __
+ 72
+   65
+ 73
+    4
+ 40
+25.4
+ 49
+12.7
+ 74
+    0
+ 49
+-6.35
+ 74
+    0
+ 49
+0
+ 74
+    0
+ 49
+-6.35
+ 74
+    0
+  0
+LTYPE
+  5
+3B
+330
+5
+100
+AcDbSymbolTableRecord
+100
+AcDbLinetypeTableRecord
+  2
+DASHDOTTINY
+ 70
+    0
+  3
+Dash dot (.15x) _._._._._._._._._._._._._._._.
+ 72
+   65
+ 73
+    4
+ 40
+3.81
+ 49
+1.905
+ 74
+    0
+ 49
+-0.9525
+ 74
+    0
+ 49
+0
+ 74
+    0
+ 49
+-0.9525
+ 74
+    0
+  0
+LTYPE
+  5
+3C
+330
+5
+100
+AcDbSymbolTableRecord
+100
+AcDbLinetypeTableRecord
+  2
+DASHDOT2
+ 70
+    0
+  3
+Dash dot (.5x) _._._._._._._._._._._._._._._.
+ 72
+   65
+ 73
+    4
+ 40
+12.7
+ 49
+6.35
+ 74
+    0
+ 49
+-3.175
+ 74
+    0
+ 49
+0
+ 74
+    0
+ 49
+-3.175
+ 74
+    0
+  0
+LTYPE
+  5
+3D
+330
+5
+100
+AcDbSymbolTableRecord
+100
+AcDbLinetypeTableRecord
+  2
+DASHDOTX2
+ 70
+    0
+  3
+Dash dot (2x) ____  .  ____  .  ____  .  ___
+ 72
+   65
+ 73
+    4
+ 40
+50.8
+ 49
+25.4
+ 74
+    0
+ 49
+-12.7
+ 74
+    0
+ 49
+0
+ 74
+    0
+ 49
+-12.7
+ 74
+    0
+  0
+LTYPE
+  5
+3E
+330
+5
+100
+AcDbSymbolTableRecord
+100
+AcDbLinetypeTableRecord
+  2
+DIVIDE
+ 70
+    0
+  3
+Divide ____ . . ____ . . ____ . . ____ . . ____
+ 72
+   65
+ 73
+    6
+ 40
+31.75
+ 49
+12.7
+ 74
+    0
+ 49
+-6.35
+ 74
+    0
+ 49
+0
+ 74
+    0
+ 49
+-6.35
+ 74
+    0
+ 49
+0
+ 74
+    0
+ 49
+-6.35
+ 74
+    0
+  0
+LTYPE
+  5
+3F
+330
+5
+100
+AcDbSymbolTableRecord
+100
+AcDbLinetypeTableRecord
+  2
+DIVIDETINY
+ 70
+    0
+  3
+Divide (.15x) __..__..__..__..__..__..__..__.._
+ 72
+   65
+ 73
+    6
+ 40
+4.7625
+ 49
+1.905
+ 74
+    0
+ 49
+-0.9525
+ 74
+    0
+ 49
+0
+ 74
+    0
+ 49
+-0.9525
+ 74
+    0
+ 49
+0
+ 74
+    0
+ 49
+-0.9525
+ 74
+    0
+  0
+LTYPE
+  5
+40
+330
+5
+100
+AcDbSymbolTableRecord
+100
+AcDbLinetypeTableRecord
+  2
+DIVIDE2
+ 70
+    0
+  3
+Divide (.5x) __..__..__..__..__..__..__..__.._
+ 72
+   65
+ 73
+    6
+ 40
+15.875
+ 49
+6.35
+ 74
+    0
+ 49
+-3.175
+ 74
+    0
+ 49
+0
+ 74
+    0
+ 49
+-3.175
+ 74
+    0
+ 49
+0
+ 74
+    0
+ 49
+-3.175
+ 74
+    0
+  0
+LTYPE
+  5
+41
+330
+5
+100
+AcDbSymbolTableRecord
+100
+AcDbLinetypeTableRecord
+  2
+DIVIDEX2
+ 70
+    0
+  3
+Divide (2x) ________  .  .  ________  .  .  _
+ 72
+   65
+ 73
+    6
+ 40
+63.5
+ 49
+25.4
+ 74
+    0
+ 49
+-12.7
+ 74
+    0
+ 49
+0
+ 74
+    0
+ 49
+-12.7
+ 74
+    0
+ 49
+0
+ 74
+    0
+ 49
+-12.7
+ 74
+    0
+  0
+LTYPE
+  5
+42
+330
+5
+100
+AcDbSymbolTableRecord
+100
+AcDbLinetypeTableRecord
+  2
+BORDER
+ 70
+    0
+  3
+Border __ __ . __ __ . __ __ . __ __ . __ __ .
+ 72
+   65
+ 73
+    6
+ 40
+44.45
+ 49
+12.7
+ 74
+    0
+ 49
+-6.35
+ 74
+    0
+ 49
+12.7
+ 74
+    0
+ 49
+-6.35
+ 74
+    0
+ 49
+0
+ 74
+    0
+ 49
+-6.35
+ 74
+    0
+  0
+LTYPE
+  5
+43
+330
+5
+100
+AcDbSymbolTableRecord
+100
+AcDbLinetypeTableRecord
+  2
+BORDERTINY
+ 70
+    0
+  3
+Border (.15x) __.__.__.__.__.__.__.__.__.__.__.
+ 72
+   65
+ 73
+    6
+ 40
+6.6675
+ 49
+1.905
+ 74
+    0
+ 49
+-0.9525
+ 74
+    0
+ 49
+1.905
+ 74
+    0
+ 49
+-0.9525
+ 74
+    0
+ 49
+0
+ 74
+    0
+ 49
+-0.9525
+ 74
+    0
+  0
+LTYPE
+  5
+44
+330
+5
+100
+AcDbSymbolTableRecord
+100
+AcDbLinetypeTableRecord
+  2
+BORDER2
+ 70
+    0
+  3
+Border (.5x) __.__.__.__.__.__.__.__.__.__.__.
+ 72
+   65
+ 73
+    6
+ 40
+22.225
+ 49
+6.35
+ 74
+    0
+ 49
+-3.175
+ 74
+    0
+ 49
+6.35
+ 74
+    0
+ 49
+-3.175
+ 74
+    0
+ 49
+0
+ 74
+    0
+ 49
+-3.175
+ 74
+    0
+  0
+LTYPE
+  5
+45
+330
+5
+100
+AcDbSymbolTableRecord
+100
+AcDbLinetypeTableRecord
+  2
+BORDERX2
+ 70
+    0
+  3
+Border (2x) ____  ____  .  ____  ____  .  ___
+ 72
+   65
+ 73
+    6
+ 40
+88.89999999999999
+ 49
+25.4
+ 74
+    0
+ 49
+-12.7
+ 74
+    0
+ 49
+25.4
+ 74
+    0
+ 49
+-12.7
+ 74
+    0
+ 49
+0
+ 74
+    0
+ 49
+-12.7
+ 74
+    0
+  0
+LTYPE
+  5
+46
+330
+5
+100
+AcDbSymbolTableRecord
+100
+AcDbLinetypeTableRecord
+  2
+CENTER
+ 70
+    0
+  3
+Center ____ _ ____ _ ____ _ ____ _ ____ _ ____
+ 72
+   65
+ 73
+    4
+ 40
+50.8
+ 49
+31.75
+ 74
+    0
+ 49
+-6.35
+ 74
+    0
+ 49
+6.35
+ 74
+    0
+ 49
+-6.35
+ 74
+    0
+  0
+LTYPE
+  5
+47
+330
+5
+100
+AcDbSymbolTableRecord
+100
+AcDbLinetypeTableRecord
+  2
+CENTERTINY
+ 70
+    0
+  3
+Center (.15x) ___ _ ___ _ ___ _ ___ _ ___ _ ___
+ 72
+   65
+ 73
+    4
+ 40
+7.619999999999999
+ 49
+4.7625
+ 74
+    0
+ 49
+-0.9525
+ 74
+    0
+ 49
+0.9525
+ 74
+    0
+ 49
+-0.9525
+ 74
+    0
+  0
+LTYPE
+  5
+48
+330
+5
+100
+AcDbSymbolTableRecord
+100
+AcDbLinetypeTableRecord
+  2
+CENTER2
+ 70
+    0
+  3
+Center (.5x) ___ _ ___ _ ___ _ ___ _ ___ _ ___
+ 72
+   65
+ 73
+    4
+ 40
+28.575
+ 49
+19.05
+ 74
+    0
+ 49
+-3.175
+ 74
+    0
+ 49
+3.175
+ 74
+    0
+ 49
+-3.175
+ 74
+    0
+  0
+LTYPE
+  5
+49
+330
+5
+100
+AcDbSymbolTableRecord
+100
+AcDbLinetypeTableRecord
+  2
+CENTERX2
+ 70
+    0
+  3
+Center (2x) ________  __  ________  __  _____
+ 72
+   65
+ 73
+    4
+ 40
+101.6
+ 49
+63.5
+ 74
+    0
+ 49
+-12.7
+ 74
+    0
+ 49
+12.7
+ 74
+    0
+ 49
+-12.7
+ 74
+    0
+  0
+ENDTAB
+  0
+TABLE
+  2
+LAYER
+  5
+2
+330
+0
+100
+AcDbSymbolTable
+ 70
+    1
+  0
+LAYER
+  5
+10
+330
+2
+100
+AcDbSymbolTableRecord
+100
+AcDbLayerTableRecord
+  2
+0
+ 70
+    0
+ 62
+    7
+  6
+CONTINUOUS
+370
+   -3
+390
+F
+  0
+LAYER
+  5
+4A
+330
+2
+100
+AcDbSymbolTableRecord
+100
+AcDbLayerTableRecord
+  2
+MCT - AVENIDA GAST�O CASTRO CAMORIM
+ 70
+    0
+ 62
+    7
+  6
+CONTINUOUS
+370
+   -3
+390
+F
+  0
+LAYER
+  5
+4B
+330
+2
+100
+AcDbSymbolTableRecord
+100
+AcDbLayerTableRecord
+  2
+MCT - EIXO VIAS
+ 70
+    0
+ 62
+    1
+  6
+CONTINUOUS
+370
+    9
+390
+F
+  0
+LAYER
+  5
+4C
+330
+2
+100
+AcDbSymbolTableRecord
+100
+AcDbLayerTableRecord
+  2
+PRA�A BARTHOLOMEU FERRERO - 06_01_2021 - PAL77
+ 70
+    0
+ 62
+    7
+  6
+CONTINUOUS
+370
+   -3
+390
+F
+  0
+LAYER
+  5
+4D
+330
+2
+100
+AcDbSymbolTableRecord
+100
+AcDbLayerTableRecord
+  2
+PRA�A GENERAL DALE COUTINHO - 06_01_2021 - PAL81
+ 70
+    0
+ 62
+    7
+  6
+CONTINUOUS
+370
+   -3
+390
+F
+  0
+LAYER
+  5
+4E
+330
+2
+100
+AcDbSymbolTableRecord
+100
+AcDbLayerTableRecord
+  2
+RUA 17 DE MAR�O - 06_01_2021 - PAL73
+ 70
+    0
+ 62
+    1
+  6
+CONTINUOUS
+370
+   -3
+390
+F
+  0
+LAYER
+  5
+4F
+330
+2
+100
+AcDbSymbolTableRecord
+100
+AcDbLayerTableRecord
+  2
+RUA ACLIMA��O - 06_01_2021 - PAL56
+ 70
+    0
+ 62
+    1
+  6
+CONTINUOUS
+370
+   -3
+390
+F
+  0
+LAYER
+  5
+50
+330
+2
+100
+AcDbSymbolTableRecord
+100
+AcDbLayerTableRecord
+  2
+RUA ALMERINA CEMOLINE REBULCI - 06_01_2021 - PAL51
+ 70
+    0
+ 62
+    7
+  6
+CONTINUOUS
+370
+   -3
+390
+F
+  0
+LAYER
+  5
+51
+330
+2
+100
+AcDbSymbolTableRecord
+100
+AcDbLayerTableRecord
+  2
+RUA ALTO NOROESTE - 06_01_2021 - PAL68
+ 70
+    0
+ 62
+    7
+  6
+CONTINUOUS
+370
+   -3
+390
+F
+  0
+LAYER
+  5
+52
+330
+2
+100
+AcDbSymbolTableRecord
+100
+AcDbLayerTableRecord
+  2
+RUA ALTO PARAN� - 06_01_2021 - PAL1
+ 70
+    0
+ 62
+    7
+  6
+CONTINUOUS
+370
+   -3
+390
+F
+  0
+LAYER
+  5
+53
+330
+2
+100
+AcDbSymbolTableRecord
+100
+AcDbLayerTableRecord
+  2
+RUA ARNALDO PSOTA - 06_01_2021 - PAL9
+ 70
+    0
+ 62
+    7
+  6
+CONTINUOUS
+370
+   -3
+390
+F
+  0
+LAYER
+  5
+54
+330
+2
+100
+AcDbSymbolTableRecord
+100
+AcDbLayerTableRecord
+  2
+RUA BEL�M - 06_01_2021 - PAL53
+ 70
+    0
+ 62
+    1
+  6
+CONTINUOUS
+370
+   -3
+390
+F
+  0
+LAYER
+  5
+55
+330
+2
+100
+AcDbSymbolTableRecord
+100
+AcDbLayerTableRecord
+  2
+RUA BOM RETIRO - 06_01_2021 - PAL2
+ 70
+    0
+ 62
+    7
+  6
+CONTINUOUS
+370
+   -3
+390
+F
+  0
+LAYER
+  5
+56
+330
+2
+100
+AcDbSymbolTableRecord
+100
+AcDbLayerTableRecord
+  2
+RUA BRAZ - 06_01_2021 - PAL57
+ 70
+    0
+ 62
+    1
+  6
+CONTINUOUS
+370
+   -3
+390
+F
+  0
+LAYER
+  5
+57
+330
+2
+100
+AcDbSymbolTableRecord
+100
+AcDbLayerTableRecord
+  2
+RUA CACIQUE TIBIRI�� - 06_01_2021 - PAL76
+ 70
+    0
+ 62
+    1
+  6
+CONTINUOUS
+370
+   -3
+390
+F
+  0
+LAYER
+  5
+58
+330
+2
+100
+AcDbSymbolTableRecord
+100
+AcDbLayerTableRecord
+  2
+RUA CAMARGO - 06_01_2021 - PAL71
+ 70
+    0
+ 62
+    1
+  6
+CONTINUOUS
+370
+   -3
+390
+F
+  0
+LAYER
+  5
+59
+330
+2
+100
+AcDbSymbolTableRecord
+100
+AcDbLayerTableRecord
+  2
+RUA CANIND� - 06_01_2021 - PAL50
+ 70
+    0
+ 62
+    7
+  6
+CONTINUOUS
+370
+   -3
+390
+F
+  0
+LAYER
+  5
+5A
+330
+2
+100
+AcDbSymbolTableRecord
+100
+AcDbLayerTableRecord
+  2
+RUA C�SPER L�BERO - 06_01_2021 - PAL28 - PAL29
+ 70
+    0
+ 62
+    1
+  6
+CONTINUOUS
+370
+   -3
+390
+F
+  0
+LAYER
+  5
+5B
+330
+2
+100
+AcDbSymbolTableRecord
+100
+AcDbLayerTableRecord
+  2
+RUA DA PENHA - 06_01_2021 - PAL46
+ 70
+    0
+ 62
+    1
+  6
+CONTINUOUS
+370
+   -3
+390
+F
+  0
+LAYER
+  5
+5C
+330
+2
+100
+AcDbSymbolTableRecord
+100
+AcDbLayerTableRecord
+  2
+RUA DELFIM MOREIRA - 06_01_2021 - PAL64
+ 70
+    0
+ 62
+    7
+  6
+CONTINUOUS
+370
+   -3
+390
+F
+  0
+LAYER
+  5
+5D
+330
+2
+100
+AcDbSymbolTableRecord
+100
+AcDbLayerTableRecord
+  2
+RUA DR�USIO - 06_01_2021 - PAL72
+ 70
+    0
+ 62
+    1
+  6
+CONTINUOUS
+370
+   -3
+390
+F
+  0
+LAYER
+  5
+5E
+330
+2
+100
+AcDbSymbolTableRecord
+100
+AcDbLayerTableRecord
+  2
+RUA ERMANO GUAZZELLI - 06_01_2021 - PAL12
+ 70
+    0
+ 62
+    7
+  6
+CONTINUOUS
+370
+   -3
+390
+F
+  0
+LAYER
+  5
+5F
+330
+2
+100
+AcDbSymbolTableRecord
+100
+AcDbLayerTableRecord
+  2
+RUA FERN�O DIAS PAES LEME - 06_01_2021 - PAL78
+ 70
+    0
+ 62
+    7
+  6
+CONTINUOUS
+370
+   -3
+390
+F
+  0
+LAYER
+  5
+60
+330
+2
+100
+AcDbSymbolTableRecord
+100
+AcDbLayerTableRecord
+  2
+RUA FRANCISCO ALVES - 06_01_2021 - PAL26 - PAL27
+ 70
+    0
+ 62
+    7
+  6
+CONTINUOUS
+370
+   -3
+390
+F
+  0
+LAYER
+  5
+61
+330
+2
+100
+AcDbSymbolTableRecord
+100
+AcDbLayerTableRecord
+  2
+RUA GENERAL BERTOLDO KLINGER - 06_01_2021 - PAL66
+ 70
+    0
+ 62
+    7
+  6
+CONTINUOUS
+370
+   -3
+390
+F
+  0
+LAYER
+  5
+62
+330
+2
+100
+AcDbSymbolTableRecord
+100
+AcDbLayerTableRecord
+  2
+RUA GENERAL IZIDORO DIAS LOPES - 06_01_2021 - PAL67
+ 70
+    0
+ 62
+    7
+  6
+CONTINUOUS
+370
+   -3
+390
+F
+  0
+LAYER
+  5
+63
+330
+2
+100
+AcDbSymbolTableRecord
+100
+AcDbLayerTableRecord
+  2
+RUA GINO AMADEI - 06_01_2021 - PAL62
+ 70
+    0
+ 62
+    1
+  6
+CONTINUOUS
+370
+   -3
+390
+F
+  0
+LAYER
+  5
+64
+330
+2
+100
+AcDbSymbolTableRecord
+100
+AcDbLayerTableRecord
+  2
+RUA HEITOR VILLA LOBOS - 06_01_2021 - PAL79
+ 70
+    0
+ 62
+    7
+  6
+CONTINUOUS
+370
+   -3
+390
+F
+  0
+LAYER
+  5
+65
+330
+2
+100
+AcDbSymbolTableRecord
+100
+AcDbLayerTableRecord
+  2
+RUA JABAQUARA - 06_01_2021 - PAL55
+ 70
+    0
+ 62
+    1
+  6
+CONTINUOUS
+370
+   -3
+390
+F
+  0
+LAYER
+  5
+66
+330
+2
+100
+AcDbSymbolTableRecord
+100
+AcDbLayerTableRecord
+  2
+RUA JAC� DO BANDOLIM - 06_01_2021 - PAL19
+ 70
+    0
+ 62
+    7
+  6
+CONTINUOUS
+370
+   -3
+390
+F
+  0
+LAYER
+  5
+67
+330
+2
+100
+AcDbSymbolTableRecord
+100
+AcDbLayerTableRecord
+  2
+RUA JOAQUIM JOS� DE FRAN�A - 06_01_2021 - PAL75
+ 70
+    0
+ 62
+    7
+  6
+CONTINUOUS
+370
+   -3
+390
+F
+  0
+LAYER
+  5
+68
+330
+2
+100
+AcDbSymbolTableRecord
+100
+AcDbLayerTableRecord
+  2
+RUA JO�O BIANCALANA - 06_01_2021 - PAL70
+ 70
+    0
+ 62
+    1
+  6
+CONTINUOUS
+370
+   -3
+390
+F
+  0
+LAYER
+  5
+69
+330
+2
+100
+AcDbSymbolTableRecord
+100
+AcDbLayerTableRecord
+  2
+RUA JO�O DEPOLLI - 06_01_2021 - PAL60
+ 70
+    0
+ 62
+    1
+  6
+CONTINUOUS
+370
+   -3
+390
+F
+  0
+LAYER
+  5
+6A
+330
+2
+100
+AcDbSymbolTableRecord
+100
+AcDbLayerTableRecord
+  2
+RUA J�LIO DE MESQUITA - 06_01_2021 - PAL65
+ 70
+    0
+ 62
+    7
+  6
+CONTINUOUS
+370
+   -3
+390
+F
+  0
+LAYER
+  5
+6B
+330
+2
+100
+AcDbSymbolTableRecord
+100
+AcDbLayerTableRecord
+  2
+RUA LAPA - 06_01_2021 - PAL54
+ 70
+    0
+ 62
+    1
+  6
+CONTINUOUS
+370
+   -3
+390
+F
+  0
+LAYER
+  5
+6C
+330
+2
+100
+AcDbSymbolTableRecord
+100
+AcDbLayerTableRecord
+  2
+RUA L�BERO BADAR� - 06_01_2021 - PAL36
+ 70
+    0
+ 62
+    1
+  6
+CONTINUOUS
+370
+   -3
+390
+F
+  0
+LAYER
+  5
+6D
+330
+2
+100
+AcDbSymbolTableRecord
+100
+AcDbLayerTableRecord
+  2
+RUA M.M.D.C. - 06_01_2021 - PAL33
+ 70
+    0
+ 62
+    1
+  6
+CONTINUOUS
+370
+   -3
+390
+F
+  0
+LAYER
+  5
+6E
+330
+2
+100
+AcDbSymbolTableRecord
+100
+AcDbLayerTableRecord
+  2
+RUA MANOEL SIM�ES DE SOUZA - 06_01_2021 - PAL63
+ 70
+    0
+ 62
+    7
+  6
+CONTINUOUS
+370
+   -3
+390
+F
+  0
+LAYER
+  5
+6F
+330
+2
+100
+AcDbSymbolTableRecord
+100
+AcDbLayerTableRecord
+  2
+RUA MARING� - 06_01_2021 - PAL7
+ 70
+    0
+ 62
+    7
+  6
+CONTINUOUS
+370
+   -3
+390
+F
+  0
+LAYER
+  5
+70
+330
+2
+100
+AcDbSymbolTableRecord
+100
+AcDbLayerTableRecord
+  2
+RUA MARTINS - 06_01_2021 - PAL30
+ 70
+    0
+ 62
+    1
+  6
+CONTINUOUS
+370
+   -3
+390
+F
+  0
+LAYER
+  5
+71
+330
+2
+100
+AcDbSymbolTableRecord
+100
+AcDbLayerTableRecord
+  2
+RUA MIRAGAIA - 06_01_2021 - PAL31 - PAL32
+ 70
+    0
+ 62
+    1
+  6
+CONTINUOUS
+370
+   -3
+390
+F
+  0
+LAYER
+  5
+72
+330
+2
+100
+AcDbSymbolTableRecord
+100
+AcDbLayerTableRecord
+  2
+RUA NAPOLE�O DE ALENCASTRO GUIMAR�ES - 06_01_2021 - PAL13
+ 70
+    0
+ 62
+    7
+  6
+CONTINUOUS
+370
+   -3
+390
+F
+  0
+LAYER
+  5
+73
+330
+2
+100
+AcDbSymbolTableRecord
+100
+AcDbLayerTableRecord
+  2
+RUA NEWTON - 06_01_2021 - PAL10
+ 70
+    0
+ 62
+    7
+  6
+CONTINUOUS
+370
+   -3
+390
+F
+  0
+LAYER
+  5
+74
+330
+2
+100
+AcDbSymbolTableRecord
+100
+AcDbLayerTableRecord
+  2
+RUA NOSSA SENHORA APARECIDA - 06_01_2021 - PAL52
+ 70
+    0
+ 62
+    7
+  6
+CONTINUOUS
+370
+   -3
+390
+F
+  0
+LAYER
+  5
+75
+330
+2
+100
+AcDbSymbolTableRecord
+100
+AcDbLayerTableRecord
+  2
+RUA NOVA LONDRINA - 06_01_2021 - PAL69
+ 70
+    0
+ 62
+    7
+  6
+CONTINUOUS
+370
+   -3
+390
+F
+  0
+LAYER
+  5
+76
+330
+2
+100
+AcDbSymbolTableRecord
+100
+AcDbLayerTableRecord
+  2
+RUA PACAEMB� - 06_01_2021 - PAL47
+ 70
+    0
+ 62
+    1
+  6
+CONTINUOUS
+370
+   -3
+390
+F
+  0
+LAYER
+  5
+77
+330
+2
+100
+AcDbSymbolTableRecord
+100
+AcDbLayerTableRecord
+  2
+RUA PARANAVA� - 06_01_2021 - PAL6
+ 70
+    0
+ 62
+    7
+  6
+CONTINUOUS
+370
+   -3
+390
+F
+  0
+LAYER
+  5
+78
+330
+2
+100
+AcDbSymbolTableRecord
+100
+AcDbLayerTableRecord
+  2
+RUA PARTICULAR JOS� MARIA TERRON - 06_01_2021 - PAL3
+ 70
+    0
+ 62
+    7
+  6
+CONTINUOUS
+370
+   -3
+390
+F
+  0
+LAYER
+  5
+79
+330
+2
+100
+AcDbSymbolTableRecord
+100
+AcDbLayerTableRecord
+  2
+RUA PASCHOAL - 06_01_2021 - PAL34
+ 70
+    0
+ 62
+    7
+  6
+CONTINUOUS
+370
+   -3
+390
+F
+  0
+LAYER
+  5
+7A
+330
+2
+100
+AcDbSymbolTableRecord
+100
+AcDbLayerTableRecord
+  2
+RUA PAULO VIRG�NIO - 06_01_2021 - PAL8
+ 70
+    0
+ 62
+    7
+  6
+CONTINUOUS
+370
+   -3
+390
+F
+  0
+LAYER
+  5
+7B
+330
+2
+100
+AcDbSymbolTableRecord
+100
+AcDbLayerTableRecord
+  2
+RUA PEDRO CHAVES - 06_01_2021 - PAL80
+ 70
+    0
+ 62
+    7
+  6
+CONTINUOUS
+370
+   -3
+390
+F
+  0
+LAYER
+  5
+7C
+330
+2
+100
+AcDbSymbolTableRecord
+100
+AcDbLayerTableRecord
+  2
+RUA PEDRO DE TOLEDO - 06_01_2021 - PAL49
+ 70
+    0
+ 62
+    7
+  6
+CONTINUOUS
+370
+   -3
+390
+F
+  0
+LAYER
+  5
+7D
+330
+2
+100
+AcDbSymbolTableRecord
+100
+AcDbLayerTableRecord
+  2
+RUA PERDIZES - 06_01_2021 - PAL4
+ 70
+    0
+ 62
+    1
+  6
+CONTINUOUS
+370
+   -3
+390
+F
+  0
+LAYER
+  5
+7E
+330
+2
+100
+AcDbSymbolTableRecord
+100
+AcDbLayerTableRecord
+  2
+RUA PIETRO ROMANI - 06_01_2021 - PAL11
+ 70
+    0
+ 62
+    7
+  6
+CONTINUOUS
+370
+   -3
+390
+F
+  0
+LAYER
+  5
+7F
+330
+2
+100
+AcDbSymbolTableRecord
+100
+AcDbLayerTableRecord
+  2
+RUA REGENTE BR�ULIO MUNIZ - 06_01_2021 - PAL17
+ 70
+    0
+ 62
+    7
+  6
+CONTINUOUS
+370
+   -3
+390
+F
+  0
+LAYER
+  5
+80
+330
+2
+100
+AcDbSymbolTableRecord
+100
+AcDbLayerTableRecord
+  2
+RUA ROSA CAPASSI - 06_01_2021 - PAL74
+ 70
+    0
+ 62
+    7
+  6
+CONTINUOUS
+370
+   -3
+390
+F
+  0
+LAYER
+  5
+81
+330
+2
+100
+AcDbSymbolTableRecord
+100
+AcDbLayerTableRecord
+  2
+RUA SANTA CRUZ - 06_01_20210 - PAL14
+ 70
+    0
+ 62
+    7
+  6
+CONTINUOUS
+370
+   -3
+390
+F
+  0
+LAYER
+  5
+82
+330
+2
+100
+AcDbSymbolTableRecord
+100
+AcDbLayerTableRecord
+  2
+RUA SANTANA - 06_01_20210 - PAL3
+ 70
+    0
+ 62
+    1
+  6
+CONTINUOUS
+370
+   -3
+390
+F
+  0
+LAYER
+  5
+83
+330
+2
+100
+AcDbSymbolTableRecord
+100
+AcDbLayerTableRecord
+  2
+RUA SENJI SUGUINO - 06_01_2021 - PAL58
+ 70
+    0
+ 62
+    7
+  6
+CONTINUOUS
+370
+   -3
+390
+F
+  0
+LAYER
+  5
+84
+330
+2
+100
+AcDbSymbolTableRecord
+100
+AcDbLayerTableRecord
+  2
+RUA S�O JOS� - 06_01_2021 - PAL20
+ 70
+    0
+ 62
+    7
+  6
+CONTINUOUS
+370
+   -3
+390
+F
+  0
+LAYER
+  5
+85
+330
+2
+100
+AcDbSymbolTableRecord
+100
+AcDbLayerTableRecord
+  2
+RUA TATUAP� - 06_01_2021 - PAL18
+ 70
+    0
+ 62
+    7
+  6
+CONTINUOUS
+370
+   -3
+390
+F
+  0
+LAYER
+  5
+86
+330
+2
+100
+AcDbSymbolTableRecord
+100
+AcDbLayerTableRecord
+  2
+RUA TENENTE PEREIRA SOBRINHO - 06_01_2021 - PAL16
+ 70
+    0
+ 62
+    7
+  6
+CONTINUOUS
+370
+   -3
+390
+F
+  0
+LAYER
+  5
+87
+330
+2
+100
+AcDbSymbolTableRecord
+100
+AcDbLayerTableRecord
+  2
+RUA VER�O - 06_01_2021 -  PAL61
+ 70
+    0
+ 62
+    1
+  6
+CONTINUOUS
+370
+   -3
+390
+F
+  0
+LAYER
+  5
+88
+330
+2
+100
+AcDbSymbolTableRecord
+100
+AcDbLayerTableRecord
+  2
+RUA XAVIER DE TOLEDO - 06_01_2021 - PAL48
+ 70
+    0
+ 62
+    7
+  6
+CONTINUOUS
+370
+   -3
+390
+F
+  0
+LAYER
+  5
+89
+330
+2
+100
+AcDbSymbolTableRecord
+100
+AcDbLayerTableRecord
+  2
+RUA �LVARO ALVIM - 06_01_2021 - PAL25
+ 70
+    0
+ 62
+    7
+  6
+CONTINUOUS
+370
+   -3
+390
+F
+  0
+LAYER
+  5
+8A
+330
+2
+100
+AcDbSymbolTableRecord
+100
+AcDbLayerTableRecord
+  2
+TRAVESSA S�O JOS� - 06_01_2021 - PAL21
+ 70
+    0
+ 62
+    7
+  6
+CONTINUOUS
+370
+   -3
+390
+F
+  0
+LAYER
+  5
+8B
+330
+2
+100
+AcDbSymbolTableRecord
+100
+AcDbLayerTableRecord
+  2
+VIELA DOS GER�NIOS - 06_01_2021 - PAL5
+ 70
+    0
+ 62
+    7
+  6
+CONTINUOUS
+370
+   -3
+390
+F
+  0
+ENDTAB
+  0
+TABLE
+  2
+STYLE
+  5
+3
+330
+0
+100
+AcDbSymbolTable
+ 70
+    3
+  0
+STYLE
+  5
+8C
+330
+2
+100
+AcDbSymbolTableRecord
+100
+AcDbTextStyleTableRecord
+  2
+Standard
+ 70
+    0
+ 40
+0
+ 41
+1
+ 50
+0
+ 71
+    0
+ 42
+1
+  3
+txt
+  4
+
+  0
+ENDTAB
+  0
+TABLE
+  2
+VIEW
+  5
+6
+330
+0
+100
+AcDbSymbolTable
+ 70
+    0
+  0
+ENDTAB
+  0
+TABLE
+  2
+UCS
+  5
+7
+330
+0
+100
+AcDbSymbolTable
+ 70
+    0
+  0
+ENDTAB
+  0
+TABLE
+  2
+APPID
+  5
+9
+330
+0
+100
+AcDbSymbolTable
+ 70
+    1
+  0
+APPID
+  5
+12
+330
+9
+100
+AcDbSymbolTableRecord
+100
+AcDbRegAppTableRecord
+  2
+ACAD
+ 70
+    0
+  0
+APPID
+  5
+8D
+330
+9
+100
+AcDbSymbolTableRecord
+100
+AcDbRegAppTableRecord
+  2
+LibreCad
+ 70
+    0
+  0
+ENDTAB
+  0
+TABLE
+  2
+DIMSTYLE
+  5
+A
+330
+0
+100
+AcDbSymbolTable
+ 70
+    1
+100
+AcDbDimStyleTable
+ 71
+    1
+  0
+DIMSTYLE
+105
+8E
+330
+A
+100
+AcDbSymbolTableRecord
+100
+AcDbDimStyleTableRecord
+  2
+Standard
+ 70
+    0
+ 40
+1
+ 41
+2.5
+ 42
+0.625
+ 43
+0.38
+ 44
+1.25
+ 45
+0
+ 46
+0
+ 47
+0
+ 48
+0
+ 49
+1
+140
+2.5
+141
+0.09
+142
+0
+143
+25.4
+144
+1
+145
+0
+146
+1
+147
+0.625
+148
+0
+ 71
+    0
+ 72
+    0
+ 73
+    0
+ 74
+    1
+ 75
+    0
+ 76
+    0
+ 77
+    0
+ 78
+    8
+ 79
+    0
+170
+    0
+171
+    2
+172
+    0
+173
+    0
+174
+    0
+175
+    0
+176
+    0
+177
+    0
+178
+    0
+179
+    0
+271
+    2
+272
+    4
+273
+    2
+274
+    2
+275
+    0
+276
+    0
+277
+    2
+278
+   44
+279
+    0
+280
+    0
+281
+    0
+282
+    0
+283
+    1
+284
+    0
+285
+    0
+286
+    0
+288
+    0
+289
+    3
+340
+Standard
+341
+
+371
+   -2
+372
+   -2
+  0
+ENDTAB
+  0
+TABLE
+  2
+BLOCK_RECORD
+  5
+1
+330
+0
+100
+AcDbSymbolTable
+ 70
+    2
+  0
+BLOCK_RECORD
+  5
+1F
+330
+1
+100
+AcDbSymbolTableRecord
+100
+AcDbBlockTableRecord
+  2
+*Model_Space
+ 70
+    0
+280
+    1
+281
+    0
+  0
+BLOCK_RECORD
+  5
+1E
+330
+1
+100
+AcDbSymbolTableRecord
+100
+AcDbBlockTableRecord
+  2
+*Paper_Space
+ 70
+    0
+280
+    1
+281
+    0
+  0
+BLOCK_RECORD
+  5
+8F
+330
+1
+100
+AcDbSymbolTableRecord
+100
+AcDbBlockTableRecord
+  2
+EIXOS VIA
+ 70
+    0
+280
+    1
+281
+    0
+  0
+ENDTAB
+  0
+ENDSEC
+  0
+SECTION
+  2
+BLOCKS
+  0
+BLOCK
+  5
+20
+330
+1F
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockBegin
+  2
+*Model_Space
+ 70
+    0
+ 10
+0
+ 20
+0
+ 30
+0
+  3
+*Model_Space
+  1
+
+  0
+ENDBLK
+  5
+21
+330
+1F
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockEnd
+  0
+BLOCK
+  5
+1C
+330
+1B
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockBegin
+  2
+*Paper_Space
+ 70
+    0
+ 10
+0
+ 20
+0
+ 30
+0
+  3
+*Paper_Space
+  1
+
+  0
+ENDBLK
+  5
+1D
+330
+1F
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockEnd
+  0
+BLOCK
+  5
+90
+330
+8F
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockBegin
+  2
+EIXOS VIA
+ 70
+    0
+ 10
+0
+ 20
+0
+  3
+EIXOS VIA
+  1
+
+  0
+LWPOLYLINE
+  5
+92
+100
+AcDbEntity
+  8
+MCT - EIXO VIAS
+  6
+CONTINUOUS
+ 62
+  256
+370
+   -1
+100
+AcDbPolyline
+ 90
+    2
+ 70
+    0
+ 43
+0
+ 10
+342719.5649192181
+ 20
+7382686.684860837
+ 10
+343153.4953035808
+ 20
+7382712.107935484
+  0
+LWPOLYLINE
+  5
+93
+100
+AcDbEntity
+  8
+MCT - EIXO VIAS
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbPolyline
+ 90
+    2
+ 70
+    0
+ 43
+0
+ 10
+342406.2834774743
+ 20
+7381256.519110086
+ 10
+342490.8446894104
+ 20
+7381432.454770458
+  0
+LWPOLYLINE
+  5
+94
+100
+AcDbEntity
+  8
+MCT - EIXO VIAS
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbPolyline
+ 90
+    3
+ 70
+    0
+ 43
+0
+ 10
+342549.8385114162
+ 20
+7381220.026418697
+ 10
+342639.9814097907
+ 20
+7381178.26609389
+ 10
+342660.4421788312
+ 20
+7381222.739638782
+  0
+LWPOLYLINE
+  5
+95
+100
+AcDbEntity
+  8
+MCT - EIXO VIAS
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbPolyline
+ 90
+    6
+ 70
+    0
+ 43
+0
+ 10
+341877.9946355019
+ 20
+7381258.42262879
+ 10
+341724.3482606657
+ 20
+7381328.271623326
+ 10
+341622.6270055721
+ 20
+7381374.726950378
+ 10
+341441.5011127053
+ 20
+7381456.563055357
+ 10
+341231.2277070749
+ 20
+7381554.947808871
+ 10
+341008.9109391857
+ 20
+7381657.673782283
+  0
+LWPOLYLINE
+  5
+96
+100
+AcDbEntity
+  8
+MCT - EIXO VIAS
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbPolyline
+ 90
+    3
+ 70
+    0
+ 43
+0
+ 10
+342758.9713842459
+ 20
+7381673.881939745
+ 10
+342569.8111953115
+ 20
+7381262.986732386
+ 10
+342507.4584617187
+ 20
+7381129.867075777
+  0
+LWPOLYLINE
+  5
+97
+100
+AcDbEntity
+  8
+MCT - EIXO VIAS
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbPolyline
+ 90
+    2
+ 70
+    0
+ 43
+0
+ 10
+342914.3684500092
+ 20
+7381543.8915531
+ 10
+342736.779213127
+ 20
+7381625.675936118
+  0
+LWPOLYLINE
+  5
+98
+100
+AcDbEntity
+  8
+MCT - EIXO VIAS
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbPolyline
+ 90
+    2
+ 70
+    0
+ 43
+0
+ 10
+342622.6532701332
+ 20
+7381381.314437179
+ 10
+342807.2488103174
+ 20
+7381295.675193661
+  0
+LWPOLYLINE
+  5
+99
+100
+AcDbEntity
+  8
+MCT - EIXO VIAS
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbPolyline
+ 90
+    2
+ 70
+    0
+ 43
+0
+ 10
+342599.9829551484
+ 20
+7381328.526059579
+ 10
+342783.6634482073
+ 20
+7381243.252366052
+  0
+LWPOLYLINE
+  5
+9A
+100
+AcDbEntity
+  8
+MCT - EIXO VIAS
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbPolyline
+ 90
+    3
+ 70
+    0
+ 43
+0
+ 10
+342569.8111953121
+ 20
+7381262.98673239
+ 10
+342660.4421788312
+ 20
+7381222.739638782
+ 10
+342752.1869069924
+ 20
+7381179.026817517
+  0
+LWPOLYLINE
+  5
+9B
+100
+AcDbEntity
+  8
+MCT - EIXO VIAS
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbPolyline
+ 90
+    2
+ 70
+    0
+ 43
+0
+ 10
+342326.7755987215
+ 20
+7381749.01776447
+ 10
+341931.3165592779
+ 20
+7381928.473107211
+  0
+LWPOLYLINE
+  5
+9C
+100
+AcDbEntity
+  8
+MCT - EIXO VIAS
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbPolyline
+ 90
+    2
+ 70
+    0
+ 43
+0
+ 10
+342119.335291528
+ 20
+7381799.379192503
+ 10
+342022.9266810792
+ 20
+7381841.537923244
+  0
+LWPOLYLINE
+  5
+9D
+100
+AcDbEntity
+  8
+MCT - EIXO VIAS
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbPolyline
+ 90
+    2
+ 70
+    0
+ 43
+0
+ 10
+341818.4095293855
+ 20
+7381900.828012848
+ 10
+341913.9906566743
+ 20
+7381858.198295731
+  0
+LWPOLYLINE
+  5
+9E
+100
+AcDbEntity
+  8
+MCT - EIXO VIAS
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbPolyline
+ 90
+    3
+ 70
+    0
+ 43
+0
+ 10
+341603.1302593093
+ 20
+7382187.105142247
+ 10
+341660.1494363219
+ 20
+7382161.591809592
+ 10
+341620.4988387949
+ 20
+7382073.719063076
+  0
+LWPOLYLINE
+  5
+9F
+100
+AcDbEntity
+  8
+MCT - EIXO VIAS
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbPolyline
+ 90
+    7
+ 70
+    0
+ 43
+0
+ 10
+341709.3376800986
+ 20
+7382173.489349217
+ 10
+341634.7582072435
+ 20
+7382012.583758046
+ 10
+341556.0038010487
+ 20
+7381840.574093923
+ 10
+341509.5452056727
+ 20
+7381735.777597553
+ 10
+341481.2384350501
+ 20
+7381670.618051015
+ 10
+341455.510817654
+ 20
+7381613.590569735
+ 10
+341393.3763835904
+ 20
+7381479.080118786
+  0
+LWPOLYLINE
+  5
+A0
+100
+AcDbEntity
+  8
+MCT - EIXO VIAS
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbPolyline
+ 90
+    2
+ 70
+    0
+ 43
+0
+ 10
+341234.6833870851
+ 20
+7381922.942083101
+ 10
+341435.9351971052
+ 20
+7381829.076549516
+  0
+LWPOLYLINE
+  5
+A1
+100
+AcDbEntity
+  8
+MCT - EIXO VIAS
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbPolyline
+ 90
+    3
+ 70
+    0
+ 43
+0
+ 10
+341327.3216748602
+ 20
+7381974.177571863
+ 10
+341361.4362675727
+ 20
+7382049.340820993
+ 10
+341414.9896466163
+ 20
+7382168.928745632
+  0
+LWPOLYLINE
+  5
+A2
+100
+AcDbEntity
+  8
+MCT - EIXO VIAS
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbPolyline
+ 90
+    2
+ 70
+    0
+ 43
+0
+ 10
+341512.587074669
+ 20
+7382124.146520383
+ 10
+341579.1621442262
+ 20
+7382266.411377222
+  0
+LWPOLYLINE
+  5
+A3
+100
+AcDbEntity
+  8
+MCT - EIXO VIAS
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbPolyline
+ 90
+    2
+ 70
+    0
+ 43
+0
+ 10
+341467.0127601628
+ 20
+7382145.443519997
+ 10
+341378.9290445166
+ 20
+7381951.072879933
+  0
+LWPOLYLINE
+  5
+A4
+100
+AcDbEntity
+  8
+MCT - EIXO VIAS
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbPolyline
+ 90
+    3
+ 70
+    0
+ 43
+0
+ 10
+341246.4932210382
+ 20
+7381779.530647349
+ 10
+341298.8090362161
+ 20
+7381896.202497467
+ 10
+341332.2511765649
+ 20
+7381971.970627023
+  0
+LWPOLYLINE
+  5
+A5
+100
+AcDbEntity
+  8
+MCT - EIXO VIAS
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbPolyline
+ 90
+    4
+ 70
+    0
+ 43
+0
+ 10
+341242.8356778787
+ 20
+7381940.593035531
+ 10
+341166.2612276018
+ 20
+7381974.618836927
+ 10
+341140.9194351378
+ 20
+7381918.385410425
+ 10
+341216.5582426514
+ 20
+7381882.502875154
+  0
+LWPOLYLINE
+  5
+A6
+100
+AcDbEntity
+  8
+MCT - EIXO VIAS
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbPolyline
+ 90
+   10
+ 70
+    0
+ 43
+0
+ 10
+340894.8363207557
+ 20
+7381262.52121659
+ 10
+340935.9244645087
+ 20
+7381347.176315645
+ 10
+341014.5874347963
+ 20
+7381516.79852252
+ 10
+341043.8927066851
+ 20
+7381578.352441106
+ 10
+341074.9252172609
+ 20
+7381644.433034945
+ 10
+341151.787210516
+ 20
+7381760.812823987
+ 10
+341184.8366856951
+ 20
+7381811.083141992
+ 10
+341230.4103737139
+ 20
+7381913.690357707
+ 10
+341269.1239477088
+ 20
+7382000.231831833
+ 10
+341331.2564312729
+ 20
+7382140.054856056
+  0
+LWPOLYLINE
+  5
+A7
+100
+AcDbEntity
+  8
+MCT - EIXO VIAS
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbPolyline
+ 90
+    4
+ 70
+    0
+ 43
+0
+ 10
+341060.1040119258
+ 20
+7381260.174260865
+ 10
+341086.3063968712
+ 20
+7381314.201005908
+ 10
+341116.0401066398
+ 20
+7381376.059141631
+ 10
+341287.9080902853
+ 20
+7381760.189693501
+  0
+LWPOLYLINE
+  5
+A8
+100
+AcDbEntity
+  8
+MCT - EIXO VIAS
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbPolyline
+ 90
+    2
+ 70
+    0
+ 43
+0
+ 10
+340922.4485346531
+ 20
+7381316.977527742
+ 10
+341043.7934433023
+ 20
+7381261.261849738
+  0
+LWPOLYLINE
+  5
+A9
+100
+AcDbEntity
+  8
+MCT - EIXO VIAS
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbPolyline
+ 90
+    5
+ 70
+    0
+ 43
+0
+ 10
+341148.3441141668
+ 20
+7381203.631972789
+ 10
+341246.5944860559
+ 20
+7381159.321518413
+ 10
+341309.9120281071
+ 20
+7381131.014149403
+ 10
+341327.7737649627
+ 20
+7381131.524300624
+ 10
+341358.0823705884
+ 20
+7381132.635488267
+  0
+LINE
+  5
+AA
+100
+AcDbEntity
+  8
+MCT - EIXO VIAS
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbLine
+ 10
+341568.8665789597
+ 20
+7381050.531552717
+ 11
+341527.2714317357
+ 21
+7381069.039667018
+  0
+LINE
+  5
+AB
+100
+AcDbEntity
+  8
+MCT - EIXO VIAS
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbLine
+ 10
+341424.6969127486
+ 20
+7381108.795270762
+ 11
+341360.226166244
+ 21
+7381106.393268111
+  0
+LWPOLYLINE
+  5
+AC
+100
+AcDbEntity
+  8
+MCT - EIXO VIAS
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbPolyline
+ 90
+    3
+ 70
+    0
+ 43
+0
+ 10
+341348.4873583391
+ 20
+7381111.436954691
+ 10
+341409.0329676085
+ 20
+7381085.422977839
+ 10
+341729.1185271729
+ 20
+7380939.367509057
+  0
+LWPOLYLINE
+  5
+AD
+100
+AcDbEntity
+  8
+MCT - EIXO VIAS
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbPolyline
+ 90
+    3
+ 70
+    0
+ 43
+0
+ 10
+341759.8352057402
+ 20
+7381005.512934133
+ 10
+341404.7785004638
+ 20
+7381167.133396087
+ 10
+341278.1958113499
+ 20
+7381224.690579816
+  0
+LWPOLYLINE
+  5
+AE
+100
+AcDbEntity
+  8
+MCT - EIXO VIAS
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbPolyline
+ 90
+    2
+ 70
+    0
+ 43
+0
+ 10
+341598.9498081954
+ 20
+7381156.438884772
+ 10
+341683.7903431027
+ 20
+7381344.74623361
+  0
+LWPOLYLINE
+  5
+AF
+100
+AcDbEntity
+  8
+MCT - EIXO VIAS
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbPolyline
+ 90
+    3
+ 70
+    0
+ 43
+0
+ 10
+341667.7783016684
+ 20
+7381135.595879868
+ 10
+341717.6223638121
+ 20
+7381248.667347898
+ 10
+341834.9318827849
+ 20
+7381510.333490224
+  0
+LWPOLYLINE
+  5
+B0
+100
+AcDbEntity
+  8
+MCT - EIXO VIAS
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbPolyline
+ 90
+    2
+ 70
+    0
+ 43
+0
+ 10
+341560.8946134113
+ 20
+7381253.444113151
+ 10
+341624.3785967993
+ 20
+7381224.043147913
+  0
+LWPOLYLINE
+  5
+B1
+100
+AcDbEntity
+  8
+MCT - EIXO VIAS
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbPolyline
+ 90
+    2
+ 70
+    0
+ 43
+0
+ 10
+341543.325236596
+ 20
+7381214.399613893
+ 10
+341572.8672292583
+ 20
+7381279.634689104
+  0
+LWPOLYLINE
+  5
+B2
+100
+AcDbEntity
+  8
+MCT - EIXO VIAS
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbPolyline
+ 90
+    2
+ 70
+    0
+ 43
+0
+ 10
+341811.7983910633
+ 20
+7381288.51602423
+ 10
+341898.1808059161
+ 20
+7381481.141876243
+  0
+LWPOLYLINE
+  5
+B3
+100
+AcDbEntity
+  8
+MCT - EIXO VIAS
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbPolyline
+ 90
+    2
+ 70
+    0
+ 43
+0
+ 10
+341705.4214404078
+ 20
+7381645.435509814
+ 10
+342179.4951004969
+ 20
+7381429.444065145
+  0
+LWPOLYLINE
+  5
+B4
+100
+AcDbEntity
+  8
+MCT - EIXO VIAS
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbPolyline
+ 90
+    2
+ 70
+    0
+ 43
+0
+ 10
+342000.0073995121
+ 20
+7381202.597465202
+ 10
+342087.3475372808
+ 20
+7381394.645365967
+  0
+LWPOLYLINE
+  5
+B5
+100
+AcDbEntity
+  8
+MCT - EIXO VIAS
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbPolyline
+ 90
+    2
+ 70
+    0
+ 43
+0
+ 10
+342045.4788786008
+ 20
+7381302.582447212
+ 10
+342107.4289136492
+ 20
+7381273.072663604
+  0
+LWPOLYLINE
+  5
+B6
+100
+AcDbEntity
+  8
+MCT - EIXO VIAS
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbPolyline
+ 90
+    2
+ 70
+    0
+ 43
+0
+ 10
+342170.096572935
+ 20
+7381910.674947351
+ 10
+342358.9749525805
+ 20
+7381818.884900666
+  0
+LWPOLYLINE
+  5
+B7
+100
+AcDbEntity
+  8
+MCT - EIXO VIAS
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbPolyline
+ 90
+    3
+ 70
+    0
+ 43
+0
+ 10
+341759.8474163404
+ 20
+7381852.927130478
+ 10
+342076.4975642967
+ 20
+7381707.260893985
+ 10
+342267.1827630423
+ 20
+7381619.711419225
+  0
+LWPOLYLINE
+  5
+B8
+100
+AcDbEntity
+  8
+MCT - EIXO VIAS
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbPolyline
+ 90
+    3
+ 70
+    0
+ 43
+0
+ 10
+342019.7276905902
+ 20
+7381579.379083643
+ 10
+341988.5754556307
+ 20
+7381594.318917255
+ 10
+341735.3614529939
+ 20
+7381708.59474359
+  0
+LWPOLYLINE
+  5
+B9
+100
+AcDbEntity
+  8
+MCT - EIXO VIAS
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbPolyline
+ 90
+    3
+ 70
+    0
+ 43
+0
+ 10
+342213.2525848029
+ 20
+7381502.692080123
+ 10
+342129.6358977321
+ 20
+7381541.228127854
+ 10
+342024.1413375874
+ 20
+7381589.382611233
+  0
+LWPOLYLINE
+  5
+BA
+100
+AcDbEntity
+  8
+MCT - EIXO VIAS
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbPolyline
+ 90
+    2
+ 70
+    0
+ 43
+0
+ 10
+341769.7789054477
+ 20
+7381534.899990314
+ 10
+341829.0795536365
+ 20
+7381667.358801258
+  0
+LWPOLYLINE
+  5
+BB
+100
+AcDbEntity
+  8
+MCT - EIXO VIAS
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbPolyline
+ 90
+    7
+ 70
+    0
+ 43
+0
+ 10
+341811.1987450544
+ 20
+7382134.983776845
+ 10
+341763.2788316954
+ 20
+7382028.42809776
+ 10
+341680.9766685995
+ 20
+7381845.516116952
+ 10
+341505.4426309239
+ 20
+7381455.358660067
+ 10
+341442.3329208371
+ 20
+7381316.089903302
+ 10
+341368.3662019053
+ 20
+7381153.728276499
+ 10
+341272.7906465279
+ 20
+7380951.705884203
+  0
+LWPOLYLINE
+  5
+BC
+100
+AcDbEntity
+  8
+MCT - EIXO VIAS
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbPolyline
+ 90
+    3
+ 70
+    0
+ 43
+0
+ 10
+341133.1928697617
+ 20
+7381096.766663027
+ 10
+341268.6487539723
+ 20
+7380991.628950128
+ 10
+341455.6774710838
+ 20
+7380846.568248548
+  0
+LWPOLYLINE
+  5
+BD
+100
+AcDbEntity
+  8
+MCT - EIXO VIAS
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbPolyline
+ 90
+    2
+ 70
+    0
+ 43
+0
+ 10
+341341.4303051558
+ 20
+7380935.179100929
+ 10
+341383.7230924233
+ 20
+7381023.086678623
+  0
+LWPOLYLINE
+  5
+BE
+100
+AcDbEntity
+  8
+MCT - EIXO VIAS
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbPolyline
+ 90
+    2
+ 70
+    0
+ 43
+0
+ 10
+341397.557296002
+ 20
+7380891.646638133
+ 10
+341447.1845306671
+ 20
+7380994.316595343
+  0
+LWPOLYLINE
+  5
+BF
+100
+AcDbEntity
+  8
+MCT - EIXO VIAS
+  6
+CONTINUOUS
+ 62
+  256
+370
+   -1
+100
+AcDbPolyline
+ 90
+    2
+ 70
+    0
+ 43
+0
+ 10
+342688.5470637125
+ 20
+7382627.787759535
+ 10
+343169.405599609
+ 20
+7382654.869185167
+  0
+LWPOLYLINE
+  5
+C0
+100
+AcDbEntity
+  8
+MCT - EIXO VIAS
+  6
+CONTINUOUS
+ 62
+  256
+370
+   -1
+100
+AcDbPolyline
+ 90
+    4
+ 70
+    0
+ 43
+0
+ 10
+342722.7733797246
+ 20
+7382629.715348135
+ 10
+342716.5083667598
+ 20
+7382740.957090076
+ 10
+342920.6517753601
+ 20
+7382752.839940563
+ 10
+343135.090599609
+ 20
+7382765.847797883
+  0
+LWPOLYLINE
+  5
+C1
+100
+AcDbEntity
+  8
+MCT - EIXO VIAS
+  6
+CONTINUOUS
+ 62
+  256
+370
+   -1
+100
+AcDbPolyline
+ 90
+    4
+ 70
+    0
+ 43
+0
+ 10
+342935.8443833241
+ 20
+7382753.743790105
+ 10
+342938.0585893933
+ 20
+7382703.869932627
+ 10
+342945.2740019821
+ 20
+7382694.750360728
+ 10
+342947.6194220829
+ 20
+7382642.378430768
+  0
+LWPOLYLINE
+  5
+C2
+100
+AcDbEntity
+  8
+MCT - EIXO VIAS
+  6
+CONTINUOUS
+ 62
+  256
+370
+   -1
+100
+AcDbPolyline
+ 90
+    2
+ 70
+    0
+ 43
+0
+ 10
+342777.1431615401
+ 20
+7382690.034170727
+ 10
+342780.4755579892
+ 20
+7382632.965071563
+  0
+LINE
+  5
+C3
+100
+AcDbEntity
+  8
+MCT - EIXO VIAS
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbLine
+ 10
+341243.6713253485
+ 20
+7382099.384321259
+ 11
+341380.9232022128
+ 21
+7382163.117842788
+  0
+LWPOLYLINE
+  5
+C4
+100
+AcDbEntity
+  8
+MCT - EIXO VIAS
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbPolyline
+ 90
+    2
+ 70
+    0
+ 43
+0
+ 10
+342824.5957099883
+ 20
+7381642.821188405
+ 10
+342803.2334761113
+ 20
+7381595.072049349
+  0
+LWPOLYLINE
+  5
+C5
+100
+AcDbEntity
+  8
+MCT - EIXO VIAS
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbPolyline
+ 90
+    4
+ 70
+    0
+ 43
+0
+ 10
+342378.2668007055
+ 20
+7381860.7449388
+ 10
+342061.882248241
+ 20
+7381174.244125325
+ 10
+341976.2413599159
+ 20
+7380985.047609624
+ 10
+341833.5853822014
+ 20
+7380668.306700381
+  0
+LINE
+  5
+C6
+100
+AcDbEntity
+  8
+MCT - EIXO VIAS
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbLine
+ 10
+342898.6051705069
+ 20
+7381484.000971571
+ 11
+342710.3714892486
+ 21
+7381572.231645983
+  0
+LINE
+  5
+C7
+100
+AcDbEntity
+  8
+MCT - EIXO VIAS
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbLine
+ 10
+342710.3714892486
+ 20
+7381572.231645983
+ 11
+342326.7755987215
+ 21
+7381749.01776447
+  0
+LINE
+  5
+C8
+100
+AcDbEntity
+  8
+MCT - EIXO VIAS
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbLine
+ 10
+341120.759945419
+ 20
+7381142.300359361
+ 11
+341174.8421290636
+ 21
+7381262.524107443
+  0
+LINE
+  5
+C9
+100
+AcDbEntity
+  8
+MCT - EIXO VIAS
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbLine
+ 10
+341174.8421290636
+ 20
+7381262.524107443
+ 11
+341204.6216714277
+ 21
+7381326.597101316
+  0
+LINE
+  5
+CA
+100
+AcDbEntity
+  8
+MCT - EIXO VIAS
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbLine
+ 10
+341204.6216714277
+ 20
+7381326.597101316
+ 11
+341262.2880301999
+ 21
+7381449.665838918
+  0
+LINE
+  5
+CB
+100
+AcDbEntity
+  8
+MCT - EIXO VIAS
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbLine
+ 10
+341262.2880301999
+ 20
+7381449.665838918
+ 11
+341295.7886729958
+ 21
+7381522.590658554
+  0
+LINE
+  5
+CC
+100
+AcDbEntity
+  8
+MCT - EIXO VIAS
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbLine
+ 10
+341295.7886729958
+ 20
+7381522.590658554
+ 11
+341342.0308815426
+ 21
+7381628.037056652
+  0
+LINE
+  5
+CD
+100
+AcDbEntity
+  8
+MCT - EIXO VIAS
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbLine
+ 10
+341342.0308815426
+ 20
+7381628.037056652
+ 11
+341381.8198526104
+ 21
+7381710.322907593
+  0
+LINE
+  5
+CE
+100
+AcDbEntity
+  8
+MCT - EIXO VIAS
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbLine
+ 10
+341381.8198526104
+ 20
+7381710.322907593
+ 11
+341412.7082898438
+ 21
+7381778.152028982
+  0
+LINE
+  5
+CF
+100
+AcDbEntity
+  8
+MCT - EIXO VIAS
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbLine
+ 10
+341412.7082898438
+ 20
+7381778.152028982
+ 11
+341457.5626924563
+ 21
+7381876.494392051
+  0
+LINE
+  5
+D0
+100
+AcDbEntity
+  8
+MCT - EIXO VIAS
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbLine
+ 10
+341457.5626924563
+ 20
+7381876.494392051
+ 11
+341492.2336577764
+ 21
+7381950.556465991
+  0
+LINE
+  5
+D1
+100
+AcDbEntity
+  8
+MCT - EIXO VIAS
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbLine
+ 10
+341492.2336577764
+ 20
+7381950.556465991
+ 11
+341563.4900927719
+ 21
+7382102.604590163
+  0
+LINE
+  5
+D2
+100
+AcDbEntity
+  8
+MCT - EIXO VIAS
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbLine
+ 10
+341563.4900927719
+ 20
+7382102.604590163
+ 11
+341609.4391536844
+ 21
+7382200.553750172
+  0
+LWPOLYLINE
+  5
+D3
+100
+AcDbEntity
+  8
+MCT - EIXO VIAS
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbPolyline
+ 90
+    9
+ 70
+    0
+ 43
+0
+ 10
+342622.6532701332
+ 20
+7381381.314437179
+ 10
+342433.7971146845
+ 20
+7381467.644366471
+ 10
+342232.300251792
+ 20
+7381560.833737453
+ 10
+341846.0815496292
+ 20
+7381734.805806541
+ 10
+341763.2189221321
+ 20
+7381773.755379464
+ 10
+341463.7606890337
+ 20
+7381914.045667058
+ 10
+341404.0244259625
+ 20
+7381939.837642387
+ 10
+341271.7460372404
+ 20
+7381999.058862938
+ 10
+341158.0454271091
+ 20
+7382052.591900881
+  0
+LWPOLYLINE
+  5
+D4
+100
+AcDbEntity
+  8
+MCT - EIXO VIAS
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbPolyline
+ 90
+    7
+ 70
+    0
+ 43
+0
+ 10
+342164.8082280363
+ 20
+7380898.767428463
+ 10
+341996.0582232388
+ 20
+7380976.037370928
+ 10
+341811.3601844521
+ 20
+7381060.015011023
+ 10
+341529.9432488538
+ 20
+7381187.764471983
+ 10
+341162.305093494
+ 20
+7381354.635838822
+ 10
+340964.7468834345
+ 20
+7381446.116451792
+ 10
+340867.6997889683
+ 20
+7381488.88677682
+  0
+LWPOLYLINE
+  5
+D5
+100
+AcDbEntity
+  8
+MCT - EIXO VIAS
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbPolyline
+ 90
+    7
+ 70
+    0
+ 43
+0
+ 10
+340894.8363207557
+ 20
+7381262.52121659
+ 10
+340987.3966153674
+ 20
+7381197.803971682
+ 10
+341039.7547284747
+ 20
+7381173.976162402
+ 10
+341052.9738614524
+ 20
+7381173.717164838
+ 10
+341112.5895645529
+ 20
+7381146.00438096
+ 10
+341647.892119633
+ 20
+7380903.326315125
+ 10
+342048.8341672071
+ 20
+7380720.810200597
+  0
+LWPOLYLINE
+  5
+D6
+100
+AcDbEntity
+  8
+MCT - EIXO VIAS
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbPolyline
+ 90
+    2
+ 70
+    0
+ 43
+0
+ 10
+341877.9303826455
+ 20
+7381258.537660958
+ 10
+342310.6739233902
+ 20
+7381060.238595313
+  0
+LWPOLYLINE
+  5
+D7
+100
+AcDbEntity
+  8
+MCT - EIXO VIAS
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbPolyline
+ 90
+    5
+ 70
+    0
+ 43
+0
+ 10
+341455.6774710838
+ 20
+7380846.568248548
+ 10
+341501.3093526563
+ 20
+7380940.700922695
+ 10
+341544.0714877547
+ 20
+7381033.6733015
+ 10
+341554.8596330126
+ 20
+7381058.035346228
+ 10
+341598.9498081954
+ 20
+7381156.438884772
+  0
+LWPOLYLINE
+  5
+D8
+100
+AcDbEntity
+  8
+MCT - EIXO VIAS
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbPolyline
+ 90
+    2
+ 70
+    0
+ 43
+0
+ 10
+341769.7789054477
+ 20
+7381534.899990314
+ 10
+341683.7903431027
+ 20
+7381344.74623361
+  0
+LWPOLYLINE
+  5
+D9
+100
+AcDbEntity
+  8
+MCT - EIXO VIAS
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbPolyline
+ 90
+    2
+ 70
+    0
+ 43
+0
+ 10
+341997.5281717138
+ 20
+7382043.487907243
+ 10
+341829.0795536365
+ 20
+7381667.358801258
+  0
+LWPOLYLINE
+  5
+DA
+100
+AcDbEntity
+  8
+MCT - EIXO VIAS
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbPolyline
+ 90
+    2
+ 70
+    0
+ 43
+0
+ 10
+342634.1409815772
+ 20
+7381735.599029533
+ 10
+342490.8446894104
+ 20
+7381432.454770458
+  0
+LWPOLYLINE
+  5
+DB
+100
+AcDbEntity
+  8
+MCT - EIXO VIAS
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbPolyline
+ 90
+    2
+ 70
+    0
+ 43
+0
+ 10
+342647.736596603
+ 20
+7381601.039967428
+ 10
+342560.3206103879
+ 20
+7381409.807943762
+  0
+LWPOLYLINE
+  5
+DC
+100
+AcDbEntity
+  8
+MCT - EIXO VIAS
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbPolyline
+ 90
+    2
+ 70
+    0
+ 43
+0
+ 10
+341357.56187615
+ 20
+7381580.323628055
+ 10
+341425.5191742915
+ 20
+7381548.663777784
+  0
+LWPOLYLINE
+  5
+DD
+100
+AcDbEntity
+  8
+MCT - EIXO VIAS
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbPolyline
+ 90
+    2
+ 70
+    0
+ 43
+0
+ 10
+341471.7036234693
+ 20
+7381512.303305099
+ 10
+341520.670032224
+ 20
+7381489.20442722
+  0
+LWPOLYLINE
+  5
+DE
+100
+AcDbEntity
+  8
+MCT - EIXO VIAS
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbPolyline
+ 90
+    2
+ 70
+    0
+ 43
+0
+ 10
+341644.9294305361
+ 20
+7381598.153919762
+ 10
+341557.2567784745
+ 20
+7381404.262455669
+  0
+LWPOLYLINE
+  5
+DF
+100
+AcDbEntity
+  8
+MCT - EIXO VIAS
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbPolyline
+ 90
+    2
+ 70
+    0
+ 43
+0
+ 10
+341708.1781274934
+ 20
+7381569.023225052
+ 10
+341620.7704024362
+ 20
+7381375.565798798
+  0
+LWPOLYLINE
+  5
+E0
+100
+AcDbEntity
+  8
+MCT - EIXO VIAS
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbPolyline
+ 90
+    2
+ 70
+    0
+ 43
+0
+ 10
+341944.4528563079
+ 20
+7381228.054607763
+ 10
+341983.9745595211
+ 20
+7381316.34053556
+  0
+LWPOLYLINE
+  5
+E1
+100
+AcDbEntity
+  8
+MCT - EIXO VIAS
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbPolyline
+ 90
+    3
+ 70
+    0
+ 43
+0
+ 10
+342192.1273615593
+ 20
+7380946.436854554
+ 10
+342430.2081470461
+ 20
+7381469.30421185
+ 10
+342568.9806025265
+ 20
+7381762.34779307
+  0
+LWPOLYLINE
+  5
+E2
+100
+AcDbEntity
+  8
+MCT - EIXO VIAS
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbPolyline
+ 90
+    7
+ 70
+    0
+ 43
+0
+ 10
+342149.9948952261
+ 20
+7381365.433623555
+ 10
+341960.7935751689
+ 20
+7381453.645494749
+ 10
+341894.2428021264
+ 20
+7381482.871249593
+ 10
+341682.7809144845
+ 20
+7381580.782684907
+ 10
+341420.7803057959
+ 20
+7381701.022993368
+ 10
+341151.1617618724
+ 20
+7381822.47272318
+ 10
+341073.7311472354
+ 20
+7381857.88650504
+  0
+LWPOLYLINE
+  5
+E3
+100
+AcDbEntity
+  8
+MCT - EIXO VIAS
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbPolyline
+ 90
+    9
+ 70
+    0
+ 43
+0
+ 10
+341619.1073389633
+ 20
+7380693.762601728
+ 10
+341683.781396312
+ 20
+7380841.738340404
+ 10
+341788.9038442304
+ 20
+7381068.109462757
+ 10
+341807.625871259
+ 20
+7381111.167053412
+ 10
+341872.7733281559
+ 20
+7381255.622278378
+ 10
+341977.8910071722
+ 20
+7381484.556272229
+ 10
+342070.3570825559
+ 20
+7381694.130562348
+ 10
+342108.49324737
+ 20
+7381775.677990146
+ 10
+342183.1770987007
+ 20
+7381941.975748302
+  0
+LWPOLYLINE
+  5
+E4
+100
+AcDbEntity
+  8
+MCT - EIXO VIAS
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbPolyline
+ 90
+    8
+ 70
+    0
+ 43
+0
+ 10
+341696.8384734349
+ 20
+7380954.096940737
+ 10
+341708.6146304978
+ 20
+7380980.582619383
+ 10
+341708.9989662848
+ 20
+7380983.334933257
+ 10
+341708.494709383
+ 20
+7380985.467799703
+ 10
+341707.5454920168
+ 20
+7380987.097075765
+ 10
+341706.5851269202
+ 20
+7380987.886430924
+ 10
+341706.0275980992
+ 20
+7380988.215381583
+ 10
+341568.8665789597
+ 20
+7381050.531552717
+  0
+LWPOLYLINE
+  5
+E5
+100
+AcDbEntity
+  8
+MCT - EIXO VIAS
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbPolyline
+ 90
+   12
+ 70
+    0
+ 43
+0
+ 10
+341000.4554719586
+ 20
+7381191.860977833
+ 10
+341032.2290897813
+ 20
+7381254.738613672
+ 10
+341038.670959842
+ 20
+7381259.742401407
+ 10
+341047.5364413203
+ 20
+7381262.372110442
+ 10
+341055.0831225987
+ 20
+7381261.674251943
+ 10
+341063.2587256085
+ 20
+7381259.231789905
+ 10
+341069.5476108613
+ 20
+7381254.62601948
+ 10
+341074.3838757147
+ 20
+7381245.995233018
+ 10
+341075.9638174241
+ 20
+7381236.190125513
+ 10
+341075.5418639772
+ 20
+7381233.38909086
+ 10
+341075.275409507
+ 20
+7381232.279070309
+ 10
+341048.4687109931
+ 20
+7381173.805432577
+  0
+LWPOLYLINE
+  5
+E6
+100
+AcDbEntity
+  8
+MCT - EIXO VIAS
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbPolyline
+ 90
+   10
+ 70
+    0
+ 43
+0
+ 10
+341931.3165592779
+ 20
+7381928.473107211
+ 10
+341420.7760013103
+ 20
+7382167.050081634
+ 10
+341417.7639423679
+ 20
+7382168.141981752
+ 10
+341414.9896466162
+ 20
+7382168.928745632
+ 10
+341406.9972332991
+ 20
+7382170.116635254
+ 10
+341401.0672754877
+ 20
+7382170.015564106
+ 10
+341394.7253449183
+ 20
+7382168.978078571
+ 10
+341386.652830721
+ 20
+7382166.13890253
+ 10
+341383.6930226813
+ 20
+7382164.605937377
+ 10
+341380.9232022128
+ 20
+7382163.117842788
+  0
+LWPOLYLINE
+  5
+E7
+100
+AcDbEntity
+  8
+MCT - EIXO VIAS
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbPolyline
+ 90
+    6
+ 70
+    0
+ 43
+0
+ 10
+341204.8977914218
+ 20
+7382030.53265781
+ 10
+341226.0449334612
+ 20
+7382078.413576209
+ 10
+341230.3242078143
+ 20
+7382087.961315028
+ 10
+341235.0891271943
+ 20
+7382093.78438738
+ 10
+341240.7318235934
+ 20
+7382097.729044884
+ 10
+341243.6713253485
+ 20
+7382099.384321259
+  0
+LWPOLYLINE
+  5
+E8
+100
+AcDbEntity
+  8
+MCT - EIXO VIAS
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbPolyline
+ 90
+    6
+ 70
+    0
+ 43
+0
+ 10
+341527.2714317357
+ 20
+7381069.039667018
+ 10
+341451.6683482749
+ 20
+7381103.686050924
+ 10
+341447.0563577204
+ 20
+7381105.61667456
+ 10
+341442.7337250778
+ 20
+7381107.110619971
+ 10
+341437.0175451851
+ 20
+7381108.649312466
+ 10
+341424.6969127486
+ 20
+7381108.795270762
+  0
+ENDBLK
+  5
+91
+330
+8F
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockEnd
+  0
+ENDSEC
+  0
+SECTION
+  2
+ENTITIES
+  0
+LWPOLYLINE
+  5
+E9
+100
+AcDbEntity
+  8
+RUA HEITOR VILLA LOBOS - 06_01_2021 - PAL79
+  6
+CONTINUOUS
+ 62
+  256
+370
+   -1
+100
+AcDbPolyline
+ 90
+    2
+ 70
+    0
+ 43
+0
+ 10
+338719.5649192181
+ 20
+7382686.684860837
+ 10
+339153.4953035808
+ 20
+7382712.107935484
+  0
+LWPOLYLINE
+  5
+EA
+100
+AcDbEntity
+  8
+RUA CANIND� - 06_01_2021 - PAL50
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbPolyline
+ 90
+    3
+ 70
+    0
+ 43
+0
+ 10
+338549.7154529405
+ 20
+7381220.083427758
+ 10
+338639.9814097907
+ 20
+7381178.26609389
+ 10
+338660.4421788311
+ 20
+7381222.739638782
+  0
+LWPOLYLINE
+  5
+EB
+100
+AcDbEntity
+  8
+RUA PEDRO DE TOLEDO - 06_01_2021 - PAL49
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbPolyline
+ 90
+    3
+ 70
+    0
+ 43
+0
+ 10
+338758.9713842459
+ 20
+7381673.881939745
+ 10
+338569.8111953115
+ 20
+7381262.986732386
+ 10
+338507.4584617187
+ 20
+7381129.867075777
+  0
+LWPOLYLINE
+  5
+EC
+100
+AcDbEntity
+  8
+RUA S�O JOS� - 06_01_2021 - PAL20
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbPolyline
+ 90
+    2
+ 70
+    0
+ 43
+0
+ 10
+338914.3684500093
+ 20
+7381543.8915531
+ 10
+338736.779213127
+ 20
+7381625.675936118
+  0
+LWPOLYLINE
+  5
+ED
+100
+AcDbEntity
+  8
+RUA TATUAP� - 06_01_2021 - PAL18
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbPolyline
+ 90
+    2
+ 70
+    0
+ 43
+0
+ 10
+338599.9829551484
+ 20
+7381328.526059579
+ 10
+338783.6634482074
+ 20
+7381243.252366052
+  0
+LWPOLYLINE
+  5
+EE
+100
+AcDbEntity
+  8
+RUA JAC� DO BANDOLIM - 06_01_2021 - PAL19
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbPolyline
+ 90
+    3
+ 70
+    0
+ 43
+0
+ 10
+338569.8111953121
+ 20
+7381262.98673239
+ 10
+338660.4421788311
+ 20
+7381222.739638782
+ 10
+338752.1869069924
+ 20
+7381179.026817517
+  0
+LWPOLYLINE
+  5
+EF
+100
+AcDbEntity
+  8
+RUA DELFIM MOREIRA - 06_01_2021 - PAL64
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbPolyline
+ 90
+    2
+ 70
+    0
+ 43
+0
+ 10
+338119.3352915281
+ 20
+7381799.379192503
+ 10
+338022.9266810792
+ 20
+7381841.537923244
+  0
+LWPOLYLINE
+  5
+F0
+100
+AcDbEntity
+  8
+RUA MANOEL SIM�ES DE SOUZA - 06_01_2021 - PAL63
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbPolyline
+ 90
+    2
+ 70
+    0
+ 43
+0
+ 10
+337818.4095293854
+ 20
+7381900.828012848
+ 10
+337913.9906566744
+ 20
+7381858.198295731
+  0
+LWPOLYLINE
+  5
+F1
+100
+AcDbEntity
+  8
+RUA PAULO VIRG�NIO - 06_01_2021 - PAL8
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbPolyline
+ 90
+    3
+ 70
+    0
+ 43
+0
+ 10
+337603.1302593093
+ 20
+7382187.105142247
+ 10
+337660.149436322
+ 20
+7382161.591809592
+ 10
+337620.4988387949
+ 20
+7382073.719063076
+  0
+LWPOLYLINE
+  5
+F2
+100
+AcDbEntity
+  8
+RUA 17 DE MAR�O - 06_01_2021 - PAL73
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbPolyline
+ 90
+    7
+ 70
+    0
+ 43
+0
+ 10
+337709.3376800986
+ 20
+7382173.489349217
+ 10
+337634.7582072436
+ 20
+7382012.583758046
+ 10
+337556.0038010487
+ 20
+7381840.574093923
+ 10
+337509.5452056727
+ 20
+7381735.777597553
+ 10
+337481.2384350502
+ 20
+7381670.618051015
+ 10
+337455.510817654
+ 20
+7381613.590569735
+ 10
+337393.3763835904
+ 20
+7381479.080118786
+  0
+LWPOLYLINE
+  5
+F3
+100
+AcDbEntity
+  8
+RUA SANTA CRUZ - 06_01_20210 - PAL14
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbPolyline
+ 90
+    2
+ 70
+    0
+ 43
+0
+ 10
+337234.6833870852
+ 20
+7381922.942083101
+ 10
+337435.9351971052
+ 20
+7381829.076549516
+  0
+LWPOLYLINE
+  5
+F4
+100
+AcDbEntity
+  8
+RUA PIETRO ROMANI - 06_01_2021 - PAL11
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbPolyline
+ 90
+    3
+ 70
+    0
+ 43
+0
+ 10
+337327.3216748602
+ 20
+7381974.177571863
+ 10
+337361.4362675727
+ 20
+7382049.340820993
+ 10
+337414.9896466163
+ 20
+7382168.928745632
+  0
+LWPOLYLINE
+  5
+F5
+100
+AcDbEntity
+  8
+RUA ARNALDO PSOTA - 06_01_2021 - PAL9
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbPolyline
+ 90
+    2
+ 70
+    0
+ 43
+0
+ 10
+337512.587074669
+ 20
+7382124.146520383
+ 10
+337579.1621442262
+ 20
+7382266.411377222
+  0
+LWPOLYLINE
+  5
+F6
+100
+AcDbEntity
+  8
+RUA NEWTON - 06_01_2021 - PAL10
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbPolyline
+ 90
+    2
+ 70
+    0
+ 43
+0
+ 10
+337467.0127601628
+ 20
+7382145.443519997
+ 10
+337378.9290445166
+ 20
+7381951.072879933
+  0
+LWPOLYLINE
+  5
+F7
+100
+AcDbEntity
+  8
+RUA ERMANO GUAZZELLI - 06_01_2021 - PAL12
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbPolyline
+ 90
+    3
+ 70
+    0
+ 43
+0
+ 10
+337246.4932210383
+ 20
+7381779.530647349
+ 10
+337298.8090362163
+ 20
+7381896.202497467
+ 10
+337332.2511765649
+ 20
+7381971.970627023
+  0
+LWPOLYLINE
+  5
+F8
+100
+AcDbEntity
+  8
+RUA NAPOLE�O DE ALENCASTRO GUIMAR�ES - 06_01_2021 - PAL13
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbPolyline
+ 90
+    4
+ 70
+    0
+ 43
+0
+ 10
+337242.8356778787
+ 20
+7381940.593035531
+ 10
+337166.2612276016
+ 20
+7381974.618836927
+ 10
+337140.9194351379
+ 20
+7381918.385410425
+ 10
+337216.5582426514
+ 20
+7381882.502875154
+  0
+LWPOLYLINE
+  5
+F9
+100
+AcDbEntity
+  8
+RUA CAMARGO - 06_01_2021 - PAL71
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbPolyline
+ 90
+   10
+ 70
+    0
+ 43
+0
+ 10
+336894.8363207557
+ 20
+7381262.52121659
+ 10
+336935.9244645087
+ 20
+7381347.176315645
+ 10
+337014.5874347963
+ 20
+7381516.79852252
+ 10
+337043.8927066852
+ 20
+7381578.352441106
+ 10
+337074.9252172609
+ 20
+7381644.433034945
+ 10
+337151.787210516
+ 20
+7381760.812823987
+ 10
+337184.8366856951
+ 20
+7381811.083141992
+ 10
+337230.4103737139
+ 20
+7381913.690357707
+ 10
+337269.1239477088
+ 20
+7382000.231831833
+ 10
+337331.2564312729
+ 20
+7382140.054856056
+  0
+LWPOLYLINE
+  5
+FA
+100
+AcDbEntity
+  8
+RUA JO�O BIANCALANA - 06_01_2021 - PAL70
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbPolyline
+ 90
+    4
+ 70
+    0
+ 43
+0
+ 10
+337060.1040119258
+ 20
+7381260.174260865
+ 10
+337086.3063968712
+ 20
+7381314.201005908
+ 10
+337116.0401066398
+ 20
+7381376.059141631
+ 10
+337288.1633953189
+ 20
+7381760.760308582
+  0
+LWPOLYLINE
+  5
+FB
+100
+AcDbEntity
+  8
+RUA BOM RETIRO - 06_01_2021 - PAL2
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbPolyline
+ 90
+    5
+ 70
+    0
+ 43
+0
+ 10
+337148.3441141668
+ 20
+7381203.631972789
+ 10
+337246.594486056
+ 20
+7381159.321518413
+ 10
+337309.9120281072
+ 20
+7381131.014149403
+ 10
+337327.7737649627
+ 20
+7381131.524300624
+ 10
+337358.0823705884
+ 20
+7381132.635488267
+  0
+LWPOLYLINE
+  5
+FC
+100
+AcDbEntity
+  8
+RUA PERDIZES - 06_01_2021 - PAL4
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbPolyline
+ 90
+    3
+ 70
+    0
+ 43
+0
+ 10
+337348.4873583391
+ 20
+7381111.436954691
+ 10
+337409.0329676086
+ 20
+7381085.422977839
+ 10
+337729.118527173
+ 20
+7380939.367509057
+  0
+LWPOLYLINE
+  5
+FD
+100
+AcDbEntity
+  8
+RUA ACLIMA��O - 06_01_2021 - PAL56
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbPolyline
+ 90
+    3
+ 70
+    0
+ 43
+0
+ 10
+337667.7783016685
+ 20
+7381135.595879868
+ 10
+337717.6223638122
+ 20
+7381248.667347898
+ 10
+337834.9318827849
+ 20
+7381510.333490224
+  0
+LWPOLYLINE
+  5
+FE
+100
+AcDbEntity
+  8
+RUA TENENTE PEREIRA SOBRINHO - 06_01_2021 - PAL16
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbPolyline
+ 90
+    2
+ 70
+    0
+ 43
+0
+ 10
+337560.8946134113
+ 20
+7381253.444113151
+ 10
+337628.54009961
+ 20
+7381222.115855499
+  0
+LWPOLYLINE
+  5
+FF
+100
+AcDbEntity
+  8
+RUA REGENTE BR�ULIO MUNIZ - 06_01_2021 - PAL17
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbPolyline
+ 90
+    2
+ 70
+    0
+ 43
+0
+ 10
+337542.3273496923
+ 20
+7381212.196064932
+ 10
+337573.9042362012
+ 20
+7381281.924623526
+  0
+LWPOLYLINE
+  5
+100
+100
+AcDbEntity
+  8
+RUA BRAZ - 06_01_2021 - PAL57
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbPolyline
+ 90
+    2
+ 70
+    0
+ 43
+0
+ 10
+337811.7983910633
+ 20
+7381288.51602423
+ 10
+337898.180805916
+ 20
+7381481.141876243
+  0
+LWPOLYLINE
+  5
+101
+100
+AcDbEntity
+  8
+RUA BEL�M - 06_01_2021 - PAL53
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbPolyline
+ 90
+    2
+ 70
+    0
+ 43
+0
+ 10
+337705.4214404078
+ 20
+7381645.435509814
+ 10
+338179.4951004968
+ 20
+7381429.444065145
+  0
+LWPOLYLINE
+  5
+102
+100
+AcDbEntity
+  8
+RUA JO�O DEPOLLI - 06_01_2021 - PAL60
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbPolyline
+ 90
+    2
+ 70
+    0
+ 43
+0
+ 10
+338000.0073995122
+ 20
+7381202.597465202
+ 10
+338087.3475372808
+ 20
+7381394.645365967
+  0
+LWPOLYLINE
+  5
+103
+100
+AcDbEntity
+  8
+RUA VER�O - 06_01_2021 -  PAL61
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbPolyline
+ 90
+    2
+ 70
+    0
+ 43
+0
+ 10
+338045.4788786007
+ 20
+7381302.582447212
+ 10
+338107.4289136492
+ 20
+7381273.072663604
+  0
+LWPOLYLINE
+  5
+104
+100
+AcDbEntity
+  8
+RUA PASCHOAL - 06_01_2021 - PAL34
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbPolyline
+ 90
+    2
+ 70
+    0
+ 43
+0
+ 10
+338170.0965729351
+ 20
+7381910.674947351
+ 10
+338358.9749525806
+ 20
+7381818.884900666
+  0
+LWPOLYLINE
+  5
+105
+100
+AcDbEntity
+  8
+RUA GINO AMADEI - 06_01_2021 - PAL62
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbPolyline
+ 90
+    3
+ 70
+    0
+ 43
+0
+ 10
+337759.8474163404
+ 20
+7381852.927130478
+ 10
+338076.4975642967
+ 20
+7381707.260893985
+ 10
+338267.1827630423
+ 20
+7381619.711419225
+  0
+LWPOLYLINE
+  5
+106
+100
+AcDbEntity
+  8
+RUA ALMERINA CEMOLINE REBULCI - 06_01_2021 - PAL51
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbPolyline
+ 90
+    3
+ 70
+    0
+ 43
+0
+ 10
+338019.7276905902
+ 20
+7381579.379083643
+ 10
+337988.5754556307
+ 20
+7381594.318917255
+ 10
+337735.3614529939
+ 20
+7381708.59474359
+  0
+LWPOLYLINE
+  5
+107
+100
+AcDbEntity
+  8
+RUA NOSSA SENHORA APARECIDA - 06_01_2021 - PAL52
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbPolyline
+ 90
+    3
+ 70
+    0
+ 43
+0
+ 10
+338213.2525848029
+ 20
+7381502.692080123
+ 10
+338129.6358977321
+ 20
+7381541.228127854
+ 10
+338024.1413375874
+ 20
+7381589.382611233
+  0
+LWPOLYLINE
+  5
+108
+100
+AcDbEntity
+  8
+RUA MARTINS - 06_01_2021 - PAL30
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbPolyline
+ 90
+    7
+ 70
+    0
+ 43
+0
+ 10
+337811.1987450544
+ 20
+7382134.983776845
+ 10
+337763.2788316955
+ 20
+7382028.42809776
+ 10
+337680.9766685995
+ 20
+7381845.516116952
+ 10
+337505.4426309239
+ 20
+7381455.358660067
+ 10
+337442.3329208371
+ 20
+7381316.089903302
+ 10
+337368.3662019053
+ 20
+7381153.728276499
+ 10
+337272.7906465279
+ 20
+7380951.705884203
+  0
+LWPOLYLINE
+  5
+109
+100
+AcDbEntity
+  8
+RUA ALTO PARAN� - 06_01_2021 - PAL1
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbPolyline
+ 90
+    3
+ 70
+    0
+ 43
+0
+ 10
+337133.1928697617
+ 20
+7381096.766663027
+ 10
+337268.6487539723
+ 20
+7380991.628950128
+ 10
+337455.6774710838
+ 20
+7380846.568248548
+  0
+LWPOLYLINE
+  5
+10A
+100
+AcDbEntity
+  8
+RUA MARING� - 06_01_2021 - PAL7
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbPolyline
+ 90
+    2
+ 70
+    0
+ 43
+0
+ 10
+337341.4303051558
+ 20
+7380935.179100929
+ 10
+337383.7230924233
+ 20
+7381023.086678623
+  0
+LWPOLYLINE
+  5
+10B
+100
+AcDbEntity
+  8
+RUA PARANAVA� - 06_01_2021 - PAL6
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbPolyline
+ 90
+    2
+ 70
+    0
+ 43
+0
+ 10
+337397.557296002
+ 20
+7380891.646638133
+ 10
+337447.1845306671
+ 20
+7380994.316595343
+  0
+LWPOLYLINE
+  5
+10C
+100
+AcDbEntity
+  8
+RUA FERN�O DIAS PAES LEME - 06_01_2021 - PAL78
+  6
+CONTINUOUS
+ 62
+  256
+370
+   -1
+100
+AcDbPolyline
+ 90
+    2
+ 70
+    0
+ 43
+0
+ 10
+338688.5470637125
+ 20
+7382627.787759535
+ 10
+339169.405599609
+ 20
+7382654.869185167
+  0
+LWPOLYLINE
+  5
+10D
+100
+AcDbEntity
+  8
+RUA PEDRO CHAVES - 06_01_2021 - PAL80
+  6
+CONTINUOUS
+ 62
+  256
+370
+   -1
+100
+AcDbPolyline
+ 90
+    2
+ 70
+    0
+ 43
+0
+ 10
+338777.1431615401
+ 20
+7382690.034170727
+ 10
+338780.4755579892
+ 20
+7382632.965071563
+  0
+LWPOLYLINE
+  5
+10E
+100
+AcDbEntity
+  8
+TRAVESSA S�O JOS� - 06_01_2021 - PAL21
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbPolyline
+ 90
+    2
+ 70
+    0
+ 43
+0
+ 10
+338824.5957099883
+ 20
+7381642.821188405
+ 10
+338803.2334761113
+ 20
+7381595.072049349
+  0
+LWPOLYLINE
+  5
+10F
+100
+AcDbEntity
+  8
+RUA L�BERO BADAR� - 06_01_2021 - PAL36
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbPolyline
+ 90
+    4
+ 70
+    0
+ 43
+0
+ 10
+338378.2668007056
+ 20
+7381860.7449388
+ 10
+338061.882248241
+ 20
+7381174.244125325
+ 10
+337976.2413599159
+ 20
+7380985.047609624
+ 10
+337833.5853822014
+ 20
+7380668.306700381
+  0
+LWPOLYLINE
+  5
+110
+100
+AcDbEntity
+  8
+RUA GENERAL BERTOLDO KLINGER - 06_01_2021 - PAL66
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbPolyline
+ 90
+    7
+ 70
+    0
+ 43
+0
+ 10
+338164.8082280363
+ 20
+7380898.767428463
+ 10
+337996.0582232389
+ 20
+7380976.037370928
+ 10
+337811.3601844521
+ 20
+7381060.015011023
+ 10
+337529.9432488538
+ 20
+7381187.764471983
+ 10
+337162.305093494
+ 20
+7381354.635838822
+ 10
+336964.7468834345
+ 20
+7381446.116451792
+ 10
+336867.6997889683
+ 20
+7381488.88677682
+  0
+LWPOLYLINE
+  5
+111
+100
+AcDbEntity
+  8
+RUA GENERAL IZIDORO DIAS LOPES - 06_01_2021 - PAL67
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbPolyline
+ 90
+    7
+ 70
+    0
+ 43
+0
+ 10
+336894.8363207557
+ 20
+7381262.52121659
+ 10
+336987.3966153674
+ 20
+7381197.803971682
+ 10
+337039.7547284748
+ 20
+7381173.976162402
+ 10
+337052.9738614524
+ 20
+7381173.717164838
+ 10
+337112.5895645529
+ 20
+7381146.00438096
+ 10
+337647.892119633
+ 20
+7380903.326315125
+ 10
+338048.8341672072
+ 20
+7380720.810200597
+  0
+LWPOLYLINE
+  5
+112
+100
+AcDbEntity
+  8
+RUA DA PENHA - 06_01_2021 - PAL46
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbPolyline
+ 90
+    2
+ 70
+    0
+ 43
+0
+ 10
+338647.736596603
+ 20
+7381601.039967428
+ 10
+338560.3206103878
+ 20
+7381409.807943762
+  0
+LWPOLYLINE
+  5
+113
+100
+AcDbEntity
+  8
+RUA JOAQUIM JOS� DE FRAN�A - 06_01_2021 - PAL75
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbPolyline
+ 90
+    2
+ 70
+    0
+ 43
+0
+ 10
+337357.56187615
+ 20
+7381580.323628055
+ 10
+337425.5191742915
+ 20
+7381548.663777784
+  0
+LWPOLYLINE
+  5
+114
+100
+AcDbEntity
+  8
+RUA ROSA CAPASSI - 06_01_2021 - PAL74
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbPolyline
+ 90
+    2
+ 70
+    0
+ 43
+0
+ 10
+337471.7036234692
+ 20
+7381512.303305099
+ 10
+337520.670032224
+ 20
+7381489.20442722
+  0
+LWPOLYLINE
+  5
+115
+100
+AcDbEntity
+  8
+RUA LAPA - 06_01_2021 - PAL54
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbPolyline
+ 90
+    2
+ 70
+    0
+ 43
+0
+ 10
+337644.9294305361
+ 20
+7381598.153919762
+ 10
+337557.2567784745
+ 20
+7381404.262455669
+  0
+LWPOLYLINE
+  5
+116
+100
+AcDbEntity
+  8
+RUA JABAQUARA - 06_01_2021 - PAL55
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbPolyline
+ 90
+    2
+ 70
+    0
+ 43
+0
+ 10
+337708.1781274934
+ 20
+7381569.023225052
+ 10
+337620.7704024363
+ 20
+7381375.565798798
+  0
+LWPOLYLINE
+  5
+117
+100
+AcDbEntity
+  8
+RUA SENJI SUGUINO - 06_01_2021 - PAL58
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbPolyline
+ 90
+    2
+ 70
+    0
+ 43
+0
+ 10
+337944.4528563079
+ 20
+7381228.054607763
+ 10
+337983.9745595211
+ 20
+7381316.34053556
+  0
+LWPOLYLINE
+  5
+118
+100
+AcDbEntity
+  8
+RUA XAVIER DE TOLEDO - 06_01_2021 - PAL48
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbPolyline
+ 90
+    3
+ 70
+    0
+ 43
+0
+ 10
+338192.1273615593
+ 20
+7380946.436854554
+ 10
+338430.2081470461
+ 20
+7381469.30421185
+ 10
+338568.9806025265
+ 20
+7381762.34779307
+  0
+LWPOLYLINE
+  5
+119
+100
+AcDbEntity
+  8
+RUA C�SPER L�BERO - 06_01_2021 - PAL28 - PAL29
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbPolyline
+ 90
+    7
+ 70
+    0
+ 43
+0
+ 10
+338149.9948952261
+ 20
+7381365.433623555
+ 10
+337960.7935751689
+ 20
+7381453.645494749
+ 10
+337894.2428021264
+ 20
+7381482.871249593
+ 10
+337682.7809144845
+ 20
+7381580.782684907
+ 10
+337420.7803057959
+ 20
+7381701.022993368
+ 10
+337151.1617618724
+ 20
+7381822.47272318
+ 10
+337073.7311472354
+ 20
+7381857.88650504
+  0
+LWPOLYLINE
+  5
+11A
+100
+AcDbEntity
+  8
+RUA M.M.D.C. - 06_01_2021 - PAL33
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbPolyline
+ 90
+    9
+ 70
+    0
+ 43
+0
+ 10
+337619.1073389634
+ 20
+7380693.762601728
+ 10
+337683.781396312
+ 20
+7380841.738340404
+ 10
+337788.9038442305
+ 20
+7381068.109462757
+ 10
+337807.625871259
+ 20
+7381111.167053412
+ 10
+337872.7733281559
+ 20
+7381255.622278378
+ 10
+337977.8910071722
+ 20
+7381484.556272229
+ 10
+338070.3570825559
+ 20
+7381694.130562348
+ 10
+338108.49324737
+ 20
+7381775.677990146
+ 10
+338183.1770987008
+ 20
+7381941.975748302
+  0
+LWPOLYLINE
+  5
+11B
+100
+AcDbEntity
+  8
+RUA NOVA LONDRINA - 06_01_2021 - PAL69
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbPolyline
+ 90
+   12
+ 70
+    0
+ 43
+0
+ 10
+337000.4554719586
+ 20
+7381191.860977833
+ 10
+337032.2290897814
+ 20
+7381254.738613672
+ 10
+337038.670959842
+ 20
+7381259.742401407
+ 10
+337047.5364413203
+ 20
+7381262.372110442
+ 10
+337055.0831225987
+ 20
+7381261.674251943
+ 10
+337063.2587256084
+ 20
+7381259.231789905
+ 10
+337069.5476108613
+ 20
+7381254.62601948
+ 10
+337074.3838757147
+ 20
+7381245.995233018
+ 10
+337075.9638174241
+ 20
+7381236.190125513
+ 10
+337075.5418639774
+ 20
+7381233.38909086
+ 10
+337075.275409507
+ 20
+7381232.279070309
+ 10
+337048.4687109931
+ 20
+7381173.805432577
+  0
+LWPOLYLINE
+  5
+11C
+100
+AcDbEntity
+  8
+VIELA DOS GER�NIOS - 06_01_2021 - PAL5
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbPolyline
+ 90
+   15
+ 70
+    0
+ 43
+0
+ 10
+337696.8384734349
+ 20
+7380954.096940737
+ 10
+337708.6146304977
+ 20
+7380980.582619383
+ 10
+337708.9989662848
+ 20
+7380983.334933257
+ 10
+337708.494709383
+ 20
+7380985.467799703
+ 10
+337707.5454920167
+ 20
+7380987.097075765
+ 10
+337706.5851269203
+ 20
+7380987.886430924
+ 10
+337706.0275980992
+ 20
+7380988.215381583
+ 10
+337568.8665789597
+ 20
+7381050.531552717
+ 10
+337527.2714317357
+ 20
+7381069.039667018
+ 10
+337451.6683482749
+ 20
+7381103.686050924
+ 10
+337447.0563577204
+ 20
+7381105.61667456
+ 10
+337442.7337250779
+ 20
+7381107.110619971
+ 10
+337437.0175451851
+ 20
+7381108.649312466
+ 10
+337424.6969127489
+ 20
+7381108.795270762
+ 10
+337360.226166244
+ 20
+7381106.393268111
+  0
+LWPOLYLINE
+  5
+11D
+100
+AcDbEntity
+  8
+PRA�A BARTHOLOMEU FERRERO - 06_01_2021 - PAL77
+  6
+CONTINUOUS
+ 62
+  256
+370
+   -1
+100
+AcDbPolyline
+ 90
+    2
+ 70
+    0
+ 43
+0
+ 10
+338722.7733797246
+ 20
+7382629.715348135
+ 10
+338716.5083667597
+ 20
+7382740.957090074
+  0
+LWPOLYLINE
+  5
+11E
+100
+AcDbEntity
+  8
+RUA CACIQUE TIBIRI�� - 06_01_2021 - PAL76
+  6
+CONTINUOUS
+ 62
+  256
+370
+   -1
+100
+AcDbPolyline
+ 90
+    3
+ 70
+    0
+ 43
+0
+ 10
+338716.5083667597
+ 20
+7382740.957090076
+ 10
+338920.6517753601
+ 20
+7382752.839940563
+ 10
+339135.090599609
+ 20
+7382765.847797883
+  0
+LWPOLYLINE
+  5
+11F
+100
+AcDbEntity
+  8
+PRA�A GENERAL DALE COUTINHO - 06_01_2021 - PAL81
+  6
+CONTINUOUS
+ 62
+  256
+370
+   -1
+100
+AcDbPolyline
+ 90
+    2
+ 70
+    0
+ 43
+0
+ 10
+338945.0435965841
+ 20
+7382699.895185472
+ 10
+338947.6194220829
+ 20
+7382642.378430768
+  0
+LWPOLYLINE
+  5
+120
+100
+AcDbEntity
+  8
+RUA FRANCISCO ALVES - 06_01_2021 - PAL26 - PAL27
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbPolyline
+ 90
+   10
+ 70
+    0
+ 43
+0
+ 10
+337158.0454271093
+ 20
+7382052.591900881
+ 10
+337271.7460372404
+ 20
+7381999.058862938
+ 10
+337404.0244259625
+ 20
+7381939.837642387
+ 10
+337463.7606890337
+ 20
+7381914.045667058
+ 10
+337763.218922132
+ 20
+7381773.755379464
+ 10
+337846.0815496293
+ 20
+7381734.805806541
+ 10
+338232.300251792
+ 20
+7381560.833737453
+ 10
+338433.7971146845
+ 20
+7381467.644366471
+ 10
+338622.6532701332
+ 20
+7381381.314437179
+ 10
+338807.2488103174
+ 20
+7381295.675193661
+  0
+LWPOLYLINE
+  5
+121
+100
+AcDbEntity
+  8
+RUA �LVARO ALVIM - 06_01_2021 - PAL25
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbPolyline
+ 90
+    7
+ 70
+    0
+ 43
+0
+ 10
+338898.605170507
+ 20
+7381484.000971571
+ 10
+338710.3714892486
+ 20
+7381572.231645983
+ 10
+338326.7755987215
+ 20
+7381749.01776447
+ 10
+337931.3165592779
+ 20
+7381928.473107211
+ 10
+337420.7760013103
+ 20
+7382167.050081634
+ 10
+337417.7639423679
+ 20
+7382168.141981752
+ 10
+337414.9896466163
+ 20
+7382168.928745632
+  0
+LWPOLYLINE
+  5
+122
+100
+AcDbEntity
+  8
+MCT - AVENIDA GAST�O CASTRO CAMORIM
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbPolyline
+ 90
+   13
+ 70
+    0
+ 43
+0
+ 10
+337414.9896466163
+ 20
+7382168.928745632
+ 10
+337406.9972332991
+ 20
+7382170.116635254
+ 10
+337401.0672754877
+ 20
+7382170.015564106
+ 10
+337394.7253449183
+ 20
+7382168.978078571
+ 10
+337386.652830721
+ 20
+7382166.13890253
+ 10
+337383.6930226814
+ 20
+7382164.605937377
+ 10
+337380.9232022128
+ 20
+7382163.117842788
+ 10
+337243.6713253485
+ 20
+7382099.384321259
+ 10
+337240.7318235934
+ 20
+7382097.729044884
+ 10
+337235.0891271943
+ 20
+7382093.78438738
+ 10
+337230.3242078142
+ 20
+7382087.961315028
+ 10
+337226.0449334613
+ 20
+7382078.413576209
+ 10
+337204.8977914218
+ 20
+7382030.53265781
+  0
+LWPOLYLINE
+  5
+123
+100
+AcDbEntity
+  8
+RUA PACAEMB� - 06_01_2021 - PAL47
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbPolyline
+ 90
+    3
+ 70
+    0
+ 43
+0
+ 10
+338634.1409815772
+ 20
+7381735.599029533
+ 10
+338490.8446894106
+ 20
+7381432.454770458
+ 10
+338406.2834774744
+ 20
+7381256.519110086
+  0
+LWPOLYLINE
+  5
+124
+100
+AcDbEntity
+  8
+RUA MIRAGAIA - 06_01_2021 - PAL31 - PAL32
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbPolyline
+ 90
+    9
+ 70
+    0
+ 43
+0
+ 10
+337997.5281717138
+ 20
+7382043.487907243
+ 10
+337829.0795536365
+ 20
+7381667.358801258
+ 10
+337769.7789054477
+ 20
+7381534.899990314
+ 10
+337683.7903431027
+ 20
+7381344.74623361
+ 10
+337598.9498081955
+ 20
+7381156.438884772
+ 10
+337554.8596330126
+ 20
+7381058.035346228
+ 10
+337544.0714877547
+ 20
+7381033.6733015
+ 10
+337501.3093526563
+ 20
+7380940.700922695
+ 10
+337455.6774710838
+ 20
+7380846.568248548
+  0
+LWPOLYLINE
+  5
+125
+100
+AcDbEntity
+  8
+RUA J�LIO DE MESQUITA - 06_01_2021 - PAL65
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbPolyline
+ 90
+    7
+ 70
+    0
+ 43
+0
+ 10
+337008.9109391857
+ 20
+7381657.673782283
+ 10
+337231.2277070749
+ 20
+7381554.947808871
+ 10
+337441.5011127054
+ 20
+7381456.563055357
+ 10
+337622.6270055721
+ 20
+7381374.726950378
+ 10
+337724.3482606657
+ 20
+7381328.271623326
+ 10
+337877.9303826455
+ 20
+7381258.537660958
+ 10
+338310.6739233902
+ 20
+7381060.238595313
+  0
+LWPOLYLINE
+  5
+126
+100
+AcDbEntity
+  8
+RUA ALTO NOROESTE - 06_01_2021 - PAL68
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbPolyline
+ 90
+    2
+ 70
+    0
+ 43
+0
+ 10
+336919.2674814156
+ 20
+7381312.85744833
+ 10
+337036.9783776573
+ 20
+7381258.427671071
+  0
+LWPOLYLINE
+  5
+127
+100
+AcDbEntity
+  8
+RUA DR�USIO - 06_01_2021 - PAL72
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbPolyline
+ 90
+   18
+ 70
+    0
+ 43
+0
+ 10
+337120.7599454189
+ 20
+7381142.300359361
+ 10
+337174.8421290636
+ 20
+7381262.524107443
+ 10
+337204.6216714277
+ 20
+7381326.597101316
+ 10
+337262.2880301999
+ 20
+7381449.665838918
+ 10
+337295.7886729958
+ 20
+7381522.590658554
+ 10
+337342.0308815426
+ 20
+7381628.037056652
+ 10
+337381.8198526104
+ 20
+7381710.322907593
+ 10
+337412.7082898438
+ 20
+7381778.152028982
+ 10
+337457.5626924563
+ 20
+7381876.494392051
+ 10
+337492.2336577764
+ 20
+7381950.556465991
+ 10
+337563.490092772
+ 20
+7382102.604590163
+ 10
+337603.1302593093
+ 20
+7382187.105142247
+ 10
+337606.2775640618
+ 20
+7382199.383370296
+ 10
+337606.8188435799
+ 20
+7382214.044374125
+ 10
+337603.8796060829
+ 20
+7382229.615582896
+ 10
+337597.8702114539
+ 20
+7382247.790890046
+ 10
+337585.7673725811
+ 20
+7382262.384346354
+ 10
+337579.1621442262
+ 20
+7382266.411377222
+  0
+LWPOLYLINE
+  5
+128
+100
+AcDbEntity
+  8
+RUA SANTANA - 06_01_20210 - PAL3
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbPolyline
+ 90
+    3
+ 70
+    0
+ 43
+0
+ 10
+337759.8352057402
+ 20
+7381005.512934133
+ 10
+337404.7785004638
+ 20
+7381167.133396087
+ 10
+337379.6735512046
+ 20
+7381178.548623455
+  0
+LWPOLYLINE
+  5
+129
+100
+AcDbEntity
+  8
+RUA PARTICULAR JOS� MARIA TERRON - 06_01_2021 - PAL3
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbPolyline
+ 90
+    2
+ 70
+    0
+ 43
+0
+ 10
+337379.6735512047
+ 20
+7381178.548623455
+ 10
+337278.1958113499
+ 20
+7381224.690579816
+  0
+ENDSEC
+  0
+SECTION
+  2
+OBJECTS
+  0
+DICTIONARY
+  5
+C
+330
+0
+100
+AcDbDictionary
+281
+    1
+  3
+ACAD_GROUP
+350
+D
+  0
+DICTIONARY
+  5
+D
+330
+C
+100
+AcDbDictionary
+281
+    1
+  0
+ENDSEC
+  0
+EOF
