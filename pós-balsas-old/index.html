@@ -32,9 +32,10 @@
         <script src="js/labelgun.min.js"></script>
         <script src="js/labels.js"></script>
         <script src="js/leaflet-search.js"></script>
-        <script src="data/EquipamentosNOVOS_1.js"></script>
+        <script src="data/LimitesBairros_1.js"></script>
         <script src="data/PsBalsas_2.js"></script>
         <script>
+
 L.TileLayer.Grayscale = L.TileLayer.extend({
             options: {
                 quotaRed: 21,
@@ -87,6 +88,7 @@ L.TileLayer.Grayscale = L.TileLayer.extend({
         L.tileLayer.grayscale = function (url, options) {
             return new L.TileLayer.Grayscale(url, options);
         };
+
         var map = L.map('map', {
             zoomControl:true, maxZoom:18, minZoom:10
         })
@@ -127,61 +129,51 @@ L.TileLayer.Grayscale = L.TileLayer.extend({
         var layer_OpenStreetMap_0 = mapaBase();
         layer_OpenStreetMap_0;
         map.addLayer(layer_OpenStreetMap_0);
-        function pop_EquipamentosNOVOS_1(feature, layer) {
+        function pop_LimitesBairros_1(feature, layer) {
             var popupContent = '<table>\
                     <tr>\
                         <td colspan="2">' + (feature.properties['NOME'] !== null ? autolinker.link(feature.properties['NOME'].toLocaleString()) : '') + '</td>\
                     </tr>\
                     <tr>\
-                        <td colspan="2">' + (feature.properties['TIPO'] !== null ? autolinker.link(feature.properties['TIPO'].toLocaleString()) : '') + '</td>\
-                    </tr>\
-                    <tr>\
-                        <td colspan="2">' + (feature.properties['Video_0'] !== null ? '<a href="../' + feature.properties['Video_0'].toLocaleString() + '"target="_blank">Abrir o video - ' + feature.properties['Video_0'].toLocaleString() + '</a>' : '') + '</td>\
+                        <td colspan="2">' + (feature.properties['ZONA'] !== null ? autolinker.link(feature.properties['ZONA'].toLocaleString()) : '') + '</td>\
                     </tr>\
                 </table>';
             layer.bindPopup(popupContent, {maxHeight: 400});
         }
 
-        function style_EquipamentosNOVOS_1_0() {
+        function style_LimitesBairros_1_0() {
             return {
-                pane: 'pane_EquipamentosNOVOS_1',
-                radius: 6.8000000000000025,
+                pane: 'pane_LimitesBairros_1',
                 opacity: 1,
-                color: 'rgba(35,35,35,1.0)',
+                color: 'rgba(141,141,141,1.0)',
                 dashArray: '',
                 lineCap: 'butt',
                 lineJoin: 'miter',
-                weight: 1,
+                weight: 2.0, 
                 fill: true,
                 fillOpacity: 1,
-                fillColor: 'rgba(255,127,0,1.0)',
-                interactive: true,
+                fillColor: 'rgba(232,113,141,0.0)',
+                interactive: false,
             }
         }
-        map.createPane('pane_EquipamentosNOVOS_1');
-        map.getPane('pane_EquipamentosNOVOS_1').style.zIndex = 401;
-        map.getPane('pane_EquipamentosNOVOS_1').style['mix-blend-mode'] = 'normal';
-        var layer_EquipamentosNOVOS_1 = new L.geoJson(json_EquipamentosNOVOS_1, {
+        map.createPane('pane_LimitesBairros_1');
+        map.getPane('pane_LimitesBairros_1').style.zIndex = 401;
+        map.getPane('pane_LimitesBairros_1').style['mix-blend-mode'] = 'normal';
+        var layer_LimitesBairros_1 = new L.geoJson(json_LimitesBairros_1, {
             attribution: '',
-            interactive: true,
-            dataVar: 'json_EquipamentosNOVOS_1',
-            layerName: 'layer_EquipamentosNOVOS_1',
-            pane: 'pane_EquipamentosNOVOS_1',
-            onEachFeature: pop_EquipamentosNOVOS_1,
-            pointToLayer: function (feature, latlng) {
-                var context = {
-                    feature: feature,
-                    variables: {}
-                };
-                return L.circleMarker(latlng, style_EquipamentosNOVOS_1_0(feature));
-            },
+            interactive: false,
+            dataVar: 'json_LimitesBairros_1',
+            layerName: 'layer_LimitesBairros_1',
+            pane: 'pane_LimitesBairros_1',
+            onEachFeature: pop_LimitesBairros_1,
+            style: style_LimitesBairros_1_0,
         });
-        bounds_group.addLayer(layer_EquipamentosNOVOS_1);
-        map.addLayer(layer_EquipamentosNOVOS_1);
+        bounds_group.addLayer(layer_LimitesBairros_1);
+        map.addLayer(layer_LimitesBairros_1);
         function pop_PsBalsas_2(feature, layer) {
             var popupContent = '<table>\
-                <tr>\
-                        <th scope="row">Nome</th>\
+                    <tr>\
+                        <th scope="row">Name</th>\
                         <td>' + (feature.properties['Name'] !== null ? autolinker.link(feature.properties['Name'].toLocaleString()) : '') + '</td>\
                     </tr>\
                     <tr>\
@@ -444,8 +436,21 @@ L.TileLayer.Grayscale = L.TileLayer.extend({
         bounds_group.addLayer(layer_PsBalsas_2);
         map.addLayer(layer_PsBalsas_2);
         var baseMaps = {};
-        L.control.layers(baseMaps,{'Pós Balsas<br /><table><tr><td style="text-align: center;"><img src="legend/PsBalsas_2_BairroCapivariVideo010.png" /></td><td>Bairro Capivari - Video 01</td></tr><tr><td style="text-align: center;"><img src="legend/PsBalsas_2_BairroCrucutuVideo011.png" /></td><td>Bairro Crucutu - Video 01</td></tr><tr><td style="text-align: center;"><img src="legend/PsBalsas_2_BairroCrucutuVideo022.png" /></td><td>Bairro Crucutu - Video 02</td></tr><tr><td style="text-align: center;"><img src="legend/PsBalsas_2_BairroCrucutuVideo043.png" /></td><td>Bairro Crucutu - Video 04</td></tr><tr><td style="text-align: center;"><img src="legend/PsBalsas_2_BairroCrucutuVideo054.png" /></td><td>Bairro Crucutu - Video 05</td></tr><tr><td style="text-align: center;"><img src="legend/PsBalsas_2_BairroSantaCruzVideo015.png" /></td><td>Bairro Santa Cruz - Video 01</td></tr><tr><td style="text-align: center;"><img src="legend/PsBalsas_2_BairroSantaCruzVideo026.png" /></td><td>Bairro Santa Cruz - Video 02</td></tr><tr><td style="text-align: center;"><img src="legend/PsBalsas_2_BairroTaquacetubaVideo017.png" /></td><td>Bairro Taquacetuba - Video 01</td></tr><tr><td style="text-align: center;"><img src="legend/PsBalsas_2_BairroTaquacetubaVideo028.png" /></td><td>Bairro Taquacetuba - Video 02</td></tr><tr><td style="text-align: center;"><img src="legend/PsBalsas_2_BairroTaquacetubaVideo039.png" /></td><td>Bairro Taquacetuba - Video 03</td></tr><tr><td style="text-align: center;"><img src="legend/PsBalsas_2_BairroTatetosVideo0110.png" /></td><td>Bairro Tatetos - Video 01</td></tr><tr><td style="text-align: center;"><img src="legend/PsBalsas_2_BairroTatetosVideo0311.png" /></td><td>Bairro Tatetos - Video 03</td></tr><tr><td style="text-align: center;"><img src="legend/PsBalsas_2_BairroTatetosVideo0412.png" /></td><td>Bairro Tatetos - Video 04</td></tr><tr><td style="text-align: center;"><img src="legend/PsBalsas_2_BalsaTravessia13.png" /></td><td>Balsa - Travessia</td></tr><tr><td style="text-align: center;"><img src="legend/PsBalsas_2_CaminhoSantaCruz14.png" /></td><td>Caminho Santa Cruz</td></tr><tr><td style="text-align: center;"><img src="legend/PsBalsas_2_LigacaoAvPoneyClubVideo0115.png" /></td><td>Ligacao Av Poney Club - Video 01</td></tr><tr><td style="text-align: center;"><img src="legend/PsBalsas_2_LigacaoAvPoneyClubVideo0216.png" /></td><td>Ligacao Av Poney Club - Video 02</td></tr></table>': layer_PsBalsas_2,'<img src="legend/EquipamentosNOVOS_1.png" /> Equipamentos NOVOS': layer_EquipamentosNOVOS_1,"OpenStreetMap": layer_OpenStreetMap_0,},{collapsed:false}).addTo(map);
+        L.control.layers(baseMaps,{'Pós Balsas<br /><table><tr><td style="text-align: center;"><img src="legend/PsBalsas_2_BairroCapivariVideo010.png" /></td><td>Bairro Capivari - Video 01</td></tr><tr><td style="text-align: center;"><img src="legend/PsBalsas_2_BairroCrucutuVideo011.png" /></td><td>Bairro Crucutu - Video 01</td></tr><tr><td style="text-align: center;"><img src="legend/PsBalsas_2_BairroCrucutuVideo022.png" /></td><td>Bairro Crucutu - Video 02</td></tr><tr><td style="text-align: center;"><img src="legend/PsBalsas_2_BairroCrucutuVideo043.png" /></td><td>Bairro Crucutu - Video 04</td></tr><tr><td style="text-align: center;"><img src="legend/PsBalsas_2_BairroCrucutuVideo054.png" /></td><td>Bairro Crucutu - Video 05</td></tr><tr><td style="text-align: center;"><img src="legend/PsBalsas_2_BairroSantaCruzVideo015.png" /></td><td>Bairro Santa Cruz - Video 01</td></tr><tr><td style="text-align: center;"><img src="legend/PsBalsas_2_BairroSantaCruzVideo026.png" /></td><td>Bairro Santa Cruz - Video 02</td></tr><tr><td style="text-align: center;"><img src="legend/PsBalsas_2_BairroTaquacetubaVideo017.png" /></td><td>Bairro Taquacetuba - Video 01</td></tr><tr><td style="text-align: center;"><img src="legend/PsBalsas_2_BairroTaquacetubaVideo028.png" /></td><td>Bairro Taquacetuba - Video 02</td></tr><tr><td style="text-align: center;"><img src="legend/PsBalsas_2_BairroTaquacetubaVideo039.png" /></td><td>Bairro Taquacetuba - Video 03</td></tr><tr><td style="text-align: center;"><img src="legend/PsBalsas_2_BairroTatetosVideo0110.png" /></td><td>Bairro Tatetos - Video 01</td></tr><tr><td style="text-align: center;"><img src="legend/PsBalsas_2_BairroTatetosVideo0311.png" /></td><td>Bairro Tatetos - Video 03</td></tr><tr><td style="text-align: center;"><img src="legend/PsBalsas_2_BairroTatetosVideo0412.png" /></td><td>Bairro Tatetos - Video 04</td></tr><tr><td style="text-align: center;"><img src="legend/PsBalsas_2_BalsaTravessia13.png" /></td><td>Balsa - Travessia</td></tr><tr><td style="text-align: center;"><img src="legend/PsBalsas_2_CaminhoSantaCruz14.png" /></td><td>Caminho Santa Cruz</td></tr></table>': layer_PsBalsas_2,'<img src="legend/LimitesBairros_1.png" /> Limites Bairros': layer_LimitesBairros_1,"OpenStreetMap": layer_OpenStreetMap_0,},{collapsed:false}).addTo(map);
         setBounds();
+        var i = 0;
+        layer_LimitesBairros_1.eachLayer(function(layer) {
+            var context = {
+                feature: layer.feature,
+                variables: {}
+            };
+            layer.bindTooltip((layer.feature.properties['NOME'] !== null?String('<div style="color: #000000; font-size: 10pt; font-weight: bold; font-family: \'Ubuntu\', sans-serif;">' + layer.feature.properties['NOME']) + '</div>':''), {permanent: true, offset: [-0, -16], className: 'css_LimitesBairros_1'});
+            labels.push(layer);
+            totalMarkers += 1;
+              layer.added = true;
+              addLabel(layer, i);
+              i++;
+        });
         map.addControl(new L.Control.Search({
             layer: layer_PsBalsas_2,
             initial: false,
@@ -453,6 +458,16 @@ L.TileLayer.Grayscale = L.TileLayer.extend({
             propertyName: 'Name'}));
         document.getElementsByClassName('search-button')[0].className +=
          ' fa fa-binoculars';
+        resetLabels([layer_LimitesBairros_1]);
+        map.on("zoomend", function(){
+            resetLabels([layer_LimitesBairros_1]);
+        });
+        map.on("layeradd", function(){
+            resetLabels([layer_LimitesBairros_1]);
+        });
+        map.on("layerremove", function(){
+            resetLabels([layer_LimitesBairros_1]);
+        });
         </script>
     </body>
 </html>
